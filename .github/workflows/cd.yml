@@ -18,3 +18,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Docusaurus BuildDeploy Action
         uses: redkubes/docusaurus-deploy-action@v1.2
+        with:
+          source-folder: src
+          git-user: pycxxx
+          git-password: ${{ secrets.GITHUB_TOKEN }}
