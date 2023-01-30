@@ -13,8 +13,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: yarn
       - run: yarn install --frozen-lockfile
       - run: |
           git config --global user.name 'ci'
           git config --global user.email 'ci@users.noreply.github.com'
-          yarn deploy
+          GIT_USER=ci && USE_SSH=true && yarn deploy
