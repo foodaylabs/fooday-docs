@@ -18,7 +18,6 @@
   "dependencies": {
     "@docusaurus/core": "2.3.0",
     "@docusaurus/preset-classic": "2.3.0",
-    "@fooday/shared": "../fooday/clients/shared",
     "@mdx-js/react": "^1.6.22",
     "axios": "^1.3.3",
     "clsx": "^1.2.1",
