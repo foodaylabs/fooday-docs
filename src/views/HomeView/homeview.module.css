@@ -564,6 +564,7 @@
     border: none;
     outline: none;
     padding: 15px 50px;
+    cursor: pointer;
 }
 
 .explainLearnMore button::after {
@@ -664,69 +665,6 @@
 
 .waitlistImage {
     flex: 1;
-}
-
-.waitlist :global(.foo-input) {
-    display: flex;
-    align-items: center;
-    background: var(--foo-color-white);
-}
-
-.waitlist :global(.foo-input) input {
-    padding: 20px;
-    outline: none;
-    width: 100%;
-}
-
-.waitlist .igInput {
-    padding-left: 20px;
-}
-
-.waitlist .igInput input {
-    padding-left: 7px;
-}
-
-.waitlistFormLabel {
-    display: block;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.waitlistForm {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.waitlistIgNote {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.waitlistIgNoteBody {
-    border-radius: 10px;
-    padding: 32px 140px 32px 20px;
-    background: right 20px center / 100px 100px no-repeat url('/img/free-camera.svg'), var(--foo-color-main-yellow);
-}
-
-.waitlistIgNoteTitle {
-    display: block;
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 2.6rem;
-    margin-bottom: 10px;
-}
-
-.waitlistSubmitButton {
-    background: var(--foo-color-black);
-    color: var(--foo-color-white);
-    padding: 15px 25px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,6 +1,6 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import clsx from 'clsx'
-import React, { useCallback, useState } from 'react'
+import React, { useState } from 'react'
 import Countdown from '@site/src/components/Countdown'
 import styles from './homeview.module.css'
 import BoomIcon from '@site/static/img/problems-bomb.svg'
@@ -10,23 +10,10 @@ import SolutionValidateIcon from '@site/static/img/solution-validate.svg'
 import SolutionKeepUpdateIcon from '@site/static/img/solution-keep-update.svg'
 import SolutionNewSpotsIcon from '@site/static/img/solution-new-spots.svg'
 import SolutionWritingIcon from '@site/static/img/solution-writing.svg'
-import YellowArrowIcon from '@site/static/img/yellow-arrow.svg'
-import { useApi } from '../../hooks/api'
+import WaitlistForm from '@site/src/components/WaitlistForm'
 
 export default function HomeView() {
   const [email, setEmail] = useState('')
-  const [igAccount, setIgAccount] = useState('')
-  const api = useApi()
-
-  const joinWaitlist = useCallback(() => {
-    api
-      .joinWaitlist(email, igAccount)
-      .then(() => {
-        setEmail('')
-        setIgAccount('')
-      })
-      .catch(err => alert('failed to join the waitlist. details: ' + err.message))
-  }, [email, igAccount, api])
 
   return (
     <main>
@@ -393,67 +380,7 @@ export default function HomeView() {
 
       <section className={styles.waitlist}>
         <div className="foo-home-container">
-          <div className={styles.waitlistContent}>
-            <h1 className={styles.waitlistTitle}>
-              <Translate>Become the Earliest Contributor to Eat & Earn</Translate>
-            </h1>
-            <p>
-              <Translate>Get a head start on the Fooday revolution and join the selected few now!</Translate>
-            </p>
-
-            <form className={styles.waitlistForm}>
-              <div>
-                <label for="email-input" className={styles.waitlistFormLabel}>
-                  <Translate>Email address</Translate>
-                </label>
-                <div className="foo-input">
-                  <input
-                    id="email-input"
-                    type="email"
-                    required
-                    value={email}
-                    placeholder="your_email@fooday.app"
-                    onChange={e => setEmail(e.target.value)}
-                  />
-                </div>
-              </div>
-              <div>
-                <label for="ig-account-input" className={styles.waitlistFormLabel}>
-                  <Translate>Instagram account (optional)</Translate>
-                </label>
-                <div className={clsx(styles.igInput, 'foo-input')}>
-                  <span>@</span>
-                  <input
-                    id="ig-account-input"
-                    placeholder="instagram account"
-                    value={igAccount}
-                    onChange={e => setIgAccount(e.target.value)}
-                  />
-                </div>
-                <div className={styles.waitlistIgNote}>
-                  <YellowArrowIcon width="20px" height="10px" />
-                  <div className={styles.waitlistIgNoteBody}>
-                    <span className={styles.waitlistIgNoteTitle}>
-                      <Translate id="home.waitlist.igNoteTitle">Are you a foodie?</Translate>
-                    </span>
-                    <div
-                      dangerouslySetInnerHTML={{
-                        __html: translate({
-                          id: 'home.waitlist.igNoteContent',
-                          message: `<p>Feel free to provide your Instagram account. If you are eligible as an influencing foodie, you may receive a camera NFT <span class="foo-hightlight-blue">for free!</span></p>`,
-                        }),
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div>
-                <button type="submit" className={styles.waitlistSubmitButton} onClick={joinWaitlist}>
-                  <Translate id="home.waitlist.submit">Join Waitlist</Translate>
-                </button>
-              </div>
-            </form>
-          </div>
+          <WaitlistForm />
           <img className={styles.waitlistImage} src="/img/bottom-form.svg" />
         </div>
       </section>
