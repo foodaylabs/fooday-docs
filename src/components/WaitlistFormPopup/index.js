@@ -29,7 +29,7 @@ function SucceededView() {
 
   return (
     <div className={styles.succeededView}>
-      <img src="/img/waitlist-success.svg" />
+      <div className={styles.image} />
       <h1 className={styles.succeededViewTitle}>
         <Translate id="waitlistFormPopup.success.title">Thank you!</Translate>
       </h1>

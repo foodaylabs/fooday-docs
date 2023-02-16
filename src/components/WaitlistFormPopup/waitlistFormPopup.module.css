@@ -44,3 +44,22 @@
     display: flex;
     gap: 20px;
 }
+
+.image {
+    max-width: 304px;
+    width: 100%;
+    position: relative;
+}
+
+.image::before {
+    content: '';
+    display: block;
+    padding-bottom: 105.923345%;
+}
+
+.image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: center / cover url('/img/waitlist-success.svg');
+}
