@@ -40,6 +40,11 @@
     gap: 12px;
 }
 
+.discordButton:hover {
+    color: var(--foo-color-white);
+    text-decoration: none;
+}
+
 .socialLinks {
     display: flex;
     gap: 20px;
