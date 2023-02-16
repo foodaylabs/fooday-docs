@@ -13,9 +13,13 @@ import SolutionWritingIcon from '@site/static/img/solution-writing.svg'
 import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 
+const clamHolderStageStartTime = new Date('2023/2/17Z')
+const publicStageStartTime = new Date('2023/2/20Z')
+
 export default function HomeView() {
   const emailRef = useRef()
   const waitlist = useWaitlist()
+  const afterClamStage = Date.now() >= clamHolderStageStartTime.getTime()
 
   const openPopup = () => {
     waitlist.openPopup(emailRef.current?.value)
@@ -81,9 +85,14 @@ export default function HomeView() {
           </div>
           <div className={styles.countdownCounter}>
             <h2 className={styles.countdownCounterTitle}>
-              <Translate id="home.countdown.counterTitle">CLAM Holder Presale Coming In</Translate>
+              {afterClamStage && (
+                <Translate id="home.countdown.clamHolderStage.counterTitle">CLAM Holder Presale Countdown</Translate>
+              )}
+              {!afterClamStage && (
+                <Translate id="home.countdown.publicStage.counterTitle">CLAM Holder Presale Coming In</Translate>
+              )}
             </h2>
-            <Countdown targetDate={new Date('2023/2/17Z')} />
+            <Countdown targetDate={afterClamStage ? publicStageStartTime : clamHolderStageStartTime} />
             <div
               className={styles.countdownCounterNote}
               dangerouslySetInnerHTML={{
