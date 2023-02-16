@@ -1,0 +1,46 @@
+.succeededView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.closeButton {
+    border: 1px var(--foo-color-black) solid;
+    background: var(--foo-color-white);
+    padding: 15px 25px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.succeededViewTitle {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5.2rem;
+    margin: 0;
+}
+
+.succeededViewMessage {
+    color: var(--foo-color-dark-200);
+    margin: 0;
+}
+
+.discordButton {
+    border: none;
+    background: #4b48f2;
+    color: var(--foo-color-white);
+    padding: 15px 25px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 20px;
+}
