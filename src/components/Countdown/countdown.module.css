@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    color: var(--foo-color-white);
+    gap: 10px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.partNumber, .colon {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 5.2rem;
+}
+
+.partLabel {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.colon {
+
+}
