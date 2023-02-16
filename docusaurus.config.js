@@ -145,7 +145,7 @@ const config = {
     emails: {
       contact: 'hi@fooday.app',
     },
-    apiEndpoint: 'https://api.fooday.app',
+    apiEndpoint: 'https://api-beta.fooday.app',
   },
 }
 
