@@ -1,6 +1,6 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import clsx from 'clsx'
-import React, { useState } from 'react'
+import React, { useRef } from 'react'
 import Countdown from '@site/src/components/Countdown'
 import styles from './homeview.module.css'
 import BoomIcon from '@site/static/img/problems-bomb.svg'
@@ -11,9 +11,15 @@ import SolutionKeepUpdateIcon from '@site/static/img/solution-keep-update.svg'
 import SolutionNewSpotsIcon from '@site/static/img/solution-new-spots.svg'
 import SolutionWritingIcon from '@site/static/img/solution-writing.svg'
 import WaitlistForm from '@site/src/components/WaitlistForm'
+import { useWaitlist } from '@site/src/contexts/Waitlist'
 
 export default function HomeView() {
-  const [email, setEmail] = useState('')
+  const emailRef = useRef()
+  const waitlist = useWaitlist()
+
+  const openPopup = () => {
+    waitlist.openPopup(emailRef.current?.value)
+  }
 
   return (
     <main>
@@ -33,12 +39,11 @@ export default function HomeView() {
             </p>
             <div className={clsx('foo-input', styles.heroInput)}>
               <input
-                value={email}
+                ref={emailRef}
                 type="email"
                 placeholder={translate({ id: 'home.hero.emailPlaceholder', message: 'your_email@fooday.app' })}
-                onChange={e => setEmail(e.target.value)}
               />
-              <button className={styles.heroButton}>
+              <button className={styles.heroButton} onClick={openPopup}>
                 <Translate id="home.hero.join">Join Waitlist</Translate>
               </button>
             </div>

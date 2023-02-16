@@ -3,18 +3,16 @@ import Translate, { translate } from '@docusaurus/Translate'
 import clsx from 'clsx'
 import styles from './waitlistForm.module.css'
 import YellowArrowIcon from '@site/static/img/yellow-arrow.svg'
-import { useApi } from '../../hooks/api'
+import { useWaitlist } from '@site/src/contexts/Waitlist'
 
 export default function WaitlistForm() {
-  const api = useApi()
+  const waitlist = useWaitlist()
   const emailRef = useRef()
   const igRef = useRef()
 
   const handleSubmit = e => {
     e.preventDefault()
-    api
-      .joinWaitlist(emailRef.current.value, igRef.current.value)
-      .catch(err => alert('failed to join waitlist. details: ' + err.message))
+    waitlist.joinWaitlist(emailRef.current.value, igRef.current.value)
   }
 
   return (

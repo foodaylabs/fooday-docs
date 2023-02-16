@@ -5,10 +5,12 @@ import LogoUrl from '@site/static/img/logo.png'
 import Translate from '@docusaurus/Translate'
 import styles from './topbar.module.css'
 import Link from '@docusaurus/Link'
+import { useWaitlist } from '@site/src/contexts/Waitlist'
 
 export default function Topbar() {
   const { siteConfig } = useDocusaurusContext()
   const links = siteConfig.customFields.links
+  const waitlist = useWaitlist()
 
   return (
     <nav className={styles.topbar} aria-label="Main">
@@ -24,7 +26,7 @@ export default function Topbar() {
           <Link className={styles.link} to={links.docs}>
             <Translate id="topbar.links.docs">Docs</Translate>
           </Link>
-          <Link className={clsx(styles.link, styles.whitelist)} to="#whitelist">
+          <Link className={clsx(styles.link, styles.whitelist)} role="button" onClick={() => waitlist.openPopup()}>
             <Translate id="topbar.links.whitelist">Join Whitelist</Translate>
           </Link>
         </div>
