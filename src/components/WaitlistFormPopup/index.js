@@ -29,7 +29,7 @@ function SucceededView() {
 
   return (
     <div className={styles.succeededView}>
-      <img src="/img/waitlist-success.svg" />
+      <div className={styles.image} />
       <h1 className={styles.succeededViewTitle}>
         <Translate id="waitlistFormPopup.success.title">Thank you!</Translate>
       </h1>
@@ -42,10 +42,10 @@ function SucceededView() {
           }),
         }}
       />
-      <button className={styles.discordButton}>
+      <Link role="button" className={styles.discordButton} to={siteConfig.customFields.links.discord}>
         <DiscordIcon />
         <Translate id="waitlistFormPopup.success.discord">Join Our Discord</Translate>
-      </button>
+      </Link>
       <div className={styles.socialLinks}>
         <Link to={siteConfig.customFields.links.twitter}>
           <TwitterIcon />
