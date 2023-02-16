@@ -83,7 +83,7 @@ export default function HomeView() {
             <h2 className={styles.countdownCounterTitle}>
               <Translate id="home.countdown.counterTitle">CLAM Holder Presale Coming In</Translate>
             </h2>
-            <Countdown targetDate={new Date('2023/02/17')} />
+            <Countdown targetDate={new Date('2023/2/17Z')} />
             <div
               className={styles.countdownCounterNote}
               dangerouslySetInnerHTML={{
