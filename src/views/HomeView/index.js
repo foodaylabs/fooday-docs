@@ -343,7 +343,27 @@ export default function HomeView() {
           <li>
             <img src="/img/avatar-ken.svg" />
             <span className={styles.teamMemberName}>Ken</span>
-            <span className={styles.teamMemberTitle}>Founder</span>
+            <span className={styles.teamMemberTitle}>Developer</span>
+          </li>
+          <li>
+            <img src="/img/avatar-appppo.svg" />
+            <span className={styles.teamMemberName}>Appppo</span>
+            <span className={styles.teamMemberTitle}>Designer</span>
+          </li>
+          <li>
+            <img src="/img/avatar-ryder.svg" />
+            <span className={styles.teamMemberName}>Ryder</span>
+            <span className={styles.teamMemberTitle}>Developer</span>
+          </li>
+          <li>
+            <img src="/img/avatar-pyc.svg" />
+            <span className={styles.teamMemberName}>PYC</span>
+            <span className={styles.teamMemberTitle}>Developer</span>
+          </li>
+          <li>
+            <img src="/img/avatar-millie.svg" />
+            <span className={styles.teamMemberName}>Millie</span>
+            <span className={styles.teamMemberTitle}>Business Strategist</span>
           </li>
           <li>
             <img src="/img/avatar-ken.svg" />
@@ -352,33 +372,28 @@ export default function HomeView() {
           </li>
           <li>
             <img src="/img/avatar-ken.svg" />
-            <span className={styles.teamMemberName}>Ken</span>
-            <span className={styles.teamMemberTitle}>Founder</span>
+            <span className={styles.teamMemberName}>Jason</span>
+            <span className={styles.teamMemberTitle}>Artist</span>
           </li>
           <li>
             <img src="/img/avatar-ken.svg" />
-            <span className={styles.teamMemberName}>Ken</span>
-            <span className={styles.teamMemberTitle}>Founder</span>
+            <span className={styles.teamMemberName}>mALc</span>
+            <span className={styles.teamMemberTitle}>Moderator</span>
           </li>
           <li>
             <img src="/img/avatar-ken.svg" />
-            <span className={styles.teamMemberName}>Ken</span>
-            <span className={styles.teamMemberTitle}>Founder</span>
+            <span className={styles.teamMemberName}>Epi</span>
+            <span className={styles.teamMemberTitle}>Community Manager</span>
           </li>
           <li>
             <img src="/img/avatar-ken.svg" />
-            <span className={styles.teamMemberName}>Ken</span>
-            <span className={styles.teamMemberTitle}>Founder</span>
+            <span className={styles.teamMemberName}>Abtheo</span>
+            <span className={styles.teamMemberTitle}>Data Engineer</span>
           </li>
           <li>
             <img src="/img/avatar-ken.svg" />
-            <span className={styles.teamMemberName}>Ken</span>
-            <span className={styles.teamMemberTitle}>Founder</span>
-          </li>
-          <li>
-            <img src="/img/avatar-ken.svg" />
-            <span className={styles.teamMemberName}>Ken</span>
-            <span className={styles.teamMemberTitle}>Founder</span>
+            <span className={styles.teamMemberName}>Dungaboo</span>
+            <span className={styles.teamMemberTitle}>Marketing</span>
           </li>
         </ul>
       </section>
