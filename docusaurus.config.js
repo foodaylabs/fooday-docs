@@ -136,13 +136,16 @@ const config = {
   customFields: {
     links: {
       docs: '',
-      faq: '',
-      presale: '',
-      ig: '',
-      twitter: '',
-      medium: '',
+      presale: 'presale.fooday.app',
+      discord: 'https://discord.com/invite/eGDV6dAW',
+      ig: 'https://www.instagram.com/fooday.app',
+      twitter: 'https://twitter.com/foodayapp',
+      medium: 'https://fooday.medium.com',
     },
-    apiEndpoint: '',
+    emails: {
+      contact: 'hi@fooday.app',
+    },
+    apiEndpoint: 'https://api.fooday.app',
   },
 }
 

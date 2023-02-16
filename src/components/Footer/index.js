@@ -2,8 +2,11 @@ import Translate from '@docusaurus/Translate'
 import clsx from 'clsx'
 import React from 'react'
 import styles from './footer.module.css'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import Link from '@docusaurus/Link'
 
 export default function Footer() {
+  const { siteConfig } = useDocusaurusContext()
   return (
     <footer className={clsx(styles.footer, 'foo-home-container')}>
       <nav className={styles.nav}>
@@ -27,16 +30,16 @@ export default function Footer() {
           </span>
           <ul>
             <li>
-              <a href="">Twitter</a>
+              <Link to={siteConfig.customFields.links.twitter}>Twitter</Link>
             </li>
             <li>
-              <a href="">Instagram</a>
+              <Link to={siteConfig.customFields.links.ig}>Instagram</Link>
             </li>
             <li>
-              <a href="">Discord</a>
+              <Link to={siteConfig.customFields.links.discord}>Discord</Link>
             </li>
             <li>
-              <a href="">Medium</a>
+              <Link to={siteConfig.customFields.links.medium}>Medium</Link>
             </li>
           </ul>
         </div>
@@ -46,10 +49,10 @@ export default function Footer() {
           </span>
           <ul>
             <li>
-              <a href="">Docs</a>
+              <Link to={siteConfig.customFields.links.docs}>Docs</Link>
             </li>
             <li>
-              <a href="">Contact us via email</a>
+              <Link to={`mailto:${siteConfig.customFields.emails.contact}`}>Contact us via email</Link>
             </li>
           </ul>
         </div>

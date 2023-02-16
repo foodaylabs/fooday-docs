@@ -47,13 +47,13 @@ function SucceededView() {
         <Translate id="waitlistFormPopup.success.discord">Join Our Discord</Translate>
       </button>
       <div className={styles.socialLinks}>
-        <Link to={siteConfig.customFields.twitter}>
+        <Link to={siteConfig.customFields.links.twitter}>
           <TwitterIcon />
         </Link>
-        <Link to={siteConfig.customFields.medium}>
+        <Link to={siteConfig.customFields.links.medium}>
           <MediumIcon />
         </Link>
-        <Link to={siteConfig.customFields.ig}>
+        <Link to={siteConfig.customFields.links.ig}>
           <IGIcon />
         </Link>
       </div>
