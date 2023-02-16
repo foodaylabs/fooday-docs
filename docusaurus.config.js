@@ -136,7 +136,7 @@ const config = {
   customFields: {
     links: {
       docs: '',
-      presale: 'presale.fooday.app',
+      presale: 'https://presale.fooday.app',
       discord: 'https://discord.com/invite/eGDV6dAW',
       ig: 'https://www.instagram.com/fooday.app',
       twitter: 'https://twitter.com/foodayapp',
