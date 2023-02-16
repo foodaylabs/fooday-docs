@@ -1,4 +1,4 @@
-import { createContext, useContext, useMemo, useReducer } from 'react'
+import React, { createContext, useContext, useMemo, useReducer } from 'react'
 import { useApi } from './Api'
 
 const initialState = {
@@ -18,7 +18,7 @@ function reducer(state, action) {
     case 'openPopup':
       return { ...state, popupOpened: true, email: action.data?.email, ig: action.data?.ig }
     case 'closePopup':
-      return { ...state, popupOpened: true, succeeded: false }
+      return { ...state, popupOpened: false, succeeded: false }
     case 'succeeded':
       return { ...state, popupOpened: true, succeeded: true }
   }
@@ -36,7 +36,7 @@ export default function WaitlistProvider({ children }) {
           .then(() => dispatch({ type: 'succeeded' }))
           .catch(err => alert('failed to join waitlist. details: ' + err.message))
       },
-      openPopup: () => dispatch({ type: 'openPopup' }),
+      openPopup: (email, ig) => dispatch({ type: 'openPopup', data: { email, ig } }),
       closePopup: () => dispatch({ type: 'closePopup' }),
     }
   }, [api])

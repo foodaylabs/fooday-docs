@@ -74,3 +74,17 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.waitlistCloseButton {
+    border: 1px var(--foo-color-black) solid;
+    background: var(--foo-color-white);
+    padding: 15px 25px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}

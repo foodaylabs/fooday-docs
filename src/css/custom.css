@@ -98,6 +98,34 @@ body, input, button {
   z-index: -1;
 }
 
+.ReactModal__Overlay {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  position: static !important;
+  border: 1px var(--foo-color-dark-200) solid !important;
+  border-radius: 40px !important;
+  max-width: 650px;
+  width: calc(100% - 30px);
+  padding: 40px !important;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
 @media screen and (max-width: 768px) {
   input, button {
     font-size: 1.3rem;

@@ -1,7 +1,7 @@
+import React, { createContext, useMemo, useContext } from 'react'
 import axios from 'axios'
 import { Api } from '@site/src/api'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-const { createContext, useMemo, useContext } = require('react')
 
 const apiContext = createContext()
 

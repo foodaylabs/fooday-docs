@@ -1,11 +1,11 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Translate, { translate } from '@docusaurus/Translate'
 import clsx from 'clsx'
 import styles from './waitlistForm.module.css'
 import YellowArrowIcon from '@site/static/img/yellow-arrow.svg'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 
-export default function WaitlistForm() {
+export default function WaitlistForm({ defaultEmail, defaultIg, showCloseButton }) {
   const waitlist = useWaitlist()
   const emailRef = useRef()
   const igRef = useRef()
@@ -14,6 +14,19 @@ export default function WaitlistForm() {
     e.preventDefault()
     waitlist.joinWaitlist(emailRef.current.value, igRef.current.value)
   }
+
+  const closePopup = e => {
+    e.preventDefault()
+    e.stopPropagation()
+    waitlist.closePopup()
+  }
+
+  useEffect(() => {
+    if (igRef.current && igRef.current) {
+      emailRef.current.value = defaultEmail ?? ''
+      igRef.current.value = defaultIg ?? ''
+    }
+  }, [emailRef.current, igRef.current])
 
   return (
     <form className={styles.waitlistContent} onSubmit={handleSubmit}>
@@ -28,15 +41,15 @@ export default function WaitlistForm() {
 
       <div className={styles.waitlistForm}>
         <div>
-          <label for="email-input" className={styles.waitlistFormLabel}>
+          <label htmlFor="email-input" className={styles.waitlistFormLabel}>
             <Translate id="waitlistForm.email">Email address</Translate>
           </label>
           <div className="foo-input">
-            <input trf={emailRef} id="email-input" type="email" required placeholder="your_email@fooday.app" />
+            <input ref={emailRef} id="email-input" type="email" required placeholder="your_email@fooday.app" />
           </div>
         </div>
         <div>
-          <label for="ig-account-input" className={styles.waitlistFormLabel}>
+          <label htmlFor="ig-account-input" className={styles.waitlistFormLabel}>
             <Translate id="waitlistForm.ig">Instagram account (optional)</Translate>
           </label>
           <div className={clsx(styles.igInput, 'foo-input')}>
@@ -60,7 +73,12 @@ export default function WaitlistForm() {
             </div>
           </div>
         </div>
-        <div>
+        <div className={styles.buttons}>
+          {showCloseButton && (
+            <button className={styles.waitlistCloseButton} onClick={closePopup}>
+              <Translate id="home.waitlist.submit">Cancel</Translate>
+            </button>
+          )}
           <button type="submit" className={styles.waitlistSubmitButton}>
             <Translate id="home.waitlist.submit">Join Waitlist</Translate>
           </button>
