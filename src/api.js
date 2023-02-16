@@ -4,6 +4,6 @@ export class Api {
   }
 
   async joinWaitlist(email, ig) {
-    await this.client.post('/waitlist', { email, ig })
+    await this.client.post('/join-waitlist', { email, ig })
   }
 }
