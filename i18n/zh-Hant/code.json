@@ -1,0 +1,459 @@
+{
+  "countdown.days": {
+    "message": "Days"
+  },
+  "countdown.hours": {
+    "message": "Hours"
+  },
+  "countdown.mins": {
+    "message": "Mins"
+  },
+  "countdown.secs": {
+    "message": "Secs"
+  },
+  "footer.about.title": {
+    "message": "About"
+  },
+  "footer.about.content": {
+    "message": "providing Fooides with an incentive to share their experiences and helping to create a trustworthy and accurate source of information for food lovers everywhere."
+  },
+  "footer.media.title": {
+    "message": "Media"
+  },
+  "footer.support.title": {
+    "message": "Support"
+  },
+  "waitlistForm.title": {
+    "message": "Become the Earliest Contributor to Eat & Earn"
+  },
+  "waitlistForm.desc": {
+    "message": "Get a head start on the Fooday revolution and join the selected few now!"
+  },
+  "waitlistForm.email": {
+    "message": "Email address"
+  },
+  "waitlistForm.ig": {
+    "message": "Instagram account (optional)"
+  },
+  "waitlistForm.igNoteTitle": {
+    "message": "Are you a foodie?"
+  },
+  "waitlistForm.igNoteContent": {
+    "message": "<p>Feel free to provide your Instagram account. If you are eligible as an influencing foodie, you may receive a camera NFT <span class=\"foo-hightlight-blue\">for free!</span></p>"
+  },
+  "home.waitlist.submit": {
+    "message": "Join Waitlist"
+  },
+  "topbar.links.presale": {
+    "message": "Presale 🔥"
+  },
+  "topbar.links.docs": {
+    "message": "Docs"
+  },
+  "topbar.links.whitelist": {
+    "message": "Join Whitelist"
+  },
+  "waitlistFormPopup.success.title": {
+    "message": "Thank you!"
+  },
+  "waitlistFormPopup.success.message": {
+    "message": "<p>You are in the waitlist now.<br />Keep up to date with our latest updates by joining our Discord server and follow our other media platforms!</p>"
+  },
+  "waitlistFormPopup.success.discord": {
+    "message": "Join Our Discord"
+  },
+  "waitlistFormPopup.success.close": {
+    "message": "Close"
+  },
+  "home.hero.slogan1": {
+    "message": "Eat & Earn"
+  },
+  "home.hero.slogan2": {
+    "message": "Get Paid for Your Opinions"
+  },
+  "home.hero.desc": {
+    "message": "A community-driven platform rewarding everyone for contributing helpful food information."
+  },
+  "home.hero.emailPlaceholder": {
+    "message": "your_email@fooday.app"
+  },
+  "home.hero.join": {
+    "message": "Join Waitlist"
+  },
+  "home.hero.callToAction": {
+    "message": "Get early access by registering your email"
+  },
+  "home.dountdown.clamStage.title": {
+    "message": "Presale"
+  },
+  "home.countdown.clamStage.desc": {
+    "message": "$CLAM Holder Only! <span class=\"foo-highlight\">7 Days Limited Offer</span>"
+  },
+  "home.countdown.clamStage.callToAction": {
+    "message": "Check out now"
+  },
+  "home.countdown.clamHolderStage.counterTitle": {
+    "message": "CLAM Holder Presale Countdown"
+  },
+  "home.countdown.publicStage.counterTitle": {
+    "message": "CLAM Holder Presale Coming In"
+  },
+  "home.countdown.counterNote": {
+    "message": "<p>CLAM Holder Sale: March 4th 2023, 0:00 ~ March 11th 2023, 0:00 UTC<br />Public Sale: March 11th 2023, 0:00 ~ April 10th 2023, 0:00 UTC</p>"
+  },
+  "home.problems.title": {
+    "message": "Problems"
+  },
+  "home.problems.problem1.title": {
+    "message": "Review Bombs by Media Framing"
+  },
+  "home.problems.problem1.desc": {
+    "message": "The news or public sentiment sometimes influences people to leave emotional negative comments on the store, even though they have never eaten there."
+  },
+  "home.solution.title": {
+    "message": "Solution"
+  },
+  "home.solution.descTitle": {
+    "message": "A Community-Driven Review Platform"
+  },
+  "home.solution.desc": {
+    "message": "By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful."
+  },
+  "Create new spots": {
+    "message": "Create new spots"
+  },
+  "Writing dining reviews": {
+    "message": "Writing dining reviews"
+  },
+  "Validate information": {
+    "message": "Validate information"
+  },
+  "Keep spot info updated": {
+    "message": "Keep spot info updated"
+  },
+  "home.explain.title": {
+    "message": "How it Works"
+  },
+  "home.explain.point1.title": {
+    "message": "<span>A <span class=\"foo-highlight-bg\">Contribution-Based</span> Incentive System</span>"
+  },
+  "home.explain.point1.content": {
+    "message": "<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p><p>Fooday’s unique tokenomics system rewards users for their contributions, but only after they have acquired an NFT.</p>"
+  },
+  "home.explain.point2.title": {
+    "message": "<span>Unique <span class=\"foo-highlight-bg\">Reputation-Coin</span> tokenomics</span>"
+  },
+  "home.explain.point2.content": {
+    "message": "<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p>"
+  },
+  "home.explain.point3.title": {
+    "message": "<span>Use of <span class=\"foo-highlight-bg\">NFTs</span> to Prevent Fraud or Malicious Behaviors</span>"
+  },
+  "home.explain.point3.content": {
+    "message": "<p>Fooday’s NFTs serve multiple purposes. They can be used to level-up and customize a Foodie’s profile, showcasing their personality and expertise within the community. Additionally, NFTs can also serve as collateral, ensuring that Foodies act in good faith and maintain the integrity of the platform. Any Foodie found to be in violation of the platform’s guidelines may have their NFT impacted as a result.</p>"
+  },
+  "home.explain.point4.title": {
+    "message": "<span>A <span class=\"foo-highlight-bg\">P2P</span> Validation System</span>"
+  },
+  "home.explain.point4.content": {
+    "message": "<p>Fooday’s platform also features a verification system and p2p validation, ensuring that all reviews are genuine and unbiased. This helps to provide Foodies with trustworthy and accurate information.</p>"
+  },
+  "home.explain.result.desc": {
+    "message": "<p>By offering these solutions, Fooday aims to provide Foodies with a more trustworthy and accurate source of information, helping them discover the best food experiences and connect with like-minded individuals in the process.</p>"
+  },
+  "home.explain.result.point1": {
+    "message": "Truthful"
+  },
+  "home.explain.result.point2": {
+    "message": "Helpful"
+  },
+  "home.explain.result.point3": {
+    "message": "Validated"
+  },
+  "home.explain.result.point4": {
+    "message": "Rewardable"
+  },
+  "home.explain.result.learnMore": {
+    "message": "Learn more about the tokenomics"
+  },
+  "home.ecosystem.title": {
+    "message": "Ecosystem"
+  },
+  "home.team.title": {
+    "message": "Meet The Team"
+  },
+  "home.team.desc": {
+    "message": "By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful."
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages navigation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Toggle the collapsible sidebar category '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  }
+}
