@@ -15,8 +15,9 @@ import FudosIcon from '@site/static/img/fudos.svg'
 import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 
-const clamHolderStageStartTime = new Date('2023-02-17T00:00:00Z')
-const publicStageStartTime = new Date('2023-02-20T00:00:00Z')
+const END_TIME = new Date('2023-03-17T23:59:59.999Z')
+const clamHolderStageStartTime = new Date('2023-02-18T16:00:00Z')
+const publicStageStartTime = new Date('2023-02-25T16:00:00Z')
 
 export default function HomeView() {
   const emailRef = useRef()
@@ -100,7 +101,7 @@ export default function HomeView() {
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.countdown.counterNote',
-                  message: `<p>CLAM Holder Sale: March 4th 2023, 0:00 ~ March 11th 2023, 0:00 UTC<br />Public Sale: March 11th 2023, 0:00 ~ April 10th 2023, 0:00 UTC</p>`,
+                  message: `<p>CLAM Holder Sale: ${clamHolderStageStartTime.toLocaleString()} ~ ${publicStageStartTime.toLocaleString()}<br />Public Sale: ${publicStageStartTime.toLocaleString()} ~ ${END_TIME.toLocaleString()}</p>`,
                 }),
               }}
             ></div>
