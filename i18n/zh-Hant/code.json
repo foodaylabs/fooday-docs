@@ -69,7 +69,7 @@
     "message": "關閉"
   },
   "home.hero.slogan1": {
-    "message": "吃 EAT & 賺 EARN"
+    "message": "EAT & EARN"
   },
   "home.hero.slogan2": {
     "message": "分享你的美食評論就能累積成金！"
@@ -90,7 +90,7 @@
     "message": "$FOOD 早鳥預售"
   },
   "home.countdown.clamStage.desc": {
-    "message": "$CLAM 持有者 <span class=\"foo-highlight\">優惠僅有 7 天！</span>"
+    "message": "$CLAM 持有者限定 <span class=\"foo-highlight\">優惠僅有 7 天！</span>"
   },
   "home.countdown.clamStage.callToAction": {
     "message": "馬上前往早鳥預售頁"
@@ -117,7 +117,7 @@
     "message": "沒有誘因寫評論"
   },
   "home.problems.problem2.desc": {
-    "message": "寫評論需要花時間，現代人通常都沒有時間寫。就算會寫，通常也都只有沒任何內容的純5星評論。不然就是踩到雷的時候才會上去留負評。"
+    "message": "寫評論需要花時間，現代人通常都沒有時間寫。就算會寫，通常也都只有沒任何內容的純5星評論，空泛無完整內容的評論不具有參考價值，且還會拉低總體評論可信度。"
   },
   "home.problems.problem3.title": {
     "message": "炎上事件、洗評論事件頻傳"
@@ -147,7 +147,7 @@
     "message": "更新並維護店家資訊"
   },
   "home.explain.title": {
-    "message": "是怎麼運作的？"
+    "message": "Fooday 是怎麼運作的？"
   },
   "home.explain.point1.title": {
     "message": "<span>以 <span class=\"foo-highlight-bg\">社群驅動獎勵</span> 為主的評論生態系</span>"
