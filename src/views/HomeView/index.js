@@ -367,9 +367,9 @@ export default function HomeView() {
         </h1>
         <p className={styles.teamDesc}>
           <Translate id="home.team.desc">
-            By continuing to contribute helpful and authentic dining experiences, you will earn experience points and
-            increase your income, and you also act as a validator by verifying whether other people's comments are
-            helpful.
+            Meet the talented and passionate team behind Fooday! Our diverse group of experts is dedicated to
+            revolutionizing the restaurant review industry. Get to know our team and see how we're working together to
+            bring Fooday to life.
           </Translate>
         </p>
         <ul className={styles.teamMembers}>
