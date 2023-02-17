@@ -129,10 +129,10 @@ export default function HomeView() {
           <section className={styles.problemsSection}>
             <NoIncentiveIcon className={styles.problemsSectionIcon} />
             <h1 className={styles.problemsSectionTitle}>
-              <Translate id="home.problems.problem1.title">No Incentive to Leave Reviews</Translate>
+              <Translate id="home.problems.problem2.title">No Incentive to Leave Reviews</Translate>
             </h1>
             <p className={styles.problemsSectionContent}>
-              <Translate id="home.problems.problem1.desc">
+              <Translate id="home.problems.problem2.desc">
                 Writing a post takes time and effort. Even when people do, they usually leave a simple review without
                 rich content, which is generally not helpful to others.
               </Translate>
@@ -141,10 +141,10 @@ export default function HomeView() {
           <section className={styles.problemsSection}>
             <BoomIcon className={styles.problemsSectionIcon} />
             <h1 className={styles.problemsSectionTitle}>
-              <Translate id="home.problems.problem1.title">Review Bombs by Media Framing</Translate>
+              <Translate id="home.problems.problem3.title">Review Bombs by Media Framing</Translate>
             </h1>
             <p className={styles.problemsSectionContent}>
-              <Translate id="home.problems.problem1.desc">
+              <Translate id="home.problems.problem3.desc">
                 The news or public sentiment sometimes influences people to leave emotional negative comments on the
                 store, even though they have never eaten there.
               </Translate>

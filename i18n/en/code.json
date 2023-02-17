@@ -108,9 +108,21 @@
     "message": "Problems"
   },
   "home.problems.problem1.title": {
-    "message": "Review Bombs by Media Framing"
+    "message": "Fake 5-star Reviews"
   },
   "home.problems.problem1.desc": {
+    "message": "The news or public sentiment sometimes influences people to leave emotional negative comments on the store, even though they have never eaten there."
+  },
+  "home.problems.problem2.title": {
+    "message": "No Incentive to Leave Reviews"
+  },
+  "home.problems.problem2.desc": {
+    "message": "Writing a post takes time and effort. Even when people do, they usually leave a simple review without rich content, which is generally not helpful to others."
+  },
+  "home.problems.problem3.title": {
+    "message": "Review Bombs by Media Framing"
+  },
+  "home.problems.problem3.desc": {
     "message": "The news or public sentiment sometimes influences people to leave emotional negative comments on the store, even though they have never eaten there."
   },
   "home.solution.title": {
@@ -120,7 +132,7 @@
     "message": "A Community-Driven Review Platform"
   },
   "home.solution.desc": {
-    "message": "By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful."
+    "message": "Fooday created a decentralized network of Foodies, sharing their opinions, experiences, and recommendations with each other. And with our unique tokenomics and p2p validation system, Foodies can be confident that the reviews they read are of high quality and precision."
   },
   "Create new spots": {
     "message": "Create new spots"
@@ -147,7 +159,7 @@
     "message": "<span>Unique <span class=\"foo-highlight-bg\">Reputation-Coin</span> tokenomics</span>"
   },
   "home.explain.point2.explainSectionContent.fudos": {
-    "message": "<p>Once you have a Fooday Camera NFT, you can start earning Fudos, a credit point, for your contributions to the platform. Your account will be leveled up automatically as your FUDOS accumulate. The higher your level, the more your settled $FOOD will be multiplied.</p>"
+    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
   },
   "home.explain.point2.explainSectionContent.food": {
     "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
@@ -468,13 +480,7 @@
   "home.pageTitle": {
     "message": "Fooday | Foodies United: Leave Reviews, Earn Rewards"
   },
-  "home.explain.point2.explainSectionContent.fudos": {
-    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
-  },
   "home.explain.title": {
     "message": "How it Works"
-  },
-  "home.explain.point2.explainSectionContent.food": {
-    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
   }
 }
