@@ -87,7 +87,7 @@
     "message": "報名即可獲得早期限量封測資格"
   },
   "home.dountdown.clamStage.title": {
-    "message": "$FOOD 早鳥預售"
+    "message": "早鳥預售"
   },
   "home.countdown.clamStage.desc": {
     "message": "$CLAM 持有者限定 <span class=\"foo-highlight\">優惠僅有 7 天！</span>"
