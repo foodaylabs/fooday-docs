@@ -107,10 +107,19 @@
   "home.problems.title": {
     "message": "產品背景"
   },
-  "home.problems.problem1.title": {
+  "home.problems.problem1.desc": {
+    "message": "The news or public sentiment sometimes influences people to leave emotional negative comments on the store, even though they have never eaten there."
+  },
+  "home.problems.problem2.title": {
+    "message": "No Incentive to Leave Reviews"
+  },
+  "home.problems.problem2.desc": {
+    "message": "Writing a post takes time and effort. Even when people do, they usually leave a simple review without rich content, which is generally not helpful to others."
+  },
+  "home.problems.problem3.title": {
     "message": "評論容易淪為風向操弄的終端媒介"
   },
-  "home.problems.problem1.desc": {
+  "home.problems.problem3.desc": {
     "message": "群眾容易被網路媒體或公眾事件的風向影響，進而在店家洗負評或是留下帶有情緒性的留言，降低了評論平台該有的資訊公正性。"
   },
   "home.solution.title": {
