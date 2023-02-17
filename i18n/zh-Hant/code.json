@@ -146,8 +146,11 @@
   "home.explain.point2.title": {
     "message": "<span>Unique <span class=\"foo-highlight-bg\">Reputation-Coin</span> tokenomics</span>"
   },
-  "home.explain.point2.content": {
-    "message": "<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p>"
+  "home.explain.point2.explainSectionContent.fudos": {
+    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
+  },
+  "home.explain.point2.explainSectionContent.food": {
+    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
   },
   "home.explain.point3.title": {
     "message": "<span>Use of <span class=\"foo-highlight-bg\">NFTs</span> to Prevent Fraud or Malicious Behaviors</span>"

@@ -254,7 +254,7 @@ export default function HomeView() {
               <div
                 dangerouslySetInnerHTML={{
                   __html: translate({
-                    id: 'home.explain.point2.explainSectionContent.fudos',
+                    id: 'home.explain.point2.explainSectionContent.food',
                     message:
                       '<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>',
                   }),
