@@ -4,7 +4,7 @@ import HomeView from '@site/src/views/HomeView'
 import Head from '@docusaurus/Head'
 import ApiProvider from '@site/src/contexts/Api'
 import WaitlistProvider from '@site/src/contexts/Waitlist'
-import Translate, { translate } from '@docusaurus/Translate'
+import { translate } from '@docusaurus/Translate'
 
 export default function Home() {
   return (
@@ -21,9 +21,7 @@ export default function Home() {
                 message: ' A community-driven platform rewarding everyone for contributing helpful food information.',
               })}
             />
-            <title>
-              <Translate id="home.pageTitle">Fooday | Get Paid for Your Opinions</Translate>
-            </title>
+            <title>{translate({ id: 'home.pageTitle', message: 'Fooday | Get Paid for Your Opinions' })}</title>
           </Head>
           <HomeView />
         </Layout>

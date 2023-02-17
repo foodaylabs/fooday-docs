@@ -458,5 +458,11 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "home.pageDesc": {
+    "message": " A community-driven platform rewarding everyone for contributing helpful food information."
+  },
+  "home.pageTitle": {
+    "message": "Fooday | Get Paid for Your Opinions"
   }
 }
