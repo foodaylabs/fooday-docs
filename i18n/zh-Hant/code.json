@@ -147,10 +147,10 @@
     "message": "<span>Unique <span class=\"foo-highlight-bg\">Reputation-Coin</span> tokenomics</span>"
   },
   "home.explain.point2.explainSectionContent.fudos": {
-    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
+    "message": "<p>擁有 Fooday Camera NFT 後，你就可以開始賺取 Fudos - 貢獻的信用點數。隨著你的 FUDOS 累積，你的個人等級就會自動升等。個人等級越高，結算時所轉換的 $FOOD 加成就會越多喔！</p>"
   },
   "home.explain.point2.explainSectionContent.food": {
-    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
+    "message": "<p>每過一段時間，你就會有機會將你的 Fudos 轉換為 $FOOD，可用於在平台內升級你的相機 NFT 獲得全方位更高的貢獻成效 ，亦可在交易所進行其他交易。</p>"
   },
   "home.explain.point3.title": {
     "message": "<span>Use of <span class=\"foo-highlight-bg\">NFTs</span> to Prevent Fraud or Malicious Behaviors</span>"
