@@ -146,8 +146,11 @@
   "home.explain.point2.title": {
     "message": "<span>獨特的 <span class=\"foo-highlight-bg\">貢獻聲望值</span> 代幣經濟</span>"
   },
-  "home.explain.point2.content": {
-    "message": "<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p>"
+  "home.explain.point2.explainSectionContent.fudos": {
+    "message": "<p>擁有 Fooday 相機 NFT 後，你就可以開始賺取 Fudos - 貢獻的信用點數。隨著你的 FUDOS 累積，你的個人等級就會自動升等。個人等級越高，結算時所轉換的 $FOOD 加成就會越多喔！</p>"
+  },
+  "home.explain.point2.explainSectionContent.food": {
+    "message": "<p>每過一段時間，你就會有機會將你的 Fudos 轉換為 $FOOD，可用於在平台內升級你的相機 NFT 獲得全方位更高的貢獻成效 ，亦可在交易所進行其他交易。</p>"
   },
   "home.explain.point3.title": {
     "message": "<span>以 <span class=\"foo-highlight-bg\">NFTs</span> 來維持評論品質及資訊正確性 </span>"

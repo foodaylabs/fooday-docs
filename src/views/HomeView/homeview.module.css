@@ -454,11 +454,38 @@
 }
 
 .explainSectionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     grid-area: content;
     font-weight: 500;
     font-size: 2rem;
     line-height: 2.6rem;
     color: var(--foo-color-dark-200);
+}
+
+.explainSectionContentTitle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: var(--foo-color-black);
+}
+
+.explainSectionContentFudos {
+    position: relative;
+}
+
+.explainSectionContentFudos::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 140px;
+    background: center / cover url('/img/explain-arrow.svg');
+    bottom: -28px;
+    left: -75px;
 }
 
 .explainSectionTitle {

@@ -10,6 +10,8 @@ import SolutionValidateIcon from '@site/static/img/solution-validate.svg'
 import SolutionKeepUpdateIcon from '@site/static/img/solution-keep-update.svg'
 import SolutionNewSpotsIcon from '@site/static/img/solution-new-spots.svg'
 import SolutionWritingIcon from '@site/static/img/solution-writing.svg'
+import FoodIcon from '@site/static/img/food.svg'
+import FudosIcon from '@site/static/img/fudos.svg'
 import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 
@@ -229,15 +231,37 @@ export default function HomeView() {
               }),
             }}
           />
-          <div
-            className={styles.explainSectionContent}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point2.content',
-                message: `<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p>`,
-              }),
-            }}
-          />
+          <div className={styles.explainSectionContent}>
+            <div className={styles.explainSectionContentFudos}>
+              <h2 className={styles.explainSectionContentTitle}>
+                <FudosIcon width={60} height={60} /> FUDOS
+              </h2>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: translate({
+                    id: 'home.explain.point2.explainSectionContent.fudos',
+                    message:
+                      '<p>Once you have a Fooday Camera NFT, you can start earning Fudos, a credit point, for your contributions to the platform. Your account will be leveled up automatically as your FUDOS accumulate. The higher your level, the more your settled $FOOD will be multiplied.</p>',
+                  }),
+                }}
+              ></div>
+            </div>
+            <div className={styles.explainSectionContentFood}>
+              <h2 className={styles.explainSectionContentTitle}>
+                <FoodIcon width={60} height={60} />
+                $FOOD
+              </h2>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: translate({
+                    id: 'home.explain.point2.explainSectionContent.food',
+                    message:
+                      '<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>',
+                  }),
+                }}
+              />
+            </div>
+          </div>
         </section>
 
         <section className={clsx(styles.explainSection3, styles.explainSectionStyle1)}>
@@ -343,9 +367,9 @@ export default function HomeView() {
         </h1>
         <p className={styles.teamDesc}>
           <Translate id="home.team.desc">
-            By continuing to contribute helpful and authentic dining experiences, you will earn experience points and
-            increase your income, and you also act as a validator by verifying whether other people's comments are
-            helpful.
+            Meet the talented and passionate team behind Fooday! Our diverse group of experts is dedicated to
+            revolutionizing the restaurant review industry. Get to know our team and see how we're working together to
+            bring Fooday to life.
           </Translate>
         </p>
         <ul className={styles.teamMembers}>
