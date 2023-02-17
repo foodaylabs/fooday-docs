@@ -84,25 +84,25 @@
     "message": "報名即可獲得早期限量封測資格"
   },
   "home.dountdown.clamStage.title": {
-    "message": "食幣預售"
+    "message": "$FOOD 早鳥預售"
   },
   "home.countdown.clamStage.desc": {
     "message": "$CLAM 持有者 <span class=\"foo-highlight\">優惠僅有 7 天！</span>"
   },
   "home.countdown.clamStage.callToAction": {
-    "message": "馬上前往預售頁"
+    "message": "馬上前往早鳥預售頁"
   },
   "home.countdown.clamHolderStage.counterTitle": {
-    "message": "CLAM 持有者預售結束倒數"
+    "message": "CLAM 持有者早鳥預售結束倒數"
   },
   "home.countdown.publicStage.counterTitle": {
-    "message": "CLAM 持有者預售開啟倒數"
+    "message": "CLAM 持有者早鳥預售開啟倒數"
   },
   "home.countdown.counterNote": {
-    "message": "<p>CLAM 持有者預售: 3/4 2023, 0:00 ~ 3/11 2023, 0:00 UTC<br />公開預售: 3/11 2023, 0:00 ~ 4/10 2023, 0:00 UTC</p>"
+    "message": "<p>CLAM 持有者早鳥預售: 3/4 2023, 0:00 ~ 3/11 2023, 0:00 UTC<br />公開早鳥預售: 3/11 2023, 0:00 ~ 4/10 2023, 0:00 UTC</p>"
   },
   "home.problems.title": {
-    "message": "現有問題"
+    "message": "產品背景"
   },
   "home.problems.problem1.title": {
     "message": "評論容易淪為風向操弄的終端媒介"
@@ -153,10 +153,10 @@
     "message": "<p>Fooday 的相機 NFT 有多種用途。不同的相機配置可以展現你在 Fooday 社群裡的個性和美食喜好。此外，NFT 還可以作為抵押品，確保每位使用者的誠信並維護平台的完整性。任何被發現違反平台準則的使用者都可能因此影響其 NFT。</p>"
   },
   "home.explain.point4.title": {
-    "message": "<span><span class=\"foo-highlight-bg\">去中心化</span> 網路驗證生態系</span>"
+    "message": "<span><span class=\"foo-highlight-bg\">去中心化</span> 驗證技術</span>"
   },
   "home.explain.point4.content": {
-    "message": "<p>Fooday 的平台還具有去中心化驗證系統 - 每位使用者都是評論者及驗證者，確保所有評論和餐廳資訊都是真實和公正。這有助於為其他美食探索者提供可靠和準確的美食資訊。</p>"
+    "message": "<p>Fooday 的平台還具有去中心化驗證系統 - 每位使用者都同時是評論者及驗證者，確保所有評論和餐廳資訊都是真實和公正。這有助於為其他美食探索者提供可靠和準確的美食資訊。</p>"
   },
   "home.explain.result.desc": {
     "message": "<p>透過這些解決方案，Fooday 的核心價值在為美食愛好者提供更值得信賴及準確的即時資訊，幫助他們探索最佳的美食體驗，並在此過程中與志趣相投的人建立聯繫，成為互助且透明的健康社群平台。</p>"
@@ -183,7 +183,7 @@
     "message": "團隊成員"
   },
   "home.team.desc": {
-    "message": "By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful."
+    "message": "認識 Fooday 背後才華橫溢、充滿激情的團隊成員們吧！他們致力於徹底改變餐廳評論生態並共同努力將 Fooday 帶入生活。"
   },
   "theme.ErrorPageContent.title": {
     "message": "此頁面無法載入",
