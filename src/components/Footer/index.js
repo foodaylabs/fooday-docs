@@ -18,7 +18,7 @@ export default function Footer() {
             <img src="/img/tokens.svg" />
             <p>
               <Translate id="footer.about.content">
-                providing Fooides with an incentive to share their experiences and helping to create a trustworthy and
+                Providing Foodies with an incentive to share their experiences and helping to create a trustworthy and
                 accurate source of information for food lovers everywhere.
               </Translate>
             </p>
