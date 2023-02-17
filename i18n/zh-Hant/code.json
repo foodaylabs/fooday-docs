@@ -111,7 +111,7 @@
     "message": "免費商品換 5 星假評論"
   },
   "home.problems.problem1.desc": {
-    "message": "許多店家或行銷團隊會利用優惠券或免費小菜等誘因換取顧客的 5 星評論，大量好評不僅會影響其他潛在顧客的判斷能力，也容易增加踩雷機率。"
+    "message": "許多店家或行銷團隊會利用優惠券或免費小菜等誘因，換取顧客的 5 星評論，大量好評不僅會影響其他潛在顧客的判斷能力，也容易增加踩雷機率。"
   },
   "home.problems.problem2.title": {
     "message": "沒有誘因寫評論"
@@ -132,7 +132,7 @@
     "message": "以社群共同經營的美食評論平台"
   },
   "home.solution.desc": {
-    "message": "Fooday 創造了一個分散的美食家網絡，參與者可以分享彼此的意見、經驗和用餐指南。憑藉我們獨特的代幣經濟學和 p2p 驗證系統，可以確保使用者閱讀的評論準確且擁有高水準的品質。"
+    "message": "Fooday 創造了一個去中心化的美食家社群平台，參與者可以分享彼此的意見、經驗和用餐指南。憑藉我們獨特的代幣經濟學和 p2p 驗證系統，可以確保使用者閱讀的評論準確且擁有高水準的品質。"
   },
   "Create new spots": {
     "message": "建立新店家"
@@ -159,7 +159,7 @@
     "message": "<span>獨特的 <span class=\"foo-highlight-bg\">貢獻聲望值</span> 代幣經濟</span>"
   },
   "home.explain.point2.explainSectionContent.fudos": {
-    "message": "<p>擁有 Fooday 相機 NFT 後，你就可以開始賺取 Fudos - 貢獻的信用點數。隨著你的 FUDOS 累積，評論家等級就會自動升等。而評論家等級越高，結算時所轉換的 $FOOD 加成就會越多喔！</p>"
+    "message": "<p>擁有 Fooday 相機 NFT 後，你就可以開始賺取 Fudos - 貢獻的信用點數。隨著累積 FUDOS，評論家等級就會自動升等。而評論家等級越高，結算時所轉換的 $FOOD 加成就會越多喔！</p>"
   },
   "home.explain.point2.explainSectionContent.food": {
     "message": "<p>每過一段時間，官方會定期將 Fudos 轉換為 $FOOD，$FOOD 可在 Fooday 中升級相機 NFT ，讓用戶逐漸獲得更高的貢獻成效 ，除此之外，亦可在交易所進行其他交易。</p>"
