@@ -15,7 +15,7 @@
     "message": "關於"
   },
   "footer.about.content": {
-    "message": "致力於建造一個讓美食愛好者能分享真實且有幫助的美食評論社群平台。"
+    "message": "EAT & EARN<br/>致力於建造一個讓美食愛好者能分享真實且有幫助的美食評論社群平台。"
   },
   "footer.media.title": {
     "message": "社群"
@@ -39,7 +39,7 @@
     "message": "你是美食社群經營者嗎?"
   },
   "waitlistForm.igNoteContent": {
-    "message": "<p>歡迎留下你的 IG 美食帳號。若經過審核並符合 Foodie 標準，你就有機會得到<span class=\"foo-hightlight-blue\">免費for free!</span>的相機 NFT！</p>"
+    "message": "<p>歡迎留下你的 IG 美食帳號。若經過審核並符合 Foodie 標準，你就有機會得到<span class=\"foo-hightlight-blue\">免費</span>的相機 NFT！</p>"
   },
   "home.waitlist.cancel": {
     "message": "Cancel"
@@ -48,7 +48,7 @@
     "message": "報名加入封測"
   },
   "topbar.links.presale": {
-    "message": "食幣預售 🔥"
+    "message": "早鳥預售 🔥"
   },
   "topbar.links.docs": {
     "message": "開發文件"
