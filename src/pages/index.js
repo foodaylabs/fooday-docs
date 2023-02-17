@@ -13,7 +13,6 @@ export default function Home() {
         <Layout>
           <Head>
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-            <meta property="og:image" content="/img/og-image.jpg" />
             <meta
               name="description"
               content={translate({
