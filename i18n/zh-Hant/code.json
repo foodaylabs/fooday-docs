@@ -105,22 +105,25 @@
     "message": "<p>CLAM 持有者早鳥預售: 3/4 2023, 0:00 ~ 3/11 2023, 0:00 UTC<br />公開早鳥預售: 3/11 2023, 0:00 ~ 4/10 2023, 0:00 UTC</p>"
   },
   "home.problems.title": {
-    "message": "產品背景"
+    "message": "為何會想要開發 Fooday?"
+  },
+   "home.problems.problem1.title": {
+    "message": "免費商品換 5 星假評論"
   },
   "home.problems.problem1.desc": {
-    "message": "The news or public sentiment sometimes influences people to leave emotional negative comments on the store, even though they have never eaten there."
+    "message": "許多店家或行銷團隊會利用優惠券或免費小菜等誘因換取顧客的 5 星評論，大量洗出來的好評價會影響其他潛在顧客在搜尋餐廳時的判斷能力，極有可能會踩雷。"
   },
   "home.problems.problem2.title": {
-    "message": "No Incentive to Leave Reviews"
+    "message": "沒有誘因寫評論"
   },
   "home.problems.problem2.desc": {
-    "message": "Writing a post takes time and effort. Even when people do, they usually leave a simple review without rich content, which is generally not helpful to others."
+    "message": "寫評論需要花時間，現代人通常都沒有時間寫。就算會寫，通常也都只有沒任何內容的純5星評論。不然就是踩到雷的時候才會上去留負評。"
   },
   "home.problems.problem3.title": {
-    "message": "評論容易淪為風向操弄的終端媒介"
+    "message": "炎上事件、洗評論事件頻傳"
   },
   "home.problems.problem3.desc": {
-    "message": "群眾容易被網路媒體或公眾事件的風向影響，進而在店家洗負評或是留下帶有情緒性的留言，降低了評論平台該有的資訊公正性。"
+    "message": "群眾容易被網路媒體或公眾事件的風向影響，進而在店家洗負評或是留下帶有情緒性的留言，降低了評論平台該有的資訊公正性。況且那些人根本沒有去過該店家用餐呢。"
   },
   "home.solution.title": {
     "message": "新世代解決之道"
