@@ -429,6 +429,7 @@
     display: flex;
     flex-direction: column;
     gap: 100px;
+    overflow: hidden;
 }
 
 .explainTitle {
@@ -896,5 +897,10 @@
 
     .waitlistImage {
         display: none;
+    }
+
+    .ecosystem img {
+        margin: 0;
+        overflow: hidden;
     }
 }
