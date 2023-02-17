@@ -20,6 +20,13 @@ export default function Home() {
                 message: ' A community-driven platform rewarding everyone for contributing helpful food information.',
               })}
             />
+            <meta
+              name="og:title"
+              content={translate({
+                id: 'home.pageTitle',
+                message: 'Fooday | Foodies United: Leave Reviews, Earn Rewards',
+              })}
+            />
             <title>
               {translate({
                 id: 'home.pageTitle',
