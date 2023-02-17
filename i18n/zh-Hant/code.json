@@ -1,211 +1,211 @@
 {
   "countdown.days": {
-    "message": "Days"
+    "message": "天"
   },
   "countdown.hours": {
-    "message": "Hours"
+    "message": "小時"
   },
   "countdown.mins": {
-    "message": "Mins"
+    "message": "分鐘"
   },
   "countdown.secs": {
-    "message": "Secs"
+    "message": "秒"
   },
   "footer.about.title": {
-    "message": "About"
+    "message": "關於"
   },
   "footer.about.content": {
-    "message": "providing Fooides with an incentive to share their experiences and helping to create a trustworthy and accurate source of information for food lovers everywhere."
+    "message": "致力於建造一個讓美食愛好者能分享真實且有幫助的美食評論社群平台。"
   },
   "footer.media.title": {
-    "message": "Media"
+    "message": "社群"
   },
   "footer.support.title": {
-    "message": "Support"
+    "message": "支援"
   },
   "waitlistForm.title": {
-    "message": "Become the Earliest Contributor to Eat & Earn"
+    "message": "限量封測！成為點食成金的第一批創世者"
   },
   "waitlistForm.desc": {
-    "message": "Get a head start on the Fooday revolution and join the selected few now!"
+    "message": "快報名加入封測名單，成為點食成金的第一批創世者吧！"
   },
   "waitlistForm.email": {
-    "message": "Email address"
+    "message": "你的電子信箱"
   },
   "waitlistForm.ig": {
-    "message": "Instagram account (optional)"
+    "message": "你的 IG 帳號 (選填)"
   },
   "waitlistForm.igNoteTitle": {
-    "message": "Are you a foodie?"
+    "message": "你是美食網路經營者嗎?"
   },
   "waitlistForm.igNoteContent": {
-    "message": "<p>Feel free to provide your Instagram account. If you are eligible as an influencing foodie, you may receive a camera NFT <span class=\"foo-hightlight-blue\">for free!</span></p>"
+    "message": "<p>歡迎留下你的 IG 帳號。假如你被我們認可為有資格的美食網紅，那你就有機會得到<span class=\"foo-hightlight-blue\">免費for free!</span>的相機 NFT！</p>"
   },
   "home.waitlist.cancel": {
     "message": "Cancel"
   },
   "home.waitlist.submit": {
-    "message": "Join Waitlist"
+    "message": "報名加入封測"
   },
   "topbar.links.presale": {
-    "message": "Presale 🔥"
+    "message": "食幣預售 🔥"
   },
   "topbar.links.docs": {
-    "message": "Docs"
+    "message": "開發文件"
   },
   "topbar.links.whitelist": {
-    "message": "Join Whitelist"
+    "message": "報名加入封測"
   },
   "waitlistFormPopup.success.title": {
-    "message": "Thank you!"
+    "message": "感謝你!"
   },
   "waitlistFormPopup.success.message": {
-    "message": "<p>You are in the waitlist now.<br />Keep up to date with our latest updates by joining our Discord server and follow our other media platforms!</p>"
+    "message": "<p>你已經報名加入封測名單<br />加入我們的 Discord 群組及追蹤下列社群平台，時刻關注我們的最新活動消息！</p>"
   },
   "waitlistFormPopup.success.discord": {
-    "message": "Join Our Discord"
+    "message": "加入 Discord"
   },
   "waitlistFormPopup.success.close": {
-    "message": "Close"
+    "message": "關閉"
   },
   "home.hero.slogan1": {
-    "message": "Eat & Earn"
+    "message": "吃 EAT & 賺 EARN"
   },
   "home.hero.slogan2": {
-    "message": "Get Paid for Your Opinions"
+    "message": "分享你的美食評論就能累積成金！"
   },
   "home.hero.desc": {
-    "message": "A community-driven platform rewarding everyone for contributing helpful food information."
+    "message": "新世代美食評論社群平台，獎勵每個有貢獻的美食評論家。"
   },
   "home.hero.emailPlaceholder": {
     "message": "your_email@fooday.app"
   },
   "home.hero.join": {
-    "message": "Join Waitlist"
+    "message": "報名加入封測"
   },
   "home.hero.callToAction": {
-    "message": "Get early access by registering your email"
+    "message": "報名即可獲得早期限量封測資格"
   },
   "home.dountdown.clamStage.title": {
-    "message": "Presale"
+    "message": "$FOOD 早鳥預售"
   },
   "home.countdown.clamStage.desc": {
-    "message": "$CLAM Holder Only! <span class=\"foo-highlight\">7 Days Limited Offer</span>"
+    "message": "$CLAM 持有者 <span class=\"foo-highlight\">優惠僅有 7 天！</span>"
   },
   "home.countdown.clamStage.callToAction": {
-    "message": "Check out now"
+    "message": "馬上前往早鳥預售頁"
   },
   "home.countdown.clamHolderStage.counterTitle": {
-    "message": "CLAM Holder Presale Countdown"
+    "message": "CLAM 持有者早鳥預售結束倒數"
   },
   "home.countdown.publicStage.counterTitle": {
-    "message": "CLAM Holder Presale Coming In"
+    "message": "CLAM 持有者早鳥預售開啟倒數"
   },
   "home.countdown.counterNote": {
-    "message": "<p>CLAM Holder Sale: March 4th 2023, 0:00 ~ March 11th 2023, 0:00 UTC<br />Public Sale: March 11th 2023, 0:00 ~ April 10th 2023, 0:00 UTC</p>"
+    "message": "<p>CLAM 持有者早鳥預售: 3/4 2023, 0:00 ~ 3/11 2023, 0:00 UTC<br />公開早鳥預售: 3/11 2023, 0:00 ~ 4/10 2023, 0:00 UTC</p>"
   },
   "home.problems.title": {
-    "message": "Problems"
+    "message": "產品背景"
   },
   "home.problems.problem1.title": {
-    "message": "Review Bombs by Media Framing"
+    "message": "評論容易淪為風向操弄的終端媒介"
   },
   "home.problems.problem1.desc": {
-    "message": "The news or public sentiment sometimes influences people to leave emotional negative comments on the store, even though they have never eaten there."
+    "message": "群眾容易被網路媒體或公眾事件的風向影響，進而在店家洗負評或是留下帶有情緒性的留言，降低了評論平台該有的資訊公正性。"
   },
   "home.solution.title": {
-    "message": "Solution"
+    "message": "新世代解決之道"
   },
   "home.solution.descTitle": {
-    "message": "A Community-Driven Review Platform"
+    "message": "以社群共同經營的美食評論平台"
   },
   "home.solution.desc": {
     "message": "By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful."
   },
   "Create new spots": {
-    "message": "Create new spots"
+    "message": "建立新店家"
   },
   "Writing dining reviews": {
-    "message": "Writing dining reviews"
+    "message": "打卡留美食評論"
   },
   "Validate information": {
-    "message": "Validate information"
+    "message": "驗證店家及評論"
   },
   "Keep spot info updated": {
-    "message": "Keep spot info updated"
+    "message": "更新並維護店家資訊"
   },
   "home.explain.title": {
-    "message": "How it Works"
+    "message": "是怎麼運作的？"
   },
   "home.explain.point1.title": {
-    "message": "<span>A <span class=\"foo-highlight-bg\">Contribution-Based</span> Incentive System</span>"
+    "message": "<span>以 <span class=\"foo-highlight-bg\">社群驅動獎勵</span> 為主的評論生態系</span>"
   },
   "home.explain.point1.content": {
-    "message": "<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p><p>Fooday’s unique tokenomics system rewards users for their contributions, but only after they have acquired an NFT.</p>"
+    "message": "<p>通過持續貢獻有用和真實的用餐體驗，你就可以獲得經驗值並增加你的獎勵收入。你同時也是個驗證者，可以透過驗證其他人的評論是否有幫助來累積經驗值。</p><p>Fooday 以獨特的代幣經濟系統獎勵使用者的貢獻，只要擁有一台 Fooday 相機 NFT 就可以開始。</p>"
   },
   "home.explain.point2.title": {
-    "message": "<span>Unique <span class=\"foo-highlight-bg\">Reputation-Coin</span> tokenomics</span>"
+    "message": "<span>獨特的 <span class=\"foo-highlight-bg\">貢獻聲望值</span> 代幣經濟</span>"
   },
   "home.explain.point2.content": {
     "message": "<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p>"
   },
   "home.explain.point3.title": {
-    "message": "<span>Use of <span class=\"foo-highlight-bg\">NFTs</span> to Prevent Fraud or Malicious Behaviors</span>"
+    "message": "<span>以 <span class=\"foo-highlight-bg\">NFTs</span> 來維持評論品質及資訊正確性 </span>"
   },
   "home.explain.point3.content": {
-    "message": "<p>Fooday’s NFTs serve multiple purposes. They can be used to level-up and customize a Foodie’s profile, showcasing their personality and expertise within the community. Additionally, NFTs can also serve as collateral, ensuring that Foodies act in good faith and maintain the integrity of the platform. Any Foodie found to be in violation of the platform’s guidelines may have their NFT impacted as a result.</p>"
+    "message": "<p>Fooday 的相機 NFT 有多種用途。不同的相機配置可以展現你在 Fooday 社群裡的個性和美食喜好。此外，NFT 還可以作為抵押品，確保每位使用者的誠信並維護平台的完整性。任何被發現違反平台準則的使用者都可能因此影響其 NFT。</p>"
   },
   "home.explain.point4.title": {
-    "message": "<span>A <span class=\"foo-highlight-bg\">P2P</span> Validation System</span>"
+    "message": "<span><span class=\"foo-highlight-bg\">去中心化</span> 驗證技術</span>"
   },
   "home.explain.point4.content": {
-    "message": "<p>Fooday’s platform also features a verification system and p2p validation, ensuring that all reviews are genuine and unbiased. This helps to provide Foodies with trustworthy and accurate information.</p>"
+    "message": "<p>Fooday 的平台還具有去中心化驗證系統 - 每位使用者都同時是評論者及驗證者，確保所有評論和餐廳資訊都是真實和公正。這有助於為其他美食探索者提供可靠和準確的美食資訊。</p>"
   },
   "home.explain.result.desc": {
-    "message": "<p>By offering these solutions, Fooday aims to provide Foodies with a more trustworthy and accurate source of information, helping them discover the best food experiences and connect with like-minded individuals in the process.</p>"
+    "message": "<p>透過這些解決方案，Fooday 的核心價值在為美食愛好者提供更值得信賴及準確的即時資訊，幫助他們探索最佳的美食體驗，並在此過程中與志趣相投的人建立聯繫，成為互助且透明的健康社群平台。</p>"
   },
   "home.explain.result.point1": {
-    "message": "Truthful"
+    "message": "真實的"
   },
   "home.explain.result.point2": {
-    "message": "Helpful"
+    "message": "有幫助的"
   },
   "home.explain.result.point3": {
-    "message": "Validated"
+    "message": "經過驗證的"
   },
   "home.explain.result.point4": {
-    "message": "Rewardable"
+    "message": "可獲得獎勵的"
   },
   "home.explain.result.learnMore": {
-    "message": "Learn more about the tokenomics"
+    "message": "瞭解更多 Fooday 代幣經濟"
   },
   "home.ecosystem.title": {
-    "message": "Ecosystem"
+    "message": "完整生態系"
   },
   "home.team.title": {
-    "message": "Meet The Team"
+    "message": "團隊成員"
   },
   "home.team.desc": {
-    "message": "By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful."
+    "message": "認識 Fooday 背後才華橫溢、充滿激情的團隊成員們吧！他們致力於徹底改變餐廳評論生態並共同努力將 Fooday 帶入生活。"
   },
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
+    "message": "此頁面無法載入",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "重新整理",
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "找不到網頁",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "無法找到你嘗試搜尋的網頁",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "能在這裡見到你也是一種緣份，能不能請你跟此網站的主人說一下他的網頁掛掉了嗎，感恩你！",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.admonition.note": {
@@ -237,7 +237,7 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
+    "message": "返回最上方",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
