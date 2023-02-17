@@ -464,5 +464,8 @@
   },
   "home.pageTitle": {
     "message": "Fooday | Foodies United: Leave Reviews, Earn Rewards"
+  },
+  "home.explain.point2.explainSectionContent.fudos": {
+    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
   }
 }
