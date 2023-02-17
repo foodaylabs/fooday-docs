@@ -138,7 +138,7 @@ const config = {
     links: {
       docs: '',
       presale: 'https://presale.fooday.app',
-      discord: 'https://discord.com/invite/eGDV6dAW',
+      discord: 'https://discord.gg/6Q3Xa7fRV4',
       ig: 'https://www.instagram.com/fooday.app',
       twitter: 'https://twitter.com/foodayapp',
       medium: 'https://fooday.medium.com',
