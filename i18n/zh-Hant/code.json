@@ -36,10 +36,10 @@
     "message": "你的 IG 帳號 (選填)"
   },
   "waitlistForm.igNoteTitle": {
-    "message": "你是美食網路經營者嗎?"
+    "message": "你是美食社群經營者嗎?"
   },
   "waitlistForm.igNoteContent": {
-    "message": "<p>歡迎留下你的 IG 帳號。假如你被我們認可為有資格的美食網紅，那你就有機會得到<span class=\"foo-hightlight-blue\">免費for free!</span>的相機 NFT！</p>"
+    "message": "<p>歡迎留下你的 IG 美食帳號。若經過審核並符合 Foodie 標準，你就有機會得到<span class=\"foo-hightlight-blue\">免費for free!</span>的相機 NFT！</p>"
   },
   "home.waitlist.cancel": {
     "message": "Cancel"
@@ -111,19 +111,19 @@
     "message": "免費商品換 5 星假評論"
   },
   "home.problems.problem1.desc": {
-    "message": "許多店家或行銷團隊會利用優惠券或免費小菜等誘因，換取顧客的 5 星評論，大量洗出來的好評價會影響其他潛在顧客在搜尋餐廳時的判斷能力，極有可能會踩雷。"
+    "message": "許多店家或行銷團隊會利用優惠券或免費小菜等誘因，換取顧客的 5 星評論，大量好評不僅會影響其他潛在顧客的判斷能力，也容易增加踩雷機率。"
   },
   "home.problems.problem2.title": {
     "message": "沒有誘因寫評論"
   },
   "home.problems.problem2.desc": {
-    "message": "寫評論需要花時間，現代人通常都沒有時間寫。就算會寫，通常也都只有沒任何內容的純5星評論，空泛無完整內容的評論不具有參考價值，且還會拉低總體評論可信度。"
+    "message": "撰寫評論需要花時間，若沒有足夠誘因，多數人並不傾向於每次用餐後留下評論。也有少部分消費者習慣給出無描述內容的純5星評論，空泛內容的評論不僅無參考價值，還會拉低總體評論可信度。"
   },
   "home.problems.problem3.title": {
     "message": "炎上事件、洗評論事件頻傳"
   },
   "home.problems.problem3.desc": {
-    "message": "群眾容易被網路媒體或公眾事件的風向影響，進而在店家洗負評或是留下帶有情緒性的留言，降低了評論平台該有的資訊公正性。況且那些人根本沒有去過該店家用餐呢。"
+    "message": "群眾容易被網路媒體或公眾事件的風向影響，進而在店家地標洗負評或是留下帶有情緒性的留言，降低了評論平台該有的資訊公正性。況且那些人根本沒有去過該店家用餐呢。"
   },
   "home.solution.title": {
     "message": "新世代解決之道"
@@ -153,22 +153,22 @@
     "message": "<span>以 <span class=\"foo-highlight-bg\">社群驅動獎勵</span> 為主的評論生態系</span>"
   },
   "home.explain.point1.content": {
-    "message": "<p>通過持續貢獻有用和真實的用餐體驗，你就可以獲得經驗值並增加你的獎勵收入。你同時也是個驗證者，可以透過驗證其他人的評論是否有幫助來累積經驗值。</p><p>Fooday 以獨特的代幣經濟系統獎勵使用者的貢獻，只要擁有一台 Fooday 相機 NFT 就可以開始。</p>"
+    "message": "<p>通過持續貢獻有用和真實的用餐體驗，用戶可以獲得經驗值並增加獎勵收入。與此同時，你也將是個驗證者，可以透過驗證其他人的店家資訊是否正確、評論是否有幫助，幫助整個美食社群成長。</p><p>Fooday 以獨特的代幣經濟系統獎勵使用者的貢獻，只要擁有一台 Fooday 相機 NFT 就可以開始。</p>"
   },
   "home.explain.point2.title": {
     "message": "<span>獨特的 <span class=\"foo-highlight-bg\">貢獻聲望值</span> 代幣經濟</span>"
   },
   "home.explain.point2.explainSectionContent.fudos": {
-    "message": "<p>擁有 Fooday 相機 NFT 後，你就可以開始賺取 Fudos - 貢獻的信用點數。隨著累積的 FUDOS，你的個人等級就會自動升等。個人等級越高，結算時所轉換的 $FOOD 加成就會越多喔！</p>"
+    "message": "<p>擁有 Fooday 相機 NFT 後，你就可以開始賺取 Fudos - 貢獻的信用點數。隨著累積 FUDOS，評論家等級就會自動升等。而評論家等級越高，結算時所轉換的 $FOOD 加成就會越多喔！</p>"
   },
   "home.explain.point2.explainSectionContent.food": {
-    "message": "<p>每過一段時間，你就會有機會將你的 Fudos 轉換為 $FOOD，可用於在平台內升級你的相機 NFT 獲得全方位更高的貢獻成效 ，亦可在交易所進行其他交易。</p>"
+    "message": "<p>每過一段時間，官方會定期將 Fudos 轉換為 $FOOD，$FOOD 可在 Fooday 中升級相機 NFT ，讓用戶逐漸獲得更高的貢獻成效 ，除此之外，亦可在交易所進行其他交易。</p>"
   },
   "home.explain.point3.title": {
     "message": "<span>以 <span class=\"foo-highlight-bg\">NFTs</span> 來維持評論品質及資訊正確性 </span>"
   },
   "home.explain.point3.content": {
-    "message": "<p>Fooday 的相機 NFT 有多種用途。不同的相機配置可以展現你在 Fooday 社群裡的個性和美食喜好。此外，NFT 還可以作為抵押品，確保每位使用者的誠信並維護平台的完整性。任何被發現違反平台準則的使用者都可能因此影響其 NFT。</p>"
+    "message": "<p>Fooday 的相機 NFT 有多種用途。不同的相機配置可以展現你在 Fooday 社群裡的個性和美食喜好。此外，NFT 還可以作為抵押品，確保每位使用者的誠信並維護平台的完整性。任何被發現違反平台準則的使用者，都可能會影響自己的 NFT 權利。</p>"
   },
   "home.explain.point4.title": {
     "message": "<span><span class=\"foo-highlight-bg\">去中心化</span> 驗證技術</span>"
@@ -177,7 +177,7 @@
     "message": "<p>Fooday 的平台還具有去中心化驗證系統 - 每位使用者都同時是評論者及驗證者，確保所有評論和餐廳資訊都是真實和公正。這有助於為其他美食探索者提供可靠和準確的美食資訊。</p>"
   },
   "home.explain.result.desc": {
-    "message": "<p>透過這些解決方案，Fooday 的核心價值在為美食愛好者提供更值得信賴及準確的即時資訊，幫助他們探索最佳的美食體驗，並在此過程中與志趣相投的人建立聯繫，成為互助且透明的健康社群平台。</p>"
+    "message": "<p>透過這些解決方案，Fooday 能為美食愛好者提供更值得信賴及準確的即時資訊，幫助他們探索最佳的美食體驗，並在此過程中與志趣相投的人建立聯繫，成為互助且透明的健康社群平台，而這正是 Fooday 想創造的核心價值。</p>"
   },
   "home.explain.result.point1": {
     "message": "真實的"
@@ -201,7 +201,7 @@
     "message": "團隊成員"
   },
   "home.team.desc": {
-    "message": "認識 Fooday 背後才華橫溢、充滿激情的團隊成員們吧！他們致力於徹底改變餐廳評論生態並共同努力將 Fooday 帶入生活。"
+    "message": "認識 Fooday 背後才華橫溢、充滿激情的團隊成員們吧！他們致力於徹底改變餐廳評論生態，並共同努力將 Fooday 帶入生活。"
   },
   "theme.ErrorPageContent.title": {
     "message": "此頁面無法載入",
