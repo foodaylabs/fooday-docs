@@ -146,6 +146,12 @@
   "home.explain.point2.title": {
     "message": "<span>Unique <span class=\"foo-highlight-bg\">Reputation-Coin</span> tokenomics</span>"
   },
+  "home.explain.point2.explainSectionContent.fudos": {
+    "message": "<p>Once you have a Fooday Camera NFT, you can start earning Fudos, a credit point, for your contributions to the platform. Your account will be leveled up automatically as your FUDOS accumulate. The higher your level, the more your settled $FOOD will be multiplied.</p>"
+  },
+  "home.explain.point2.explainSectionContent.food": {
+    "message": "<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>"
+  },
   "home.explain.point3.title": {
     "message": "<span>Use of <span class=\"foo-highlight-bg\">NFTs</span> to Prevent Fraud or Malicious Behaviors</span>"
   },
