@@ -20,7 +20,12 @@ export default function Home() {
                 message: ' A community-driven platform rewarding everyone for contributing helpful food information.',
               })}
             />
-            <title>{translate({ id: 'home.pageTitle', message: 'Fooday | Get Paid for Your Opinions' })}</title>
+            <title>
+              {translate({
+                id: 'home.pageTitle',
+                message: 'Fooday | Foodies United: Leave Reviews, Earn Rewards',
+              })}
+            </title>
           </Head>
           <HomeView />
         </Layout>
