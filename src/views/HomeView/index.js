@@ -14,7 +14,7 @@ import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 
 const clamHolderStageStartTime = new Date('2023-02-17T00:00:00Z')
-const publicStageStartTime = new Date('2023-02-2T00:00:00Z')
+const publicStageStartTime = new Date('2023-02-20T00:00:00Z')
 
 export default function HomeView() {
   const emailRef = useRef()
