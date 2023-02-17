@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'FooDay',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.pnpg',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://fooday.app',
