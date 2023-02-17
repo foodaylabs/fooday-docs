@@ -41,6 +41,9 @@
   "waitlistForm.igNoteContent": {
     "message": "<p>Feel free to provide your Instagram account. If you are eligible as an influencing foodie, you may receive a camera NFT <span class=\"foo-hightlight-blue\">for free!</span></p>"
   },
+  "home.waitlist.cancel": {
+    "message": "Cancel"
+  },
   "home.waitlist.submit": {
     "message": "Join Waitlist"
   },

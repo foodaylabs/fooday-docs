@@ -76,7 +76,7 @@ export default function WaitlistForm({ defaultEmail, defaultIg, showCloseButton 
         <div className={styles.buttons}>
           {showCloseButton && (
             <button className={styles.waitlistCloseButton} onClick={closePopup}>
-              <Translate id="home.waitlist.submit">Cancel</Translate>
+              <Translate id="home.waitlist.cancel">Cancel</Translate>
             </button>
           )}
           <button type="submit" className={styles.waitlistSubmitButton}>
