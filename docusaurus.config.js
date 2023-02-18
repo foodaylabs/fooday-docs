@@ -32,6 +32,15 @@ const config = {
     locales: ['en', 'zh-Hant'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-MNGXDNM',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -51,9 +60,6 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        googleTagManager: {
-          containerId: 'GTM-MNGXDNM',
         },
       }),
     ],
