@@ -482,5 +482,8 @@
   },
   "home.explain.title": {
     "message": "How it Works"
+  },
+  "home.ecosystem.image": {
+    "message": "/img/ecosystem.jpeg"
   }
 }

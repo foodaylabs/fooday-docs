@@ -1,4 +1,4 @@
-import Translate from '@docusaurus/Translate'
+import Translate, { translate } from '@docusaurus/Translate'
 import clsx from 'clsx'
 import React from 'react'
 import styles from './footer.module.css'
@@ -16,12 +16,15 @@ export default function Footer() {
           </span>
           <div>
             <img src="/img/tokens.svg" />
-            <p>
-              <Translate id="footer.about.content">
-                Providing Foodies with an incentive to share their experiences and helping to create a trustworthy and
-                accurate source of information for food lovers everywhere.
-              </Translate>
-            </p>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: 'footer.about.content',
+                  message:
+                    'providing Fooides with an incentive to share their experiences and helping to create a trustworthy and accurate source of information for food lovers everywhere.',
+                }),
+              }}
+            />
           </div>
         </div>
         <div className={styles.media}>

@@ -113,7 +113,7 @@ export default function HomeView() {
         <h1 className={clsx(styles.problemsTitle, 'foo-home-section-title')}>
           <Translate id="home.problems.title">Problems</Translate>
         </h1>
-        <img className={styles.problemsImage} src="/img/problems.svg" />
+        <img className={styles.problemsImage} src="/img/problems.png" />
         <div className={styles.problemsContent}>
           <section className={styles.problemsSection}>
             <FakeReviewsIcon className={styles.problemsSectionIcon} />
@@ -200,7 +200,7 @@ export default function HomeView() {
         </h1>
 
         <section className={clsx(styles.explainSection1, styles.explainSectionStyle1)}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works1.svg" />
+          <img className={styles.explainSectionImage} src="/img/how-it-works1.png" />
           <h1
             className={styles.explainSectionTitle}
             dangerouslySetInnerHTML={{
@@ -222,7 +222,7 @@ export default function HomeView() {
         </section>
 
         <section className={styles.explainSectionStyle2}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works2.svg" />
+          <img className={styles.explainSectionImage} src="/img/how-it-works2.png" />
           <h1
             className={styles.explainSectionTitle}
             dangerouslySetInnerHTML={{
@@ -288,7 +288,7 @@ export default function HomeView() {
         </section>
 
         <section className={styles.explainSectionStyle2}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works4.svg" />
+          <img className={styles.explainSectionImage} src="/img/how-it-works4.png" />
           <h1
             className={styles.explainSectionTitle}
             dangerouslySetInnerHTML={{
@@ -346,7 +346,7 @@ export default function HomeView() {
               </li>
             </ul>
           </div>
-          <img className={styles.explainSectionImage} src="/img/how-it-result.svg" />
+          <img className={styles.explainSectionImage} src="/img/how-it-result.png" />
           <div className={styles.explainLearnMore}>
             <button>
               <Translate id="home.explain.result.learnMore">Learn more about the tokenomics</Translate>
@@ -359,7 +359,12 @@ export default function HomeView() {
         <h1 className={clsx('foo-home-section-title', styles.ecosystemTitle)}>
           <Translate id="home.ecosystem.title">Ecosystem</Translate>
         </h1>
-        <img src="/img/ecosystem.svg" />
+        <img
+          src={translate({
+            id: 'home.ecosystem.image',
+            message: '/img/ecosystem.jpeg',
+          })}
+        />
       </section>
 
       <section className={clsx(styles.team, 'foo-home-container')}>
