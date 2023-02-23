@@ -34,8 +34,20 @@ export default function Home() {
                 message: 'Fooday | Foodies United: Leave Reviews, Earn Rewards',
               })}
             </title>
-            <link rel="preload" href="/fonts/NeverMind-Regular.woff2" as="font" type="font/woff2" crossorigin />
-            <link rel="preload" href="/fonts/NeverMind-Medium.woff2" as="font" type="font/woff2" crossorigin />
+            <link
+              rel="preload"
+              href="/fonts/NeverMind/NeverMind-Regular.woff2"
+              as="font"
+              type="font/woff2"
+              crossorigin
+            />
+            <link
+              rel="preload"
+              href="/fonts/NeverMind/NeverMind-Medium.woff2"
+              as="font"
+              type="font/woff2"
+              crossorigin
+            />
             <link rel="preload" href={heroImageUrl} as="image" type="image/webp" media="(min-width: 769px)" />
             <link rel="stylesheet" href="/fonts/NeverMind/stylesheet.css" as="style" />
           </Head>
