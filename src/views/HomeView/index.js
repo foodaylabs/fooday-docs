@@ -14,6 +14,7 @@ import FoodIcon from '@site/static/img/food.svg'
 import FudosIcon from '@site/static/img/fudos.svg'
 import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
+import Marquee from 'react-fast-marquee'
 
 const END_TIME = new Date('2023-03-17T23:59:59.999Z')
 const clamHolderStageStartTime = new Date('2023-02-18T16:00:00Z')
@@ -433,9 +434,19 @@ export default function HomeView() {
       </section>
 
       <section className={styles.waitlist}>
+        <div className={styles.waitlistMarqueeLeft}>
+          <Marquee gradientWidth="0px" speed={5}>
+            BETA CLOSED BETA CLOSED BETA CLOSED BETA CLOSED BETA{' '}
+          </Marquee>
+        </div>
         <div className="foo-home-container">
           <WaitlistForm />
           <img className={styles.waitlistImage} src="/img/bottom-form.svg" />
+        </div>
+        <div className={styles.waitlistMarqueeRight}>
+          <Marquee gradientWidth="0px" speed={5}>
+            BETA CLOSED BETA CLOSED BETA CLOSED BETA CLOSED BETA{' '}
+          </Marquee>
         </div>
       </section>
     </main>
