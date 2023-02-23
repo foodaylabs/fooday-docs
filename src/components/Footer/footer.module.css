@@ -35,6 +35,10 @@
     margin: 0;
 }
 
+.media li, .support li {
+    margin-bottom: 5px;
+}
+
 .media a, .support a {
     color: var(--foo-color-black);
 }
