@@ -161,7 +161,7 @@
 .heroImage {
     position: relative;
     flex: 1 628px;
-    background: center / cover url('/img/hero.png');
+    background: center / cover url('/img/hero.webp');
 }
 
 .heroImage::before {
@@ -377,12 +377,12 @@
     top: 0;
     width: 136.842105%;
     height: 100%;
-    background: center / cover url('/img/solution.png');
+    background: center / cover url('/img/solution.webp');
     z-index: 1;
 }
 
 [lang="zh-Hant"] .solutionImage::after {
-    background-image: url('/img/solution-zh.png');
+    background-image: url('/img/solution-zh.webp');
 }
 
 .solutionContent {
@@ -531,7 +531,7 @@
     right: 0;
     width: 164.912281%;
     height: 100%;
-    background: center / cover url('/img/how-it-works3.png');
+    background: center / cover url('/img/how-it-works3.webp');
 }
 
 .explainSection3Image::before {
@@ -903,7 +903,7 @@
         position: static;
         width: 100%;
         height: 100%;
-        background: center / 100% auto no-repeat url('/img/how-it-works3.png');
+        background: center / 100% auto no-repeat url('/img/how-it-works3.webp');
     }
 
     .explainSection5 {
