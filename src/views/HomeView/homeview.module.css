@@ -441,16 +441,16 @@
 
 .explainSectionStyle1 {
     display: grid;
-    grid-template: "image title"
-                    "image content" / 1fr 1fr;
+    grid-template: "image title" min-content
+                    "image content" 1fr / 1fr 1fr;
     gap: 60px;
 }
 
 .explainSectionStyle2 {
     display: grid;
-    grid-template: "title image"
-                    "content image" / 1fr 1fr;
-    gap: 60px;
+    grid-template: "title image" min-content
+                    "content image" 1fr / 1fr 1fr;
+    gap: 30px 60px;
 }
 
 .explainSectionImage {
