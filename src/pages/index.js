@@ -33,6 +33,9 @@ export default function Home() {
                 message: 'Fooday | Foodies United: Leave Reviews, Earn Rewards',
               })}
             </title>
+            <link rel="preload" href="/fonts/NeverMind-Regular.woff2" as="font" type="font/woff2" crossorigin />
+            <link rel="preload" href="/fonts/NeverMind-Medium.woff2" as="font" type="font/woff2" crossorigin />
+            <link rel="stylesheet" href="/fonts/NeverMind/stylesheet.css" as="style" />
           </Head>
           <HomeView />
         </Layout>
