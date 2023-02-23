@@ -114,7 +114,7 @@ export default function HomeView() {
         <h1 className={clsx(styles.problemsTitle, 'foo-home-section-title')}>
           <Translate id="home.problems.title">Problems</Translate>
         </h1>
-        <img className={styles.problemsImage} src="/img/problems.png" />
+        <img className={styles.problemsImage} src="/img/problems.webp" />
         <div className={styles.problemsContent}>
           <section className={styles.problemsSection}>
             <FakeReviewsIcon className={styles.problemsSectionIcon} />
@@ -201,7 +201,7 @@ export default function HomeView() {
         </h1>
 
         <section className={clsx(styles.explainSection1, styles.explainSectionStyle1)}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works1.png" />
+          <img className={styles.explainSectionImage} src="/img/how-it-works1.webp" />
           <h1
             className={styles.explainSectionTitle}
             dangerouslySetInnerHTML={{
@@ -223,7 +223,7 @@ export default function HomeView() {
         </section>
 
         <section className={styles.explainSectionStyle2}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works2.png" />
+          <img className={styles.explainSectionImage} src="/img/how-it-works2.webp" />
           <h1
             className={styles.explainSectionTitle}
             dangerouslySetInnerHTML={{
@@ -289,7 +289,7 @@ export default function HomeView() {
         </section>
 
         <section className={styles.explainSectionStyle2}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works4.png" />
+          <img className={styles.explainSectionImage} src="/img/how-it-works4.webp" />
           <h1
             className={styles.explainSectionTitle}
             dangerouslySetInnerHTML={{
@@ -347,7 +347,7 @@ export default function HomeView() {
               </li>
             </ul>
           </div>
-          <img className={styles.explainSectionImage} src="/img/how-it-result.png" />
+          <img className={styles.explainSectionImage} src="/img/how-it-result.webp" />
           <div className={styles.explainLearnMore}>
             <button>
               <Translate id="home.explain.result.learnMore">Learn more about the tokenomics</Translate>
@@ -363,7 +363,7 @@ export default function HomeView() {
         <img
           src={translate({
             id: 'home.ecosystem.image',
-            message: '/img/ecosystem.jpeg',
+            message: '/img/ecosystem.webp',
           })}
         />
       </section>
@@ -381,52 +381,52 @@ export default function HomeView() {
         </p>
         <ul className={styles.teamMembers}>
           <li>
-            <img src="/img/avatar-ken.png" />
+            <img src="/img/avatar-ken.webp" />
             <span className={styles.teamMemberName}>Ken</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-appppo.png" />
+            <img src="/img/avatar-appppo.webp" />
             <span className={styles.teamMemberName}>Appppo</span>
             <span className={styles.teamMemberTitle}>Designer</span>
           </li>
           <li>
-            <img src="/img/avatar-ryder.png" />
+            <img src="/img/avatar-ryder.webp" />
             <span className={styles.teamMemberName}>Ryder</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-pyc.png" />
+            <img src="/img/avatar-pyc.webp" />
             <span className={styles.teamMemberName}>PYC</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-millie.png" />
+            <img src="/img/avatar-millie.webp" />
             <span className={styles.teamMemberName}>Millie</span>
             <span className={styles.teamMemberTitle}>Business Strategist</span>
           </li>
           <li>
-            <img src="/img/avatar-jason.png" />
+            <img src="/img/avatar-jason.webp" />
             <span className={styles.teamMemberName}>Jason</span>
             <span className={styles.teamMemberTitle}>Artist</span>
           </li>
           <li>
-            <img src="/img/avatar-malc.png" />
+            <img src="/img/avatar-malc.webp" />
             <span className={styles.teamMemberName}>mALc</span>
             <span className={styles.teamMemberTitle}>Moderator</span>
           </li>
           <li>
-            <img src="/img/avatar-epi.png" />
+            <img src="/img/avatar-epi.webp" />
             <span className={styles.teamMemberName}>Epi</span>
             <span className={styles.teamMemberTitle}>Community Manager</span>
           </li>
           <li>
-            <img src="/img/avatar-abtheo.png" />
+            <img src="/img/avatar-abtheo.webp" />
             <span className={styles.teamMemberName}>Abtheo</span>
             <span className={styles.teamMemberTitle}>Data Engineer</span>
           </li>
           <li>
-            <img src="/img/avatar-dungaboo.png" />
+            <img src="/img/avatar-dungaboo.webp" />
             <span className={styles.teamMemberName}>Dungaboo</span>
             <span className={styles.teamMemberTitle}>Marketing</span>
           </li>

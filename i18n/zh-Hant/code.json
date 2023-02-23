@@ -475,6 +475,6 @@
     "description": "The title of the tag list page"
   },
   "home.ecosystem.image": {
-    "message": "/img/ecosystem-zh.jpeg"
+    "message": "/img/ecosystem-zh.webp"
   }
 }
