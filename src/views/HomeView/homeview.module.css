@@ -441,16 +441,16 @@
 
 .explainSectionStyle1 {
     display: grid;
-    grid-template: "image title"
-                    "image content" / 1fr 1fr;
+    grid-template: "image title" min-content
+                    "image content" 1fr / 1fr 1fr;
     gap: 60px;
 }
 
 .explainSectionStyle2 {
     display: grid;
-    grid-template: "title image"
-                    "content image" / 1fr 1fr;
-    gap: 60px;
+    grid-template: "title image" min-content
+                    "content image" 1fr / 1fr 1fr;
+    gap: 30px 60px;
 }
 
 .explainSectionImage {
@@ -670,7 +670,37 @@
 }
 
 .waitlist {
+    position: relative;
     background: var(--foo-color-light-100);
+    overflow: hidden;
+}
+
+.waitlistMarqueeLeft {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transform: rotateX(180deg) rotateZ(-90deg) translateY(2rem);
+    transform-origin: 0 0;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    font-size: 2rem;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+}
+
+.waitlistMarqueeRight {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transform: rotateZ(270deg) translateY(-4.8rem);
+    transform-origin: 100% 0;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    font-size: 2rem;
+    aspect-ratio: 1 / 1;
+    height: 100%;
 }
 
 .waitlist :global(.foo-home-container) {
@@ -909,5 +939,13 @@
 
     .explain {
         overflow: hidden;
+    }
+
+    .waitlistMarqueeRight, .waitlistMarqueeLeft {
+        position: static;
+        aspect-ratio: unset;
+        height: 2.8rem;
+        transform: unset;
+        width: 100%;
     }
 }
