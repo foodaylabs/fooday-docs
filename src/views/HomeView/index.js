@@ -381,52 +381,52 @@ export default function HomeView() {
         </p>
         <ul className={styles.teamMembers}>
           <li>
-            <img src="/img/avatar-ken.webp" />
+            <img src="/img/avatar-ken.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Ken</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-appppo.webp" />
+            <img src="/img/avatar-appppo.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Appppo</span>
             <span className={styles.teamMemberTitle}>Designer</span>
           </li>
           <li>
-            <img src="/img/avatar-ryder.webp" />
+            <img src="/img/avatar-ryder.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Ryder</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-pyc.webp" />
+            <img src="/img/avatar-pyc.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>PYC</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-millie.webp" />
+            <img src="/img/avatar-millie.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Millie</span>
             <span className={styles.teamMemberTitle}>Business Strategist</span>
           </li>
           <li>
-            <img src="/img/avatar-jason.webp" />
+            <img src="/img/avatar-jason.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Jason</span>
             <span className={styles.teamMemberTitle}>Artist</span>
           </li>
           <li>
-            <img src="/img/avatar-malc.webp" />
+            <img src="/img/avatar-malc.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>mALc</span>
             <span className={styles.teamMemberTitle}>Moderator</span>
           </li>
           <li>
-            <img src="/img/avatar-epi.webp" />
+            <img src="/img/avatar-epi.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Epi</span>
             <span className={styles.teamMemberTitle}>Community Manager</span>
           </li>
           <li>
-            <img src="/img/avatar-abtheo.webp" />
+            <img src="/img/avatar-abtheo.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Abtheo</span>
             <span className={styles.teamMemberTitle}>Data Engineer</span>
           </li>
           <li>
-            <img src="/img/avatar-dungaboo.webp" />
+            <img src="/img/avatar-dungaboo.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Dungaboo</span>
             <span className={styles.teamMemberTitle}>Marketing</span>
           </li>

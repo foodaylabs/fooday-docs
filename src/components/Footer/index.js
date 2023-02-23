@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
       </nav>
       <div className={styles.copyright}>
-        <img src="/img/logo-without-icon.svg" />
+        <img width="65" height="30" src="/img/logo-without-icon.svg" />
         <span>@ 2023. All rights reserved</span>
       </div>
     </footer>
