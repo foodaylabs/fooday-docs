@@ -102,7 +102,7 @@
     "message": "CLAM Holder Presale Coming In"
   },
   "home.countdown.counterNote": {
-    "message": "<p>CLAM Holder Sale: March 4th 2023, 0:00 ~ March 11th 2023, 0:00 UTC<br />Public Sale: March 11th 2023, 0:00 ~ April 10th 2023, 0:00 UTC</p>"
+    "message": "<p>CLAM Holder Sale: {start} ~ {end}</p>"
   },
   "home.problems.title": {
     "message": "Problems"
