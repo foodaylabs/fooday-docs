@@ -16,7 +16,7 @@ import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 import Marquee from 'react-fast-marquee'
 
-const END_TIME = new Date('2023-03-17T23:59:59.999Z')
+const END_TIME = new Date('2023-04-17T23:59:59.999Z')
 const clamHolderStageStartTime = new Date('2023-02-18T16:00:00Z')
 // const publicStageStartTime = new Date('2023-02-25T16:00:00Z')
 
