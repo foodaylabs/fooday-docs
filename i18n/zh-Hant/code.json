@@ -102,7 +102,7 @@
     "message": "CLAM 持有者早鳥預售開啟倒數"
   },
   "home.countdown.counterNote": {
-    "message": "<p>CLAM 持有者早鳥預售: 3/4 2023, 0:00 ~ 3/11 2023, 0:00 UTC<br />公開早鳥預售: 3/11 2023, 0:00 ~ 4/10 2023, 0:00 UTC</p>"
+    "message": "<p>CLAM 持有者早鳥預售: {start} ~ {end}</p>"
   },
   "home.problems.title": {
     "message": "為何會想要開發 Fooday?"

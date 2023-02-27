@@ -16,9 +16,9 @@ import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 import Marquee from 'react-fast-marquee'
 
-const END_TIME = new Date('2023-03-17T23:59:59.999Z')
+const END_TIME = new Date('2023-04-17T23:59:59.999Z')
 const clamHolderStageStartTime = new Date('2023-02-18T16:00:00Z')
-const publicStageStartTime = new Date('2023-02-25T16:00:00Z')
+// const publicStageStartTime = new Date('2023-02-25T16:00:00Z')
 
 export default function HomeView() {
   const emailRef = useRef()
@@ -96,14 +96,20 @@ export default function HomeView() {
                 <Translate id="home.countdown.publicStage.counterTitle">CLAM Holder Presale Coming In</Translate>
               )}
             </h2>
-            <Countdown targetDate={afterClamStage ? publicStageStartTime : clamHolderStageStartTime} />
+            <Countdown targetDate={END_TIME} />
             <div
               className={styles.countdownCounterNote}
               dangerouslySetInnerHTML={{
-                __html: translate({
-                  id: 'home.countdown.counterNote',
-                  message: `<p>CLAM Holder Sale: ${clamHolderStageStartTime.toLocaleString()} ~ ${publicStageStartTime.toLocaleString()}<br />Public Sale: ${publicStageStartTime.toLocaleString()} ~ ${END_TIME.toLocaleString()}</p>`,
-                }),
+                __html: translate(
+                  {
+                    id: 'home.countdown.counterNote',
+                    message: `<p>CLAM Holder Sale: {start} ~ {end}<br /></p>`,
+                  },
+                  {
+                    start: clamHolderStageStartTime.toLocaleString(),
+                    end: END_TIME.toLocaleString(),
+                  }
+                ),
               }}
             ></div>
           </div>
