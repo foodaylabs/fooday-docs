@@ -680,13 +680,14 @@
     top: 0;
     bottom: 0;
     left: 0;
-    transform: rotateX(180deg) rotateZ(-90deg) translateY(2rem);
+    transform: rotateX(0) rotateZ(-90deg) translateY(2rem) translateX(-100%);
     transform-origin: 0 0;
     height: 2.8rem;
     line-height: 2.8rem;
     font-size: 2rem;
     aspect-ratio: 1 / 1;
     height: 100%;
+    letter-spacing: 0.5rem;
 }
 
 .waitlistMarqueeRight {
@@ -701,6 +702,7 @@
     font-size: 2rem;
     aspect-ratio: 1 / 1;
     height: 100%;
+    letter-spacing: 0.5rem;
 }
 
 .waitlist :global(.foo-home-container) {
