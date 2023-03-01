@@ -8,7 +8,6 @@ import ArrowImage from './arrow.svg'
 export default function LanguageSwitcher() {
   const { siteConfig } = useDocusaurusContext()
   const location = useLocation()
-  const history = useHistory()
   const locale = getCurrentLocale(location.pathname, siteConfig.i18n.defaultLocale, siteConfig.i18n.locales)
   const selectValue = locale === siteConfig.i18n.defaultLocale ? '' : locale
 
@@ -18,7 +17,7 @@ export default function LanguageSwitcher() {
       siteConfig.baseUrl.length + location.pathname.length
     )
     const pathnameWithLocale = `/${e.target.value}/${pathname}`.replace(/^\/+/, '/')
-    history.push(pathnameWithLocale)
+    window.location.href = pathnameWithLocale
   }
 
   return (
