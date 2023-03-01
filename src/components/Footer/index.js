@@ -4,6 +4,7 @@ import React from 'react'
 import styles from './footer.module.css'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Link from '@docusaurus/Link'
+import LanguageSwitcher from '@site/src/components/LanguageSwitcher'
 
 export default function Footer() {
   const { siteConfig } = useDocusaurusContext()
@@ -61,8 +62,9 @@ export default function Footer() {
         </div>
       </nav>
       <div className={styles.copyright}>
-        <img width="65" height="30" src="/img/logo-without-icon.svg" />
-        <span>@ 2023. All rights reserved</span>
+        <img className={styles.copyrightLogo} width="65" height="30" src="/img/logo-without-icon.svg" />
+        <span className={styles.copyrightText}>@ 2023. All rights reserved</span>
+        <LanguageSwitcher />
       </div>
     </footer>
   )

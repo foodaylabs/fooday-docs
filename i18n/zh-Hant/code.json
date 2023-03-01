@@ -1,4 +1,10 @@
 {
+  "locale.en": {
+    "message": "English"
+  },
+  "locale.zh-Hant": {
+    "message": "繁體中文"
+  },
   "countdown.days": {
     "message": "天"
   },
