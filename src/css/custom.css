@@ -100,9 +100,10 @@ body, input, button {
   display: flex;
   align-items: center !important;
   justify-content: center !important;
-  z-index: 1;
+  z-index: 20;
   opacity: 0;
   transition: opacity .2s ease-in-out;
+  background: rgba(0, 0, 0, .5) !important;
 }
 
 .ReactModal__Overlay--after-open{
@@ -115,7 +116,7 @@ body, input, button {
 
 .ReactModal__Content {
   position: static !important;
-  border: 1px var(--foo-color-dark-200) solid !important;
+  border: none !important;
   border-radius: 40px !important;
   max-width: 650px;
   width: calc(100% - 30px);

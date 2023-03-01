@@ -12,9 +12,15 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Link from '@docusaurus/Link'
 
 export default function WaitlistFormPopup() {
-  const { succeeded, popupOpened, email, ig } = useWaitlist()
+  const { succeeded, popupOpened, email, ig, closePopup } = useWaitlist()
   return (
-    <ReactModal closeTimeoutMS={200} isOpen={popupOpened}>
+    <ReactModal
+      shouldCloseOnOverlayClick
+      shouldCloseOnEsc
+      closeTimeoutMS={200}
+      isOpen={popupOpened}
+      onRequestClose={closePopup}
+    >
       <div className={styles.container}>
         {!succeeded && <WaitlistForm defaultEmail={email} defaultIg={ig} showCloseButton />}
         {succeeded && <SucceededView />}
