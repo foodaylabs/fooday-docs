@@ -1,7 +1,23 @@
+.container {
+    height: 80px;
+}
+
 .topbar {
     height: 80px;
     box-sizing: border-box;
     padding: 15px 40px;
+    top: -80px;
+}
+
+.topbarFixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--foo-color-white);
+    z-index: 10;
+    box-shadow: 0 0 2.4rem rgba(0, 0, 0, .1);
+    transition: all .2s;
 }
 
 .topbarInner {
