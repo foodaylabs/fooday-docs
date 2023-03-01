@@ -688,6 +688,7 @@
     aspect-ratio: 1 / 1;
     height: 100%;
     letter-spacing: 0.5rem;
+    pointer-events: none;
 }
 
 .waitlistMarqueeRight {
@@ -703,6 +704,7 @@
     aspect-ratio: 1 / 1;
     height: 100%;
     letter-spacing: 0.5rem;
+    pointer-events: none;
 }
 
 .waitlist :global(.foo-home-container) {
