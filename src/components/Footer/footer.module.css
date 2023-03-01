@@ -10,6 +10,14 @@
     height: 132px;
 }
 
+.copyrightLogo {
+    flex: 0;
+}
+
+.copyrightText {
+    flex: 1;
+}
+
 .nav {
     height: 190px;
     display: flex;
