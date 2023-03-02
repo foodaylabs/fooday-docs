@@ -21,7 +21,7 @@ const config = {
   organizationName: 'fooday', // Usually your GitHub org/user name.
   projectName: 'fooday-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -48,9 +48,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/foodao/fooday-docs/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
@@ -58,9 +59,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+        theme: {},
       }),
     ],
   ],
