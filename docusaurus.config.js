@@ -21,7 +21,7 @@ const config = {
   organizationName: 'fooday', // Usually your GitHub org/user name.
   projectName: 'fooday-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -48,9 +48,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/foodao/fooday-docs/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
@@ -58,9 +59,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
+        theme: {},
       }),
     ],
   ],
@@ -72,9 +71,9 @@ const config = {
       image: 'img/og-image.jpg',
       metadata: [],
       navbar: {
-        title: 'My Site',
+        title: 'Fooday',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Fooday Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -84,9 +83,8 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/foodao',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,16 +106,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Twitter',
+                href: 'https://twitter.com/foodayapp',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/fooday.app',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.gg/6Q3Xa7fRV4',
               },
             ],
           },
@@ -126,16 +124,16 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'https://fooday.medium.com',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/fooday',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Fooday, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

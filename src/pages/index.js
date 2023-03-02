@@ -49,6 +49,7 @@ export default function Home() {
               crossorigin
             />
             <link rel="preload" href={heroImageUrl} as="image" type="image/webp" media="(min-width: 769px)" />
+            <link rel="stylesheet" href="/landing.css" as="style" />
             <link rel="stylesheet" href="/fonts/NeverMind/stylesheet.css" as="style" />
           </Head>
           <HomeView />
