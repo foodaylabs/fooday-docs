@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfooday_docs=self.webpackChunkfooday_docs||[]).push([[4880],{5606:o=>{o.exports=JSON.parse('{"permalink":"/zh-Hant/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
