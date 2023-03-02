@@ -15,6 +15,7 @@ import FudosIcon from '@site/static/img/fudos.svg'
 import WaitlistForm from '@site/src/components/WaitlistForm'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 import Marquee from 'react-fast-marquee'
+import Link from '@docusaurus/Link'
 
 const END_TIME = new Date('2023-04-17T23:59:59.999Z')
 const clamHolderStageStartTime = new Date('2023-02-18T16:00:00Z')
@@ -355,9 +356,9 @@ export default function HomeView() {
           </div>
           <img className={styles.explainSectionImage} src="/img/how-it-result.webp" />
           <div className={styles.explainLearnMore}>
-            <button>
+            <Link to="https://fooday.medium.com/foodays-tokenomics-eat-share-and-earn-dd67f95ce398">
               <Translate id="home.explain.result.learnMore">Learn more about the tokenomics</Translate>
-            </button>
+            </Link>
           </div>
         </section>
       </section>
