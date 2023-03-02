@@ -40,6 +40,9 @@ html {
 
 body, input, button {
   font-family: var(--foo-font-family) !important;
+}
+
+body {
   font-size: 1.6rem !important;
   line-height: 2.2rem !important;
   color: var(--foo-color-black) !important;

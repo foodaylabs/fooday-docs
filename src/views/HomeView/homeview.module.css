@@ -586,7 +586,7 @@
     justify-content: center;
 }
 
-.explainLearnMore button {
+.explainLearnMore a {
     border-radius: 8px;
     background: var(--foo-color-black);
     color: var(--foo-color-white);
@@ -599,7 +599,7 @@
     cursor: pointer;
 }
 
-.explainLearnMore button::after {
+.explainLearnMore a::after {
     content: '';
     display: inline-block;
     width: 12px;
