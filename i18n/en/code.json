@@ -96,7 +96,7 @@
     "message": "Presale"
   },
   "home.countdown.clamStage.desc": {
-    "message": "$CLAM Holder Only! <span class=\"foo-highlight\">7 Days Limited Offer</span>"
+    "message": "$CLAM Holder Only!"
   },
   "home.countdown.clamStage.callToAction": {
     "message": "Check out now"
