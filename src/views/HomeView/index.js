@@ -427,11 +427,6 @@ export default function HomeView() {
             <span className={styles.teamMemberTitle}>Community Manager</span>
           </li>
           <li>
-            <img src="/img/avatar-abtheo.webp" width="170" height="170" />
-            <span className={styles.teamMemberName}>Abtheo</span>
-            <span className={styles.teamMemberTitle}>Data Engineer</span>
-          </li>
-          <li>
             <img src="/img/avatar-dungaboo.webp" width="170" height="170" />
             <span className={styles.teamMemberName}>Dungaboo</span>
             <span className={styles.teamMemberTitle}>Marketing</span>
