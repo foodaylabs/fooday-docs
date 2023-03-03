@@ -48,6 +48,14 @@ export default function Home() {
               type="font/woff2"
               crossorigin
             />
+            <link
+              rel="preload"
+              href="/fonts/NeverMind/NeverMind-DemiBold.woff2"
+              as="font"
+              type="font/woff2"
+              crossorigin
+            />
+            <link rel="preload" href="/fonts/NeverMind/NeverMind-Thin.woff2" as="font" type="font/woff2" crossorigin />
             <link rel="preload" href={heroImageUrl} as="image" type="image/webp" media="(min-width: 769px)" />
             <link rel="stylesheet" href="/landing.css" as="style" />
             <link rel="stylesheet" href="/fonts/NeverMind/stylesheet.css" as="style" />
