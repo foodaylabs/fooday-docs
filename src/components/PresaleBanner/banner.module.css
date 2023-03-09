@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    background: var(--foo-color-black);
+}
+
+.banner {
+    padding: 57px 60px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    cursor: pointer;
+    color: var(--foo-color-white);
+    text-decoration: none;
+}
+
+.banner:hover {
+    color: var(--foo-color-white);
+}
+
+.banner:first-child {
+    border-right: 1px var(--foo-color-dark-200) solid;
+}
+
+.bannerImage {
+    width: 198px;
+    height: 198px;
+}
+
+.bannerContent {
+    flex: 1;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.bannerTitle {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5.2rem;
+}
+
+.bannerHighlight {
+    color: var(--foo-color-main-yellow);
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (max-width: 1280px) {
+    .banner {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .bannerImage {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: row;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .banner:first-child {
+        border-right: none;
+        border-bottom: 1px var(--foo-color-dark-200) solid;
+    }
+
+    .bannerImage {
+        width: 80px;
+        height: 80px;
+    }
+
+    .bannerContent {
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+
+    .bannerTitle {
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+
+    .button {
+        width: 40px;
+        height: 40px;
+    }
+}

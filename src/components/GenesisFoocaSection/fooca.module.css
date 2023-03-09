@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: center / auto 100% url('./bg.webp') repeat;
+    height: 801px;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: var(--foo-color-white);
+    border-radius: 20px;
+    padding: 80px 120px;
+    max-width: 770px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.main::before {
+    position: absolute;
+    z-index: 0;
+    right: 50px;
+    top: -33px;
+    content: '';
+    background: center / cover url('./floating-fooca-box1.webp');
+    width: 181px;
+    height: 181px;
+}
+
+.main::after {
+    position: absolute;
+    z-index: 0;
+    left: 60px;
+    bottom: -45px;
+    content: '';
+    background: center / cover url('./floating-fooca-box2.webp');
+    width: 202px;
+    height: 202px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button a {
+    border-radius: 8px;
+    background: var(--foo-color-black);
+    color: var(--foo-color-white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.button a::after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url('/img/arrow-right.svg');
+    margin-left: 14px;
+}
+
+.status {
+    color: var(--foo-color-mint);
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+    font-size: 4rem;
+    line-height: 5.2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    max-width: 468px;
+}
+
+.content {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto;
+        padding: 64px 0;
+    }
+
+    .main {
+        width: calc(100% - 30px);
+        padding: 20px;
+    }
+
+    .main::before {
+        width: 107px;
+        height: 107px;
+        top: -40px;
+        right: -15px;
+    }
+
+    .main::after {
+        width: 120px;
+        height: 120px;
+        bottom: -56px;
+        left: -15px;
+    }
+
+    .button a {
+        padding: 15px 25px;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .status, .content {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+
+    .title {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+}

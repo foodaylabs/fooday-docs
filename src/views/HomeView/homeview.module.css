@@ -430,6 +430,9 @@
 .explain {
     padding: 100px 0;
     counter-reset: number;
+}
+
+.explainContainer {
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -478,6 +481,12 @@
     color: var(--foo-color-black);
 }
 
+.explainSectionContentFudos, .explainSectionContentFood {
+    background: var(--foo-color-light-100);
+    border-radius: 20px;
+    padding: 30px;
+}
+
 .explainSectionContentFudos {
     position: relative;
 }
@@ -520,28 +529,13 @@
     gap: 30px 123px;
 }
 
-.explainSection3Image {
-    position: relative;
-}
-
-.explainSection3Image::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 164.912281%;
-    height: 100%;
-    background: center / cover url('/img/how-it-works3.webp');
-}
-
-.explainSection3Image::before {
-    content: '';
-    display: block;
-    padding-bottom: 81.0526316%;
-}
-
 .explainSection3 {
     gap: 30px 60px;
+}
+
+.explainSection5Container {
+    background: var(--foo-color-light-100);
+    padding: 171px 0 98px;
 }
 
 .explainSection5 {
@@ -552,7 +546,10 @@
 }
 
 .explainArrow {
-    margin: 0 auto -10px;
+    position: relative;
+    text-align: center;
+    margin-bottom: -81px;
+    z-index: 1;
 }
 
 .explainSection5 .explainSectionContent {
@@ -584,6 +581,7 @@
     grid-area: btn;
     display: flex;
     justify-content: center;
+    margin-top: 80px;
 }
 
 .explainLearnMore a {
@@ -597,6 +595,7 @@
     outline: none;
     padding: 15px 50px;
     cursor: pointer;
+    text-align: center;
 }
 
 .explainLearnMore a::after {
@@ -654,6 +653,12 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;;
+}
+
+.teamMembers img {
+    max-width: 170px;
+    max-height: 170px;
+    aspect-ratio: 1 / 1;
 }
 
 .teamMemberName {
@@ -894,22 +899,6 @@
         line-height: 2.1rem;
     }
 
-    .explainSection3Image {
-        height: 200px;
-    }
-
-    .explainSection3Image::before {
-        display: none;
-    }
-
-    .explainSection3Image::after {
-        display: block;
-        position: static;
-        width: 100%;
-        height: 100%;
-        background: center / 100% auto no-repeat url('/img/how-it-works3.webp');
-    }
-
     .explainSection5 {
         display: flex;
         flex-direction: column;
@@ -918,7 +907,7 @@
 
     .team {
         border-radius: 0;
-        margin: 0;
+        margin: 0 !important;
         padding: 60px 15px;
     }
 
@@ -951,5 +940,13 @@
         height: 2.8rem;
         transform: unset;
         width: 100%;
+    }
+
+    .explainLearnMore {
+        margin-top: 0;
+    }
+
+    .explainLearnMore a {
+        padding: 15px 25px;
     }
 }
