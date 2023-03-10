@@ -491,5 +491,74 @@
   },
   "home.ecosystem.image": {
     "message": "/img/ecosystem.webp"
+  },
+  "camera.title": {
+    "message": "Introducing FOOCA Camera"
+  },
+  "camera.main.title": {
+    "message": "The Essential NFT for Contributing and Earning on Fooday"
+  },
+  "camera.main.content": {
+    "message": "<p>Ready to become a top contributor on Fooday? You'll need a Fooca Camera. </p><p></p>This essential NFT serves as proof of your dedication to the platform and allows you to earn FUDOS for your contributions. Fooca Camera is the key to unlocking exclusive rewards and elevating your status within the Fooday community.</p>"
+  },
+  "camera.attrs.title": {
+    "message": "Fooca Camera is a unique NFT that has four attributes: Computing, Quality, Battery, and Luck. These attributes affect the performance of the FODUS that you earn when contributing to the Fooday platform."
+  },
+  "camera.attrs.computing.title": {
+    "message": "Computing"
+  },
+  "camera.attrs.computing.content": {
+    "message": "Computing is related to the amount of Energy points that users consume when performing a contribution action on Fooday. The more Computing score the Fooca has, the less Energy points the user will consume when performing such an action."
+  },
+  "camera.attrs.quality.title": {
+    "message": "Quality"
+  },
+  "camera.attrs.quality.content": {
+    "message": "Quality determines the amount of FODUS that users can earn per contribution. The higher the Quality score of the Fooca, the more FODUS the user can collect per contribution. This attribute incentivizes users to provide high-quality contributions to the platform, as they will be rewarded more for their efforts."
+  },
+  "camera.attrs.battery.title": {
+    "message": "Battery"
+  },
+  "camera.attrs.battery.content": {
+    "message": "Battery represents the amount of power a Fooca has to contribute on Fooday. The Battery value decreases with each contribution, affecting the Fooca's contribution activity and rewards. Users need to monitor their Fooca's Battery and \"recharge\" it using $FOOD tokens to maximize rewards and contribute to Fooday community."
+  },
+  "camera.attrs.luck.title": {
+    "message": "Luck"
+  },
+  "camera.attrs.luck.content": {
+    "message": "Luck, is related to the chance of users getting a loot box when they equip their Fooca to contribute. The higher the Luck score of the Fooca, the higher the chance the user will get a loot box, which can contain rewards such as additional FODUS or other rare items."
+  },
+  "camera.learnMore": {
+    "message": "Learn more about Fooca Camera"
+  },
+  "genesis.status": {
+    "message": "Comming soon"
+  },
+  "genesis.title": {
+    "message": "Limited Presale: Genesis Fooca Box"
+  },
+  "genesis.content": {
+    "message": "Join the limited presale for the Genesis Fooca Box - only 300 boxes available in the first phase. Each box contains a randomly generated Genesis Fooca NFT, the earliest and most precious generation of Fooca."
+  },
+  "genesis.button": {
+    "message": "Comming soom"
+  },
+  "presaleBanner.pfood.title": {
+    "message": "$pFOOD Presale"
+  },
+  "presaleBanner.pfood.content": {
+    "message": "Buy $pFOOD with exclusively early price. Reach the mint tier to get the free Fooca Camera airdrops!"
+  },
+  "presaleBanner.pfood.note": {
+    "message": "Until Apr 10, 2023 0+00 UTC"
+  },
+  "presaleBanner.fooca.title": {
+    "message": "Fooca Box Presale"
+  },
+  "presaleBanner.fooca.content": {
+    "message": "Mint the limited supply of genesis Fooca Box. Only 300 available in the first phase, so act fast!"
+  },
+  "presaleBanner.fooca.note": {
+    "message": "Comming soom"
   }
 }
