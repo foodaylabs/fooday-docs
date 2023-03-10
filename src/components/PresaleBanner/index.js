@@ -9,7 +9,7 @@ import Link from '@docusaurus/Link'
 export default function PresaleBanner() {
   return (
     <section className={styles.container}>
-      <Link className={styles.banner}>
+      <Link className={styles.banner} to="https://presale.fooday.app/">
         <div className={styles.bannerContent}>
           <h2 className={styles.bannerTitle}>
             <Translate id="presaleBanner.pfood.title">$pFOOD Presale</Translate>
@@ -37,11 +37,13 @@ export default function PresaleBanner() {
             </Translate>
           </p>
           <p className={styles.bannerHighlight}>
-            <Translate id="presaleBanner.fooca.note">Mint now</Translate>
+            <Translate id="presaleBanner.fooca.note">Comming soom</Translate>
           </p>
         </div>
         <FoocaImage className={styles.bannerImage} />
+        {/*
         <ButtonImage className={styles.button} />
+        */}
       </Link>
     </section>
   )

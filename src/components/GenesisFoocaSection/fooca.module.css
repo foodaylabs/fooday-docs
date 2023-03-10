@@ -77,7 +77,8 @@
 }
 
 .status {
-    color: var(--foo-color-mint);
+    /*color: var(--foo-color-mint);*/
+    color: #A1A7BA;
     margin-bottom: 10px;
     font-size: 1.8rem;
     line-height: 2.4rem;
