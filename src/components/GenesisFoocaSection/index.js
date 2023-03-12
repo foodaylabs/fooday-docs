@@ -8,7 +8,7 @@ export default function GenesisFoocaSection() {
     <section className={styles.container}>
       <div className={styles.main}>
         <span className={styles.status}>
-          <Translate id="genesis.status">Comming soon</Translate>
+          <Translate id="genesis.status">Coming soon</Translate>
         </span>
         <h1 className={styles.title}>
           <Translate id="genesis.title">Limited Presale: Genesis Fooca Box</Translate>
@@ -21,7 +21,7 @@ export default function GenesisFoocaSection() {
         </p>
         <div className={styles.button}>
           <Link>
-            <Translate id="genesis.button">Comming soom</Translate>
+            <Translate id="genesis.button">Coming soon</Translate>
           </Link>
         </div>
       </div>

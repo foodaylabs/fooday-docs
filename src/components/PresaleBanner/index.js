@@ -37,7 +37,7 @@ export default function PresaleBanner() {
             </Translate>
           </p>
           <p className={styles.bannerHighlight}>
-            <Translate id="presaleBanner.fooca.note">Comming soom</Translate>
+            <Translate id="presaleBanner.fooca.note">Coming soon</Translate>
           </p>
         </div>
         <FoocaImage className={styles.bannerImage} />

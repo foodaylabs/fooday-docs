@@ -532,7 +532,7 @@
     "message": "Learn more about Fooca Camera"
   },
   "genesis.status": {
-    "message": "Comming soon"
+    "message": "Coming soon"
   },
   "genesis.title": {
     "message": "Limited Presale: Genesis Fooca Box"
@@ -541,7 +541,7 @@
     "message": "Join the limited presale for the Genesis Fooca Box - only 300 boxes available in the first phase. Each box contains a randomly generated Genesis Fooca NFT, the earliest and most precious generation of Fooca."
   },
   "genesis.button": {
-    "message": "Comming soom"
+    "message": "Coming soon"
   },
   "presaleBanner.pfood.title": {
     "message": "$pFOOD Presale"
@@ -559,6 +559,6 @@
     "message": "Mint the limited supply of genesis Fooca Box. Only 300 available in the first phase, so act fast!"
   },
   "presaleBanner.fooca.note": {
-    "message": "Comming soom"
+    "message": "Coming soon"
   }
 }
