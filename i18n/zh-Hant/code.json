@@ -113,7 +113,7 @@
   "home.problems.title": {
     "message": "為何會想要開發 Fooday?"
   },
-   "home.problems.problem1.title": {
+  "home.problems.problem1.title": {
     "message": "免費商品換 5 星假評論"
   },
   "home.problems.problem1.desc": {
@@ -484,72 +484,72 @@
     "message": "/img/ecosystem-zh.webp"
   },
   "camera.title": {
-    "message": "Introducing FOOCA Camera"
+    "message": "Fooca 相機"
   },
   "camera.main.title": {
-    "message": "The Essential NFT for Contributing and Earning on Fooday"
+    "message": "在 Fooday 中邊吃邊賺，就要靠 Fooca 相機 NFT 了。"
   },
   "camera.main.content": {
-    "message": "<p>Ready to become a top contributor on Fooday? You'll need a Fooca Camera. </p><p></p>This essential NFT serves as proof of your dedication to the platform and allows you to earn FUDOS for your contributions. Fooca Camera is the key to unlocking exclusive rewards and elevating your status within the Fooday community.</p>"
+    "message": "<p>準備好成為 Fooday 的頂級美食家了嗎？你需要一台 Fooca 相機！</p><p></p>擁有一台 Fooca 相機除了可以讓你邊吃邊賺取 FUDOS，更能作為貢獻平台的證明，維持高品質的 Fooday 評論社區。</p>"
   },
   "camera.attrs.title": {
-    "message": "Fooca Camera is a unique NFT that has four attributes: Computing, Quality, Battery, and Luck. These attributes affect the performance of the FODUS that you earn when contributing to the Fooday platform."
+    "message": "每台 Fooca 相機是都是獨一無二的，其擁有 4 種屬性：: 計算、品質、電池和幸運. 這些屬性會影響你在 Fooday 平台邊吃邊賺貢獻所得到的 FUDOS。"
   },
   "camera.attrs.computing.title": {
-    "message": "Computing"
+    "message": "計算"
   },
   "camera.attrs.computing.content": {
-    "message": "Computing is related to the amount of Energy points that users consume when performing a contribution action on Fooday. The more Computing score the Fooca has, the less Energy points the user will consume when performing such an action."
+    "message": "計算會影響美食家在 Fooday 中貢獻所消耗的能量，計算屬性越高，消耗的能量越低。"
   },
   "camera.attrs.quality.title": {
-    "message": "Quality"
+    "message": "品質"
   },
   "camera.attrs.quality.content": {
-    "message": "Quality determines the amount of FODUS that users can earn per contribution. The higher the Quality score of the Fooca, the more FODUS the user can collect per contribution. This attribute incentivizes users to provide high-quality contributions to the platform, as they will be rewarded more for their efforts."
+    "message": "品質決定了美食家每個貢獻能得到的 FUDOS ，品質越高的相機，每個貢獻能得到更高的 FUDOS。"
   },
   "camera.attrs.battery.title": {
-    "message": "Battery"
+    "message": "電池"
   },
   "camera.attrs.battery.content": {
-    "message": "Battery represents the amount of power a Fooca has to contribute on Fooday. The Battery value decreases with each contribution, affecting the Fooca's contribution activity and rewards. Users need to monitor their Fooca's Battery and \"recharge\" it using $FOOD tokens to maximize rewards and contribute to Fooday community."
+    "message": "電池屬性決定了相機可使用的次數，若屬性較低，就需要更頻繁地充電。Foodies 可以選擇升級此屬性，以增加其電池續航力，延長 Fooca 的使用壽命。高電池續航力意味著，Fooca 相機可使用次數更多、效率更高。換句話說，可以獲得更多 Fudos。"
   },
   "camera.attrs.luck.title": {
-    "message": "Luck"
+    "message": "幸運"
   },
   "camera.attrs.luck.content": {
-    "message": "Luck, is related to the chance of users getting a loot box when they equip their Fooca to contribute. The higher the Luck score of the Fooca, the higher the chance the user will get a loot box, which can contain rewards such as additional FODUS or other rare items."
+    "message": "幸運影響了用戶裝備 Fooca 進行貢獻時，獲得寶箱的機會。 Fooca 的幸運屬性越高，獲得寶箱的機會就越大。而寶箱可能包含額外的 Fudos 或其他稀有物品等獎勵。"
   },
   "camera.learnMore": {
-    "message": "Learn more about Fooca Camera"
+    "message": "瞭解更多 Fooca 相機"
   },
   "genesis.status": {
     "message": "Coming soon"
   },
   "genesis.title": {
-    "message": "Limited Presale: Genesis Fooca Box"
+    "message": "限量販售: 創世 Fooca 相機盒"
   },
   "genesis.content": {
-    "message": "Join the limited presale for the Genesis Fooca Box - only 300 boxes available in the first phase. Each box contains a randomly generated Genesis Fooca NFT, the earliest and most precious generation of Fooca."
+    "message": "加入我們的 Fooca 創世相機限量販售 - 第一波僅限 300 盒！每個相機盒都包含了一個隨機生成的 Fooca 創世相機 NFT ，只有現在才有機會取得 Fooca 創世相機。"
   },
   "genesis.button": {
     "message": "Coming soon"
   },
   "presaleBanner.pfood.title": {
-    "message": "$pFOOD Presale"
+    "message": "$pFOOD 預售"
   },
   "presaleBanner.pfood.content": {
-    "message": "Buy $pFOOD with exclusively early price. Reach the mint tier to get the free Fooca Camera airdrops!"
+    "message": "現在加入以最優惠的價格購買 $FOOD 。滿額更可獲得指定數量的創世 Fooca 相機盒！"
   },
   "presaleBanner.pfood.note": {
-    "message": "Until Apr 10, 2023 0+00 UTC"
+    "message": "直到 Apr 10, 2023 0+00 UTC"
   },
   "presaleBanner.fooca.title": {
-    "message": "Fooca Box Presale"
+    "message": "Fooca 相機盒"
   },
   "presaleBanner.fooca.content": {
-    "message": "Mint the limited supply of genesis Fooca Box. Only 300 available in the first phase, so act fast!"
+    "message": "即將開放鑄造創世 Fooca 相機盒，第一波限量 300 個，要搶要快！"
   },
   "presaleBanner.fooca.note": {
-    "message": "Coming soon"
+    "message": "敬請期待"
   }
 }
