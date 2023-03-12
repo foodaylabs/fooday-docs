@@ -1,7 +1,6 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import clsx from 'clsx'
 import React, { useRef } from 'react'
-import Countdown from '@site/src/components/Countdown'
 import styles from './homeview.module.css'
 import BoomIcon from '@site/static/img/problems-bomb.svg'
 import FakeReviewsIcon from '@site/static/img/problems-fake-reviews.svg'
@@ -13,11 +12,13 @@ import SolutionWritingIcon from '@site/static/img/solution-writing.svg'
 import FoodIcon from '@site/static/img/food.svg'
 import FudosIcon from '@site/static/img/fudos.svg'
 import WaitlistForm from '@site/src/components/WaitlistForm'
+import PresaleBanner from '@site/src/components/PresaleBanner'
+import CameraSection from '@site/src/components/CameraSection'
+import GenesisFoocaSection from '@site/src/components/GenesisFoocaSection'
 import { useWaitlist } from '@site/src/contexts/Waitlist'
 import Marquee from 'react-fast-marquee'
 import Link from '@docusaurus/Link'
 
-const END_TIME = new Date('2023-04-17T23:59:59.999Z')
 const clamHolderStageStartTime = new Date('2023-02-18T16:00:00Z')
 // const publicStageStartTime = new Date('2023-02-25T16:00:00Z')
 
@@ -68,54 +69,7 @@ export default function HomeView() {
         </div>
       </section>
 
-      <section className={styles.countdown}>
-        <div className="foo-home-container">
-          <div className={styles.countdownDiscount} />
-          <div className={styles.countdownDesc}>
-            <h1 className="foo-home-section-title">
-              <Translate id="home.dountdown.clamStage.title">Presale</Translate>
-            </h1>
-            <p
-              className={styles.countdownDescText}
-              dangerouslySetInnerHTML={{
-                __html: translate({
-                  id: 'home.countdown.clamStage.desc',
-                  message: '$CLAM Holder Only! <span class="foo-highlight">7 Days Limited Offer</span>',
-                }),
-              }}
-            ></p>
-            <p className={styles.countdownCallToAction}>
-              <Translate id="home.countdown.clamStage.callToAction">Check out now</Translate>
-            </p>
-          </div>
-          <div className={styles.countdownCounter}>
-            <h2 className={styles.countdownCounterTitle}>
-              {afterClamStage && (
-                <Translate id="home.countdown.clamHolderStage.counterTitle">CLAM Holder Presale Countdown</Translate>
-              )}
-              {!afterClamStage && (
-                <Translate id="home.countdown.publicStage.counterTitle">CLAM Holder Presale Coming In</Translate>
-              )}
-            </h2>
-            <Countdown targetDate={END_TIME} />
-            <div
-              className={styles.countdownCounterNote}
-              dangerouslySetInnerHTML={{
-                __html: translate(
-                  {
-                    id: 'home.countdown.counterNote',
-                    message: `<p>CLAM Holder Sale: {start} ~ {end}<br /></p>`,
-                  },
-                  {
-                    start: clamHolderStageStartTime.toLocaleString(),
-                    end: END_TIME.toLocaleString(),
-                  }
-                ),
-              }}
-            ></div>
-          </div>
-        </div>
-      </section>
+      <PresaleBanner />
 
       <section className={clsx(styles.problems, 'foo-home-container')}>
         <h1 className={clsx(styles.problemsTitle, 'foo-home-section-title')}>
@@ -202,166 +156,175 @@ export default function HomeView() {
         </div>
       </section>
 
-      <section className={clsx(styles.explain, 'foo-home-container')}>
-        <h1 className={clsx('foo-home-section-title', styles.explainTitle)}>
-          <Translate id="home.explain.title">How it Works</Translate>
-        </h1>
+      <section className={styles.explain}>
+        <div className={clsx(styles.explainContainer, 'foo-home-container')}>
+          <h1 className={clsx('foo-home-section-title', styles.explainTitle)}>
+            <Translate id="home.explain.title">How it Works</Translate>
+          </h1>
 
-        <section className={clsx(styles.explainSection1, styles.explainSectionStyle1)}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works1.webp" />
-          <h1
-            className={styles.explainSectionTitle}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point1.title',
-                message: `<span>A <span class="foo-highlight-bg">Contribution-Based</span> Incentive System</span>`,
-              }),
-            }}
-          />
-          <div
-            className={styles.explainSectionContent}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point1.content',
-                message: `<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p><p>Fooday’s unique tokenomics system rewards users for their contributions, but only after they have acquired an NFT.</p>`,
-              }),
-            }}
-          />
-        </section>
-
-        <section className={styles.explainSectionStyle2}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works2.webp" />
-          <h1
-            className={styles.explainSectionTitle}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point2.title',
-                message: `<span>Unique <span class="foo-highlight-bg">Reputation-Coin</span> tokenomics</span>`,
-              }),
-            }}
-          />
-          <div className={styles.explainSectionContent}>
-            <div className={styles.explainSectionContentFudos}>
-              <h2 className={styles.explainSectionContentTitle}>
-                <FudosIcon width={60} height={60} /> FUDOS
-              </h2>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: translate({
-                    id: 'home.explain.point2.explainSectionContent.fudos',
-                    message:
-                      '<p>Once you have a Fooday Camera NFT, you can start earning Fudos, a credit point, for your contributions to the platform. Your account will be leveled up automatically as your FUDOS accumulate. The higher your level, the more your settled $FOOD will be multiplied.</p>',
-                  }),
-                }}
-              ></div>
-            </div>
-            <div className={styles.explainSectionContentFood}>
-              <h2 className={styles.explainSectionContentTitle}>
-                <FoodIcon width={60} height={60} />
-                $FOOD
-              </h2>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: translate({
-                    id: 'home.explain.point2.explainSectionContent.food',
-                    message:
-                      '<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>',
-                  }),
-                }}
-              />
-            </div>
-          </div>
-        </section>
-
-        <section className={clsx(styles.explainSection3, styles.explainSectionStyle1)}>
-          <div className={clsx(styles.explainSection3Image, styles.explainSectionImage)} />
-          <h1
-            className={styles.explainSectionTitle}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point3.title',
-                message: `<span>Use of <span class="foo-highlight-bg">NFTs</span> to Prevent Fraud or Malicious Behaviors</span>`,
-              }),
-            }}
-          />
-          <div
-            className={styles.explainSectionContent}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point3.content',
-                message: `<p>Fooday’s NFTs serve multiple purposes. They can be used to level-up and customize a Foodie’s profile, showcasing their personality and expertise within the community. Additionally, NFTs can also serve as collateral, ensuring that Foodies act in good faith and maintain the integrity of the platform. Any Foodie found to be in violation of the platform’s guidelines may have their NFT impacted as a result.</p>`,
-              }),
-            }}
-          />
-        </section>
-
-        <section className={styles.explainSectionStyle2}>
-          <img className={styles.explainSectionImage} src="/img/how-it-works4.webp" />
-          <h1
-            className={styles.explainSectionTitle}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point4.title',
-                message: `<span>A <span class="foo-highlight-bg">P2P</span> Validation System</span>`,
-              }),
-            }}
-          />
-          <div
-            className={styles.explainSectionContent}
-            dangerouslySetInnerHTML={{
-              __html: translate({
-                id: 'home.explain.point4.content',
-                message: `<p>Fooday’s platform also features a verification system and p2p validation, ensuring that all reviews are genuine and unbiased. This helps to provide Foodies with trustworthy and accurate information.</p>`,
-              }),
-            }}
-          />
-        </section>
-
-        <div className={styles.explainArrow}>
-          <img src="/img/explain-deco-arrow-down.svg" />
-        </div>
-
-        <section className={styles.explainSection5}>
-          <div className={styles.explainSectionContent}>
-            <div
+          <section className={clsx(styles.explainSection1, styles.explainSectionStyle1)}>
+            <img className={styles.explainSectionImage} src="/img/how-it-works1.webp" />
+            <h1
+              className={styles.explainSectionTitle}
               dangerouslySetInnerHTML={{
                 __html: translate({
-                  id: 'home.explain.result.desc',
-                  message: `<p>By offering these solutions, Fooday aims to provide Foodies with a more trustworthy and accurate source of information, helping them discover the best food experiences and connect with like-minded individuals in the process.</p>`,
+                  id: 'home.explain.point1.title',
+                  message: `<span>A <span class="foo-highlight-bg">Contribution-Based</span> Incentive System</span>`,
                 }),
               }}
             />
-            <ul>
-              <li>
-                <span className="foo-underline">
-                  <Translate id="home.explain.result.point1">Truthful</Translate>
-                </span>
-              </li>
-              <li>
-                <span className="foo-underline">
-                  <Translate id="home.explain.result.point2">Helpful</Translate>
-                </span>
-              </li>
-              <li>
-                <span className="foo-underline">
-                  <Translate id="home.explain.result.point3">Validated</Translate>
-                </span>
-              </li>
-              <li>
-                <span className="foo-underline">
-                  <Translate id="home.explain.result.point4">Rewardable</Translate>
-                </span>
-              </li>
-            </ul>
+            <div
+              className={styles.explainSectionContent}
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: 'home.explain.point1.content',
+                  message: `<p>By continuing to contribute helpful and authentic dining experiences, you will earn experience points and increase your income, and you also act as a validator by verifying whether other people's comments are helpful.</p><p>Fooday’s unique tokenomics system rewards users for their contributions, but only after they have acquired an NFT.</p>`,
+                }),
+              }}
+            />
+          </section>
+
+          <section className={styles.explainSectionStyle2}>
+            <img className={styles.explainSectionImage} src="/img/how-it-works2.webp" />
+            <h1
+              className={styles.explainSectionTitle}
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: 'home.explain.point2.title',
+                  message: `<span>Unique <span class="foo-highlight-bg">Reputation-Coin</span> tokenomics</span>`,
+                }),
+              }}
+            />
+            <div className={styles.explainSectionContent}>
+              <div className={styles.explainSectionContentFudos}>
+                <h2 className={styles.explainSectionContentTitle}>
+                  <FudosIcon width={60} height={60} /> FUDOS
+                </h2>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: translate({
+                      id: 'home.explain.point2.explainSectionContent.fudos',
+                      message:
+                        '<p>Once you have a Fooday Camera NFT, you can start earning Fudos, a credit point, for your contributions to the platform. Your account will be leveled up automatically as your FUDOS accumulate. The higher your level, the more your settled $FOOD will be multiplied.</p>',
+                    }),
+                  }}
+                ></div>
+              </div>
+              <div className={styles.explainSectionContentFood}>
+                <h2 className={styles.explainSectionContentTitle}>
+                  <FoodIcon width={60} height={60} />
+                  $FOOD
+                </h2>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: translate({
+                      id: 'home.explain.point2.explainSectionContent.food',
+                      message:
+                        '<p>After a certain period, You will have the opportunity to convert your Fudos into $Food, which can be used to upgrade your camera NFT within the platform or traded on cryptocurrency exchanges.</p>',
+                    }),
+                  }}
+                />
+              </div>
+            </div>
+          </section>
+
+          <section className={styles.explainSectionStyle1}>
+            <img className={styles.explainSectionImage} src="/img/how-it-works4.webp" />
+            <h1
+              className={styles.explainSectionTitle}
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: 'home.explain.point4.title',
+                  message: `<span>A <span class="foo-highlight-bg">P2P</span> Validation System</span>`,
+                }),
+              }}
+            />
+            <div
+              className={styles.explainSectionContent}
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: 'home.explain.point4.content',
+                  message: `<p>Fooday’s platform also features a verification system and p2p validation, ensuring that all reviews are genuine and unbiased. This helps to provide Foodies with trustworthy and accurate information.</p>`,
+                }),
+              }}
+            />
+          </section>
+
+          <section className={clsx(styles.explainSection3, styles.explainSectionStyle2)}>
+            <img className={styles.explainSectionImage} src="/img/how-it-works3.webp" />
+            <div className={clsx(styles.explainSection3Image, styles.explainSectionImage)} />
+            <h1
+              className={styles.explainSectionTitle}
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: 'home.explain.point3.title',
+                  message: `<span>Use of <span class="foo-highlight-bg">NFTs</span> to Prevent Fraud or Malicious Behaviors</span>`,
+                }),
+              }}
+            />
+            <div
+              className={styles.explainSectionContent}
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: 'home.explain.point3.content',
+                  message: `<p>Fooday’s NFTs serve multiple purposes. They can be used to level-up and customize a Foodie’s profile, showcasing their personality and expertise within the community. Additionally, NFTs can also serve as collateral, ensuring that Foodies act in good faith and maintain the integrity of the platform. Any Foodie found to be in violation of the platform’s guidelines may have their NFT impacted as a result.</p>`,
+                }),
+              }}
+            />
+          </section>
+
+          <div className={styles.explainArrow}>
+            <img src="/img/explain-deco-arrow-down.svg" />
           </div>
-          <img className={styles.explainSectionImage} src="/img/how-it-result.webp" />
-          <div className={styles.explainLearnMore}>
-            <Link to="https://fooday.medium.com/foodays-tokenomics-eat-share-and-earn-dd67f95ce398">
-              <Translate id="home.explain.result.learnMore">Learn more about the tokenomics</Translate>
-            </Link>
+        </div>
+
+        <section className={styles.explainSection5Container}>
+          <div className={clsx(styles.explainSection5, 'foo-home-container')}>
+            <div className={styles.explainSectionContent}>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: translate({
+                    id: 'home.explain.result.desc',
+                    message: `<p>By offering these solutions, Fooday aims to provide Foodies with a more trustworthy and accurate source of information, helping them discover the best food experiences and connect with like-minded individuals in the process.</p>`,
+                  }),
+                }}
+              />
+              <ul>
+                <li>
+                  <span className="foo-underline">
+                    <Translate id="home.explain.result.point1">Truthful</Translate>
+                  </span>
+                </li>
+                <li>
+                  <span className="foo-underline">
+                    <Translate id="home.explain.result.point2">Helpful</Translate>
+                  </span>
+                </li>
+                <li>
+                  <span className="foo-underline">
+                    <Translate id="home.explain.result.point3">Validated</Translate>
+                  </span>
+                </li>
+                <li>
+                  <span className="foo-underline">
+                    <Translate id="home.explain.result.point4">Rewardable</Translate>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <img className={styles.explainSectionImage} src="/img/how-it-result.webp" />
+            <div className={styles.explainLearnMore}>
+              <Link to="https://fooday.medium.com/foodays-tokenomics-eat-share-and-earn-dd67f95ce398">
+                <Translate id="home.explain.result.learnMore">Learn more about the tokenomics</Translate>
+              </Link>
+            </div>
           </div>
         </section>
       </section>
+
+      <CameraSection />
+
+      <GenesisFoocaSection />
 
       <section className={clsx(styles.ecosystem, 'foo-home-container')}>
         <h1 className={clsx('foo-home-section-title', styles.ecosystemTitle)}>
@@ -388,47 +351,47 @@ export default function HomeView() {
         </p>
         <ul className={styles.teamMembers}>
           <li>
-            <img src="/img/avatar-ken.webp" width="170" height="170" />
+            <img src="/img/avatar-ken.webp" />
             <span className={styles.teamMemberName}>Ken</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-appppo.webp" width="170" height="170" />
+            <img src="/img/avatar-appppo.webp" />
             <span className={styles.teamMemberName}>Appppo</span>
             <span className={styles.teamMemberTitle}>Designer</span>
           </li>
           <li>
-            <img src="/img/avatar-ryder.webp" width="170" height="170" />
+            <img src="/img/avatar-ryder.webp" />
             <span className={styles.teamMemberName}>Ryder</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-pyc.webp" width="170" height="170" />
+            <img src="/img/avatar-pyc.webp" />
             <span className={styles.teamMemberName}>PYC</span>
             <span className={styles.teamMemberTitle}>Developer</span>
           </li>
           <li>
-            <img src="/img/avatar-millie.webp" width="170" height="170" />
+            <img src="/img/avatar-millie.webp" />
             <span className={styles.teamMemberName}>Millie</span>
             <span className={styles.teamMemberTitle}>Business Strategist</span>
           </li>
           <li>
-            <img src="/img/avatar-jason.webp" width="170" height="170" />
+            <img src="/img/avatar-jason.webp" />
             <span className={styles.teamMemberName}>Jason</span>
             <span className={styles.teamMemberTitle}>Artist</span>
           </li>
           <li>
-            <img src="/img/avatar-malc.webp" width="170" height="170" />
+            <img src="/img/avatar-malc.webp" />
             <span className={styles.teamMemberName}>mALc</span>
             <span className={styles.teamMemberTitle}>Moderator</span>
           </li>
           <li>
-            <img src="/img/avatar-epi.webp" width="170" height="170" />
+            <img src="/img/avatar-epi.webp" />
             <span className={styles.teamMemberName}>Epi</span>
             <span className={styles.teamMemberTitle}>Community Manager</span>
           </li>
           <li>
-            <img src="/img/avatar-dungaboo.webp" width="170" height="170" />
+            <img src="/img/avatar-dungaboo.webp" />
             <span className={styles.teamMemberName}>Dungaboo</span>
             <span className={styles.teamMemberTitle}>Marketing</span>
           </li>
@@ -451,6 +414,8 @@ export default function HomeView() {
           </Marquee>
         </div>
       </section>
+
+      <PresaleBanner />
     </main>
   )
 }

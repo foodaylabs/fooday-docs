@@ -113,7 +113,7 @@
   "home.problems.title": {
     "message": "為何會想要開發 Fooday?"
   },
-   "home.problems.problem1.title": {
+  "home.problems.problem1.title": {
     "message": "免費商品換 5 星假評論"
   },
   "home.problems.problem1.desc": {
@@ -482,5 +482,74 @@
   },
   "home.ecosystem.image": {
     "message": "/img/ecosystem-zh.webp"
+  },
+  "camera.title": {
+    "message": "Fooca 相機"
+  },
+  "camera.main.title": {
+    "message": "在 Fooday 中邊吃邊賺，就要靠 Fooca 相機 NFT 了。"
+  },
+  "camera.main.content": {
+    "message": "<p>準備好成為 Fooday 的頂級美食家了嗎？你需要一台 Fooca 相機！</p><p></p>擁有一台 Fooca 相機除了可以讓你邊吃邊賺取 FUDOS，更能作為貢獻平台的證明，維持高品質的 Fooday 評論社區。</p>"
+  },
+  "camera.attrs.title": {
+    "message": "每台 Fooca 相機是都是獨一無二的，其擁有 4 種屬性：: 計算、品質、電池和幸運. 這些屬性會影響你在 Fooday 平台邊吃邊賺貢獻所得到的 FUDOS。"
+  },
+  "camera.attrs.computing.title": {
+    "message": "計算"
+  },
+  "camera.attrs.computing.content": {
+    "message": "計算會影響美食家在 Fooday 中貢獻所消耗的能量，計算屬性越高，消耗的能量越低。"
+  },
+  "camera.attrs.quality.title": {
+    "message": "品質"
+  },
+  "camera.attrs.quality.content": {
+    "message": "品質決定了美食家每個貢獻能得到的 FUDOS ，品質越高的相機，每個貢獻能得到更高的 FUDOS。"
+  },
+  "camera.attrs.battery.title": {
+    "message": "電池"
+  },
+  "camera.attrs.battery.content": {
+    "message": "電池屬性決定了相機可使用的次數，若屬性較低，就需要更頻繁地充電。Foodies 可以選擇升級此屬性，以增加其電池續航力，延長 Fooca 的使用壽命。高電池續航力意味著，Fooca 相機可使用次數更多、效率更高。換句話說，可以獲得更多 Fudos。"
+  },
+  "camera.attrs.luck.title": {
+    "message": "幸運"
+  },
+  "camera.attrs.luck.content": {
+    "message": "幸運影響了用戶裝備 Fooca 進行貢獻時，獲得寶箱的機會。 Fooca 的幸運屬性越高，獲得寶箱的機會就越大。而寶箱可能包含額外的 Fudos 或其他稀有物品等獎勵。"
+  },
+  "camera.learnMore": {
+    "message": "瞭解更多 Fooca 相機"
+  },
+  "genesis.status": {
+    "message": "Coming soon"
+  },
+  "genesis.title": {
+    "message": "限量販售: 創世 Fooca 相機盒"
+  },
+  "genesis.content": {
+    "message": "加入我們的 Fooca 創世相機限量販售 - 第一波僅限 300 盒！每個相機盒都包含了一個隨機生成的 Fooca 創世相機 NFT ，只有現在才有機會取得 Fooca 創世相機。"
+  },
+  "genesis.button": {
+    "message": "Coming soon"
+  },
+  "presaleBanner.pfood.title": {
+    "message": "$FOOD 預售"
+  },
+  "presaleBanner.pfood.content": {
+    "message": "現在加入以最優惠的價格購買 $FOOD 。滿額更可獲得指定數量的創世 Fooca 相機盒！"
+  },
+  "presaleBanner.pfood.note": {
+    "message": "直到 Apr 10, 2023 0+00 UTC"
+  },
+  "presaleBanner.fooca.title": {
+    "message": "Fooca 相機盒"
+  },
+  "presaleBanner.fooca.content": {
+    "message": "即將開放鑄造創世 Fooca 相機盒，第一波限量 300 個，要搶要快！"
+  },
+  "presaleBanner.fooca.note": {
+    "message": "敬請期待"
   }
 }

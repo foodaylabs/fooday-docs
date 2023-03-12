@@ -1,0 +1,215 @@
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    overflow: hidden;
+    padding-top: 170px;
+    margin-top: -170px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6rem;
+    text-align: center;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+.main {
+    position: relative;
+    display: grid;
+    grid-template:
+        "image title" auto
+        "image content" 1fr / 1fr 1fr;
+    gap: 30px 132px;
+}
+
+.main::before {
+    position: absolute;
+    top: -170px;
+    left: -240px;
+    content: '';
+    background: center / cover url('./star-yellow.svg');
+    width: 173px;
+    height: 173px;
+    animation: rotating 6s linear infinite;
+}
+
+.main::after {
+    position: absolute;
+    bottom: -60px;
+    right: -240px;
+    content: '';
+    background: center / cover url('./star-green.svg');
+    width: 173px;
+    height: 173px;
+    animation: rotating 8s linear infinite;
+    animation-direction: reverse;
+}
+
+.mainTitle {
+    grid-area: title;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 5.2rem;
+}
+
+.mainImage {
+    grid-area: image;
+    width: 570px;
+    aspect-ratio: 1 / 1;
+}
+
+.mainContent {
+    grid-area: content;
+    color: var(--foo-color-dark-200);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.learnMore {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.learnMore a {
+    border-radius: 8px;
+    background: var(--foo-color-black);
+    color: var(--foo-color-white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.learnMore a::after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url('/img/arrow-right.svg');
+    margin-left: 14px;
+}
+
+.attrsTitle {
+    margin: 100px auto;
+    max-width: 570px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+
+.attrsContent {
+    display: flex;
+    gap: 30px;
+}
+
+.attrsImage {
+    width: 370px;
+    max-height: 498px;
+    aspect-ratio: 370 / 498;
+}
+
+.attrsContentSections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    color: var(--foo-color-dark-200);
+    font-weight: 500;
+}
+
+.attrsSectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: var(--foo-color-black);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 3.8rem;
+        line-height: 4.8rem;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mainTitle {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+        font-weight: 500;
+    }
+
+    .mainContent {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+
+    .main::before, .main::after {
+        width: 98px;
+        height: 98px;
+    }
+
+    .main::before {
+        left: -46px;
+        top: -80px;
+    }
+
+    .main::after {
+        right: -46px;
+        bottom: -60px;
+    }
+
+    .attrsTitle {
+        margin: 60px 0;
+        font-size: 1.6rem;
+        line-height: 21px;
+    }
+
+    .attrsContent {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .attrsContentSections {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+
+    .attrsSectionTitle {
+        font-size: 1.6rem;
+        line-height: 2.1rem
+    }
+
+    .learnMore {
+        margin: 40px 0;
+    }
+
+    .learnMore a {
+        padding: 15px 25px;
+    }
+}
