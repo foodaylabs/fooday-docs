@@ -25,7 +25,6 @@ const clamHolderStageStartTime = new Date('2023-02-18T16:00:00Z')
 export default function HomeView() {
   const emailRef = useRef()
   const waitlist = useWaitlist()
-  const afterClamStage = Date.now() >= clamHolderStageStartTime.getTime()
 
   const openPopup = () => {
     waitlist.openPopup(emailRef.current?.value)
@@ -406,7 +405,7 @@ export default function HomeView() {
         </div>
         <div className="foo-home-container">
           <WaitlistForm />
-          <img className={styles.waitlistImage} src="/img/bottom-form.svg" />
+          <object type="image/svg+xml" className={styles.waitlistImage} data="/img/bottom-form.svg" />
         </div>
         <div className={styles.waitlistMarqueeRight}>
           <Marquee gradientWidth="0px" speed={5}>

@@ -726,14 +726,15 @@
 }
 
 .waitlistContent {
-    flex: 1;
+    flex: 1 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .waitlistImage {
-    flex: 1;
+    flex: 1 50%;
+    max-width: 50%;
 }
 
 @media screen and (max-width: 768px) {

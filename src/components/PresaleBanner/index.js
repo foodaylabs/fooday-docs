@@ -1,8 +1,6 @@
 import Translate from '@docusaurus/Translate'
 import React from 'react'
 import styles from './banner.module.css'
-import FoocaImage from './fooca.svg'
-import PFoodImage from './pfood.svg'
 import ButtonImage from './button.svg'
 import Link from '@docusaurus/Link'
 
@@ -23,7 +21,7 @@ export default function PresaleBanner() {
             <Translate id="presaleBanner.pfood.note">Until Apr 10, 2023 0+00 UTC</Translate>
           </p>
         </div>
-        <PFoodImage className={styles.bannerImage} />
+        <object type="image/svg+xml" data="/img/pfood.svg" className={styles.bannerImage} />
         <ButtonImage className={styles.button} />
       </Link>
       <Link className={styles.banner}>
@@ -40,7 +38,7 @@ export default function PresaleBanner() {
             <Translate id="presaleBanner.fooca.note">Coming soon</Translate>
           </p>
         </div>
-        <FoocaImage className={styles.bannerImage} />
+        <object type="image/svg+xml" data="/img/fooca.svg" className={styles.bannerImage} />
         {/*
         <ButtonImage className={styles.button} />
         */}
