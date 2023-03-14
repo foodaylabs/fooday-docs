@@ -1,11 +1,21 @@
 import Link from '@docusaurus/Link'
 import Translate from '@docusaurus/Translate'
-import React from 'react'
+import React, { useRef, useState, useLayoutEffect } from 'react'
 import styles from './fooca.module.css'
 
 export default function GenesisFoocaSection() {
+  const ref = useRef(null)
+  const [height, setHeight] = useState(0)
+
+  useLayoutEffect(() => {
+    if (ref.current) {
+      const rect = ref.current.getBoundingClientRect()
+      setHeight((rect.width ?? 0) / 3)
+    }
+  }, [])
+
   return (
-    <section className={styles.container}>
+    <section ref={ref} className={styles.container} style={{ '--bg-height': `${height}px` }}>
       <div className={styles.main}>
         <span className={styles.status}>
           <Translate id="genesis.status">Coming soon</Translate>
