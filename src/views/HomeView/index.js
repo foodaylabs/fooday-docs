@@ -399,7 +399,7 @@ export default function HomeView() {
 
       <section className={styles.waitlist}>
         <div className={styles.waitlistMarqueeLeft}>
-          <Marquee gradientWidth="0px" speed={5}>
+          <Marquee gradientWidth="0px" speed={1.6}>
             BETA CLOSED BETA CLOSED BETA CLOSED BETA CLOSED BETA{' '}
           </Marquee>
         </div>
@@ -408,7 +408,7 @@ export default function HomeView() {
           <object type="image/svg+xml" className={styles.waitlistImage} data="/img/bottom-form.svg" />
         </div>
         <div className={styles.waitlistMarqueeRight}>
-          <Marquee gradientWidth="0px" speed={5}>
+          <Marquee gradientWidth="0px" speed={1.6}>
             BETA CLOSED BETA CLOSED BETA CLOSED BETA CLOSED BETA{' '}
           </Marquee>
         </div>
