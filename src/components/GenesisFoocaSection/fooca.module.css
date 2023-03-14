@@ -1,9 +1,28 @@
+@keyframes bg-move {
+    from {
+        background-position:
+            0% 0%,
+            calc(var(--bg-height) * 5) center,
+            0% bottom;
+    }
+    to {
+        background-position:
+            calc(var(--bg-height) * 5) top,
+            0% center,
+            calc(var(--bg-height) * 5) bottom;
+    }
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    background: center / auto 100% url('./bg.webp') repeat;
+    background:
+        top center / auto 33.3333% url('./bg1.webp') repeat-x,
+        center / auto 33.3333% url('./bg2.webp') repeat-x,
+        bottom center / auto 33.3333% url('./bg3.webp') repeat-x;
+    animation: bg-move linear 80s infinite;
     height: 801px;
 }
 
