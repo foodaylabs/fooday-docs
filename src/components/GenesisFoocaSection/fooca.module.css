@@ -69,6 +69,18 @@
     height: 202px;
 }
 
+.container:global(.play-animate) .main::before:global {
+    opacity: 0;
+    animation: fadeInDown 1s ease-in-out forwards;
+    animation-delay: 300ms;
+}
+
+.container:global(.play-animate) .main::after:global {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+    animation-delay: 600ms;
+}
+
 .button {
     text-align: center;
 }
