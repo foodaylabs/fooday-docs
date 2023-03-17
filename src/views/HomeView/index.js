@@ -1,6 +1,6 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import clsx from 'clsx'
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from './homeview.module.css'
 import BoomIcon from '@site/static/img/problems-bomb.svg'
 import FakeReviewsIcon from '@site/static/img/problems-fake-reviews.svg'
@@ -29,6 +29,29 @@ export default function HomeView() {
   const openPopup = () => {
     waitlist.openPopup(emailRef.current?.value)
   }
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      function (entries) {
+        const target = entries[0].target
+        if (entries[0].isIntersecting === true) {
+          target.classList.add('play-animate')
+        } else {
+          target.classList.remove('play-animate')
+        }
+      },
+      { threshold: [0] }
+    )
+    const elements = document.querySelectorAll('.animated-section')
+    Array.prototype.forEach.call(elements, element => {
+      observer.observe(element)
+    })
+    return () => {
+      Array.prototype.forEach.call(elements, element => {
+        observer.unobserve(element)
+      })
+    }
+  }, [])
 
   return (
     <main>
@@ -70,13 +93,13 @@ export default function HomeView() {
 
       <PresaleBanner />
 
-      <section className={clsx(styles.problems, 'foo-home-container')}>
-        <h1 className={clsx(styles.problemsTitle, 'foo-home-section-title')}>
+      <section className={clsx(styles.problems, 'foo-home-container', 'animated-section')}>
+        <h1 className={clsx(styles.problemsTitle, 'foo-home-section-title', 'animated-text')}>
           <Translate id="home.problems.title">Problems</Translate>
         </h1>
-        <img className={styles.problemsImage} src="/img/problems.webp" />
+        <img className={clsx(styles.problemsImage, 'animated-text')} src="/img/problems.webp" />
         <div className={styles.problemsContent}>
-          <section className={styles.problemsSection}>
+          <section className={clsx(styles.problemsSection, 'animated-text', 'animation-delay-500')}>
             <FakeReviewsIcon className={styles.problemsSectionIcon} />
             <h1 className={styles.problemsSectionTitle}>
               <Translate id="home.problems.problem1.title">Fake 5-star Reviews</Translate>
@@ -88,7 +111,7 @@ export default function HomeView() {
               </Translate>
             </p>
           </section>
-          <section className={styles.problemsSection}>
+          <section className={clsx(styles.problemsSection, 'animated-text', 'animation-delay-1000')}>
             <NoIncentiveIcon className={styles.problemsSectionIcon} />
             <h1 className={styles.problemsSectionTitle}>
               <Translate id="home.problems.problem2.title">No Incentive to Leave Reviews</Translate>
@@ -100,7 +123,7 @@ export default function HomeView() {
               </Translate>
             </p>
           </section>
-          <section className={styles.problemsSection}>
+          <section className={clsx(styles.problemsSection, 'animated-text', 'animation-delay-1500')}>
             <BoomIcon className={styles.problemsSectionIcon} />
             <h1 className={styles.problemsSectionTitle}>
               <Translate id="home.problems.problem3.title">Review Bombs by Media Framing</Translate>
@@ -115,9 +138,9 @@ export default function HomeView() {
         </div>
       </section>
 
-      <section className={styles.solution}>
+      <section className={clsx(styles.solution, 'animated-section')}>
         <div className="foo-home-container">
-          <h1 className={clsx(styles.solutionTitle, 'foo-home-section-title')}>
+          <h1 className={clsx(styles.solutionTitle, 'foo-home-section-title', 'animated-text')}>
             <Translate id="home.solution.title">Solution</Translate>
           </h1>
           <div className={styles.solutionContent}>
@@ -133,25 +156,25 @@ export default function HomeView() {
             </p>
 
             <div className={styles.solutionSteps}>
-              <div className={styles.solutionStep}>
+              <div className={clsx(styles.solutionStep, 'animated-text', 'animation-delay-300')}>
                 <SolutionNewSpotsIcon className={styles.solutionStepIcon} />
                 <Translate>Create new spots</Translate>
               </div>
-              <div className={styles.solutionStep}>
+              <div className={clsx(styles.solutionStep, 'animated-text', 'animation-delay-600')}>
                 <SolutionWritingIcon className={styles.solutionStepIcon} />
                 <Translate>Writing dining reviews</Translate>
               </div>
-              <div className={styles.solutionStep}>
+              <div className={clsx(styles.solutionStep, 'animated-text', 'animation-delay-900')}>
                 <SolutionValidateIcon className={styles.solutionStepIcon} />
                 <Translate>Validate information</Translate>
               </div>
-              <div className={styles.solutionStep}>
+              <div className={clsx(styles.solutionStep, 'animated-text', 'animation-delay-1200')}>
                 <SolutionKeepUpdateIcon className={styles.solutionStepIcon} />
                 <Translate>Keep spot info updated</Translate>
               </div>
             </div>
           </div>
-          <div className={styles.solutionImage}></div>
+          <div className={clsx(styles.solutionImage, 'animated-text')}></div>
         </div>
       </section>
 
@@ -161,10 +184,13 @@ export default function HomeView() {
             <Translate id="home.explain.title">How it Works</Translate>
           </h1>
 
-          <section className={clsx(styles.explainSection1, styles.explainSectionStyle1)}>
-            <img className={styles.explainSectionImage} src="/img/how-it-works1.webp" />
+          <section className={clsx(styles.explainSection1, styles.explainSectionStyle1, 'animated-section')}>
+            <img
+              className={clsx(styles.explainSectionImage, 'animated-text', 'to-right')}
+              src="/img/how-it-works1.webp"
+            />
             <h1
-              className={styles.explainSectionTitle}
+              className={clsx(styles.explainSectionTitle, 'animated-text')}
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.explain.point1.title',
@@ -173,7 +199,7 @@ export default function HomeView() {
               }}
             />
             <div
-              className={styles.explainSectionContent}
+              className={clsx(styles.explainSectionContent, 'animated-text')}
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.explain.point1.content',
@@ -183,10 +209,13 @@ export default function HomeView() {
             />
           </section>
 
-          <section className={styles.explainSectionStyle2}>
-            <img className={styles.explainSectionImage} src="/img/how-it-works2.webp" />
+          <section className={clsx(styles.explainSectionStyle2, 'animated-section')}>
+            <img
+              className={clsx(styles.explainSectionImage, 'animated-text', 'to-left')}
+              src="/img/how-it-works2.webp"
+            />
             <h1
-              className={styles.explainSectionTitle}
+              className={clsx(styles.explainSectionTitle, 'animated-text')}
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.explain.point2.title',
@@ -194,7 +223,7 @@ export default function HomeView() {
                 }),
               }}
             />
-            <div className={styles.explainSectionContent}>
+            <div className={clsx(styles.explainSectionContent, 'animated-text')}>
               <div className={styles.explainSectionContentFudos}>
                 <h2 className={styles.explainSectionContentTitle}>
                   <FudosIcon width={60} height={60} /> FUDOS
@@ -227,10 +256,13 @@ export default function HomeView() {
             </div>
           </section>
 
-          <section className={styles.explainSectionStyle1}>
-            <img className={styles.explainSectionImage} src="/img/how-it-works4.webp" />
+          <section className={clsx(styles.explainSectionStyle1, 'animated-section')}>
+            <img
+              className={clsx(styles.explainSectionImage, 'animated-text', 'to-right')}
+              src="/img/how-it-works4.webp"
+            />
             <h1
-              className={styles.explainSectionTitle}
+              className={clsx(styles.explainSectionTitle, 'animated-text')}
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.explain.point4.title',
@@ -239,7 +271,7 @@ export default function HomeView() {
               }}
             />
             <div
-              className={styles.explainSectionContent}
+              className={clsx(styles.explainSectionContent, 'animated-text')}
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.explain.point4.content',
@@ -249,11 +281,14 @@ export default function HomeView() {
             />
           </section>
 
-          <section className={clsx(styles.explainSection3, styles.explainSectionStyle2)}>
-            <img className={styles.explainSectionImage} src="/img/how-it-works3.webp" />
+          <section className={clsx(styles.explainSection3, styles.explainSectionStyle2, 'animated-section')}>
+            <img
+              className={clsx(styles.explainSectionImage, 'animated-text', 'to-left')}
+              src="/img/how-it-works3.webp"
+            />
             <div className={clsx(styles.explainSection3Image, styles.explainSectionImage)} />
             <h1
-              className={styles.explainSectionTitle}
+              className={clsx(styles.explainSectionTitle, 'animated-text')}
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.explain.point3.title',
@@ -262,7 +297,7 @@ export default function HomeView() {
               }}
             />
             <div
-              className={styles.explainSectionContent}
+              className={clsx(styles.explainSectionContent, 'animated-text')}
               dangerouslySetInnerHTML={{
                 __html: translate({
                   id: 'home.explain.point3.content',
@@ -277,7 +312,7 @@ export default function HomeView() {
           </div>
         </div>
 
-        <section className={styles.explainSection5Container}>
+        <section className={clsx(styles.explainSection5Container, 'animated-section')}>
           <div className={clsx(styles.explainSection5, 'foo-home-container')}>
             <div className={styles.explainSectionContent}>
               <div
@@ -290,22 +325,22 @@ export default function HomeView() {
               />
               <ul>
                 <li>
-                  <span className="foo-underline">
+                  <span className="foo-underline animated-text">
                     <Translate id="home.explain.result.point1">Truthful</Translate>
                   </span>
                 </li>
                 <li>
-                  <span className="foo-underline">
+                  <span className="foo-underline animated-text animation-delay-500">
                     <Translate id="home.explain.result.point2">Helpful</Translate>
                   </span>
                 </li>
                 <li>
-                  <span className="foo-underline">
+                  <span className="foo-underline animated-text animation-delay-1000">
                     <Translate id="home.explain.result.point3">Validated</Translate>
                   </span>
                 </li>
                 <li>
-                  <span className="foo-underline">
+                  <span className="foo-underline animated-text animation-delay-1500">
                     <Translate id="home.explain.result.point4">Rewardable</Translate>
                   </span>
                 </li>

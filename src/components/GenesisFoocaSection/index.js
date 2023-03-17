@@ -1,5 +1,6 @@
 import Link from '@docusaurus/Link'
 import Translate from '@docusaurus/Translate'
+import clsx from 'clsx'
 import React, { useRef, useState, useLayoutEffect } from 'react'
 import styles from './fooca.module.css'
 
@@ -15,7 +16,7 @@ export default function GenesisFoocaSection() {
   }, [])
 
   return (
-    <section ref={ref} className={styles.container} style={{ '--bg-height': `${height}px` }}>
+    <section ref={ref} className={clsx(styles.container, 'animated-section')} style={{ '--bg-height': `${height}px` }}>
       <div className={styles.main}>
         <span className={styles.status}>
           <Translate id="genesis.status">Coming soon</Translate>

@@ -8,22 +8,23 @@ import BIcon from './b.svg'
 import LIcon from './l.svg'
 import Link from '@docusaurus/Link'
 import previewImage from './preview.webp'
+import clsx from 'clsx'
 
 export default function CameraSection() {
   return (
-    <section className={styles.container}>
+    <section className={clsx(styles.container)}>
       <div className="foo-home-container">
-        <h1 className={styles.title}>
+        <h1 className={clsx(styles.title, 'animated-text')}>
           <Translate id="camera.title">Introducing FOOCA Camera</Translate>
         </h1>
 
-        <section className={styles.main}>
+        <section className={clsx(styles.main, 'animated-section')}>
           <img className={styles.mainImage} src={foocasImage} />
-          <h2 className={styles.mainTitle}>
+          <h2 className={clsx(styles.mainTitle, 'animated-text')}>
             <Translate id="camera.main.title">The Essential NFT for Contributing and Earning on Fooday</Translate>
           </h2>
           <div
-            className={styles.mainContent}
+            className={clsx(styles.mainContent, 'animated-text', 'animation-delay-500')}
             dangerouslySetInnerHTML={{
               __html: translate({
                 id: 'camera.main.content',
@@ -34,15 +35,15 @@ export default function CameraSection() {
           ></div>
         </section>
 
-        <section className={styles.attrs}>
-          <h2 className={styles.attrsTitle}>
+        <section className={clsx(styles.attrs, 'animated-section')}>
+          <h2 className={clsx(styles.attrsTitle, 'animated-text')}>
             <Translate id="camera.attrs.title">
               Fooca Camera is a unique NFT that has four attributes: Computing, Quality, Battery, and Luck. These
               attributes affect the performance of the FODUS that you earn when contributing to the Fooday platform.
             </Translate>
           </h2>
           <div className={styles.attrsContent}>
-            <img src={previewImage} className={styles.attrsImage} />
+            <img src={previewImage} className={clsx(styles.attrsImage, 'animated-text')} />
             <div className={styles.attrsContentSections}>
               <section>
                 <h3 className={styles.attrsSectionTitle}>
