@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from '@site/src/components/Layout'
 import HomeView from '@site/src/views/HomeView'
 import Head from '@docusaurus/Head'

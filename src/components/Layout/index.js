@@ -6,7 +6,7 @@ import WaitlistFormPopup from '@site/src/components/WaitlistFormPopup'
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.layout}>
+    <div id="landing-page" className={styles.layout}>
       <Topbar />
       {children}
       <Footer />
