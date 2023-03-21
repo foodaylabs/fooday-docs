@@ -52,7 +52,9 @@ const config = {
           editUrl: 'https://github.com/foodao/fooday-docs/tree/main/docs',
         },
         blog: false,
-        theme: {},
+        theme: {
+          customCss: [require.resolve('./src/css/custom.css')],
+        },
       }),
     ],
   ],
