@@ -102,7 +102,7 @@ export default function CameraSection() {
           </div>
 
           <div className={styles.learnMore}>
-            <Link>
+            <Link to={translate({ id: 'url.medium.fooca-intro' })}>
               <Translate id="camera.learnMore">Learn more about Fooca Camera</Translate>
             </Link>
           </div>

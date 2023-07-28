@@ -560,5 +560,11 @@
   },
   "presaleBanner.fooca.note": {
     "message": "Coming soon"
+  },
+  "url.medium.fooca-intro": {
+    "message": "https://fooday.medium.com/introducing-fooca-camera-the-nft-that-rewards-your-foodie-adventures-a4fce439b646"
+  },
+  "url.medium.tokenomics-intro": {
+    "message": "https://fooday.medium.com/foodays-tokenomics-eat-share-and-earn-dd67f95ce398"
   }
 }

@@ -348,7 +348,7 @@ export default function HomeView() {
             </div>
             <img className={styles.explainSectionImage} src="/img/how-it-result.webp" />
             <div className={styles.explainLearnMore}>
-              <Link to="https://fooday.medium.com/foodays-tokenomics-eat-share-and-earn-dd67f95ce398">
+              <Link to={translate({ id: 'url.medium.tokenomics-intro' })}>
                 <Translate id="home.explain.result.learnMore">Learn more about the tokenomics</Translate>
               </Link>
             </div>
