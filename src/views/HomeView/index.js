@@ -444,7 +444,7 @@ export default function HomeView() {
         </div>
         <div className={styles.waitlistMarqueeRight}>
           <Marquee gradientWidth="0px" speed={1.6}>
-            BETA CLOSED BETA CLOSED BETA CLOSED BETA CLOSED BETA{' '}
+            BETA CLOSED BETA CLOSED BETA CLOSED BETA CLOSED BETA
           </Marquee>
         </div>
       </section>
