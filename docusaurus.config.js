@@ -48,7 +48,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+          routeBasePath: '/docs',
           editUrl: 'https://github.com/foodao/fooday-docs/tree/main/docs',
         },
         blog: false,
@@ -87,7 +87,7 @@ const config = {
             items: [
               {
                 label: 'Intro',
-                to: '/',
+                to: '/docs',
               },
             ],
           },
