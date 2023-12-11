@@ -1,6 +1,6 @@
 # Fooday Application Terms of Service
 
-_Last updated: August 1, 2023_
+_Last updated: Dec 11 2023_
 
 ## 1. Acceptance of Terms
 
@@ -42,15 +42,27 @@ Violation of these rules, as determined by Fooday in its sole discretion, may re
 
 We reserve the right to terminate or suspend your account at any time and for any reason, including any violation of these Terms.
 
-## 9. Changes to Terms
+## 9. Additional Clause on Account Usage
+
+### Restrictions on Creating Multiple Accounts:
+
+**Monitoring for Duplicate Accounts:** If we detect that two accounts are consistently operating from the same IP address over a long period, or if we find significant similarities in the reviews or GPS tracking data between accounts, we will consider these accounts as suspicious.
+
+**Our Discretion in Identifying Duplicate Accounts:** The determination of whether accounts are created or operated by the same individual is at our sole discretion. We will conduct a thorough review based on the data and behavior associated with the accounts in question.
+
+**Consequences for Duplicate Accounts:** Accounts identified as duplicates will be permanently frozen and removed from the Fooday app. All earnings, tokens, and data associated with these accounts will become inaccessible and non-recoverable.
+
+**Restrictions on Email Addresses from Frozen Accounts:** Any email address associated with a frozen account will be prohibited from creating new accounts on the Fooday app. This measure is to ensure fairness and prevent abuse of our system.
+
+## 10. Changes to Terms
 
 Fooday reserves the right to change these Terms at any time without notice. Your continued use of the App following any changes signifies your acceptance of our revised Terms.
 
-## 10. Contact Us
+## 11. Contact Us
 
 If you have any questions about these Terms, please contact us at support@fooday.app.
 
-## 11. Governing Law
+## 12. Governing Law
 
 These Terms are governed by the laws of the jurisdiction from which the App operates.
 
