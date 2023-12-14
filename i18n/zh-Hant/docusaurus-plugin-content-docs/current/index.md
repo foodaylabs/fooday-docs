@@ -4,39 +4,67 @@ sidebar_position: 1
 title: What is Fooday?
 ---
 
-# What is Fooday?
+# Fooday 是什麼？
 
 ![Banner](./what-is-fooday-medium.jpeg)
 
-Welcome to Fooday, the game-changing restaurant review platform! We are excited to announce that Fooday is much more than just a place to leave reviews — it’s a community-driven platform where foodies can not only share their experiences but also create and discover new dining spots.
+歡迎來到 Fooday：即將改變評論生態的創新餐廳評論平台！
 
-With Fooday, users can not only post their reviews and ratings on various criteria, such as food quality, service, atmosphere, and value for money but also create a listing for their favorite restaurant or a new dining spot they’ve discovered. These listings are then added to the Fooday map, making it easy for other users to find and visit the restaurant.
+Fooday 是什麼？Fooday 不僅是一個美食評論地圖，更是一個由社群驅動的分享平台。在這裡，美食愛好者不僅能分享用餐經驗、創建商家地點，也能發掘更多餐廳、享用更多美食。
 
-Fooday leverages the latest in web3 technology, including tokenomics and peer-to-peer validation, to provide a new level of accuracy and reliability in the world of restaurant reviews. And with GPS technology, Fooday ensures that users are actually at the restaurant they are reviewing, providing an extra layer of trust to the review process.
+透過 Fooday，使用者不僅能評論商家的食物品質、服務、氣氛，以及CP值等多種面向，給予公正的評分及評論；同時也能在 Fooday 地圖中建立喜愛、新發現的餐廳資訊，讓其他使用者收藏、追蹤，甚至實際拜訪餐廳。
 
-# Today’s Problems
+為何 Fooday 將是最真實且公正的美食地圖呢？Fooday 運用了最新的 web3 技術：獨特的代幣經濟和社群驗證，以提供評論的準確性和可靠性。同時，透過 GPS 定位技術，Fooday 能確保使用者實際前往餐廳用餐，同步為消費者及商家提供額外的信任保障。（詳見：Fooday 提供的解決方案）
+
+
+# 現今評論生態問題及困境
 
 ![Problems Banner](./problem.webp)
 
-Current restaurant review platforms have several major issues that can negatively impact the user experience. Some of the biggest problems include:
+目前的餐廳評論平台都有以下幾點問題，不僅增加消費者踩雷機會，也對商家產生許多負面影響。其中一些最為人詬病的問題包括：
 
-- Inaccurate Reviews: Many restaurant review platforms are plagued by fake reviews, either written by the restaurants themselves or paid individuals. This can make it difficult for users to get a true sense of what a restaurant is really like.
-- Bias: Some restaurant review platforms are biased towards certain restaurants, either due to advertising relationships or other factors. This can make it difficult for users to get an impartial assessment of a restaurant.
-- Lack of Trust: With so many fake and biased reviews, it can be difficult for users to trust the information they find on restaurant review platforms. This can lead to frustration and a sense of disillusionment with the review process.
-- Outdated Information: Restaurants and their offerings can change quickly, but traditional review platforms may not reflect these changes in a timely manner. This can lead to outdated information and a poor user experience.
-- Lack of Incentive: Many restaurant review platforms do not provide a compelling reason for users to leave detailed, accurate reviews. This can result in a lack of information and a limited pool of reviews to draw from.
+**1. 不實評論、洗評論機器人**
+<br>不實評論是許多餐廳評論平台都有的問題，也是許多消費者尋找餐廳時的困擾。部分餐廳的高評分來自付費機器人，又或是「留下五星換餐點」等活動，讓消費者難以參考餐廳的實際口味及服務。</br>
 
-# Our Solutions
+**2. 利益關係**
+<br>部分餐廳評論平台會因為廣告利益關係或其他因素，特別偏心於部分餐廳及商家，而平台上的資訊呈現，可能會讓消費者難以得到餐廳的公正評價。</br>
+
+**3. 缺乏信任**
+<br>目前的餐廳評論生態中，因不在少數的不實評論和具有偏見的言論，許多使用者開始逐漸不信任評論平台上的資訊，失去平台原本應有的價值。</br>
+
+**4. 過時資訊**
+<br>餐廳價位、菜色，以及其提供的服務通常變動快速，但傳統的評論平台可能無法及時反映，時常導致消費者有著與期望餐點、價位不符的體驗。</br>
+
+**5. 缺乏評論動機**
+<br>在目前的評論生態中，多數平台並沒有提供足夠誘因，使消費者並沒有留下詳細、準確評論的動機。這不僅失去美食評論平台的初衷，也容易導致餐廳資訊不足，消費者最終只能以有限的內容參考。</br>
+
+<br></br>
+# 我們提供的解決方案
 
 ![Solutions Banner](./what-is-fooday-medium2.jpeg)
 
-Fooday offers several solutions to the problems faced by current restaurant review platforms, including the integration of NFTs (Non-Fungible Tokens) as a way to level-up and customize a Foodie’s profile, as well as serving as collateral to ensure good behavior:
+Fooday 致力於改善現有餐廳評論平台面臨的問題，包括透過整合 NFT，提升美食聲望、客製自己 Foodie 帳號。也因為有 NFT 作為入場限制，能作為擔保以確保不會出現惡意行為。
 
-- Tokenomics: Fooday’s unique tokenomics system rewards users for their contributions, but only after they have acquired an NFT.
-- Verification and P2P Validation: Fooday’s platform also features a verification system and p2p validation, ensuring that all reviews are genuine and unbiased. This helps to provide Foodies with trustworthy and accurate information.
-- Real-time Information: Fooday’s platform is designed to be dynamic and responsive, allowing Foodies to quickly and easily share updates and new information about restaurants. This ensures that the information provided is always up-to-date and relevant.
-- Community-driven: Fooday is built for Foodies, by Foodies. Our platform is designed to foster a community of passionate food enthusiasts who are eager to share their experiences and help others discover great food. This creates a positive, supportive environment where Foodies can connect and engage with each other.
-- NFTs: Fooday’s NFTs serve multiple purposes. They can be used to level-up and customize a Foodie’s profile, showcasing their personality and expertise within the community. Additionally, NFTs can also serve as collateral, ensuring that Foodies act in good faith and maintain the integrity of the platform. Any Foodie found to be in violation of the platform’s guidelines may have their NFT impacted as a result.
-- By offering these solutions, Fooday aims to provide Foodies with a more trustworthy and accurate source of information, helping them discover the best food experiences and connect with like-minded individuals in the process.
+而以下是 Fooday 為消費者們提出，現有評論困境的解決方案：
 
-In conclusion, Fooday solves the problems of traditional restaurant review platforms while rewarding foodies for their contributions. By leveraging web3 technology, including tokenomics and GPS verification, Fooday provides accurate and reliable restaurant reviews. Foodies can leave detailed reviews, discover new dining spots, and connect with other food enthusiasts, all while earning rewards in the form of Food Coins. Join the Fooday community today and experience a better way to discover great food experiences.
+* **代幣經濟（Tokenomics）**
+<br>Fooday 擁有獨特的代幣經濟系統，以獎勵用戶對於平台的貢獻。且僅有擁有 Fooca 相機 NFT 的使用者才能獲得獎勵。擁有 Fooca 相機的使用者，都能在原來享用美食的日常中持續 Eat & Earn。</br>
+* **社群驗證系統**
+<br>Fooday 平台使用社群驗證系統。確保所有評論都是真實且無偏見。Foodie 將提供可靠且準確的信息，而這將大大助益於所有使用者。</br>
+
+> 什麼是社群驗證系統呢？簡單來說，是一種讓大家互相確認資訊是否真實的方法。這個系統能讓使用者互相查看彼此的評論和資訊，確保這些評論和資訊真實且可靠。就像請身邊的朋友來確認某件事是否正確一樣，這個系統也是靠著互相確認來保證資訊的可信度。
+
+* **最新實時資訊**
+<br>Fooday 平台旨在存在動態和靈活性，使 Foodie 們能夠快速且輕鬆地共享餐廳的狀態及資訊，並確保平台上提供的內容始終最新且正確。</br>
+* **社群驅動**
+<br>Fooday 專為 Foodie 設計，同時 Fooday 也由 Foodie 們共同建立。我們希望 Fooday 成為一個溫暖的美食愛好者社群平台，用戶們真正對美食有著熱情，且熱衷於分享體驗，幫助人們發掘美食。在共同創造積極且具有支持性的環境下， Foodie 們能盡情在平台中互相交流、參與社群。</br>
+* **Fooca 相機**
+<br>Fooday 的 Fooca 相機是一種 NFT ，具有多種用途。可透過貢獻提升等級，也能成為 Foodie 們獨一無二的標誌，展示個性及專業知識。此外，Fooca 同時成為擔保品，確保 Foodie 們不進行惡意行為，並維護平台的完整性：任何被發現違反平台指南的 Foodie 將受到懲罰。小至影響其 Fooca 相機的功能，大至被平台沒收。<br/>
+
+透過以上解決方案，相信 Fooday 能提供至今以來評論平台中，最值得信賴和準確的資訊來源，幫助 Foodies 探索最順暢的美食體驗，並在過程中與志同道合的人交流互動。
+
+**Fooday 最吸引人的特點：解決傳統餐廳評論平台的問題，同時給予 Foodies 貢獻的獎勵。**
+
+透過 web3 技術，包括代幣經濟、NFT 和 GPS 定位驗證，我們期望消費者再也不需受到洗星機器人誤導；也期望商家能透過 Fooday 能得到在口味、服務上的公正評價。而沒有相機的使用者也能在 Fooday 中盡情探索，收藏各式餐廳、追蹤口味相仿的 Foodie 們，選餐廳再也不怕踩雷。
+
+我們期望當你加入 Fooday 社群後，能發現令人驚艷且全新的美食體驗。準備好與 Fooday 一起創造全新一波的美食風暴了嗎？
