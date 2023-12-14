@@ -26,8 +26,5 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
-
       - name: Build website
         run: yarn build
