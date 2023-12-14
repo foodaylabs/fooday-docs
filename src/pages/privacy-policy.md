@@ -1,6 +1,6 @@
 # Fooday’s Privacy Policy
 
-**Last updated:** 2023-08-01
+_Last updated: 2023-12-14_
 
 Welcome to Fooday! Fooday ("Company", "we", "us", or "our") is dedicated to respecting the privacy rights of our users. This Privacy Policy describes the personal information we collect, how we use this information, and your rights related to this information.
 
@@ -42,4 +42,4 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ## 8. CONTACT US
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at support@fooday.app.
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [support@fooday.app](mailto:support@fooday.app).

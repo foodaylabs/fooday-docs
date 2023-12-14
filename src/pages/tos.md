@@ -1,6 +1,6 @@
 # Fooday Application Terms of Service
 
-_Last updated: Dec 11 2023_
+_Last updated: 2023-12-14_
 
 ## 1. Acceptance of Terms
 
@@ -60,7 +60,7 @@ Fooday reserves the right to change these Terms at any time without notice. Your
 
 ## 11. Contact Us
 
-If you have any questions about these Terms, please contact us at support@fooday.app.
+If you have any questions about these Terms, please contact us at [support@fooday.app](mailto:support@fooday.app).
 
 ## 12. Governing Law
 
