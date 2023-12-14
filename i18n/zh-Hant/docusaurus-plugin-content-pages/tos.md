@@ -1,69 +1,69 @@
-# Fooday Application Terms of Service
+# Fooday 應用程式服務條款
 
-_Last updated: Dec 11 2023_
+_最近更新時間： 2023-12-14_
 
-## 1. Acceptance of Terms
+## 1. 條款的接受
 
-By accessing and using the Fooday application (the "App"), you agree to these Terms of Service (the "Terms") and our [Privacy Policy](/privacy-policy). If you do not agree, do not access or use our App.
+透過存取及使用 Fooday 應用程式（以下稱「本應用」），您同意遵守這些服務條款（以下稱「條款」）及我們的[隱私政策](/privacy-policy)。若您不同意，請勿存取或使用我們的應用。
 
-## 2. Description of Service
+## 2. 服務描述
 
-Fooday is a food-centric mobile application that enables users to purchase Fooca Non-Fungible Assets (NFA) via in-app purchases, create and share restaurant spots or dining reviews, and discover good restaurants. Users may earn FOOD token rewards for certain activities performed on the App.
+Fooday 是一款以美食為中心的手機應用程式，允許用戶通過應用內購買進行 Fooca 非同質化資產（NFA）的交易、創建和分享餐廳地點或餐飲評論，並發現優質餐廳。用戶可透過在應用上進行特定活動來獲得 FOOD 代幣獎勵。
 
-## 3. Eligibility
+## 3. 使用資格
 
-You must be at least 13 years old to use our App. By agreeing to these Terms, you represent and warrant that: (a) you are at least 13 years old; (b) you have not previously been suspended or removed from the App; and (c) your registration and your use of the App is in compliance with any and all applicable laws and regulations.
+您必須至少13歲才能使用我們的應用。通過同意這些條款，您聲明並保證：(a) 您至少13歲；(b) 您過去未曾被本應用暫停或移除；及 (c) 您的註冊和使用本應用符合所有適用的法律和規範。
 
-## 4. In-App Purchases
+## 4. 應用程式內購買
 
-In-app purchases of Fooca NFA can be made through applicable billing methods indicated in the App. All purchases are final and non-refundable. You are responsible for all in-app purchases made through your account.
+應用程式內購買 Fooca 可通過應用程式中指定的適用付款方法進行。所有購買均為最終且不可退款。您對透過您的帳戶所進行的所有應用程式內購買負有責任。
 
-## 5. FOOD Tokens
+## 5. FOOD 代幣
 
-FOOD tokens are awarded based on certain user activities, such as submitting restaurant reviews or creating restaurant spots. The value, use, and method of obtaining FOOD tokens may change at our sole discretion without notice.
+FOOD 代幣基於用戶如提交餐廳評論或創建餐廳地點等特定活動而獎勵。FOOD 代幣的價值、用途和獲取方式可能會依我們的單方面決定隨時變更，恕不另行通知。
 
-## 6. User Content
+## 6. 用戶內容
 
-By posting content to the App, you grant us a non-exclusive, worldwide, royalty-free, irrevocable, sub-licensable, perpetual license to use, display, edit, modify, reproduce, distribute, store, and prepare derivative works of your content to provide the services and to promote Fooday, in any formats and through any channels.
+您在應用上發布內容即表示您授予我們非獨家、全球性、免版稅、不可撤銷、可轉授權、永久的使用權，以展示、編輯、修改、複製、分發、儲存和製作您內容的衍生作品，以提供服務並推廣Fooday，無論是以何種格式或通過任何渠道。
 
-## 7. Prohibited Activities
+## 7. 禁止的活動
 
-You may not engage in the following prohibited activities:
+您不得從事以下禁止的活動：
 
-- (a) Violating any local, state, national, or international law;
-- (b) Infringing upon the rights of others;
-- (c) Attempting to exploit or harm minors in any way;
-- (d) Transmitting any form of harmful, threatening, abusive or hateful content;
-- (e) Creating fake restaurant spots or posting false, misleading, or deceptive reviews.
+- (a) 違反任何地方、州、國家或國際法律；
+- (b) 侵犯他人權利；
+- (c) 以任何方式嘗試剝削或傷害未成年人；
+- (d) 傳送任何形式的有害、威脅性、辱罵性或仇恨性內容；
+- (e) 創建虛假餐廳地點或發表虛假、誤導性或欺騙性評論。
 
-Violation of these rules, as determined by Fooday in its sole discretion, may result in immediate termination of your account and legal action, if warranted.
+違反這些規則，經 Fooday 自行酌情決定，可能會導致您的帳戶立即凍結並採取法律行動（如有必要）。
 
-## 8. Termination
+## 8. 終止
 
-We reserve the right to terminate or suspend your account at any time and for any reason, including any violation of these Terms.
+我們保留隨時出於任何原因終止或暫停您的帳戶的權利，包括違反這些條款的情況。
 
-## 9. Additional Clause on Account Usage
+## 9. 關於帳戶使用的額外條款
 
-### Restrictions on Creating Multiple Accounts:
+### 創建多個帳戶的限制：
 
-**Monitoring for Duplicate Accounts:** If we detect that two accounts are consistently operating from the same IP address over a long period, or if we find significant similarities in the reviews or GPS tracking data between accounts, we will consider these accounts as suspicious.
+**監測重複帳戶：**如果我們監測到兩個以上的帳戶在長時間內持續從同一 IP 地址操作，或者我們發現帳戶之間的評論或 GPS 追蹤數據有顯著相似性，我們將視這些帳戶為可疑重複帳戶。
 
-**Our Discretion in Identifying Duplicate Accounts:** The determination of whether accounts are created or operated by the same individual is at our sole discretion. We will conduct a thorough review based on the data and behavior associated with the accounts in question.
+**我們自行鑑定重複帳戶：**決定帳戶是否由同一人創建或操作完全由我們自行決定。我們將根據有關帳戶的數據和行為進行全面審查。
 
-**Consequences for Duplicate Accounts:** Accounts identified as duplicates will be permanently frozen and removed from the Fooday app. All earnings, tokens, and data associated with these accounts will become inaccessible and non-recoverable.
+**重複帳戶的後果：**被確定為重複帳戶的帳戶將被永久凍結並從 Fooday 應用中移除。這些帳戶在 Fooday 應用程式內相關的所有收益、代幣和數據將無法再取得且不可恢復。
 
-**Restrictions on Email Addresses from Frozen Accounts:** Any email address associated with a frozen account will be prohibited from creating new accounts on the Fooday app. This measure is to ensure fairness and prevent abuse of our system.
+**凍結帳戶的電子郵件地址限制：**與凍結帳戶相關的任何電子郵件地址都將被禁止在 Fooday 應用程式上創建新帳戶。此舉旨在保證公平並防止系統被濫用。
 
-## 10. Changes to Terms
+## 10. 條款的變更
 
-Fooday reserves the right to change these Terms at any time without notice. Your continued use of the App following any changes signifies your acceptance of our revised Terms.
+Fooday 保留隨時更改這些條款的權利，恕不另行通知。您繼續使用應用程式表明您接受我們修訂後的條款。
 
-## 11. Contact Us
+## 11. 聯繫我們
 
-If you have any questions about these Terms, please contact us at support@fooday.app.
+如果您對這些條款有任何疑問，請通過 [support@fooday.app](mailto:support@fooday.app) 與我們聯繫。
 
-## 12. Governing Law
+## 12. 適用法律
 
-These Terms are governed by the laws of the jurisdiction from which the App operates.
+這些條款受應用運營地司法管轄區法律管轄。
 
-By using our App, you acknowledge that you have read, understood, and agreed to be bound by these Terms. Please review our [Privacy Policy](/privacy-policy), which is incorporated into these Terms and also governs your use of the App.
+通過使用我們的應用，您確認已閱讀、理解並同意受這些條款的約束。請查閱我們的[Fooday 隱私政策](/privacy-policy)，該政策已納入這些條款中，同時也規範了您對應用程式的使用。

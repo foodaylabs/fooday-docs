@@ -1,45 +1,44 @@
-# 中文
+# Fooday 隱私政策
 
-**Last updated:** 2023-08-01
+_最近更新時間： 2023-12-14_
 
-Welcome to Fooday! Fooday ("Company", "we", "us", or "our") is dedicated to respecting the privacy rights of our users. This Privacy Policy describes the personal information we collect, how we use this information, and your rights related to this information.
+歡迎使用Fooday！Fooday（「公司」、「我們」或「我方」）致力於尊重我們用戶的隱私權。本隱私政策描述了我們收集的個人資訊、如何使用這些資訊以及與這些資訊相關的您的權利。
 
-This policy applies to all data collected via our website, www.fooday.app, and any related services, sales, marketing, or events (hereafter referred to collectively as the "Services"). By using our Services, you agree to the collection and use of information in accordance with this policy.
+本政策適用於通過我們的網站 www.fooday.app 及任何相關服務、銷售、市場行銷或活動（以下統稱為「服務」）收集的所有數據。通過使用我們的服務，您同意按照本政策收集和使用資訊。
 
-## 1. INFORMATION WE COLLECT
+## 1. 我們收集的資訊
 
-We collect personal information that you voluntarily provide when interacting with our Services. This information includes, but is not limited to, your name, email address, postal address, and phone number.
+我們收集您在與我們的服務互動時自願提供的個人資訊。這些資訊包括但不限於您的姓名、電子郵件地址、郵寄地址和電話號碼。
+自動收集的數據包括您的IP地址、瀏覽器類型、訪問我們服務之前訪問的網頁以及您與我們服務互動的資訊。
 
-Automatically collected data includes information such as your IP address, browser type, the web page you were visiting before accessing our Services, and information about how you interact with our Services.
+## 2. 使用您的資訊
 
-## 2. USE OF YOUR INFORMATION
+我們使用收集的資訊來提供、維護和改進我們的服務。這包括但不限於為研究和開發目的使用資訊、與用戶溝通、提供客戶支持以及提升我們服務的安全性和保障性。
 
-We use the information we collect to provide, maintain, and improve our Services. This includes, but is not limited to, using information for the purpose of research and development, communicating with users, providing customer support, and enhancing the safety and security of our Services.
+## 3. 分享您的資訊
 
-## 3. SHARING OF YOUR INFORMATION
+我們不會將您的個人資訊出售給第三方。我們可能在以下情況下分享您的個人資訊：
 
-We do not sell your personal information to third parties. We may share your personal information in the following situations:
+- **與服務提供商共享：我們可能會與服務提供商共享您的資訊，以監控和分析我們的服務使用情況。
+- **業務轉讓：在任何合併、出售公司資產、融資或將我們的全部或部分業務轉讓給另一家公司的連接中或談判期間，我們可能分享或轉讓您的資訊。
+- **法律原因：我們可能會在法律要求我們這樣做以遵守適用法律、政府要求、司法程序或其他法律要求的情況下披露您的資訊。
 
-- **With Service Providers:** We may share your information with service providers to monitor and analyze the use of our Services.
-- **For Business Transfers:** We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
-- **For Legal Reasons:** We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, judicial proceedings, or other legal requirements.
+## 4. 數據保留
 
-## 4. DATA RETENTION
+我們僅將您的個人資訊保留至完成收集目的所需的時間，或按照法律要求。
 
-We keep your personal information only as long as necessary for the purposes we collected it, or as otherwise required by law.
+## 5. 安全性
 
-## 5. SECURITY
+保護您的個人資訊對我們至關重要。我們採用多種安全措施來保護您的個人資訊。然而，請注意，互聯網上的傳輸或電子存儲不是100％安全的，我們無法保證絕對的安全性。
 
-The security of your personal information is important to us. We employ a variety of security measures designed to protect your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+## 6. 兒童隱私
 
-## 6. CHILDREN'S PRIVACY
+我們的服務並非針對13歲以下個人。我們不會有意收集13歲以下兒童的個人資訊。如果我們意識到13歲以下的兒童向我們提供了個人資訊，我們將採取措施刪除該資訊。
 
-Our Services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.
+## 7. 政策更新
 
-## 7. UPDATES TO THIS POLICY
+我們可能會不時更新本隱私政策。我們將通過在本頁面上發布新的隱私政策來通知您任何變更。建議您定期查看本隱私政策以瞭解任何變更。
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
+## 8. 聯繫我們
 
-## 8. CONTACT US
-
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at support@fooday.app.
+如果您對我們的隱私政策有任何疑問或建議，請隨時通過 [support@fooday.app](mailto:support@fooday.app) 與我們聯繫。
