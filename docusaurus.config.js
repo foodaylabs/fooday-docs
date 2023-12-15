@@ -86,8 +86,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Intro',
+                label: 'Fooday Whitepaper',
                 to: '/',
+              },
+              {
+                label: 'Privacy Policy',
+                to: '/privacy-policy',
+              },
+              {
+                label: 'Terms of Service',
+                to: '/tos',
               },
             ],
           },
@@ -103,6 +111,10 @@ const config = {
                 href: 'https://www.instagram.com/fooday.app',
               },
               {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/foodaylabs',
+              },
+              {
                 label: 'Discord',
                 href: 'https://discord.gg/6Q3Xa7fRV4',
               },
@@ -112,7 +124,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Medium',
                 to: 'https://fooday.medium.com',
               },
               {
@@ -122,7 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fooday, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Fooday, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -137,6 +149,7 @@ const config = {
       discord: 'https://discord.gg/6Q3Xa7fRV4',
       ig: 'https://www.instagram.com/fooday.app',
       twitter: 'https://twitter.com/foodayapp',
+      facebook: 'https://www.facebook.com/foodaylabs',
       medium: 'https://fooday.medium.com',
     },
     emails: {
