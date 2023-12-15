@@ -1,3 +1,9 @@
+---
+slug: /tos
+sidebar_position: 99
+title: Fooday Application Terms of Service
+---
+
 # Fooday Application Terms of Service
 
 _Last updated: 2023-12-14_

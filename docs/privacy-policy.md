@@ -1,3 +1,9 @@
+---
+slug: /privacy-policy
+sidebar_position: 98
+title: Fooday’s Privacy Policy
+---
+
 # Fooday’s Privacy Policy
 
 _Last updated: 2023-12-14_
