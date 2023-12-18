@@ -42,7 +42,7 @@ export default function Topbar() {
       <nav className={clsx(styles.topbar, { [styles.topbarFixed]: fixed })} aria-label="Main">
         <div className={styles.topbarInner}>
           <Link className={styles.logo} to="/" aria-label="Link to homepage">
-            <img src={LogoUrl} aria-label="The logo of FoodDay" />
+            <img src={LogoUrl} aria-label="The logo of Fooday" />
           </Link>
 
           <div className={styles.links}>
