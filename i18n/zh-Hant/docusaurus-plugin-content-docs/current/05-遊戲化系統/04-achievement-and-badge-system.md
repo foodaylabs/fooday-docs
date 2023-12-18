@@ -1,7 +1,7 @@
 ---
 slug: /achievement-and-badge-system
 sidebar_position: 4
-title: Achievement & Badge System
+title: 成就及徽章
 ---
 
 Coming soon...

@@ -1,7 +1,7 @@
 ---
 slug: /attributes
 sidebar_position: 3
-title: Attributes
+title: 相機屬性
 ---
 
 Coming soon...

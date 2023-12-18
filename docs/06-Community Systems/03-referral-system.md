@@ -4,4 +4,4 @@ sidebar_position: 3
 title: Referral System
 ---
 
-# Hihi
+Coming soon...

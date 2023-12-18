@@ -1,7 +1,7 @@
 ---
 slug: /foodie-level
 sidebar_position: 1
-title: Foodie Level
+title: 美食佳等級
 ---
 
 Coming soon...

@@ -1,7 +1,7 @@
 ---
-slug: /attributes
+slug: /referral-system
 sidebar_position: 3
-title: Attributes
+title: 推薦機制
 ---
 
 Coming soon...

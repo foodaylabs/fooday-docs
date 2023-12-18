@@ -1,7 +1,7 @@
 ---
-slug: /
+slug: /getting-started
 sidebar_position: 2
-title: 
+title: 新手上路
 ---
 
 # 如何開始在 Fooday 邊吃邊賺？

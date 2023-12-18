@@ -1,7 +1,7 @@
 ---
 slug: /foodie-energy
 sidebar_position: 2
-title: Energy
+title: 能量
 ---
 
 Coming soon...
