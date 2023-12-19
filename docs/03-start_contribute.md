@@ -1,5 +1,5 @@
 ---
-slug: /marketplace
+slug: /
 sidebar_position: 03
 title: Contributions
 ---
