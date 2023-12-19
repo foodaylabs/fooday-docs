@@ -49,7 +49,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/foodao/fooday-docs/tree/main/docs',
+          editUrl: 'https://github.com/foodaylabs/fooday-docs/tree/main/docs',
         },
         blog: false,
         theme: {
@@ -73,8 +73,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/foodao',
-            label: 'GitHub',
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
