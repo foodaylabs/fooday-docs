@@ -18,7 +18,8 @@ Currently, Genesis camera box were obtainable only through the pFOOD presale (en
 |:---:        | :---:        |:---:       |
 | Probability	 | 85% | 15% | 
 
-<br>
+
+
 
 ### Regular Camera Boxes
 New camera boxes generated through minting will result in regular camera boxes. There are two types of regular camera boxes, as mentioned earlier: common camera boxes and rare camera boxes.
@@ -32,5 +33,5 @@ The difference between the two camera boxes lies in their unboxing probabilities
 | Common | 97% | 3% | 
 | Rare | 25% | 75% | 
 
-<br>
+
 Foodies in the marketplace can purchase Fooca camera boxes that have not been unboxed yet or choose to directly buy cameras that have already been unboxed.

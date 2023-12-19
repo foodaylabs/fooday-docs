@@ -1,5 +1,5 @@
 ---
-slug: /
+slug: /start-contribute
 sidebar_position: 03
 title: Contributions
 ---
@@ -31,6 +31,6 @@ If you come across any incorrect information, inappropriate content, or irreleva
 | Battery Cosumption       | 10       | 5       | 2       |
 | Max Fudos         | 45         | 15         | *Original Fudos value of Review/Spot         |
   
-<br>
 
->For instance, if the reported foodie has a higher camera level and had previously earned 55 Fudos from that review, you will receive 55 Fudos upon successful report.
+> For instance, if the reported foodie has a higher camera level and had previously earned 55 Fudos from that review, you will receive 55 Fudos upon successful report.
+
