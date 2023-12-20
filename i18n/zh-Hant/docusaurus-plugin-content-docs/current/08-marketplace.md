@@ -1,7 +1,7 @@
 ---
-slug: /tokenomics
+slug: /marketplace
 sidebar_position: 08
-title: 代幣經濟
+title: 市集
 ---
 
 Coming soon...
