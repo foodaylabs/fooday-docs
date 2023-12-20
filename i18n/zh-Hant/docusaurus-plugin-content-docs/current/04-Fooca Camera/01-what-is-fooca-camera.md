@@ -4,8 +4,6 @@ sidebar_position: 1
 title: 什麼是 Fooca 相機
 ---
 
-## 什麼是 Fooca 相機
-
 Fooca 相機是 Fooday 專屬 NFT，在社群中增強 Foodie 的體驗，同步推動平台的成長。
 
 而 Fooca 相機有什麼用途？Fooca 相機是 Fooday 的入場票，對於想要在 Fooday 美食社群中邊吃邊賺的美食家來說至關重要。簡單來說，如果沒有 Fooca 相機，美食家將無法開始賺取獎勵。

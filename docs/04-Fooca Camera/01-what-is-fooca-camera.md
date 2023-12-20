@@ -3,7 +3,7 @@ slug: /fooca-camera
 sidebar_position: 1
 title: What is Fooca Camera
 ---
-## What is a Fooca Camera?
+
 The Fooca Camera is a unique NFT exclusive to Fooday, designed to enhance the Foodie experience within the community while simultaneously driving the platform's growth.
 
 But what is the purpose of the Fooca Camera? The Fooca Camera serves as the entry ticket to Fooday's culinary community, essential for foodies looking to earn rewards while indulging in the world of food. 
