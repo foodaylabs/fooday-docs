@@ -16,9 +16,9 @@ The report system on Fooday serves as a crucial mechanism to maintain the platfo
 
 **Wrong Spot Info**
 
-When users create a spot on Fooday, it immediately appears on the map for others to discover, and the spot creator earns Fudos.
+When a user creates a new spot on the Fooday map, the associated spot becomes immediately visible on the map. The creator of the spot is rewarded with Fudo, and other users gain the ability to post reviews on that spot.
 
-To ensure accuracy and reliability, spots undergo a 7-day pending period. During this time, users can report any spots with incorrect information, contributing to the platform’s integrity. If no reports are received for the initial spot, subsequent spots will not earn Fudos and will be removed from the platform.
+However, to ensure the accuracy and reliability of information, a "Newly Created" label is affixed to such spots for the initial 7 days. This label assists other users in verifying the correctness of the spot's details. During this 7-day period, other users are unable to modify existing restaurant information but can contribute by adding information that are not yet listed. The creator of the spot retains the ability to supplement or modify the spot's information as needed. After the aforementioned 7-day period, the "Newly Created" label will be automatically removed. At any given time, users have the option to report a spot for any reason.
 
 **Inappropriate Reviews**
 
@@ -32,9 +32,13 @@ Challenging (Reporting) is anonymous. The reported individual and all participat
 
 ------
 
-## The Voting Rules
+## Voting Verification Process
 
-After a challenge (report) is submitted, Fooday’s voting system is activated. The system randomly selects several users to participate in the voting process, ensuring a fair and unbiased assessment. These selected users carefully review the reported spot or review and cast their votes as “agree” or “not agree” based on their judgment. The goal is to determine the accuracy and contribution of the reported content to the platform’s overall reliability.
+After a challenge (report) is submitted, Fooday’s voting system is activated. This system randomly selects multiple users to partake in the voting verification process. 
+
+Once a spot or review is reported and enters the voting verification phase, the information in question cannot be modified until the entire verification process has been finalized. Additionally, other users are precluded from submitting further challenges (reports) for the same spot or review. 
+
+The selected users will carefully review the reported spot information or review and cast their votes of "Agree" or "Disagree" based on their judgment.
 
 ### How does the system select verification voters?
 
