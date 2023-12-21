@@ -3,7 +3,7 @@ slug: /fooca-box
 sidebar_position: 2
 title: Fooca Box
 ---
-## Fooca Camera Box Explanation
+
 Currently, there are two types of Fooca Camera Boxes: the **Genesis Camera Box** and the **Regular Camera Box**. 
 
 The Regular Camera Box is further divided into two rarity levels: Common Camera Box and Rare Camera Box.

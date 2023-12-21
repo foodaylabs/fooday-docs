@@ -34,3 +34,11 @@ If you come across any incorrect information, inappropriate content, or irreleva
 
 > For instance, if the reported foodie has a higher camera level and had previously earned 55 Fudos from that review, you will receive 55 Fudos upon successful report.
 
+***
+
+### Bonus: Cast Your Vote
+In addition to the four types of contributions mentioned earlier, there's another community behavior that can earn you Fudos: assisting in verification voting.
+
+Even if you don't have a Fooca camera, as long as you're a user, you have the "voting rights." When someone initiates a report, the system will randomly select users to assist in verification voting.
+
+If you're chosen and end up being in the majority in the vote, you can earn 1 Fudos as a reward.
