@@ -1,6 +1,6 @@
 ---
 slug: /tokenomics
-sidebar_position: 08
+sidebar_position: 09
 title: Tokenomics
 ---
 

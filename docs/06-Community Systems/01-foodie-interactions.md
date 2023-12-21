@@ -1,6 +1,6 @@
 ---
 slug: /foodie-interactions
-sidebar_position: 2
+sidebar_position: 1
 title: Foodie Interactions
 ---
 
