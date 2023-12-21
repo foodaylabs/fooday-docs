@@ -22,6 +22,8 @@ There are two types of Achievements:
 
 ### Foodie Level Achievements
 
+![Level achievements](level-badge.jpg)
+
 Achievements can be obtained by leveling up your Foodie account through contributions. When a Foodie reaches a specified level, they will automatically receive an achievement and a title. These achievements are automatically equipped and cannot be unequipped. As you reach higher levels, you will automatically receive new achievements and replace old titles.
 
 #### Empowerment
