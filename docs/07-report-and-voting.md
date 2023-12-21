@@ -30,6 +30,8 @@ Users can leave reviews without undergoing a verification process and earn Fudos
 
 Challenging (Reporting) is anonymous. The reported individual and all participating random users in the verification vote won't know your identity. This ensures fairness and prevents account influence.
 
+![How to report](how-to-report.webp)
+
 ------
 
 ## Voting Verification Process
@@ -111,6 +113,8 @@ Example:
 >
 * If your report is passed, you will receive the equivalent of the original 40 Fudos value of the review, along with any additional Fooca Camera attribute multipliers you used for this report.
 * If your report fails, you will be penalized by losing 15% of the original value (40 Fudos), resulting in a loss of 6 Fudos.
+
+![How to vote](how-to-vote.webp)
 
 ------
 
