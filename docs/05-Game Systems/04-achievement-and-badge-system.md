@@ -22,9 +22,23 @@ There are two types of Achievements:
 
 ### Foodie Level Achievements
 
-![Level achievements](level-badge.jpg)
+Achievements can be obtained by leveling up your Foodie account through contributions. When a Foodie reaches a specified level, they will automatically receive an achievement and a title. 
 
-Achievements can be obtained by leveling up your Foodie account through contributions. When a Foodie reaches a specified level, they will automatically receive an achievement and a title. These achievements are automatically equipped and cannot be unequipped. As you reach higher levels, you will automatically receive new achievements and replace old titles.
+These achievements are automatically equipped and cannot be unequipped. As you reach higher levels, you will automatically receive new achievements and replace old titles.
+
+| Level    | Title      | Badge       |
+| ------ | --------- | --------- | 
+| 1      | Fooday Newbie   | ![LV01](../level01.png) |
+| 5      | Fooday Intern  | ![LV05](../level05.png) |
+| 10     | Culinary Novice  | ![LV10](../level10.png) |
+| 15     | Fooday Squad Leader | ![LV15](../level15.png) |
+| 20     | Fooday Adventurer  | ![LV20](../level20.png) |
+| 25     | Fooday Chief  | ![LV25](../level25.png) |
+| 30     | Bronze Foodie  | ![LV30](../level30.png) |
+| 35     | Foodie Commander  | ![LV35](../level35.png) |
+| 40     | Silver Foodie  | ![LV40](../level40.png) |
+| 45     | Foodie Critic   | ![LV45](../level45.png) |
+| 50     | Fooday Taste Master  | ![LV50](../level50.png) |
 
 #### Empowerment
 
@@ -35,6 +49,16 @@ Achievement badges will be displayed on the lower right corner of your avatar in
 
 Achievements are accomplished by completing a series of missions. The background color of an achievement badge represents its difficulty level, ranging from the easiest to the hardest (Gray to Rainbow).
 After completing the designated missions, you can acquire mission achievement titles by manually completing the missions and collecting the rewards.
+
+Example:
+
+| Achievement  | Badge      |
+| ------ | --------- | 
+| Visit 10 Japanese-style restaurants| ![badge10](../japanese01.png) |
+| Visit 20 Japanese-style restaurants| ![badge20](../japanese02.png) |
+| Visit 30 Japanese-style restaurants| ![badge30](../japanese03.png) |
+| Visit 50 Japanese-style restaurants| ![badge50](../japanese04.png) |
+| Visit 100 Japanese-style restaurants| ![badge100](../japanese05.png) |
 
 #### Empowerment
 
