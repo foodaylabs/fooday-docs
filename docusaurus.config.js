@@ -51,7 +51,52 @@ const config = {
           routeBasePath: '/',
           editUrl: 'https://github.com/foodaylabs/fooday-docs/tree/main/docs',
         },
-        blog: false,
+        blog: {
+          path: 'blog',
+          // Simple use-case: string editUrl
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // Advanced use-case: functional editUrl
+          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+            `https://github.com/foodaylabs/fooday-docs/tree/main/${blogDirPath}/${blogPath}`,
+          editLocalizedFiles: false,
+          blogTitle: 'Fooday Blog | Top Picks & User Reviews',
+          blogDescription: 'Get updated to the latest popular restaurants and reviews picked by Fooday',
+          blogSidebarCount: 10,
+          blogSidebarTitle: 'All our posts',
+          routeBasePath: 'blog',
+          include: ['**/*.{md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          postsPerPage: 10,
+          blogListComponent: '@theme/BlogListPage',
+          blogPostComponent: '@theme/BlogPostPage',
+          blogTagsListComponent: '@theme/BlogTagsListPage',
+          blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
+          truncateMarker: /<!--\s*(truncate)\s*-->/,
+          showReadingTime: false,
+          feedOptions: {
+            type: 'json',
+            title: 'Fooday Blog',
+            description: 'Get updated to the latest popular restaurants and reviews picked by Fooday',
+            copyright: 'Fooday',
+            language: undefined,
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
+        },
         theme: {
           customCss: [require.resolve('./src/css/custom.css')],
         },
@@ -72,6 +117,17 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            to: "/",
+            activeBasePath: "docs",
+            label: "Docs",
+            position: "left"
+          },
+          { 
+            to: "/blog", 
+            label: "Blog",
+            position: "left" 
+          },
           {
             type: 'localeDropdown',
             position: 'right',
