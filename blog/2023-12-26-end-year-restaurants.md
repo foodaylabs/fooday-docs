@@ -51,7 +51,9 @@ _中餐川菜料理 | 咖啡廳 | 餐酒館 | 寵物友善_
 
 _景觀餐廳 | 咖啡廳 | 甜品店 | 下午茶_
 
-[雪敲 lce Climber](https://www.instagram.com/p/C06kdImP-XI/)
+import { IntagramEmbed } from 'react-social-media-embed';
+
+<InstagramEmbed url="https://www.instagram.com/p/C06kdImP-XI/" width={328} />
 
 位於貓空風景區，雪敲 lce Climber 的甜點款式非常多種，還有貓空必喝的茶類，戶外的位子很多，白天跟夜景的景色都一覽無遺。店家環境都非常乾淨明亮，且千層蛋糕口味多樣，小編很推薦，芋泥和抹茶是很多饕客的首選呢！如果跨年元旦假期有來貓空走走，可以來品嚐看看這家雪敲 lce Climber 喔！
 
