@@ -14,5 +14,17 @@
   "sidebar.tutorialSidebar.category.Tutorial - Extras": {
     "message": "Tutorial - Extras",
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Fooca Camera": {
+    "message": "Fooca Camera",
+    "description": "The label for category Fooca Camera in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Game Systems": {
+    "message": "Game Systems",
+    "description": "The label for category Game Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Community Systems": {
+    "message": "Community Systems",
+    "description": "The label for category Community Systems in sidebar tutorialSidebar"
   }
 }
