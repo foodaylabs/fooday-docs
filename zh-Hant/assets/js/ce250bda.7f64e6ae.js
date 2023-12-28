@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfooday_docs=self.webpackChunkfooday_docs||[]).push([[346],{7253:e=>{e.exports=JSON.parse('{"permalink":"/zh-Hant/blog/tags/\u4e2d\u90e8","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Get updated to the latest popular restaurants and reviews picked by Fooday","blogTitle":"Fooday Blog | Top Picks & User Reviews"}')}}]);

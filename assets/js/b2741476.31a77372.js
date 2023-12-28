@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfooday_docs=self.webpackChunkfooday_docs||[]).push([[8229],{8504:a=>{a.exports=JSON.parse('{"label":"2024\u8de8\u5e74","permalink":"/blog/tags/2024-\u8de8\u5e74","allTagsPath":"/blog/tags","count":1}')}}]);

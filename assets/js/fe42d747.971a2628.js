@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfooday_docs=self.webpackChunkfooday_docs||[]).push([[179],{1580:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/\u805a\u9910","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Get updated to the latest popular restaurants and reviews picked by Fooday","blogTitle":"Fooday Blog | Top Picks & User Reviews"}')}}]);

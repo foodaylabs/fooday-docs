@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfooday_docs=self.webpackChunkfooday_docs||[]).push([[7620],{9305:a=>{a.exports=JSON.parse('{"label":"\u706b\u934b","permalink":"/blog/tags/\u706b\u934b","allTagsPath":"/blog/tags","count":1}')}}]);
