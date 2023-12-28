@@ -16,15 +16,15 @@
     "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Fooca Camera": {
-    "message": "Fooca Camera",
+    "message": "Fooca 相機",
     "description": "The label for category Fooca Camera in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Game Systems": {
-    "message": "Game Systems",
+    "message": "遊戲系統",
     "description": "The label for category Game Systems in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Community Systems": {
-    "message": "Community Systems",
+    "message": "社群系統",
     "description": "The label for category Community Systems in sidebar tutorialSidebar"
   }
 }
