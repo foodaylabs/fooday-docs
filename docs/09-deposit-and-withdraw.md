@@ -88,7 +88,7 @@ Once you’ve converted FOOD/FUSD to USDC, you can then go to the MAX exchange t
 
 As an example using Rabby Wallet, once registered, click on the top address, then click the right-facing arrow to view your complete wallet address. You can also import the address by scanning the QR code located on the right side of the “Withdraw to” field.
 
-![](../deposit-1.png)
+![](./deposit-1.png)
 
 3. Enter the amount you want to withdraw. (The minimum withdrawal amount for FOOD is 1000, and for FUSD, it’s 2.)
 
