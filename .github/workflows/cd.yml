@@ -37,7 +37,7 @@ jobs:
         with:
           path: './build'
           destination: 'fooday-docs'
-          parent: true
+          parent: false
 
   deploy-blog:
     name: Deploy Blog
@@ -68,4 +68,4 @@ jobs:
         with:
           path: './build'
           destination: 'fooday-blog'
-          parent: true
+          parent: false
