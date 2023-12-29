@@ -57,8 +57,7 @@ jobs:
           tags: |
             ${{ env.DOCS_IMAGE_NAME }}:latest
             ${{ env.DOCS_IMAGE_NAME }}:${{ env.SHORT_TAG }}
-          ush: true
-          target: docs
+          push: true
 
       - uses: actions/checkout@v3
         with:
