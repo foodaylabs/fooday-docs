@@ -56,4 +56,83 @@ FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 
 ## Fooday出金該如何操作
 
-功能準備中
+在 Fooday 中美食家只要透過貢獻就能賺取 FOOD，也能透過販賣 Fooca 相機賺取 FUSD。
+
+接下來 Fooday 會仔細教你如何提領、換回 USDC，如果你還不知道 Fooday 該如何提領，繼續一起看下去！簡單步驟教美食家快速變現。
+
+**提醒：Fooday 提領目前僅支援 Polygon 鏈，且將 FOOD / FUSD 轉換成 USDC 時需支付 Gas Fee。（Gas Fee 詳細說明可跳到文章最下方查看。）**
+
+***
+
+### 提領簡單四步驟：
+1. 進入 Fooday 錢包，點選 FOOD / FUSD，並點選「提領」
+2. 在「提領至」中貼上你的 web3 錢包地址
+輸入想提領的數量並點選提領
+3. 接著到 LlamaSwap 上將 FOOD 換成 USDC
+4. 美食家將 FOOD/FUSD 換成 USDC 後，就可以自行到 MAX 交易所換成台幣囉！
+
+
+美食家將 FOOD/FUSD 換成 USDC 後，就可以自行到 MAX 交易所換成台幣囉！
+***
+
+### 詳細提領步驟
+1. 點選下方選單的最右邊，在 Fooday 錢包中點選欲提領的幣種（ FOOD / FUSD），並點選「提領」。
+
+2. 在「提領至」的欄位輸入你的錢包地址。
+>若你尚未擁有 web3 錢包，請一定要先註冊一個才能提領喔！  
+Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢包如 metamask 也都可以。
+
+圖下以 Rabby 錢包為例，註冊完後點選最上方地址，並點選右方箭頭，就可以看到完整錢包地址，也能從「提領至」欄位最右方，透過掃描 qrcode 匯入地址。
+
+![](../rabby-1.png)
+
+3. 填入欲提領的數量。  
+**（ FOOD 最低提領數量為 1000，FUSD 最低提領數量為 2）**
+
+4. 確認詳細提領資訊後按下「確認」後，請耐心等待提領要求確認。
+![](../depost-2.png)
+
+5. 確認後請查看錢包餘額，提領的 FOOD / FUSD 應該已在錢包中。
+>請記得在錢包中新增 FOOD token，才能正確查看餘額。  
+**FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`**
+6. 接著到 [LlamaSwap](<https://medium.com/r/?url=https%3A%2F%2Fswap.defillama.com%2F%3Fchain%3Dpolygon%26from%3D0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d%26to%3D0x3c499c542cef5e3811e1192ce70d8cc03d5c3359>) 上將 FOOD / FUSD 換成 USDC。
+輸入完想要兌換的數量後，記得從右邊選擇一種兌換路徑。
+
+（此動作需要支付 Gas Fee - 少量 matic，請查看最下方詳細說明）
+
+![](../depost-3.png)
+
+7. 美食家將 FOOD/FUSD 換成 USDC 、確認錢包內有收到後，接著就可以自行到 MAX 交易所換成台幣。  
+USDC 合約地址：[0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359](<https://medium.com/r/?url=https%3A%2F%2Fpolygonscan.com%2Faddress%2F0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)
+
+>若想要出金成台幣，請記得註冊 [MAX 交易所](<https://medium.com/r/?url=https%3A%2F%2Fmax.maicoin.com%2F>)。
+MAX 出金有許多教學文章，可參考 [MAX 新台幣提領教學](<https://medium.com/r/?url=https%3A%2F%2Fsupport.maicoin.com%2Fzh-TW%2Fsupport%2Fsolutions%2Farticles%2F32000021144-max-%25E6%2596%25B0%25E5%258F%25B0%25E5%25B9%25A3%25E6%258F%2590%25E9%25A0%2598%25E6%2595%2599%25E5%25AD%25B8>)。
+
+<br/>
+
+## Fooday 提領注意事項
+* 目前提領僅支援 Polygon 鏈，請一定要選對網路及貼上正確錢包地址。
+
+* 目前每筆提領手續費：提領 FOOD 手續費為 100 FOOD；提領 FUSD 手續費為 1 FUSD。
+
+* 目前 FOOD / FUSD 單日最高提領金額為 1000 美金。
+
+* 請勿直接提領至眾籌獲 ICO 地址，我們不會處理未來代幣的發放。
+
+<br/>
+
+## 鏈上 Gas Fee 說明
+在鏈上的交易皆會收取 Gas Fee，且 Gas Fee 為該鏈的原生代幣。而 **Polygon 的原生代幣為 Matic**。
+
+在提領 FOOD / FUSD 後，要把錢包中的 FOOD / FUSD 換成 USDC 時，需要支付 Polygon 鏈上的 Gas Fee，所以你需要先兌換一些 matic。
+
+### 將 Matic 打入 web3 錢包
+📌 若你尚未擁有 Matic：
+
+請參考入金教學文章，與 MAX 交易所提領 USDC 到 Fooday 的方法相同，不過需將 Fooday 錢包的地址改為你的 web3 錢包 (Rabby)。
+
+![](../depost-4.png)
+
+當錢包有了 Matic 後，就可以順利將 FOOD / FUSD 轉換為 USDC 囉！
+
+>Polygon 鏈上 Gas Fee 價格算是非常親民，若不在巔峰期，每次交易通常都只收取約 0.01 美金，Fooday 建議基本上不需要兌換太多，5 Matic 就可以用很久了。
