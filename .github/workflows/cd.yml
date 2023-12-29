@@ -36,7 +36,8 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v2'
         with:
           path: './build'
-          destination: 'fooday-docs/'
+          destination: 'fooday-docs'
+          parent: true
 
   deploy-blog:
     name: Deploy Blog
@@ -66,4 +67,5 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v2'
         with:
           path: './build'
-          destination: 'fooday-blog/'
+          destination: 'fooday-blog'
+          parent: true
