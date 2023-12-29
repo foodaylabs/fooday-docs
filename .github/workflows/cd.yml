@@ -45,7 +45,7 @@ jobs:
 
       - name: Set env variables
         run: |
-          SHORT_TAG=${GITHUB_REF_NAME##docs/}
+          SHORT_TAG=$(git rev-parse --short HEAD)
           DOCKER_REGISTRY=asia-east1-docker.pkg.dev/fooday-prod/fooday
           echo "SHORT_TAG=$SHORT_TAG" >> $GITHUB_ENV
           echo "DOCS_IMAGE_NAME=$DOCKER_REGISTRY/fooday-docs" >> $GITHUB_ENV
@@ -57,9 +57,7 @@ jobs:
           tags: |
             ${{ env.DOCS_IMAGE_NAME }}:latest
             ${{ env.DOCS_IMAGE_NAME }}:${{ env.SHORT_TAG }}
-          build-args: |
-            APP_VERSION=${{ env.SHORT_TAG }}
-          push: true
+          ush: true
           target: docs
 
       - uses: actions/checkout@v3
