@@ -73,7 +73,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           cd clusters/fooday-prod
-          sed -i "s|newTag: .*#fooday-docs|newTag: '$SHORT_TAG'|" fooday-web.yaml
+          sed -i "s|newTag: .*#fooday-docs|newTag: '$SHORT_TAG' #fooday-docs|" fooday-web.yaml
           git commit -am "chore: auto-release fooday-docs $SHORT_TAG"
           git push origin
 
