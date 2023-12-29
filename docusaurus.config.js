@@ -56,7 +56,7 @@ const config = {
           // Simple use-case: string editUrl
           // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
           // Advanced use-case: functional editUrl
-          editUrl: ({locale, blogDirPath, blogPath, permalink}) =>
+          editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
             `https://github.com/foodaylabs/fooday-docs/tree/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
           blogTitle: 'Fooday Blog | Top Picks & User Reviews',
@@ -65,12 +65,7 @@ const config = {
           blogSidebarTitle: 'All our posts',
           routeBasePath: 'blog',
           include: ['**/*.{md,mdx}'],
-          exclude: [
-            '**/_*.{js,jsx,ts,tsx,md,mdx}',
-            '**/_*/**',
-            '**/*.test.{js,jsx,ts,tsx}',
-            '**/__tests__/**',
-          ],
+          exclude: ['**/_*.{js,jsx,ts,tsx,md,mdx}', '**/_*/**', '**/*.test.{js,jsx,ts,tsx}', '**/__tests__/**'],
           postsPerPage: 10,
           blogListComponent: '@theme/BlogListPage',
           blogPostComponent: '@theme/BlogPostPage',
@@ -87,13 +82,13 @@ const config = {
             description: 'Get updated to the latest popular restaurants and reviews picked by Fooday',
             copyright: 'Fooday',
             language: undefined,
-            createFeedItems: async (params) => {
-              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+            createFeedItems: async params => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params
               return defaultCreateFeedItems({
                 // keep only the 10 most recent blog posts in the feed
                 blogPosts: blogPosts.filter((item, index) => index < 10),
                 ...rest,
-              });
+              })
             },
           },
         },
@@ -115,18 +110,19 @@ const config = {
         logo: {
           alt: 'Fooday Logo',
           src: 'img/logo.svg',
+          href: 'https://fooday.app',
         },
         items: [
           {
-            to: "/",
-            activeBasePath: "docs",
-            label: "Docs",
-            position: "left"
+            to: 'https://fooday.app/docs',
+            activeBasePath: 'docs',
+            label: 'Docs',
+            position: 'left',
           },
-          { 
-            to: "/blog", 
-            label: "Blog",
-            position: "left" 
+          {
+            to: 'https://fooday.app/blog',
+            label: 'Blog',
+            position: 'left',
           },
           {
             type: 'localeDropdown',
