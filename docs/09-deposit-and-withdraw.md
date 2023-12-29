@@ -1,6 +1,6 @@
 ---
 slug: /deposit-and-withdrawal
-sidebar_position: 5
+sidebar_position: 09
 title: Deposit & Withdrawal
 ---
 

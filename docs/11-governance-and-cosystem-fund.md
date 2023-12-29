@@ -1,6 +1,6 @@
 ---
 slug: governance-and-ecosystem-fund
-sidebar_position: 10
+sidebar_position: 11
 title: Governance & Ecosystem Fund
 ---
 
