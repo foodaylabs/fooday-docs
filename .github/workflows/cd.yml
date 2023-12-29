@@ -8,8 +8,8 @@ on:
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
-  deploy-docs:
-    name: Deploy Docs
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -22,9 +22,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build website
-        run: yarn build --config ./docusaurus.docs.config.js
-
       - id: auth
         uses: 'google-github-actions/auth@v2'
         with:
@@ -32,40 +29,67 @@ jobs:
           create_credentials_file: true
           export_environment_variables: true
 
-      - name: Upload to GCS
-        uses: 'google-github-actions/upload-cloud-storage@v2'
-        with:
-          path: './build'
-          destination: 'fooday-docs'
-          parent: false
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v2
 
-  deploy-blog:
-    name: Deploy Blog
-    runs-on: ubuntu-latest
-    steps:
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v0'
+        with:
+          project_id: fooday-beta
+
+      - name: Login docker registry
+        run: |
+          gcloud auth configure-docker
+          gcloud auth configure-docker asia-east1-docker.pkg.dev
+
+      - name: Set env variables
+        run: |
+          SHORT_TAG=$(git rev-parse --short HEAD)
+          DOCKER_REGISTRY=asia-east1-docker.pkg.dev/fooday-prod/fooday
+          echo "SHORT_TAG=$SHORT_TAG" >> $GITHUB_ENV
+          echo "DOCS_IMAGE_NAME=$DOCKER_REGISTRY/fooday-docs" >> $GITHUB_ENV
+
+      - name: Build and push docs image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          tags: |
+            ${{ env.DOCS_IMAGE_NAME }}:latest
+            ${{ env.DOCS_IMAGE_NAME }}:${{ env.SHORT_TAG }}
+          push: true
+
       - uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v3
         with:
-          node-version: 18
-          cache: yarn
+          repository: foodaylabs/fooday-k8s
+          ref: main
+          token: ${{ secrets.DEPLOYER_GITHUB_PAT }}
+          path: fooday-k8s
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Commit and trigger deploy
+        run: |
+          set -x
+          cd fooday-k8s
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          cd clusters/fooday-prod
+          sed -i "s|newTag: .*#fooday-docs|newTag: '$SHORT_TAG'|" fooday-docs.yaml
+          git commit -am "chore: auto-release fooday-docs $SHORT_TAG"
+          git push origin
 
-      - name: Build website
-        run: yarn build --config ./docusaurus.blog.config.js
-
-      - id: auth
-        uses: 'google-github-actions/auth@v2'
+      - name: Slack notification
+        uses: 8398a7/action-slack@v3
         with:
-          credentials_json: '${{ secrets.GCP_DEPLOYER }}'
-          create_credentials_file: true
-          export_environment_variables: true
-
-      - name: Upload to GCS
-        uses: 'google-github-actions/upload-cloud-storage@v2'
-        with:
-          path: './build'
-          destination: 'fooday-blog'
-          parent: false
+          status: custom
+          fields: workflow,job,commit,repo,ref,author,took
+          custom_payload: |
+            {
+              text: '${{ job.status }}' === 'success' ? ':pray: :pray: :pray:' : ':no_entry: :no_entry: :no_entry:',
+              attachments: [{
+                color: '${{ job.status }}' === 'success' ? 'good' : '${{ job.status }}' === 'failure' ? 'danger' : 'warning',
+                text: `${process.env.AS_WORKFLOW} - ${process.env.AS_REPO}@${process.env.BRANCH_NAME}:${process.env.AS_COMMIT}\nby ${process.env.AS_AUTHOR} ${{ job.status }} in ${process.env.AS_TOOK}`,
+              }]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: always()
