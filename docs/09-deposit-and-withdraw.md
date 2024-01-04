@@ -20,7 +20,6 @@ It’s quite simple. Start by tapping the rightmost option in the menu atra the 
 
 1. Currently, Fooday only supports the Polygon chain.  
 
-2. The withdrawal feature is not available at the moment. You’ll need to wait at least one month after depositing funds to make a withdrawal.
 
 USDC contract address：[`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](<https://polygonscan.com/address/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)  
 USDC.e contract address：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174>)

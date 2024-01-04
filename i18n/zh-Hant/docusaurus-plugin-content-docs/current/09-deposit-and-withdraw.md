@@ -84,13 +84,13 @@ Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢�
 
 圖下以 Rabby 錢包為例，註冊完後點選最上方地址，並點選右方箭頭，就可以看到完整錢包地址，也能從「提領至」欄位最右方，透過掃描 qrcode 匯入地址。
 
-![](../rabby-1.png)
+![](rabby-1.png)
 
 3. 填入欲提領的數量。  
 **（ FOOD 最低提領數量為 1000，FUSD 最低提領數量為 2）**
 
 4. 確認詳細提領資訊後按下「確認」後，請耐心等待提領要求確認。
-![](../depost-2.png)
+![](depost-2.png)
 
 5. 確認後請查看錢包餘額，提領的 FOOD / FUSD 應該已在錢包中。
 >請記得在錢包中新增 FOOD token，才能正確查看餘額。  
@@ -100,7 +100,7 @@ Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢�
 
 （此動作需要支付 Gas Fee - 少量 matic，請查看最下方詳細說明）
 
-![](../depost-3.png)
+![](depost-3.png)
 
 7. 美食家將 FOOD/FUSD 換成 USDC 、確認錢包內有收到後，接著就可以自行到 MAX 交易所換成台幣。  
 USDC 合約地址：[0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359](<https://medium.com/r/?url=https%3A%2F%2Fpolygonscan.com%2Faddress%2F0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)
@@ -131,7 +131,7 @@ MAX 出金有許多教學文章，可參考 [MAX 新台幣提領教學](<https:/
 
 請參考入金教學文章，與 MAX 交易所提領 USDC 到 Fooday 的方法相同，不過需將 Fooday 錢包的地址改為你的 web3 錢包 (Rabby)。
 
-![](../depost-4.png)
+![](depost-4.png)
 
 當錢包有了 Matic 後，就可以順利將 FOOD / FUSD 轉換為 USDC 囉！
 
