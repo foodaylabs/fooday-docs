@@ -102,7 +102,7 @@ As an example using Rabby Wallet, once registered, click on the top address, the
 >Make sure to add the FOOD token to your wallet to view the balance correctly.   
 >**FOOD Contract Address:** `10x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 
-6. Next, go to LlamaSwap and exchange your FOOD/FUSD for USDC. After entering the desired amount for exchange, remember to select a conversion path on the right.
+6. Next, go to LlamaSwap and exchange your FOOD for USDC. After entering the desired amount for exchange, remember to select a conversion path on the right. (When withdrawing FUSD, the system will automatically convert it to USDC.)
 
 :::note
 This action requires paying a Gas Fee — a small amount of matic. Refer to the detailed explanation at the bottom for more information.
