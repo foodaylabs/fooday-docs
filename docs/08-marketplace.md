@@ -24,4 +24,6 @@ To make a purchase within the marketplace, users can opt to acquire FUSD directl
 
 Users can also list their own Fooca Cameras, Fooca Boxes, and Accessories for sale on the Marketplace. You have the flexibility to set your preferred pricing. Listing and delisting items can be done at any time without incurring any additional fees. 
 
+:::note
 However, it's important to note that **Fooday charges a nominal 5% handling fee on all successful sales**. Upon the sale of items, you will receive the designated price immediately.
+:::

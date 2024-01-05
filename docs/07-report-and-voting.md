@@ -50,7 +50,9 @@ If spot information is reported, the system will filter users from the same coun
 
 When a piece of content is reported, the system randomly selects 30 Fooday users from the target country to participate in the voting process. The voting period opens for 24 hours starting from the report time. Selected users receive notifications and can participate by clicking on the notification.
 
+:::info
 The selected users don't need to have a Fooca Camera to participate in verification voting. Even without a camera, you can accumulate verification points and turn them into rewards.
+:::
 
 ------
 
