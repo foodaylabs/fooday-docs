@@ -108,7 +108,7 @@ Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢�
 
 ![](depost-3.png)
 
-7. 美食家將 FOOD/FUSD 換成 USDC 、確認錢包內有收到後，接著就可以自行到 MAX 交易所換成台幣。  
+7. 美食家將 FOOD 換成 USDC 、確認錢包內有收到後，接著就可以自行到 MAX 交易所換成台幣。(提領 FUSD 時，系統則會自動幫你轉換為 USDC，不需再 swap)  
 USDC 合約地址：[0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359](<https://medium.com/r/?url=https%3A%2F%2Fpolygonscan.com%2Faddress%2F0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)
 
 >若想要出金成台幣，請記得註冊 [MAX 交易所](<https://medium.com/r/?url=https%3A%2F%2Fmax.maicoin.com%2F>)。
