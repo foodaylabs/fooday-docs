@@ -19,7 +19,6 @@ Fooca 相機在市集中以 FUSD 定價，想要獲取 FUSD 有兩種方法：
 第二個方法則是從鏈上錢包打入 USDC 或 USDC.e 至 Fooday 錢包。接下來將以 [Rabby](<https://rabby.io/>) 錢包打入為例，當然使用其他錢包、使用 MAX、幣安等交易所也都可以。
 
 **1. 目前 Fooday 僅支援 Polygon 鏈**  
-**2. 目前提領功能尚未開放。一旦入金需至少一個月後才能提領。**
 
 USDC 合約地址：[`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](<https://polygonscan.com/address/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)  
 USDC.e 合約地址：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174>)
@@ -37,7 +36,10 @@ USDC.e 合約地址：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://po
 
 5. 使用 FUSD 到市集購買相機，開始邊吃邊賺！
 
-📣 **再次提醒：鏈一定要選擇 Polygon，目前 Fooday 僅支援 Polygon。**   
+:::note
+再次提醒：鏈一定要選擇 Polygon，目前 Fooday 僅支援 Polygon。
+:::
+
 以上是以 Rabby 錢包入金為例，如果想要從其他錢包入金也沒問題喔！
 
 ***
@@ -60,7 +62,9 @@ FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 
 接下來 Fooday 會仔細教你如何提領、換回 USDC，如果你還不知道 Fooday 該如何提領，繼續一起看下去！簡單步驟教美食家快速變現。
 
-**提醒：Fooday 提領目前僅支援 Polygon 鏈，且將 FOOD / FUSD 轉換成 USDC 時需支付 Gas Fee。（Gas Fee 詳細說明可跳到文章最下方查看。）**
+:::note
+Fooday 提領目前僅支援 Polygon 鏈，且將 FOOD / FUSD 轉換成 USDC 時需支付 Gas Fee。（Gas Fee 詳細說明可跳到文章最下方查看。）
+:::
 
 ***
 
@@ -98,7 +102,9 @@ Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢�
 6. 接著到 [LlamaSwap](<https://medium.com/r/?url=https%3A%2F%2Fswap.defillama.com%2F%3Fchain%3Dpolygon%26from%3D0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d%26to%3D0x3c499c542cef5e3811e1192ce70d8cc03d5c3359>) 上將 FOOD / FUSD 換成 USDC。
 輸入完想要兌換的數量後，記得從右邊選擇一種兌換路徑。
 
-（此動作需要支付 Gas Fee - 少量 matic，請查看最下方詳細說明）
+:::note
+此動作需要支付 Gas Fee - 少量 matic，請查看最下方詳細說明
+:::
 
 ![](depost-3.png)
 

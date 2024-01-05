@@ -14,7 +14,9 @@ When creating a spot, you don't need to be near the restaurant, and it's not man
 
 While reviewing a spot, you don't need to be near the restaurant, but you must upload dining photos. Please note that photos cannot be uploaded from your local gallery; they must be selected from the Fooday album. This signifies that you've dined on-site and used the Fooca Camera to capture the moment.
 
->Tip: We recommend foodies use the Fooca Camera to document their dining experiences. Even if you don't publish the review immediately, you can always add the review later with the dining photos!
+:::tip
+We recommend foodies use the Fooca Camera to document their dining experiences. Even if you don't publish the review immediately, you can always add the review later with the dining photos!
+:::
 
 
 ### 👷 Update Spot

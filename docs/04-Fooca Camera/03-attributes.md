@@ -6,9 +6,9 @@ title: Attributes and Battery life
 
 Fooca cameras have four attributes: **Compute**, **Quality**, **Battery**, and **Foospirit**. These attributes determine the overall value, utility, and aspects that foodies prioritize:
 
-> For every level-up of Fooca cameras, you gain **2** attribute points.
-
-<br/>
+:::note
+For every level-up of Fooca cameras, you gain **2** attribute points.
+:::
 
 ### Compute
 Performing contributions like reviews, adding places, verification, etc., consumes energy. Computation is related to the energy points consumed by users on Fooday. 
