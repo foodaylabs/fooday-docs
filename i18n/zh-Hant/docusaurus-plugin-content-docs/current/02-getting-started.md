@@ -56,7 +56,7 @@ USDC.e 合約地址：`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`
 3. 接著點選「選擇提領地址」，進去後點選右上角的「+」符號，並把 Fooday 錢包地址複製加入，也可以直接掃描 QRcode。
 4. 選擇完成後，會自動回到上個頁面。接著就可以輸入想要打入至 Fooday 的 USDC 數量，確認無誤就可以按「送出」，並回到 Fooday 錢包確認囉！
 
-<br>
+***
 
 ### 場外加碼：入金 FOOD 至 Fooday 錢包
 除了 USDC，也可以將 FOOD 入金至 Fooday 錢包喔！
@@ -67,4 +67,4 @@ FOOD 為 Fooday 所發行的代幣，使用者可透過在 Fooday 中評論、�
 
 FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 
-購買 FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+購買 FOOD：[https://reurl.cc/r6WaeZ](https://reurl.cc/r6WaeZ)
