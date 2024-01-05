@@ -19,7 +19,6 @@ Fooca 相機在市集中以 FUSD 定價，想要獲取 FUSD 有兩種方法：
 第二個方法則是從鏈上錢包打入 USDC 或 USDC.e 至 Fooday 錢包。接下來將以 [Rabby](<https://rabby.io/>) 錢包打入為例，當然使用其他錢包、使用 MAX、幣安等交易所也都可以。
 
 **1. 目前 Fooday 僅支援 Polygon 鏈**  
-**2. 目前提領功能尚未開放。一旦入金需至少一個月後才能提領。**
 
 USDC 合約地址：[`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](<https://polygonscan.com/address/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)  
 USDC.e 合約地址：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174>)
