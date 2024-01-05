@@ -51,7 +51,11 @@ USDC.e Contract Address: `0x2791bca1f2de4661ed88a30c99a7a9449aa84174`
 
 5. Use FUSD to purchase a camera in the marketplace and kickstart your journey of eating while earning!
 
->📣 Reminder: Be sure to select the Polygon chain; currently, Fooday only supports Polygon.
+:::info
+
+Be sure to select the Polygon chain; currently, Fooday only supports Polygon.
+
+:::
 
 <br/>
 

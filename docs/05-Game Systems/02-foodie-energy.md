@@ -4,7 +4,9 @@ sidebar_position: 2
 title: Energy
 ---
 
->Only with a Fooca Camera can you possess Energy, which is required for community contributions.
+:::info
+Only with a Fooca Camera can you possess Energy, which is required for community contributions.
+:::
 
 **The more Fooca Cameras you have, the more Energy your foodie account possesses**, allowing for more contributions within a day.
 

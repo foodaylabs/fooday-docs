@@ -42,7 +42,9 @@ The second method involves transferring USDC from your crypto wallet to your Foo
 
 5. Use FUSD to purchase a camera in the marketplace and kickstart your journey of eating while earning!
 
-📣 **Reminder: Be sure to select the Polygon chain; currently, Fooday only supports Polygon.**
+:::note
+Be sure to select the Polygon chain; currently, Fooday only supports Polygon
+:::
 
 ***
 
@@ -62,8 +64,10 @@ In Fooday, foodies can earn FOOD through contributions and FUSD by selling Fooca
 
 Next, Fooday will guide you on how to withdraw and convert it into USDC. If you’re not sure how to withdraw from Fooday, continue reading for a quick step-by-step guide.
 
->Note: Fooday withdrawals are currently supported only on the Polygon chain, and there will be a Gas Fee when converting FOOD/FUSD to USDC.  
+:::note
+Fooday withdrawals are currently supported only on the Polygon chain, and there will be a Gas Fee when converting FOOD/FUSD to USDC.  
 (For detailed Gas Fee information, you can refer to the bottom of this article.)
+:::
 
 ### Withdraw as four simple steps:
 1. Go to your Fooday wallet, select FOOD / FUSD, and click “Withdraw.”
@@ -100,7 +104,9 @@ As an example using Rabby Wallet, once registered, click on the top address, the
 
 6. Next, go to LlamaSwap and exchange your FOOD/FUSD for USDC. After entering the desired amount for exchange, remember to select a conversion path on the right.
 
-(Please note that this action requires paying a Gas Fee — a small amount of matic. Refer to the detailed explanation at the bottom for more information.)
+:::note
+This action requires paying a Gas Fee — a small amount of matic. Refer to the detailed explanation at the bottom for more information.
+:::
 
 7. Once you’ve exchanged FOOD/FUSD for USDC and confirmed that it has been received in your wallet, congratulations, you’ve successfully withdrawn your funds.
 
