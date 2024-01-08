@@ -26,5 +26,9 @@
   "sidebar.tutorialSidebar.category.Community Systems": {
     "message": "社群系統",
     "description": "The label for category Community Systems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tokenomics": {
+    "message": "代幣經濟系統",
+    "description": "The label for category Community Systems in sidebar tutorialSidebar"
   }
 }

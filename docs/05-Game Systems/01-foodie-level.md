@@ -6,13 +6,15 @@ title: Foodie Level
 
 In Fooday, foodies with Fooca Cameras can earn Fudos by contributing, and their levels will also increase.
 
-> Advantage of Higher foodie Levels: The higher the foodie's level, the better the exchange rate of Fudos to FOOD.
+:::tip
+Advantage of Higher foodie Levels: The higher the foodie's level, the better the exchange rate of Fudos to FOOD.
+:::
 
 Fudos serve as experience points on the Fooday platform. Foodies with Fooca Cameras can earn a certain amount of Fudos by completing tasks, creating spot locations, sharing culinary experiences, and reporting incorrect information.
 
-## Fudos to FOOD Multiplier
+***
 
-![Fudos Settlement](../fudos-settlement.jpg)
+## Fudos to FOOD Multiplier
 
 The Fudos earned by a foodie on a given day will automatically convert to FOOD after 24 hours on the next day at 00:00 UTC, without any manual action needed.
 

@@ -1,7 +1,7 @@
 ---
 slug: /deposit-and-withdrawal
 sidebar_position: 09
-title: 入金與出金
+title: 入金與提領
 ---
 
 ## Fooday 入金該怎麼操作？
@@ -56,7 +56,7 @@ FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 
 <br/>
 
-## Fooday出金該如何操作
+## Fooday 提領該如何操作
 
 在 Fooday 中美食家只要透過貢獻就能賺取 FOOD，也能透過販賣 Fooca 相機賺取 FUSD。
 
