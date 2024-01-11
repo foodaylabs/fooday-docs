@@ -52,7 +52,7 @@ When Minting Fooca cameras, there is a chance to obtain camera boxes of differen
 | camera 1  | camera 2  |  Common fooca box  | Rare fooca box  |
 |:---:|:---:|:---:|:---:|
 | Classic | Classic  | 99%  | 1%  | 
-| Classoc  | Advanced  | 50%  | 50%  | 
+| Classic  | Advanced  | 80%  | 20%  | 
 | Advanced  | Advanced  | 25%  | 75%  | 
 
 <br/>
