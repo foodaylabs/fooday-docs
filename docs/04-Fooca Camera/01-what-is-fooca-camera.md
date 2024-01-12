@@ -128,4 +128,18 @@ Genesis Fooca Cameras function just like any other Fooca Camera, allowing you to
 
 ***
 
+### Fooca ID
+
+The Fooca ID is used to distinguish each Fooca Camera / Fooca Box, representing a unique identifier for each Fooca, ensuring there are no duplicate Fooca ID.
+
+Fooca Cameras numbered from #1 to #499 are test cameras used during the trial period and has been burnt and destroyed upon the official launch.
+
+The first batch of Fooca Camera are minted with the ID starting from #500 after the official release. With each Fooca Box minted, the number increments by 1, ordered chronologically by minted time. Both regular Fooca Cameras and Genesis Fooca Cameras follow the same numbering system. The Fooca Box's number corresponds to the Fooca Camera obtained when it is opened.
+
+For example, the Fooca Camera obtained from opening the #500 Fooca Box will also have the camera ID #500.
+
+> The Fooca Camera ID is not equivalent to the NFT token ID assigned to the camera upon minting. Currently, Fooca Cameras and Fooca Boxes do not support on-chain transaction.
+
+***
+
 Choose the Fooca Camera that suits your strategy and embark on your Fooday journey!

@@ -25,6 +25,7 @@ Each invitation code involves a two-step mission for its application:
 * Each invitation code is eligible for claiming the rewards of "Mission 1" and "Mission 2" once.
 * Invitation codes can only be used once, so share wisely.
 * You'll receive the 10x Reward for "Mission 2" only when your invited friends contribute once with a Fooca Camera.
+* You must have a Foodie identity to claim mission rewards. If you are not a Foodie at mission completion, you cannot claim mission rewards, and past missions cannot be retroactively claimed. (If you don't have any Fooca cameras in your wallet or all your Fooca cameras are listed for sale in the marketplace, you are not considered a Foodie.)
 * Fooday reserves the right to modify campaign features and specifications without prior notice.
 
 ### How to Obtain an Invitation Code to become a signed-up Foodie?
