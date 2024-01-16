@@ -32,7 +32,6 @@ Currently, Fooca Cameras come in two rarities: **Classic** and **Advanced**.
 
 Key Differences:
 
-***
 
 ### Initial Attribute Points
 
@@ -68,7 +67,6 @@ Example:
 * Advanced Camera C: Battery 11 | Computing 8 | Quality 6 | Foospirit 5
 * Advanced Camera D: Battery 7 | Computing 6 | Quality 9 | Foospirit 8
 
-***
 
 ### Attribute Point Limits
 
@@ -82,7 +80,6 @@ Classic Fooca Camera: Each attribute has a point limit of 30.
 Advanced Fooca Camera: Each attribute has a point limit of 50.
 ```
 
-***
 
 ### Probability of Obtaining Rare Fooca Box When Minting
 
@@ -90,7 +87,6 @@ Using an Advanced Fooca Camera for crafting significantly increases the chance o
 
 For a comprehensive guide on crafting Fooca Cameras, refer to the [Minting System of Fooca](/minting).
 
-***
 
 ### Foodie Energy Bonus
 
@@ -112,7 +108,25 @@ If you have 3 cameras, including 2 Advanced Fooca Cameras, your maximum Foodie E
 
 ***
 
-### Genesis Fooca Camera
+## Fooca Camera Level
+
+You can upgrade your Fooca Camera by spending FOOD. With each level increase, you gain 2 attribute points that you can freely allocate to enhance your camera's performance. This allows Foodies to earn more rewards or consume less energy/battery when contributing.
+
+**Currently, the maximum level for a Fooca Camera is 30.** The formula for the FOOD cost required to level up is as follows:
+
+```
+Upgrade cost in FOOD = Rounded(45 * 1.11^target level)
+```
+
+For levels 1 to 5, the upgrade time is 60 minutes each. Starting from level 6, the upgrade time follows this formula:
+
+```
+Upgrade time (minutes) = (60 * target level)
+```
+
+***
+
+## Genesis Fooca Camera
 
 You can only get a Genesis Fooca Camera from a Genesis Fooca Box.
 
@@ -128,7 +142,7 @@ Genesis Fooca Cameras function just like any other Fooca Camera, allowing you to
 
 ***
 
-### Fooca ID
+## Fooca ID
 
 The Fooca ID is used to distinguish each Fooca Camera / Fooca Box, representing a unique identifier for each Fooca, ensuring there are no duplicate Fooca ID.
 
