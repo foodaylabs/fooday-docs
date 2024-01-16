@@ -6,9 +6,11 @@ title: Foodie Level
 
 In Fooday, foodies with Fooca Cameras can earn Fudos by contributing, and their levels will also increase.
 
-:::tip
-Advantage of Higher foodie Levels: The higher the foodie's level, the better the exchange rate of Fudos to FOOD.
-:::
+**Currently, the highest level for Foodies is open up to level 50.**The formula for the Fudos accumulated required to level up is as follows:
+
+```
+Required Fudos to level up = Rounded {[（0.7 * Target level ^ 0.78）- 0.15] * 55}
+```
 
 Fudos serve as experience points on the Fooday platform. Foodies with Fooca Cameras can earn a certain amount of Fudos by completing tasks, creating spot locations, sharing culinary experiences, and reporting incorrect information.
 
@@ -34,6 +36,10 @@ Multiplier = 1 + (Foodie level - 1)/100
 ```
 
 For instance, at the current **Foodie level of 6**, the conversion rate will be multiplied by **1.05**, meaning that John can get **105 FOOD**.
+
+:::tip
+Advantage of Higher foodie Levels: The higher the foodie's level, the better the exchange rate of Fudos to FOOD.
+:::
 
 ## Foodie Level Achievement
 
