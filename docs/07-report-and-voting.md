@@ -80,7 +80,7 @@ If the required participation rate is not reached by the end of the extended per
 
 ### If the voting report against you passes
 
-1. You will lose the equivalent Fudos value of the review/store in question (excluding Battery Power debuff), plus an additional 30% penalty based on the original value.
+1. You will lose the equivalent Fudos value of the review/store in question (excluding Battery Power debuff), plus an additional 15% penalty based on the original value.
 2. The reported review/spot will be taken down.
 
 ### If the voting report against you fails
@@ -94,7 +94,7 @@ Example:
 > 
 > Later, Jane reported your review at Store B:
 > 
-* If Jane's report against you is successful, you will lose the original 40 Fudos value of the review (even though you only received 28 Fudos initially). Additionally, you will be penalized by an extra 30% deduction of the original value (40 Fudos), resulting in a total loss of 52 Fudos.
+* If Jane's report against you is successful, you will lose the original 40 Fudos value of the review (even though you only received 28 Fudos initially). Additionally, you will be penalized by an extra 15% deduction of the original value (40 Fudos), resulting in a total loss of 46 Fudos.
 * If Jane's report against you fails, you won't face any penalties.
 
 ------
