@@ -118,6 +118,8 @@ You can upgrade your Fooca Camera by spending FOOD. With each level increase, yo
 Upgrade cost in FOOD = Rounded(45 * 1.11^target level)
 ```
 
+Additionally, there's a leveling threshold every five ranks (4 to 5, 9 to 10, etc.), and as you progress, the amount of FOOD required for leveling up increases.
+
 For levels 1 to 5, the upgrade time is 60 minutes each. Starting from level 6, the upgrade time follows this formula:
 
 ```
