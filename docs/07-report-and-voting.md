@@ -60,19 +60,19 @@ The selected users don't need to have a Fooca Camera to participate in verificat
 
 In the event that a report is rejected and the reported spot or review is deemed to be accurate and reliable, the one who reported will be fined with a deduction of FUDOS.
 
-**Within 24 hours from the time of the report, the voting rate must reach 20%, and the "Agree" ratio must be 2/3 for the report to be approved.** 
+**Within 24 hours from the time of the report, the voting rate must reach 30%, and the "Agree" ratio must be 2/3 for the report to be approved.** 
 
 Example:
-> If you, John, report a review, the system selects 30 users for the vote. If within 24 hours, at least 6 users participate in the vote, and out of those, equal or more than 4 users agree, then the report is approved.
+> If you, John, report a review, the system selects 30 users for the vote. If within 24 hours, at least 9 users participate in the vote, and out of those, equal or more than 6 users agree, then the report is approved.
 
 ### What if the number of voters doesn't meet the requirement?
 
-If within 24 hours from the report time the voting participation rate of the selected 30 users from the reported country is below 20%, the voting period will be extended by 24 hours, and another 30 users will be selected for voting. During this extended 24-hour period, the participation rate must reach 20% of the original users.
+If within 24 hours from the report time the voting participation rate of the selected 30 users from the reported country is below 30%, the voting period will be extended by 24 hours, and another 30 users will be selected for voting. During this extended 24-hour period, the participation rate must reach 30% of the original users.
 
 Example:
-> If there are fewer than 6 users participating in the vote in the first 24 hours, the system will select 30 more users for the poll. Within the following 24 hours, 6 out of 60 users should participate in the voting to make the challenge valid.
+> If there are fewer than 9 users participating in the vote in the first 24 hours, the system will select 30 more users for the poll. Within the following 24 hours, 9 out of 60 users should participate in the voting to make the challenge valid.
 
-If the required participation rate is not reached by the end of the extended period, the process of extending the voting time and increasing the number of participants will be repeated until the participation rate reaches 20% of the original user amount.
+If the required participation rate is not reached by the end of the extended period, the process of extending the voting time and increasing the number of participants will be repeated until the participation rate reaches 30% of the original user amount.
 
 ------
 
