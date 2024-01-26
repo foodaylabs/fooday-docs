@@ -21,8 +21,8 @@ It’s quite simple. Start by tapping the rightmost option in the menu atra the 
 1. Currently, Fooday only supports the Polygon chain.  
 
 
-USDC contract address：[`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](<https://polygonscan.com/address/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)  
-USDC.e contract address：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174>)
+* USDC contract address：[`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](<https://polygonscan.com/address/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)  
+* USDC.e contract address：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174>)
 
 <br/>
 
@@ -69,7 +69,7 @@ Fooday withdrawals are currently supported only on the Polygon chain, and there 
 (For detailed Gas Fee information, you can refer to the bottom of this article.)
 :::
 
-### Withdraw as four simple steps:
+### Withdraw as 4 simple steps:
 1. Go to your Fooday wallet, select FOOD / FUSD, and click “Withdraw.”
 
 2. Paste your web3 wallet address in the “Withdraw to” field.
@@ -87,7 +87,7 @@ Once you’ve converted FOOD/FUSD to USDC, you can then go to the MAX exchange t
 
 2. In the “To” field, enter your wallet address.
 
->If you don’t already have a web3 wallet, be sure to register one before proceeding! Fooday recommends [Rabby](<https://rabby.io/>) Wallet, or other commonly used cryptocurrency wallets like Metamask will also work.
+> If you don’t already have a web3 wallet, be sure to register one before proceeding! Fooday recommends [Rabby](<https://rabby.io/>) Wallet, or other commonly used cryptocurrency wallets like Metamask will also work.
 
 As an example using Rabby Wallet, once registered, click on the top address, then click the right-facing arrow to view your complete wallet address. You can also import the address by scanning the QR code located on the right side of the “Withdraw to” field.
 
@@ -100,7 +100,8 @@ As an example using Rabby Wallet, once registered, click on the top address, the
 5. After confirming, please check your wallet balance. The withdrawn FOOD/FUSD should now be in your wallet.
 
 >Make sure to add the FOOD token to your wallet to view the balance correctly.   
->**FOOD Contract Address:** `10x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
+
+**FOOD Contract Address:** `10x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 
 6. Next, go to LlamaSwap and exchange your FOOD for USDC. After entering the desired amount for exchange, remember to select a conversion path on the right. (When withdrawing FUSD, the system will automatically convert it to USDC.)
 
@@ -110,8 +111,7 @@ This action requires paying a Gas Fee — a small amount of matic. Refer to the 
 
 7. Once you’ve exchanged FOOD/FUSD for USDC and confirmed that it has been received in your wallet, congratulations, you’ve successfully withdrawn your funds.
 
->**USDC Contract Address:**  
-0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359
+> **USDC Contract Address:** 0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359
 
 ***
 
@@ -140,4 +140,4 @@ Please refer to the deposit tutorial article. The process to withdraw USDC from 
 
 Once you have Matic in your wallet, you can smoothly convert FOOD / FUSD into USDC!
 
->The Gas Fee on the Polygon chain is quite reasonable, typically only around $0.01 per transaction if you’re not in peak periods. Fooday recommends that you don’t need to exchange too much; 5 Matic should last you a long time.
+> The Gas Fee on the Polygon chain is quite reasonable, typically only around $0.01 per transaction if you’re not in peak periods. Fooday recommends that you don’t need to exchange too much; 5 Matic should last you a long time.

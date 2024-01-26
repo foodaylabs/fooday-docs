@@ -4,6 +4,8 @@ sidebar_position: 2
 title: Energy
 ---
 
+![Energy bar](../energybar.jpg)
+
 :::info
 Only with a Fooca Camera can you possess Energy, which is required for community contributions.
 :::
@@ -11,15 +13,15 @@ Only with a Fooca Camera can you possess Energy, which is required for community
 **The more Fooca Cameras you have, the more Energy your foodie account possesses**, allowing for more contributions within a day.
 
 
-Here's the relationship between the number of cameras and Energy:
+Here's the relationship between the number of cameras and Max Energy:
 
 
-| Fooca camera  | Energy  | 
+| Fooca camera  | Max Energy  | 
 |:---:|:---:|
-| 1 | 6  |
-| 3  | 10  | 
-| 9  | 18  | 
-| 15  | 30  | 
+| 1 Camera | 6 Energy |
+| 3 Cameras | 10 Energy  | 
+| 9 Cameras | 18 Energy  | 
+| 15 Cameras | 30 Energu  | 
 
 <br/>
 
