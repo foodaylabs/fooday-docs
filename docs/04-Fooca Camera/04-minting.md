@@ -62,5 +62,5 @@ Here are the probabilities for opening the Fooca camera boxes created through mi
 | Fooca box rarity | Classic fooca camera  | Advanced fooca camera |
 |:---:|:---:|:---:|
 | Common | 97%  | 3%  | 
-| Rare  | 75%  | 25%  |
+| Rare  | 25%  | 75%  |
 
