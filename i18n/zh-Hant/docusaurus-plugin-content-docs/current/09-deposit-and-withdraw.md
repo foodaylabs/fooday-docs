@@ -9,8 +9,8 @@ title: 入金與提領
 
 Fooca 相機在市集中以 FUSD 定價，想要獲取 FUSD 有兩種方法：
 
-* Fooday App 內購 FUSD
-* 從 Polygon 鏈將 USDC 轉入 Fooday 錢包，轉入後則會自動轉換為 FUSD（Rabby 錢包、交易所）
+1. Fooday App 內購 FUSD
+2. 從 Polygon 鏈將 USDC 轉入 Fooday 錢包，轉入後則會自動轉換為 FUSD（Rabby 錢包、交易所）
 
 ### 方法 1 ：Fooday App 內購 FUSD
 如果你不熟悉區塊鏈及鏈上交易，使用 Fooday 內購 FUSD 是最快速的方式。內購方法相當簡單，先點擊下方選單最右邊，並找到「購買 FUSD」，並選擇想要購買的金額，FUSD 就會自動存入 Fooday 錢包囉，與其他手遊的課金方法相同。
@@ -20,8 +20,8 @@ Fooca 相機在市集中以 FUSD 定價，想要獲取 FUSD 有兩種方法：
 
 **1. 目前 Fooday 僅支援 Polygon 鏈**  
 
-USDC 合約地址：[`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](<https://polygonscan.com/address/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)  
-USDC.e 合約地址：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174>)
+* USDC 合約地址：[`0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`](<https://polygonscan.com/address/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)  
+* USDC.e 合約地址：[`0x2791bca1f2de4661ed88a30c99a7a9449aa84174`](<https://polygonscan.com/address/0x2791bca1f2de4661ed88a30c99a7a9449aa84174>)
 
 <br/>
 
@@ -51,8 +51,8 @@ FOOD 為 Fooday 所發行的代幣，使用者可透過在 Fooday 中評論、�
 
 如果想要馬上鑄造出新相機，或將相機快速升等，也可以選擇在 Polygon 上直接購入 FOOD，並轉入 Fooday 錢包中。入金的方式則與入金 FUSD 相同。
 
-FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
-購買 FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+* FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
+* 購買 FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
 
 <br/>
 
@@ -83,7 +83,7 @@ Fooday 提領目前僅支援 Polygon 鏈，且將 FOOD / FUSD 轉換成 USDC 時
 1. 點選下方選單的最右邊，在 Fooday 錢包中點選欲提領的幣種（ FOOD / FUSD），並點選「提領」。
 
 2. 在「提領至」的欄位輸入你的錢包地址。
->若你尚未擁有 web3 錢包，請一定要先註冊一個才能提領喔！  
+> 若你尚未擁有 web3 錢包，請一定要先註冊一個才能提領喔！  
 Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢包如 metamask 也都可以。
 
 圖下以 Rabby 錢包為例，註冊完後點選最上方地址，並點選右方箭頭，就可以看到完整錢包地址，也能從「提領至」欄位最右方，透過掃描 qrcode 匯入地址。
@@ -97,9 +97,11 @@ Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢�
 ![](depost-2.png)
 
 5. 確認後請查看錢包餘額，提領的 FOOD / FUSD 應該已在錢包中。
->請記得在錢包中新增 FOOD token，才能正確查看餘額。  
+> 請記得在錢包中新增 FOOD token，才能正確查看餘額。  
+
 **FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`**
-6. 接著到 [LlamaSwap](<https://medium.com/r/?url=https%3A%2F%2Fswap.defillama.com%2F%3Fchain%3Dpolygon%26from%3D0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d%26to%3D0x3c499c542cef5e3811e1192ce70d8cc03d5c3359>) 上將 FOOD / FUSD 換成 USDC。
+
+6. 接著到 [LlamaSwap](https://medium.com/r/?url=https%3A%2F%2Fswap.defillama.com%2F%3Fchain%3Dpolygon%26from%3D0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d%26to%3D0x3c499c542cef5e3811e1192ce70d8cc03d5c3359) 上將 FOOD / FUSD 換成 USDC。
 輸入完想要兌換的數量後，記得從右邊選擇一種兌換路徑。
 
 :::note
@@ -109,10 +111,10 @@ Fooday 推薦 [Rabby](<https://rabby.io/>) 錢包，或是其他常見加密錢�
 ![](depost-3.png)
 
 7. 美食家將 FOOD 換成 USDC 、確認錢包內有收到後，接著就可以自行到 MAX 交易所換成台幣。(提領 FUSD 時，系統則會自動幫你轉換為 USDC，不需再 swap)  
-USDC 合約地址：[0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359](<https://medium.com/r/?url=https%3A%2F%2Fpolygonscan.com%2Faddress%2F0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)
+* USDC 合約地址：[0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359](<https://medium.com/r/?url=https%3A%2F%2Fpolygonscan.com%2Faddress%2F0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359>)
 
->若想要出金成台幣，請記得註冊 [MAX 交易所](<https://medium.com/r/?url=https%3A%2F%2Fmax.maicoin.com%2F>)。
-MAX 出金有許多教學文章，可參考 [MAX 新台幣提領教學](<https://medium.com/r/?url=https%3A%2F%2Fsupport.maicoin.com%2Fzh-TW%2Fsupport%2Fsolutions%2Farticles%2F32000021144-max-%25E6%2596%25B0%25E5%258F%25B0%25E5%25B9%25A3%25E6%258F%2590%25E9%25A0%2598%25E6%2595%2599%25E5%25AD%25B8>)。
+> 若想要出金成台幣，請記得註冊 [MAX 交易所](<https://medium.com/r/?url=https%3A%2F%2Fmax.maicoin.com%2F>)。
+> MAX 出金有許多教學文章，可參考 [MAX 新台幣提領教學](<https://medium.com/r/?url=https%3A%2F%2Fsupport.maicoin.com%2Fzh-TW%2Fsupport%2Fsolutions%2Farticles%2F32000021144-max-%25E6%2596%25B0%25E5%258F%25B0%25E5%25B9%25A3%25E6%258F%2590%25E9%25A0%2598%25E6%2595%2599%25E5%25AD%25B8>)。
 
 <br/>
 

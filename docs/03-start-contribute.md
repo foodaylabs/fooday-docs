@@ -29,10 +29,10 @@ If you come across any incorrect information, inappropriate content, or irreleva
 
 | Contributions  | Energy Cosumption    | Battery Cosumption     | *Max Fudos    |
 |:---:        | :---:        |:---:       | :---:       |
-| Review      | 4   | 10   | 45    |
-| Create Spot | 2   | 5    | 15   |
-| Update Spot | 1   | 2    | 3    |
-| Report      | 1   | 2    | **Original Fudos value of Review/Spot     |
+| Review      | 4 Energy  | 10% Battery  | 45 Fudos    |
+| Create Spot | 2 Energy  | 5% Battery   | 15 Fudos   |
+| Update Spot | 1 Energy  | 2% Battery   | 3 Fudos    |
+| Report      | 1 Energy  | 2% Battery   | **Original Fudos value of Review/Spot     |
   
 > *The maximum Fudos you can earn mentioned above is the basic reward before any Fooca Camera bonuses. The final maximum Fudos you can earn may vary depending on Fooca Camera attribute bonuses, Energy and Battery consumption.
 
@@ -41,6 +41,7 @@ If you come across any incorrect information, inappropriate content, or irreleva
 ***
 
 ### Bonus: Cast Your Vote
+
 In addition to the four types of contributions mentioned earlier, there's another community behavior that can earn you Fudos: assisting in verification voting.
 
 Even if you don't have a Fooca camera, as long as you're a user, you have the "voting rights." When someone initiates a report, the system will randomly select users to assist in verification voting.
