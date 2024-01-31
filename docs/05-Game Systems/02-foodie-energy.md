@@ -28,7 +28,7 @@ Here's the relationship between the number of cameras and Max Energy:
 | 1 Camera | 6 Energy |
 | 3 Cameras | 10 Energy  | 
 | 9 Cameras | 18 Energy  | 
-| 15 Cameras | 30 Energu  | 
+| 15 Cameras | 30 Energy  | 
 
 ### Advanced Camera Bonus
 
