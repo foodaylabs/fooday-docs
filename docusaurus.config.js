@@ -111,6 +111,7 @@ const config = {
           alt: 'Fooday Logo',
           src: 'img/logo.svg',
           href: 'https://fooday.app',
+          target: '_self',
         },
         items: [
           {
@@ -118,11 +119,13 @@ const config = {
             activeBasePath: 'docs',
             label: 'Docs',
             position: 'left',
+            target: '_self',
           },
           {
             to: 'https://fooday.app/blog',
             label: 'Blog',
             position: 'left',
+            target: '_self',
           },
           {
             type: 'localeDropdown',
