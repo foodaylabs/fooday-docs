@@ -174,6 +174,6 @@ _多國料理 | 牛肉料理 | 創意料理 | 高雄巨蛋美食_
 
 立即下載 Fooday app ，成為美食家，只要留下評論跟建立店家就可以獲得獎勵，實現邊吃邊賺的吃貨人生！
 
-[![立即下載 Fooday app](./img/download-now01.jpg)](https://itunes.apple.com/app/id6456410353)
+[![立即下載 Fooday app](./img/download-now01.jpg)](https://fooday.app/)
 
 想追蹤更多的美食快報，歡迎訂閱我們的[Fooday 電子報](https://blog-zh.fooday.app/)
