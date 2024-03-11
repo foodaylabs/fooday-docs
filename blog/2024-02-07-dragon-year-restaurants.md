@@ -22,11 +22,11 @@ import { InstagramEmbed } from 'react-social-media-embed';
 ### 全台 6 間過年營業聚餐餐廳：
 
 * [龍鶴家](#龍鶴家) | 高雄
-* [海底撈火鍋 新莊宏匯店](#海底撈火鍋新莊宏匯店) | 新北
+* [海底撈火鍋 新莊宏匯店](#海底撈火鍋-新莊宏匯店) | 新北
 * [崁頂土雞城](#崁頂土雞城) | 台南
 * [花花世界鍋物](#花花世界鍋物) | 台南
-* [實季。Seedson Coffee](#實季SeedsonCoffee) | 花蓮
-* [蘇蘇食作 Susuhomemade](#蘇蘇食作Susuhomemade) | 高雄
+* [實季。Seedson Coffee](#實季seedson-coffee) | 花蓮
+* [蘇蘇食作 Susuhomemade](#蘇蘇食作-susuhomemade) | 高雄
 
 ***
 
