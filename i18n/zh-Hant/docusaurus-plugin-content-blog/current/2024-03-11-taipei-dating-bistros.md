@@ -28,7 +28,7 @@ import { InstagramEmbed } from 'react-social-media-embed';
 * [LilyCoco莉莉可可](#lilycoco莉莉可可) | 台北松山區
 * [Waiting Bistro 餐酒館](#waiting-bistro-餐酒館) | 台北大安區
 * [Ombré](#ombré) | 台北大安區
-* [Cactus Bar](#cactus-bar) | 台北大安區
+* [CACTUS Bar](#cactus-bar) | 台北大安區
 
 ***
 
@@ -173,11 +173,11 @@ IG 合作美食家 [@hoja_food.travel](https://www.instagram.com/hoja_food.trave
 
 ***
 
-## Cactus Bar
+## CACTUS Bar
 
 _大安餐酒館 | 畫廊餐廳 | 藝術酒吧 | 咖啡廳酒吧_
 
-白天是咖啡廳，晚上則是酒吧的 CACTUS 酒吧，整體店面的感受非常藝術氣息，店員服務態度也很溫馨，這裡的每一道酒還有對應畫作，喝酒的過程可以腦力激盪，一同回味這畫廊間的藝術。不定時還有塔羅師及易經算命師駐點，很推薦造訪 CACTUS 酒吧，來場餐酒與藝術的約會極致饗宴！
+白天是咖啡廳，晚上則是酒吧的 CACTUS Bar，整體店面的感受非常藝術氣息，店員服務態度也很溫馨，這裡的每一道酒還有對應畫作，喝酒的過程可以腦力激盪，一同回味這畫廊間的藝術。不定時還有塔羅師及易經算命師駐點，很推薦造訪 CACTUS 酒吧，來場餐酒與藝術的約會極致饗宴！
 
 <iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/mus7mGk5KP3tJhcdwuRZVb?maxwidth=384&maxheight=726"></iframe>
 
