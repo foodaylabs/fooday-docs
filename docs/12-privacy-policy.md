@@ -42,6 +42,24 @@ The security of your personal information is important to us. We employ a variet
 
 Our Services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.
 
+## 7. DELETE USER ACCOUNT
+
+We understand that you may decide to discontinue using our Services and may wish to delete your account. To request the deletion of your account, please navigate to the app's settings and submit a deletion request. Upon receiving your request, we will proceed according to our data retention and deletion procedures.
+
+### Process for Deleting Your Account
+
+- Request: To initiate the deletion process, submit a request through the app's settings. Ensure you are logged in to the account you wish to delete.
+  Verification: For security purposes, we may require additional information to verify your identity before processing the deletion request.
+- Deletion: Once your request is verified, we will proceed to delete your account and associated personal information from our databases. Please note, certain information may be retained if necessary for legal reasons or to comply with regulatory obligations.
+
+### What Happens After Deletion?
+
+- Data Removal: After your account is deleted, you will no longer be able to access any of the Services with that account. Any personal information associated with your account will be removed from our systems in accordance with our data retention policy.
+- Retention for Legal Purposes: Some information may be retained in anonymized form or as required by law, even after your account is deleted. This information is retained strictly for compliance with legal obligations and is not accessible or used for any other purpose.
+  Please be aware that the deletion of your account is irreversible. You will lose access to all services, information, and content associated with your account.
+
+For any further questions or concerns about the deletion process, please contact our support team at support@fooday.app.
+
 ## 7. UPDATES TO THIS POLICY
 
 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
