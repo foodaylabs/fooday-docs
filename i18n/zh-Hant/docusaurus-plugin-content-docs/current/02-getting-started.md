@@ -23,7 +23,7 @@ title: 新手上路
 
     > iOS 目前支援 Google、Apple 及 Facebook 登入；Android 目前支援 Google 及 Facebook 登入
 
-2. 輸入 7 位數邀請碼開通帳號
+2. 輸入 7 位數邀請碼（非強制輸入，也可以選擇跳過）
 
     > 邀請碼可至 [Discord](https://discord.gg/6Q3Xa7fRV4) 官方聊天群索取，上面會有其他玩家分享邀請碼，Fooday 官方 [Instagram](https://www.instagram.com/fooday.app) 也會不定期更新限時動態公布邀請碼
 

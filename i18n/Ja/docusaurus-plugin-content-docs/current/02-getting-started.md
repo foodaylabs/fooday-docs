@@ -22,7 +22,7 @@ Download the Fooday App on your mobile or tablet device from the App Store or Go
 
     > Currently, iOS supports Google, Apple, and Facebook login, while Android supports Google and Facebook login.
 
-2. You can enter a 7-digit invitation code to activate your account if you have one. (Not necessary)
+2. Enter a 7-digit invitation code to activate your account if you have one.(Not necessary,you can skip it if you don't have one.)
 
     > You can obtain an invitation code from the official [Discord](https://discord.gg/6Q3Xa7fRV4) chat group, where other players share invitation codes. Fooday's official [Instagram](https://www.instagram.com/fooday.app) also periodically updates invitation codes through Stories.
 
