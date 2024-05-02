@@ -57,6 +57,9 @@ FOOD can be used within Fooday to mint new cameras, recharge cameras, and upgrad
 
 If you want to instantly Mint a new camera or quickly upgrade your camera, you can also choose to purchase FOOD directly on Polygon and transfer it to your Fooday wallet. The deposit process is the same as depositing FUSD.
 
+* Buy FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+
+
 <br/>
 
 ## How do I withdraw from Fooday?
@@ -102,8 +105,9 @@ As an example using Rabby Wallet, once registered, click on the top address, the
 >Make sure to add the FOOD token to your wallet to view the balance correctly.   
 
 **FOOD Contract Address:** `0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
+* FOOD coingecko:[https://www.coingecko.com/en/coins/fooday](<https://www.coingecko.com/en/coins/fooday>)
 
-6. Next, go to LlamaSwap and exchange your FOOD for USDC. After entering the desired amount for exchange, remember to select a conversion path on the right. (When withdrawing FUSD, the system will automatically convert it to USDC.)
+6. Next, go to [LlamaSwap](<https://reurl.cc/r6WaeZ>) and exchange your FOOD for USDC. After entering the desired amount for exchange, remember to select a conversion path on the right. (When withdrawing FUSD, the system will automatically convert it to USDC.)
 
 :::note
 This action requires paying a Gas Fee — a small amount of matic. Refer to the detailed explanation at the bottom for more information.

@@ -32,6 +32,7 @@ In Fooday, FOOD has real-world value and serves as a versatile token. Firstly, F
 
 Furthermore, Foodies can withdraw the earned FOOD to the blockchain and convert it into other cryptocurrencies, providing users with greater flexibility and various value realization possibilities. 
 
+* FOOD coingecko:[https://www.coingecko.com/en/coins/fooday](<https://www.coingecko.com/en/coins/fooday>)
 * FOOD contract address：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 * Buy FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
 

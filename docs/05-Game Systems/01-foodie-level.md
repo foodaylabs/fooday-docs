@@ -8,9 +8,9 @@ In Fooday, foodies with Fooca Cameras can earn Fudos by contributing, and their 
 
 **Currently, the highest level for Foodies is open up to level 50.**The formula for the Fudos accumulated required to level up is as follows:
 
-```
-Required Fudos to level up = Rounded {[（0.75 * Target level ^ 0.8）- 0.15] * 55}
-```
+```Required Fudos to level up:
+Lv1 - Lv30 = Rounded {[（0.75 * Target level ^ 0.8）- 0.15] * 60}
+Lv31 - Lv50 = Rounded {[（0.935 * Target level ^ 0.86）- 0.15] * 60}```
 
 Fudos serve as experience points on the Fooday platform. Foodies with Fooca Cameras can earn a certain amount of Fudos by completing tasks, creating spot locations, sharing culinary experiences, and reporting incorrect information.
 
