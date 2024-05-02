@@ -30,8 +30,10 @@ Fudos 是 Fooday 平台上的經驗值。擁有 Fooca 相機的美食家，可�
 
 此外，美食家能將賺取的 FOOD 提領到區塊鏈上，將其轉換為其他加密貨幣，這為用戶提供了更大的彈性，以及多種價值實現的可能性。
 
+* 購買 FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
 * FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 * 購買 FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+
 
 :::info
 然而，需要注意的是，FOOD 的價格由市場決定的，所以會有漲跌波動的情況發生。
