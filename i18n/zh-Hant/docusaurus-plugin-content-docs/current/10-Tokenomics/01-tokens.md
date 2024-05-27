@@ -18,6 +18,8 @@ Fudos 是 Fooday 平台上的經驗值。擁有 Fooca 相機的美食家，可�
 
 簡而言之，通過互動和貢獻累積 Fudos，美食家的等級將提升。而美食家的等級將影響 Fudos 轉換成 FOOD 的比率，等級越高，能享受到更好的兌換率。
 
+> 如何從 Fooday app 裡賺取 Fudos：請詳見 [代幣經濟](/tokenomics)
+
 ***
 
 ## FOOD
@@ -30,16 +32,26 @@ Fudos 是 Fooday 平台上的經驗值。擁有 Fooca 相機的美食家，可�
 
 此外，美食家能將賺取的 FOOD 提領到區塊鏈上，將其轉換為其他加密貨幣，這為用戶提供了更大的彈性，以及多種價值實現的可能性。
 
-* 購買 FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+* FOOD 在 CoinGecko 上的現價:[https://www.coingecko.com/en/coins/fooday](https://www.coingecko.com/en/coins/fooday)
+* 從區塊鏈上購買 FOOD：[LlamaSwap](https://reurl.cc/r6WaeZ)
 * FOOD 合約地址：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
-* 購買 FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+
+> 如何從 Fooday app 裡賺取 FOOD：請詳見 [代幣經濟](/tokenomics)
 
 
 :::info
 然而，需要注意的是，FOOD 的價格由市場決定的，所以會有漲跌波動的情況發生。
 :::
 
-還有一點需要注意的是，使用 FOOD 無法直接購買 Fooca 相機，需要使用特定的經濟貨幣 — — FUSD。
+還有一點需要注意的是，使用 FOOD 無法直接購買 Fooca 相機，需要使用特定的經濟貨幣 — — [FUSD](#fusd)。
+
+### Bonus FOOD
+
+**不可轉移之美食平台代幣**
+
+除了 FOOD 之外，Fooday 平台有時也會於特定活動及任務中發放「Bonus FOOD」。不同於 FOOD 的地方是，**Bonus FOOD 不可提領至區塊鏈，亦不可用任何形式轉移**，僅可用於 Fooday app 裡面之消費場景使用。
+
+擁有獎勵 FOOD 的使用者，於 app 內遇到需要消耗 FOOD 消費情境中，會優先消耗 Bonus FOOD，待沒有 Bonus FOOD 後才會消耗 FOOD。
 
 ***
 

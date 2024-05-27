@@ -20,6 +20,8 @@ The system will automatically calculate and convert the earned Fudos into FOOD. 
 
 In short, by accumulating Fudos through interactions and contributions, a Foodie's level will increase. The Foodie's level affects the conversion rate of Fudos to FOOD, with higher levels enjoying better exchange rates.
 
+> How to earn Fudos in the Fooday app: Please refer to [Tokenomics](/tokenomics)
+
 ***
 
 ## FOOD
@@ -32,15 +34,25 @@ In Fooday, FOOD has real-world value and serves as a versatile token. Firstly, F
 
 Furthermore, Foodies can withdraw the earned FOOD to the blockchain and convert it into other cryptocurrencies, providing users with greater flexibility and various value realization possibilities. 
 
-* FOOD coingecko:[https://www.coingecko.com/en/coins/fooday](<https://www.coingecko.com/en/coins/fooday>)
-* FOOD contract address：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
-* Buy FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+* FOOD real-time price on CoinGecko: [https://www.coingecko.com/en/coins/fooday](https://www.coingecko.com/en/coins/fooday)
+* Buy FOOD: [LlamaSwap](https://reurl.cc/r6WaeZ)
+* FOOD contract address: `0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
+
+> How to earn FOOD in the Fooday app: Please refer to [Tokenomics](/tokenomics)
 
 :::info
 It's important to note that the price of FOOD is determined by the market, so there may be fluctuations in its value.
 :::
 
-One important point to note is that FOOD cannot be used to directly purchase Fooca cameras; you need to use a specific economic currency - FUSD.
+One important point to note is that FOOD cannot be used to directly purchase Fooca cameras; you need to use a specific economic currency - [FUSD](#fusd).
+
+### Bonus FOOD
+
+**Non-transferable Food Platform Token**
+
+In addition to FOOD, the Fooday platform occasionally distributes **"Bonus FOOD"** during specific events and missions. Unlike FOOD, **Bonus FOOD cannot be withdrawn to the blockchain** and can only be used within the Fooday app for consumption scenarios.
+
+Users with Bonus FOOD will have it consumed first in scenarios requiring FOOD within the app. Once the Bonus FOOD is exhausted, the regular FOOD will be used.
 
 ***
 
