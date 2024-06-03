@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Fooday 美食指南 | 2024 美食餐廳聚餐首選",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "跨年、約會、生日、家庭聚餐要去哪裡吃？Fooday 幫你整理出適合聚餐的餐廳、好吃的美食，涵蓋了台北、台中、台南、高雄等餐廳，讓你可以吃美食不踩雷！",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "最新文章",
+    "description": "The label for the left sidebar"
+  }
+}
