@@ -5,6 +5,9 @@
   "locale.zh-Hant": {
     "message": "繁體中文"
   },
+  "locale.ja": {
+    "message": "日本語"
+  },
   "countdown.days": {
     "message": "Days"
   },
