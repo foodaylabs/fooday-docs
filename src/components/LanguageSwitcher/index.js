@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation, useHistory } from '@docusaurus/router'
+import { useLocation } from '@docusaurus/router'
 import { translate } from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './switcher.module.css'
