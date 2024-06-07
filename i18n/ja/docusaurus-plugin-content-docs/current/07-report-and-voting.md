@@ -107,14 +107,14 @@ Example:
 2. The reported review/spot will be taken down.
 
 ### If the vote on the report is failed
-1. You will be penalized by deducting 15% of the original value of the review/store (excluding Battery Power debuff), resulting in a loss of Fudos.
+1. You will be penalized by deducting 30% of the original value of the review/store (excluding Battery Power debuff), resulting in a loss of Fudos. 最低Fudos懲罰は10。
 2. The report will be revoked.
 
 Example:
 > John left a review at Store A, which was originally valued at 40 Fudos. Later, you reported John's review at Store A:
 >
 * If your report is passed, you will receive the equivalent of the original 40 Fudos value of the review, along with any additional Fooca Camera attribute multipliers you used for this report.
-* If your report fails, you will be penalized by losing 15% of the original value (40 Fudos), resulting in a loss of 6 Fudos.
+* If your report fails, you will be penalized by losing 30% of the original value (40 Fudos), resulting in a loss of 12 Fudos.
 
 ![How to vote](how-to-vote.webp)
 
