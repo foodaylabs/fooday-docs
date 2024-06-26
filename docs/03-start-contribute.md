@@ -30,8 +30,8 @@ If you come across any incorrect information, inappropriate content, or irreleva
 | Contributions  | Energy Cosumption    | Battery Cosumption     | *Max Fudos    |
 |:---:        | :---:        |:---:       | :---:       |
 | Review      | 4 Energy  | 10% Battery  | 45 Fudos    |
-| Create Spot | 2 Energy  | 5% Battery   | 15 Fudos   |
-| Update Spot | 1 Energy  | 2% Battery   | 3 Fudos    |
+| Create Spot | 3 Energy  | 5% Battery   | 12 Fudos   |
+| Update Spot | 1 Energy  | 2% Battery   | 1 Fudos    |
 | Report      | 1 Energy  | 2% Battery   | **Original Fudos value of Review/Spot     |
   
 > *The maximum Fudos you can earn mentioned above is the basic reward before any Fooca Camera bonuses. The final maximum Fudos you can earn may vary depending on Fooca Camera attribute bonuses, Energy and Battery consumption.
