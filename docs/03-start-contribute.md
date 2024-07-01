@@ -27,11 +27,11 @@ If there are changes in restaurant information such as operating hours or addres
 
 If you come across any incorrect information, inappropriate content, or irrelevant details, you can choose to report the spot or review. Reports will enter a verification voting process, where Fooday will randomly select other foodies to participate in the vote. If the report is successful, you will receive the Fudos the reported foodie earned from the spot or review.
 
-| Contributions  | Energy Cosumption    | Battery Cosumption     | *Max Fudos    |
+| Contributions  | Energy Consumption    | Battery Consumption     | *Max Fudos    |
 |:---:        | :---:        |:---:       | :---:       |
 | Review      | 4 Energy  | 10% Battery  | 45 Fudos    |
 | Create Spot | 3 Energy  | 5% Battery   | 12 Fudos   |
-| Update Spot | 1 Energy  | 2% Battery   | 1 Fudos    |
+| Update Spot | 1 Energy  | No consumption   | 1 Fudos    |
 | Report      | 1 Energy  | 2% Battery   | **Original Fudos value of Review/Spot     |
   
 > *The maximum Fudos you can earn mentioned above is the basic reward before any Fooca Camera bonuses. The final maximum Fudos you can earn may vary depending on Fooca Camera attribute bonuses, Energy and Battery consumption.
