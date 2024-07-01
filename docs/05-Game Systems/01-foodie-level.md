@@ -22,8 +22,10 @@ Fudos serve as experience points on the Fooday platform. Foodies with Fooca Came
 
 The Fudos earned by a foodie on a given day will automatically convert to FOOD after 24 hours on the next day at 00:00 UTC, without any manual action needed.
 
-> In the absence of any bonuses, the conversion rate of Fudos to FOOD is 1:1
- 
+```
+In the absence of any bonuses, the conversion rate of Fudos to FOOD is 1:1
+```
+
 Example: 
 
 On March 1st, if John accumulates 100 Fudos throughout the day, the system will convert his accumulated Fudos to 100 FOOD on March 3rd at 00:00 UTC.
