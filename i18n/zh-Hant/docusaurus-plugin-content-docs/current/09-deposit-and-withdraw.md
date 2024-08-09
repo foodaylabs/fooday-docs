@@ -179,7 +179,7 @@ Fooday 推薦 [Rabby 錢包](https://rabby.io/)，或是其他常見加密錢包
     先至 [LlamaSwap](https://swap.defillama.com/?chain=polygon&from=0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d&to=0x3c499c542cef5e3811e1192ce70d8cc03d5c3359)網站，將FOOD兌換為 USDC，USDC 為穩定幣，為穩定跟美金為 1:1 的狀態。
 
     進到 LlamaSwap 網站後，記得先點選右上角的 Connect Wallet，才能看到幣種的餘額及順利兌換喔！
-    以下以 LlamaSwap 示範，輸入數量後，記得選擇一條兌換路徑。
+    以下以 LlamaSwap 示範，輸入數量後，記得選擇一條兌換路徑如圖。
 
     ![withdraw06](./withdraw06.png)
 
@@ -195,6 +195,7 @@ Fooday 推薦 [Rabby 錢包](https://rabby.io/)，或是其他常見加密錢包
     接著按下最下方的「顯示地址」，這時會跳出鏈的選項，請一定要選擇「Polygon」哦！選擇後就會出現地址，並按下複製地址就可以了。
 
     ![withdraw07](./withdraw07.png)
+    
     ![withdraw08](./withdraw08.png)
 
 3. 發送 USDC：正常來說，可以看到已經兌換好的 USDC 數量在 web3 錢包之中，這時要將 USDC 發送至剛剛複製的 MAX 交易所帳號，才能順利換成台幣。
