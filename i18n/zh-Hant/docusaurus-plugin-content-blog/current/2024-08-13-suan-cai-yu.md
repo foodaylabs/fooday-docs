@@ -1,7 +1,7 @@
 ---
 title: 台北 6 間酸菜魚評比，每間的優缺點及超誠實心得大公開
 description: 台北酸菜魚遍地開花？到底哪間台北酸菜魚最好吃？本篇集結了 Fooday 美食家們分享的各大台北酸菜魚餐廳，超真實心得包含每間酸菜魚的優缺點，讓你快速挑選符合自己口味的酸菜魚！以下台北酸菜魚推薦一次看！
-slug: /2024-sour_fishes
+slug: /2024-suan-cai-yu
 date: 2024-08-13T18:00
 authors:
   - name: 怪獸冰姬靈
@@ -11,8 +11,6 @@ tags: [酸菜魚, 台北酸菜魚, 台北川菜, 中式料理]
 image: https://imgur.com/V2FQyrm.jpg
 hide_table_of_contents: false
 ---
-import { InstagramEmbed } from 'react-social-media-embed';
-
 ![2024 台北酸菜魚](./img/0813.jpg)
 
 台北酸菜魚遍地開花？到底哪間台北酸菜魚最好吃？本篇集結了 Fooday 美食家們分享的各大台北酸菜魚餐廳，超真實心得包含每間酸菜魚的優缺點，讓你快速挑選符合自己口味的酸菜魚！以下台北酸菜魚推薦一次看！
@@ -117,7 +115,7 @@ _內湖區 | 酸菜魚 | 麻辣水煮魚_
 
 <iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/BQ4TaEK3tvhxjSixfunLFM?maxwidth=384&maxheight=726"></iframe>
 
-<iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/?maxwidth=384&maxheight=726"></iframe>
+<iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/Pgsx663UeyrAUbPfvJpyk8?maxwidth=384&maxheight=726"></iframe>
 
 ```
 * 餐廳地址：台北市內湖區瑞光路335號宏匯瑞光B棟一樓
@@ -134,7 +132,7 @@ _大安區 | 酸菜魚 | _
 
 吾二酸菜魚算是雨後春筍後的第一批新酸菜魚，到現在也累積了一些粉絲。酸菜魚的口味和呈現上，雖然有些配料份量較少，但整體上仍然算好吃，尤其是白飯煮得恰到好處。建議可以多點一些肉片和配料，以免吃不夠。
 
-餐廳的氛圍不錯，定位上也比較容易，適合聚餐，並且提供免費的無糖茶作為打卡優惠。服務人員的態度友善，但建議提前點好肉片，因為無法加點，整體服務還算不錯。
+餐廳的氛圍不錯，訂位上也比較容易，適合聚餐，並且提供免費的無糖茶作為打卡優惠。服務人員的態度友善，但建議提前點好肉片，因為無法加點，整體服務還算不錯。
 
 整體優點：口味及餐廳氛圍不錯，服務人員的態度友善。
 整體缺點：部分配料份量較少。
