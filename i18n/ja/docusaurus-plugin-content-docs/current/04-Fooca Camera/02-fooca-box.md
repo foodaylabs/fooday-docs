@@ -1,37 +1,37 @@
 ---
 slug: /fooca-box
 sidebar_position: 2
-title: Fooca Box
+title: Foocaボックス
 ---
 
-Currently, there are two types of Fooca Camera Boxes: the **Genesis Camera Box** and the **Regular Camera Box**. 
+現在、Foocaカメラボックスには2つの種類があります：**ジェネシスカメラボックス** と **一般カメラボックス**. 
 
-The Regular Camera Box is further divided into two rarity levels: Common Camera Box and Rare Camera Box.
+一般カメラボックスはさらに2つのレアリティに分かれており、普通カメラボックスとレアカメラボックスがあります。
 
-### Genesis Camera Box
-The Genesis Camera Box represents the first batch of camera boxes introduced by Fooday, and any Fooca Camera obtained from it bears the Genesis mark. 
+### ジェネシスカメラボックス
+ジェネシスカメラボックスは、Foodayの最初のカメラボックスで、開封するとジェネシスのマークが付いたFoocaカメラが手に入ります。
+現在のところ、ジェネシスカメラボックスを入手する方法は、pFOODのプレセール（既に終了）と、市場での限定数量の初期販売のみです。
 
-Currently, Genesis camera box were obtainable only through the pFOOD presale (ended) and initially in limited quantities on the marketplace.
-
-#### Unboxing Probability
-| Genesis camera box        | Classic           | Advanced           | 
+#### 開封確率
+| ジェネシスカメラボックス      | クラシックカメラ           | アドバンストカメラ      | 
 |:---:        | :---:        |:---:       |
-| Probability	 | 85% | 15% | 
+| 開封確率	 | 85% | 15% | 
 
 
 
+### 一般カメラボックス
+新しくミントされたカメラボックスは一般カメラボックスになります。一般カメラボックスには、前述の普通カメラボックスとレアカメラボックスの2種類があります。
 
-### Regular Camera Boxes
-New camera boxes generated through minting will result in regular camera boxes. There are two types of regular camera boxes, as mentioned earlier: common camera boxes and rare camera boxes.
+両者のカメラボックスの違いは開封確率にあり、以下の表をご参照ください。
 
-The difference between the two camera boxes lies in their unboxing probabilities. Please refer to the table below for the probabilities.
+#### 一般カメラボックスの開封確率
 
-#### Unboxing Probabilities
-
-| Camera Box Rarity	        | Classic          | Advanced          | 
+| カメラボックスのレアリティ       | クラシックカメラ       | アドバンスカメラ          | 
 |:---:        | :---:        |:---:       |
-| Common | 97% | 3% | 
-| Rare | 25% | 75% | 
+| 普通 | 97% | 3% | 
+| レア | 25% | 75% | 
 
 
-Foodies in the marketplace can purchase Fooca camera boxes that have not been unboxed yet or choose to directly buy cameras that have already been unboxed.
+グルメ愛好家は、マーケットプレイスで未開封のFoocaカメラボックスを購入することも、既に開封されたカメラを直接購入することもできます。
+
+アドバンストカメラは、クラシックカメラよりも初期属性が優れています。

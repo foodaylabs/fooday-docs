@@ -1,97 +1,98 @@
 ---
 slug: /getting-started
 sidebar_position: 02
-title: Getting started
+title: 始めましょう
 ---
-# Get Started in 4 Simple Steps with Fooday
+# Foodayで簡単4ステップで始めよう
 
 ## 1. Download the Fooday App
 
-Download the Fooday App on your mobile or tablet device from the App Store or Google Play.
+App Store または Google Play からFoodayアプリをスマートフォンやタブレットにダウンロードしてください。
 
-* For iOS users, download here: [Download](https://itunes.apple.com/app/id6456410353)
-* For Android users, download here: [Download](https://play.google.com/store/apps/details?id=org.foodaylabs.fooday)
+* iOSユーザーはこちらからダウンロード： [Download](https://itunes.apple.com/app/id6456410353)
+* Androidユーザーはこちらからダウンロード： [Download](https://play.google.com/store/apps/details?id=org.foodaylabs.fooday)
 
 ![App download](./app_download.jpg)
 
 ***
 
-## 2. Register Your Fooday Account
+## 2. Foodayアカウントを登録する
 
-1. After downloading the Fooday App, choose your preferred login method to register your account.
+1. Foodayアプリをダウンロードした後、お好みのログイン方法を選んでアカウントを登録してください。
 
-    > Currently, iOS supports Google, Apple, and Facebook login, while Android supports Google and Facebook login.
+    > 現在、iOSはGoogle、Apple、Facebookログインに対応しており、AndroidはGoogleとFacebookログインに対応しています。
 
-2. Enter a 7-digit invitation code to activate your account if you have one.(Not necessary,you can skip it if you don't have one.)
+2. 7桁の招待コードを入力してアカウントを有効化してください（必須ではありませんので、招待コードがない場合はスキップできます）。
 
-    > You can obtain an invitation code from the official [Discord](https://discord.gg/6Q3Xa7fRV4) chat group, where other players share invitation codes. Fooday's official [Instagram](https://www.instagram.com/fooday.app) also periodically updates invitation codes through Stories.
-
-3. Set up your basic personal information (which can be changed later in your profile).
+3. 基本的な個人情報を設定してください（後でプロフィールから変更可能です）。
 
 ![Signup flow](./onboarding_flow_en.jpg)
 
 :::info
-In the final step of the login process, remember to grant permission for "Notifications ✅" and "Location ✅"! Enabling location is essential for capturing your current location when taking photos, which is required for contributing and earning rewards.
+ログインプロセスの最後のステップで、「通知✅」と「位置情報✅」の許可を忘れずに！写真撮影時に現在の位置を取得するため、位置情報を有効にすることが貢献と報酬獲得のために必要です。
 :::
 
 ***
 
-## 3. Get FUSD to Purchase Fooca Cameras
+## 3. FUSDを入手してFoocaカメラを購入
 
-To start EAT & EARN, you'll first need to obtain FUSD and purchase Fooca Cameras.
+EAT & EARNを始めるには、まずFUSDを取得し、Foocaカメラを購入する必要があります。
 
-Currently, there are two ways to acquire FUSD within Fooday:
-1. Purchase FUSD directly from within the Fooday App.
-2. Transfer USDC to your Fooday wallet from the Polygon network, where it will automatically convert to FUSD (Rabby wallet, exchanges).
+現在、Fooday内でFUSDを取得する方法は2つあります：
 
-### Method 1: Purchase FUSD Within the Fooday App
+	1.	Foodayアプリ内で直接FUSDを購入する。
+	2.	ポリゴンネットワークからUSDCをFoodayウォレットに転送し、自動的にFUSDに変換する（Rabbyウォレットや取引所を利用）。」
 
-If you're not familiar with blockchain and on-chain transactions, purchasing FUSD directly within the Fooday app is the quickest method. It's a straightforward process – simply click on the right-most option in the menu, select "Purchase FUSD," and choose the amount you wish to buy. FUSD will be automatically deposited into your Fooday wallet, similar to making in-app purchases in other mobile games.
+### 方法1: Foodayアプリ内でFUSDを購入
+
+ブロックチェーンやオンチェーントランザクションに詳しくない場合は、Foodayアプリ内で直接FUSDを購入するのが最も簡単です。手順は非常に簡単です。メニューの一番右のオプションをクリックし、「FUSDを購入」を選択して、購入したい金額を選ぶだけです。FUSDは他のモバイルゲームのアプリ内購入と同様に、自動的にFoodayウォレットに入金されます。
 
 ![In-app purchase](./in-app-purchase.jpg)
 
 
-### Method 2: Transfer USDC to Your Fooday Wallet
+### 方法2：USDCをFoodayウォレットに送金する
 
-The second method involves transferring USDC or USDC.e from your blockchain wallet to your Fooday wallet. Below, we'll provide instructions using the Rabby wallet as an example, but you can use other wallets or exchanges as well.
+次の方法は、ブロックチェーンウォレットからFoodayウォレットにUSDCを送金することです。以下では、Rabbyウォレットを使用した手順を説明しますが、他のウォレットや取引所も利用可能です。
 
-> Currently, Fooday only supports the Polygon network, which will be automatically selected
+> 現在、FoodayはPolygonネットワークのみに対応しており、自動的に選択されます
 
-* USDC Contract Address: `0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`  
-* USDC.e Contract Address: `0x2791bca1f2de4661ed88a30c99a7a9449aa84174`
+* USDC Cコントラクトアドレス: `0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`  
 
-#### Step-by-step Guide:
+#### 手順解説：
 
-1. After opening Fooday, click on the right-most option in the menu, then select "FUSD" within the wallet section. On the next page, click "Deposit."
-2. Next, press the "Deposit" button at the bottom, which will take you to your FUSD transfer address. 
-3. Copy the address and return to your Rabby wallet. Click "SEND," select the Polygon network, and paste the wallet address you copied from Fooday. Enter the amount of USDC (or FOOD) you want to deposit and send it. (FUSD: USDC = 1:1)
+1. Foodayを開いたら、メニューの一番右のオプションをクリックし、ウォレットセクション内の「FUSD」を選びます。次のページで「入金」をタップします。
+2. 続いて、下部にある「入金」ボタンを押すと、FUSDの入金先アドレスが表示されます。
+3. そのアドレスをコピーし、Rabbyウォレットに戻ります。「送金」をクリックし、Polygonネットワークを選択後、Foodayからコピーしたウォレットアドレスを貼り付けます。入金したい USDC（またはFOOD）の金額を入力して送金します。（FUSD : USDC = 1 : 1）
 
 ![Rabby Deposit](./rabby_deposit.png)
 
-4. Your FUSD will now appear in your Fooday wallet! However, there may be a waiting period after depositing before you can use it. 
-5. Once confirmed, you can use FUSD to purchase Fooca Cameras in the marketplace and begin EAT & EARN! 
+4. これでFUSDがFoodayウォレットに表示されます！ただし、入金後に使用可能になるまで多少の待ち時間が発生することがあります。 
+5. 承認されたら、マーケットプレイスでFUSDを使ってFoocaカメラを購入し、EAT & EARNを始められます！
 
-:::note
-Be sure to select the Polygon network – Fooday currently exclusively supports Polygon. The above instructions are for depositing funds using the Rabby wallet, but you can use other wallets as well.
+:::注意
+必ずPolygonネットワークを選択してください—現時点でFoodayはPolygonのみに対応しています。上記の手順はRabbyウォレットを使用した入金方法ですが、他のウォレットも使用可能です。
 :::
 
 ***
 
-## 4. Purchase Fooca Cameras
+## 4. Foocaカメラを購入する
 
-Once you have FUSD, you can visit the Camera Marketplace to purchase Fooca Cameras and start contributing!
+FUSDを手に入れたら、カメラマーケットプレイスでFoocaカメラを購入して、投稿を始められます！
 
-Step-by-step Guide:
+手順ガイド：
 
-1. Open the Fooday app and go to "More" (the icon with three lines in the lower right corner).
-2. Click the "Fooca Market" button to enter the Fooca Marketplace.
-3. Inside the Fooca Market, you'll find all the Fooca Cameras and Fooca Boxes currently listed for sale. Cameras and Boxes are priced in FUSD.
-4. You can also choose to purchase Fooca Boxes, which can be opened to obtain Fooca Cameras. Camera boxes have a chance of containing advanced cameras, making them a valuable investment!
+1. Foodayアプリを開き、「その他」（右下隅にある三本線のアイコン）に進みます。
+
+2. 「フーカ市場」ボタンをクリックして、Foocaマーケットプレイスに入ります。
+
+3. Foocaマーケット内には、現在販売中の全てのFoocaカメラとFoocaボックスが表示されます。カメラとボックスの価格はFUSDで表示されています。
+
+4. Foocaボックスの購入も選べます。これを開くとFoocaカメラが手に入ります。カメラボックスには高性能なカメラが入っている可能性があり、魅力的な投資先になっています！
 
 ![Fooca Market](./acquire_fooca1.jpg)
 
 ***
 
-Once you've acquired a Fooca camera, you can embark on your journey as an official Foodie!
+Foocaカメラを手に入れたら、公式のFoodieとしての旅が始まります！
 
-Next, we'll guide you on how to quickly start contributing and earning rewards. Continue reading: [Contributions](/start-contribute)
+次は、素早く投稿を始めて報酬を稼ぐ方法をご案内します。ぜひ続けてお読みください。: [Contributions](/start-contribute)
