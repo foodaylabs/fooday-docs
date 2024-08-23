@@ -8,7 +8,7 @@ authors:
     title: Fooday 美食搜查隊隊長
     image_url: https://imgur.com/udtKAMZ.png
 tags: [外帶餐盒, 健康餐盒, 健身餐, 健康飲食]
-image: https://imgur.com/V2FQyrm.jpg
+image: https://imgur.com/fnNQ6rB.jpg
 hide_table_of_contents: false
 ---
 ![2024 台北健康餐盒](./img/0822.jpg)
