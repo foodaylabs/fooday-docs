@@ -1,74 +1,77 @@
 ---
 slug: /foodie-energy
 sidebar_position: 2
-title: エネルギー
+title: Energy
 ---
 
 ![Energy bar](../energybar.jpg)
 
-エネルギー（Energy）は、グルメ愛好家が貢献する際に欠かせない要素の一つです。各貢献には異なる量のエネルギーが消費されます。Foodayアプリのホームページ下部には、現在のエネルギー値が表示される黄色のエネルギーバーがあります。
+Energy is an essential element for Foodies when making contributions. Each contribution requires a varying amount of energy. You can check your current energy amount at the bottom of the page on the Fooday App.
 
 :::info
-Foocaカメラを所有している場合のみエネルギーを持つことができ、エネルギーがあることでコミュニティに貢献することができます。
+Only with a Fooca Camera can you possess Energy, which is required for community contributions.
 :::
 
 ***
 
-## Fooca カメラのボーナス
+## Fooca Camera Bonuses
 
-### カメラの数によるボーナス
+### Camera Quantity Bonus
 
-**Foocaカメラを多く所有するほど、美食家アカウントの総エネルギーが増加し**、一日に行える貢献が増え、それに伴い得られる報酬も多くなります。
+**The more Fooca Cameras you have, the more Energy your foodie account possesses**, allowing for more contributions within a day.
 
-以下はカメラの数と総エネルギーの関係です：
 
-| カメラの総数  | 総エネルギー  | 
+Here's the relationship between the number of cameras and Max Energy:
+
+| Fooca camera  | Max Energy  | 
 |:---:|:---:|
-| 1台 | 6 エネルギー |
-| 3台 | 10 エネルギー  | 
-| 9台 | 18 エネルギー | 
-| 15台 | 30 エネルギー | 
+| 1 Camera | 6 Energy |
+| 3 Cameras | 10 Energy  | 
+| 9 Cameras | 18 Energy  | 
+| 15 Cameras | 30 Energy  | 
 
-### アドバンストカメラのボーナス
+### Advanced Camera Bonus
 
-アドバンストカメラを1台所有している場合、美食家のエネルギー（Energy）の最大値が直接+1されます。X台のアドバンストカメラを持っている場合、その数だけエネルギーが加算されます。このボーナスは、カメラの数によるエネルギーの最大値のボーナスと競合しません。
+Owning an Advanced Fooca Camera provides a direct bonus to your Foodie Energy. Each Advanced Fooca Camera increases your maximum Foodie Energy by +1. The bonus is cumulative, meaning that having X Advanced Fooca Cameras adds X to your maximum Foodie Energy.
 
-クラシックカメラには追加のエネルギーボーナスはありません。
+Classic Fooca Cameras do not provide an additional Foodie Energy bonus.
+
  
 
-#### 例:
+#### For example:
 
-小林が3台のカメラを所有しており、そのうち2台がアドバンストFoocaカメラである場合、小林の最大エネルギーは
+If you have 3 cameras, including 2 Advanced Fooca Cameras, your maximum Foodie Energy would be 
 
 ```
-10（3台のカメラによるエネルギーボーナス） + 2（2台のアドバンストカメラによるボーナス）= 12
+10 (Base Energy) + 2 (Advanced Camera Bonus) = 12.
 ```
 
 ***
 
-## エネルギーの消費
+## Energy Consumption
 
-ほとんどの貢献にはエネルギーが消費されます。異なる貢献には異なる基本エネルギー消費が必要です。以下の表をご参照ください：
+Most contributions require energy consumption, and different types of contributions have varying basic energy consumption levels. Please refer to the following table:
 
-| 貢献  | 消費エネルギー   | 消費電力     | *獲得可能な最大Fudos  |
+| Contributions  | Energy Cosumption    | Battery Cosumption     | *Max Fudos    |
 |:---:        | :---:        |:---:       | :---:       |
-| Review      | 4 エネルギー  | 10% 電力  | 45 Fudos    |
-| Create Spot | 3 エネルギー  | 5% 電力   | 15 Fudos   |
-| Update Spot | 1 エネルギー  | 2% 電力   | 3 Fudos    |
-| Report      | 1 エネルギー  | 2% 電力   | **元のレビュー/店舗の価値に相当するFudos     |
+| Review      | 4 Energy  | 10% Battery  | 45 Fudos    |
+| Create Spot | 2 Energy  | 5% Battery   | 15 Fudos   |
+| Update Spot | 1 Energy  | 2% Battery   | 3 Fudos    |
+| Report      | 1 Energy  | 2% Battery   | **Original Fudos value of Review/Spot     |
 
 ***
 
-## エネルギーの回復
+## Energy Recovery
 
-消費されたエネルギーは時間経過でしか回復しません。**所有しているエネルギー量に関係なく、一日にすべてのエネルギーが回復します。**
+Once energy is consumed, it can only be restored over time, and **regardless of how much energy you have, it will fully replenish within a day.**
 
-#### 例；
+#### For example:
 
-* 1台のカメラを所有している場合、総エネルギーは6で、1エネルギーの回復時間は4時間です。
-* 3台のカメラを所有している場合、総エネルギーは10で、1エネルギーの回復時間は2.4時間です。
+* If you have 1 Camera with a total energy of 6, it will take 4 hours to recover 1 energy.
+* If you have 3 Cameras with a total energy of 10, it will take 2.4 hours to recover 1 energy, and so on.
 
 
-:::注意：
-注意：エネルギーはグルメ愛好家アカウントに蓄積され、Foocaカメラには蓄積されません。Foodayアカウントからログアウトするとエネルギーはゼロになり、次回ログイン時にエネルギーはゼロから回復します。
+
+:::Note
+Energy accumulates in your Foodie account, not on individual Fooca Cameras.
 :::

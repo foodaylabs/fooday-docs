@@ -1,7 +1,7 @@
 ---
 slug: /
 sidebar_position: 1
-title: Foodayへようこそ
+title: 了解 Fooday
 ---
 
 # Foodayとは何ですか？ 

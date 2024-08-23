@@ -1,160 +1,161 @@
 ---
 slug: /fooca-camera
 sidebar_position: 1
-title: Foocaカメラって何ですか？
+title: What is Fooca Camera
 ---
 
-Foocaカメラ(フーカ)は、Fooday専用のユニークな装備であり、コミュニティ内でのグルメ体験を向上させると同時に、プラットフォームの成長を促進するために設計されています。
+The Fooca Camera is a unique NFT exclusive to Fooday, designed to enhance the Foodie experience within the community while simultaneously driving the platform's growth.
 
-では、Foocaカメラの目的は何でしょうか？Foocaカメラは、Foodayのグルメコミュニティへの入場券として機能し、食の世界を楽しみながら報酬を得たいグルメ愛好家にとって欠かせないものです。
+But what is the purpose of the Fooca Camera? The Fooca Camera serves as the entry ticket to Fooday's culinary community, essential for foodies looking to earn rewards while indulging in the world of food. 
 
 :::info
-簡単に言うと、Foocaカメラがなければ、グルメ愛好家は報酬を得る旅を始めることができません。
+In simple terms, without a Fooca Camera, foodies won't be able to kickstart their journey to earning rewards.
 :::
 
-Foocaカメラは、レベル、バッテリー、そして4つの独自の属性（計算、品質、バッテリー、フースピリット）があります。
+The Fooca Camera NFT is not just your typical NFT; it comes with levels, battery, and four distinct attributes: compute, quality, battery, and foospirit. 
 
-各属性はFoocaカメラの性能効率に影響を与え、グルメ愛好家が所持するFoocaカメラの数が、Foodayでのアカウントのエネルギー値を決定します。
+Each attribute affects the performance efficiency of the Fooca Camera, and the number of Fooca Cameras a foodie possesses determines their account's energy value on the platform.
 
-#### グルメコミュニティの保証
+#### A Guarantee for the Culinary Community
 
-さらに、FoocaカメラはFoodayプラットフォームの担保としても機能します。グルメ愛好家が繰り返し悪意のあるレビューを投稿したり、コミュニティガイドラインに違反した場合、Foodayはペナルティとしてカメラを没収することがあります。これにより、コミュニティの平和と公正が保たれます。
+Furthermore, the Fooca Camera also acts as collateral for the Fooday platform. In cases where a foodie repeatedly posts malicious reviews or violates community guidelines, Fooday may confiscate their cameras as a penalty, ensuring the peace and fairness of the community.
 
 ***
 
-## Foocaカメラのレアリティ
+## Rarities of Fooca Camera
 
-Foocaカメラを持つことで、食事体験を共有しながら報酬を得ることができます。Foocaカメラのレアリティは、受け取る報酬や貢献の効率に大きな影響を与えます。
-現在、Foocaカメラにはクラシックとアドバンストの2種類のレアリティがあります：**クラシック** と **アドバンス**.
+Having a Fooca Camera allows you to begin sharing your dining experiences while earning rewards. The rarity of the Fooca Camera significantly impacts the rewards you receive and your efficiency in contributing.
 
+Currently, Fooca Cameras come in two rarities: **Classic** and **Advanced**.
 
 ![Classic and Advanced Fooca Camera](../fooca-rarity.jpg)
 
-主な違い:
+Key Differences:
 
 
-### 初期属性ポイント
+### Initial Attribute Points
 
-> 属性ポイントとは何ですか？[詳しい説明はこちら](/attributes)
+> What is attribute points？[See full introduction](/attributes)
 
-#### クラシックFoocaカメラ
+#### Classic Fooca Camera
 
-クラシックFoocaカメラの初期属性ポイントはすべて5に設定されています。しかし、追加の初期ランダム割り当てにより、4つの属性に合計5ポイントが分配されます。各属性にはポイント割り当ての最大限度があります。
-
-```
-クラシックFoocaカメラの初期属性ポイントの合計は25になります。
-```
-
-#### アドバンストFoocaカメラ
-
-アドバンストFoocaカメラの初期属性ポイントはすべて5に設定されています。しかし、追加の初期ランダム割り当てにより、4つの属性に合計10ポイントが分配されます。各属性にもポイント割り当ての最大限度があります。
+Initial attribute points for the Classic Fooca Camera are all set at 5. However, the extra initial random allocation provides 5 points, which are distributed among the four attributes. Each attribute has a maximum limit for point allocation.
 
 ```
-アドバンストFoocaカメラの初期属性ポイントの合計は30になります。
+The total initial attribute points for the Classic Fooca Camera should sum up to 25.
 ```
 
-|  |  | バッテリー  | 計算  | 品質  | フースピリット  |
+#### Advanced Fooca Camera
+
+Initial attribute points for the Advanced Fooca Camera are all set at 5. However, the extra initial random allocation provides 10 points, which are distributed among the four attributes. Each attribute also has a maximum limit for point allocation.
+
+```
+The total initial attribute points for the Advanced Fooca Camera should sum up to 30.
+```
+
+|  |  | Battery  | Computing  | Quality  | Foospirit  |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| クラシックカメラ | 初期属性ポイント |  5  |  5  |  5  |  5  |
-|   | 初期ランダム割り当て範囲  |  0~5  |  0~5  |  0~3  |  0~5  |
-| アドバンストカメラ | 初期基本ポイント |  5  |  5  |  5  |  5  |
-|   | 初期ランダム割り当て範囲  |  0~6  |  0~6  |  0~4  |  0~6  |
+| Classic Camera | Initial base points |  5  |  5  |  5  |  5  |
+|   | Initial random allocation range  |  0~5  |  0~5  |  0~3  |  0~5  |
+| Advanced Camera | Initial base points |  5  |  5  |  5  |  5  |
+|   | Initial random allocation range  |  0~6  |  0~6  |  0~4  |  0~6  |
 
 Example:
 
-* クラシックカメラ A: バッテリー 7 | 計算 5 | 品質 8 | フースピリット 5
-* クラシックカメラ B: バッテリー 5 | 計算 5 | 品質 5 | フースピリット 10
-* アドバンストカメラ C: バッテリー 11 | 計算 8 | 品質 6 | フースピリット 5
-* アドバンストカメラ D: バッテリー 7 | 計算 6 | 品質 9 | フースピリット 8
+* Classic Camera A: Battery 7 | Computing 5 | Quality 8 | Foospirit 5
+* Classic Camera B: Battery 5 | Computing 5 | Quality 5 | Foospirit 10
+* Advanced Camera C: Battery 11 | Computing 8 | Quality 6 | Foospirit 5
+* Advanced Camera D: Battery 7 | Computing 6 | Quality 9 | Foospirit 8
 
 
-### 属性ポイントの上限
+### Attribute Point Limits
 
-Foocaカメラがレベルアップするごとに、2つの属性ポイントを獲得できます。
+For every level-up of Fooca cameras, you gain 2 attribute points.
 
-ユーザーは、これらのポイントを自分の戦略に応じて割り振ることができます。ただし、クラシックカメラとアドバンストカメラでは、各属性に割り当て可能なポイントの上限が異なります。
+Users can distribute these points according to their desired strategic direction. However, there is a difference in the maximum allowable attribute points that can be allocated between classic and advanced cameras.
 
 ```
-クラシックFoocaカメラ: 各属性のポイント上限は30です。
-アドバンストFoocaカメラ: 各属性のポイント上限は50です。
+Classic Fooca Camera: Each attribute has a point limit of 30.
+
+Advanced Fooca Camera: Each attribute has a point limit of 50.
 ```
 
 
-### レアFoocaボックス獲得確率（ミント時）
+### Probability of Obtaining Rare Fooca Box When Minting
 
-アドバンストFoocaカメラを使用してクラフトすると、レアFoocaボックスを獲得する確率が大幅に上がります。
+Using an Advanced Fooca Camera for crafting significantly increases the chance of obtaining a Rare Fooca Box.
 
-Foocaカメラのクラフトに関する詳細なガイドについては、[Foocaのミントシステムをご覧ください。](/minting).
+For a comprehensive guide on crafting Fooca Cameras, refer to the [Minting System of Fooca](/minting).
 
 
-### Foodieエナジーボーナス
+### Foodie Energy Bonus
 
-> フーディーエナジーとは何ですか？[See full introduction](/foodie-energy)
+> What is Foodie energy？[See full introduction](/foodie-energy)
 
-アドバンストFoocaカメラを所有すると、フーディーエナジーに直接ボーナスが付きます。各アドバンストFoocaカメラは、最大フーディーエナジーを+1増やします。このボーナスは累積されるため、X台のアドバンストFoocaカメラを所有していると、最大フーディーエナジーがX増加します。
+Owning an Advanced Fooca Camera provides a direct bonus to your Foodie Energy. Each Advanced Fooca Camera increases your maximum Foodie Energy by +1. The bonus is cumulative, meaning that having X Advanced Fooca Cameras adds X to your maximum Foodie Energy.
 
-クラシックFoocaカメラには、追加のフーディーエナジーボーナスはありません。
+Classic Fooca Cameras do not provide an additional Foodie Energy bonus.
+
  
 
-例：
+Example: 
 
-もし3台のカメラを所有しており、そのうち2台がアドバンストFoocaカメラであれば、最大フーディーエナジーは
-
-```
-10（基本エナジー）+ 2（アドバンストカメラボーナス）= 12
-```
-
-***
-
-## Foocaカメラのレベル
-
-FOODを使ってFoocaカメラをアップグレードできます。レベルが上がるごとに、カメラの性能を向上させるために自由に割り振ることができる2つの属性ポイントを獲得します。これにより、Foodiesは貢献時により多くの報酬を得たり、消費エネルギーやバッテリーを節約したりすることができます。
-
-**現在、Foocaカメラの最大レベルは30です。** レベルアップに必要なFOODのコストは以下の式で計算されます：
+If you have 3 cameras, including 2 Advanced Fooca Cameras, your maximum Foodie Energy would be 
 
 ```
-レベルアップコスト（FOOD）= Round(45 * 1.11^ターゲットレベル)
-```
-
-さらに、5ランクごと（4から5、9から10など）にレベリングの閾値があり、進行するにつれてレベルアップに必要なFOODの量が増加します。
-
-レベル1から5までは、アップグレード時間はそれぞれ60分です。レベル6以降のアップグレード時間は次の式に従います：
-
-```
-アップグレード時間（分）= 60 * ターゲットレベル
+10 (Base Energy) + 2 (Advanced Camera Bonus) = 12.
 ```
 
 ***
 
-## ジェネシスFoocaカメラ
+## Fooca Camera Level
 
-ジェネシスFoocaカメラは、ジェネシスFoocaボックスからのみ入手可能です。
+You can upgrade your Fooca Camera by spending FOOD. With each level increase, you gain 2 attribute points that you can freely allocate to enhance your camera's performance. This allows Foodies to earn more rewards or consume less energy/battery when contributing.
 
-ジェネシスFoocaボックスは、普通のボックスとは異なります。それは、最初のFoocaカメラのリリースを象徴し、Foodayコミュニティ内でのステータスのシンボルです。これらのボックスは、ベータテストフェーズに参加したユーザーにのみ提供されるため、非常に希少で貴重なアイテムです。
+**Currently, the maximum level for a Fooca Camera is 30.** The formula for the FOOD cost required to level up is as follows:
 
-#### ジェネシスFoocaボックスの中身は？
+```
+Upgrade cost in FOOD = Rounded(45 * 1.11^target level)
+```
 
-各ジェネシスFoocaボックスには、ランダムに生成されたFoocaカメラが1台含まれています。これらのカメラには、独特な「ジェネシス」マークが付いており、早期にFoodayをサポートしてくれたことの特別な象徴です。
+Additionally, there's a leveling threshold every five ranks (4 to 5, 9 to 10, etc.), and as you progress, the amount of FOOD required for leveling up increases.
 
-#### ジェネシスFoocaカメラの使用
+For levels 1 to 5, the upgrade time is 60 minutes each. Starting from level 6, the upgrade time follows this formula:
 
-創世Foocaカメラは、他のFoocaカメラと同様に機能し、貢献して報酬を得ることができます。鍵となる違いは、その独自性と所有することの名誉です。 _将来的には、ジェネシスカメラ所有者専用の特典やボーナスが提供される予定です。どうぞお楽しみに！_
+```
+Upgrade time (minutes) = (60 * target level)
+```
+
+***
+
+## Genesis Fooca Camera
+
+You can only get a Genesis Fooca Camera from a Genesis Fooca Box.
+
+The Genesis Fooca Box is not your ordinary loot box. It represents the very first generation of Fooca Camera releases and is a symbol of prestige within the Fooday community. These boxes are exclusively available to users who participated in our beta testing phase, making them a rare and cherished item.
+
+#### What's Inside the Genesis Fooca Box?
+
+Each Genesis Fooca Box contains a randomly generated Fooca Camera, but with a twist. These cameras bear the coveted Genesis logo, signifying their unique origin and significance. They are a testament to your early support and commitment to Fooday.
+
+#### Using Genesis Fooca Cameras
+
+Genesis Fooca Cameras function just like any other Fooca Camera, allowing you to contribute to Fooday by sharing your experiences and earning rewards. The key difference lies in their exclusivity and the honor of owning one. _In the future, there are plans to provide exclusive benefits and bonuses for Genesis Camera owners. Stay tuned for more details!_
 
 ***
 
 ## Fooca ID
 
-Fooca IDは、各Foocaカメラ/カメラボックスを識別するために使用され、各Foocaが唯一無二であることを示します。重複するIDは存在しません。
+The Fooca ID is used to distinguish each Fooca Camera / Fooca Box, representing a unique identifier for each Fooca, ensuring there are no duplicate Fooca ID.
 
-#1から#499のFoocaカメラはベータテスト期間中のテストカメラであり、正式版がリリースされ次第、即座に破棄されます。
+Fooca Cameras numbered from #1 to #499 are test cameras used during the trial period and has been burnt and destroyed upon the official launch.
 
-正式版では、最初に作成されたFoocaカメラは#500から始まり、カメラボックスが1つ作成されるごとに番号が1つ増えます。これらの番号は作成/生産時間順に昇順で並び、一般カメラおよびジェネシスカメラの両方に同じ番号付け方式が適用されます。Foocaカメラボックスの番号は、その中から出てくるFoocaカメラの番号と同じです。
+The first batch of Fooca Camera are minted with the ID starting from #500 after the official release. With each Fooca Box minted, the number increments by 1, ordered chronologically by minted time. Both regular Fooca Cameras and Genesis Fooca Cameras follow the same numbering system. The Fooca Box's number corresponds to the Fooca Camera obtained when it is opened.
 
-例：#500のFoocaカメラボックスを開けると、得られるFoocaカメラの番号も#500になります。
+For example, the Fooca Camera obtained from opening the #500 Fooca Box will also have the camera ID #500.
 
-カメラの番号は、そのカメラがブロックチェーンに登録された後のNFTトークンIDとは異なります。
-> 現在、Foocaカメラやカメラボックスのブロックチェーン上での取引はサポートされていません。
+> The Fooca Camera ID is not equivalent to the NFT token ID assigned to the camera upon minting. Currently, Fooca Cameras and Fooca Boxes do not support on-chain transaction.
 
 ***
 
-Foodayでより強力なツールを使い、大きな影響を与えたいグルメ愛好家にとって、アドバンストFoocaカメラは最適な選択です。アドバンストカメラは、初期属性が平均して高いため、貢献の過程でより速く報酬を稼ぐことができます。また、アドバンストカメラを使ってミントすると、レアなカメラボックスを生成する確率が高まります。アドバンストFoocaカメラを使えば、あなたの貢献が際立ち、より効果的に報酬を得ることができます！
+Choose the Fooca Camera that suits your strategy and embark on your Fooday journey!

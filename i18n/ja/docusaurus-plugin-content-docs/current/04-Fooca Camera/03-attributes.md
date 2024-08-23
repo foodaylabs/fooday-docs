@@ -1,38 +1,39 @@
 ---
 slug: /attributes
 sidebar_position: 3
-title: 属性とバッテリー寿命
+title: Attributes and Battery life
 ---
 
-Foocaカメラには、**計算**、**品質**、**バッテリー**、**フースピリット**の4つの属性があります。これらの属性は、カメラの全体的な価値、実用性、およびグルメ愛好家が重視する側面を決定します。
+Fooca cameras have four attributes: **Compute**, **Quality**, **Battery**, and **Foospirit**. These attributes determine the overall value, utility, and aspects that foodies prioritize:
 
 :::note
-Foocaカメラがレベルアップするごとに、2つの属性ポイントを獲得します。
+For every level-up of Fooca cameras, you gain **2** attribute points.
 :::
 
-### 計算(computing)
-レビュー、スポット作成、検証などの貢献を行うにはエネルギーを消費します。Foocaの計算が高いほど、これらのアクションに必要なエネルギー消費が少なくなります。
+### Compute
+Performing contributions like reviews, adding places, verification, etc., consumes energy. Computation is related to the energy points consumed by users on Fooday. 
 
-### 品質(Quality)
-品質は、貢献に対して獲得できるFudosの量を決定します。Foocaの品質属性が高いほど、各貢献で得られるFudosの量が増えます。
-品質属性は、高品質な貢献を提供することで、ユーザーにより多くの報酬をもたらします。
+The higher the Computation attribute of Fooca, the fewer energy points are required when performing actions.
 
-### バッテリー(Battery)
-バッテリー属性は、カメラの使用回数を決定します。属性が低いと、より頻繁に充電が必要です。グルメ愛好家は、この属性をアップグレードすることでバッテリー寿命を延ばし、Foocaの使用回数と効率を向上させることができます。
+### Quality
+Quality determines how many Fudos users can earn from their contributions. The higher the Quality attribute of Fooca, the more Fudos users can collect in each contribution. 
 
-高いバッテリー寿命は、より多くのFudosを獲得することを意味します。
+Quality attributes encourage users to provide high-quality contributions because they will be rewarded more for their efforts.
 
-### フースピリット(福靈)
-福靈 、Foocaカメラを使用して貢献する際のボーナスイベントの発生率や、レアなカメラボックスを生成する確率に影響を与えます。簡単に言えば、福靈が高いほど、確率や運に関するイベントでより良い成果を得られます。
+### Battery
+The Battery attribute determines how many times the camera can be used. If the attribute is lower, it needs more frequent recharging. Foodies can choose to upgrade this attribute to increase the camera's battery life, extending the lifespan of Fooca. 
 
-### カメラ属性の上限
+High battery life means Fooca cameras can be used more times with higher efficiency, resulting in more Fudos.
 
-クラシックカメラの各属性の上限は30です。
-アドバンストカメラの各属性の上限は50です。
+### Foospirit
+Foospirit affects the chances of users equipping Fooca cameras and gaining bonus events when making contributions, as well as the probability of casting rare camera boxes. 
 
-ある属性が最大値に達している場合、レベルアップで得られるポイントは他の属性に割り振る必要があります。
+In simple terms, the higher the Luck attribute of the camera, the better it performs in events related to probability and luck.
 
-### Foocaカメラの充電
-Foocaカメラのバッテリーが90％以下になると、カメラの使用効率が徐々に低下します。無駄な労力を避けるために、FOODを使用してタイムリーにカメラを充電することを忘れないでください。`レベルが高いカメラほど、充電コストが高くなります。`
 
-また、カメラをアップグレードしたり、販売したりする前には、バッテリーを満充電にする必要があります。
+### Charging Fooca Cameras
+Whenever the Fooca camera's battery level drops below 90%, the camera's efficiency gradually decreases. 
+
+If you don't want to waste time, remember to use FOOD to charge the camera promptly. `The higher the camera's level, the higher the charging price.`
+
+Additionally, before upgrading or selling a camera, you also need to ensure that its battery is fully charged to proceed with further actions.

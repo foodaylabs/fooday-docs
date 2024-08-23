@@ -1,52 +1,46 @@
 ---
 slug: /foodie-level
 sidebar_position: 1
-title: Foodieレベル
+title: Foodie Level
 ---
 
-Foodayでは、Foocaカメラを持つグルメ愛好家が貢献することでFudosを獲得し、Fudosを累積することで美食家等級が上がります。
+In Fooday, foodies with Fooca Cameras can earn Fudos by contributing, and their levels will also increase.
 
-FudosはFoodayプラットフォーム上の経験値として機能します。Foocaカメラを持つグルメ愛好家は、タスクを完了したり、店舗の場所を作成したり、食の体験を共有したり、誤情報を報告したりすることで、一定量のFudosを獲得できます。
-
-**現在、Foodiesの最高レベルは50まで開放されています。** レベルアップに必要なFudosの累積量は次の式で計算されます：
+**Currently, the highest level for Foodies is open up to level 50.**The formula for the Fudos accumulated required to level up is as follows:
 
 ```
-Lv1 - Lv30：
-[（0.75 * 目標等級 ^ 0.8）- 0.15] * 60 結果は四捨五入
-
-Lv31 - Lv50：
-[（0.935 * 目標等級 ^ 0.86）- 0.15] * 60 結果は四捨五入
+Required Fudos to level up = Rounded {[（0.75 * Target level ^ 0.8）- 0.15] * 55}
 ```
 
-FudosはFoodayプラットフォーム上の経験値として機能します。Foocaカメラを持つグルメ愛好家は、タスクを完了したり、スポットを作成したり、食事の体験を共有したり、不正確な情報を報告することで一定量のFudosを獲得できます。
+Fudos serve as experience points on the Fooday platform. Foodies with Fooca Cameras can earn a certain amount of Fudos by completing tasks, creating spot locations, sharing culinary experiences, and reporting incorrect information.
 
 ***
 
-## FudosのFOODへの変換
+## Fudos to FOOD Multiplier
 
-グルメ愛好家が当日に獲得したFudosは、24時間後の翌日0:00 UTCに自動的にFOODに変換されます。手動での変換は不要です。
+The Fudos earned by a foodie on a given day will automatically convert to FOOD after 24 hours on the next day at 00:00 UTC, without any manual action needed.
 
 ```
-通常、Fudos : FOOD = 1 : 1 です。
+In the absence of any bonuses, the conversion rate of Fudos to FOOD is 1:1
 ```
  
 
-例：  
+Example: 
 
-小明が3月1日に100Fudosを獲得した場合、3月3日の0:00 UTCにFudosがFOODに変換され、小明は100FOODを受け取ります。
+On March 1st, if John accumulates 100 Fudos throughout the day, the system will convert his accumulated Fudos to 100 FOOD on March 3rd at 00:00 UTC.
 
-ただし、美食家等級もFOODへの変換率に影響を与えます。変換時の倍率は次の式で計算されます：
+However, the conversion rate is affected by the foodie's level. The settled FOOD multiplier formula is:
 
 ```
-加成倍率 = 1 + (美食家等級 - 1) / 100
+Multiplier = 1 + (Foodie level - 1)/100
 ```
 
-つまり、変換時の小明の**美食家等級が6等**であれば, 変換率は**1.05倍**となり, 小明は**105FOOD**を受け取ることができます。
+For instance, at the current **Foodie level of 6**, the conversion rate will be multiplied by **1.05**, meaning that John can get **105 FOOD**.
 
-:::TIP
-美食家等級のメリット：美食家等級が高いほど、FudosのFOODへの変換率が良くなります。
+:::tip
+Advantage of Higher foodie Levels: The higher the foodie's level, the better the exchange rate of Fudos to FOOD.
 :::
 
-## 成就とバッジ
+## Foodie Level Achievement
 
-美食家等級を上げると、美食家等級の成就を獲得できます。指定された等級に達すると、自動的に成就と称号が与えられます。 [詳細は成就とバッジをご参照ください](/achievement-and-badge-system).
+Achievements can be obtained by leveling up your Foodie account through contributions. When a Foodie reaches a specified level, they will automatically receive an achievement and a title. Learn more at [Achievement & Badge System](/achievement-and-badge-system).

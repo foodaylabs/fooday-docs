@@ -1,69 +1,66 @@
 ---
 slug: /minting
 sidebar_position: 4
-title: カメラボックスのミント
+title: Minting
 ---
 
-Foodayでは、Foocaカメラを入手する方法は2つあります：
+In Fooday, there are two ways to acquire a Fooca camera:
+1. Purchase a Fooca camera directly from the market.
+2. Mint a brand-new Fooca camera.
 
-1. マーケットでFoocaカメラを直接購入する
-2. 新しいFoocaカメラをミントする
-
-初期に配布されたジェネシスFoocaカメラを除いて、後期でより多くのカメラを生産したい場合は、ミントする必要があり、ミント後にマーケットで販売されます。
-
-
-<br/>
-
-> 2台のFoocaカメラを所有していれば、新しいFoocaカメラボックスをミントすることができます。
-
-* ミントは元の2台のFoocaカメラを消費せず、それぞれのカメラのミント可能回数が減少するだけです。
-* 各カメラは最大で7回までミントに使用できます。
-
-### ミントの手順:
-
-1. ミントに使用したいカメラのうちの1台を選択
-2. 画面下部のメニューから「ミント」を選択
-3. ミントに使用するもう1台のカメラを選択
-4. 新しいカメラボックスをミントする
+Apart from the initial Genesis Fooca camera we provide, if you want to create more cameras, you can only do so through minting and then sell them in the market.
 
 
 <br/>
 
-### Foocaカメラのミントに必要な費用
+> You can mint a new Fooca camera by owning two Fooca cameras. 
 
-Foocaカメラをミントする回数が増えると、必要な費用（FOOD）も増加します。以下の表をご参照ください：
+* Minting does not make the original Fooca camera disappear. 
+* Each camera can assist in minting up to 7 times.
 
-| カメラ  | ミント 0  | ミント 1  | ミント 2  | ミント 3  | ミント 4  |  ミント 5 | ミント 6  |
+### Minting Steps:
+
+1. Select one of the cameras you want to use for Minting.
+2. From the bottom menu, choose 'Mint.'
+3. Choose another camera you want to use for minting.
+4. Mint a brand-new camera box.
+
+
+<br/>
+
+### Cost of Minting a Fooca Camera: 
+The more times you mint a Fooca camera, the higher the cost (in Food) will be. Please refer to the table below:
+
+| camera  | mint 0  | mint 1  | mint 2  | mint 3  | mint 4  |  mint 5 | mint 6  |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| クラシック | 2050  | 2600  | 3300  | 4200  |  5050 |6200   | 7000  |
-| アドバンスト  | 2850  | 3600  | 5000  | 6200  |7050   | 8200  | 9000  |
+| Classic | 2050  | 2600  | 3300  | 4200  |  5050 |6200   | 7000  |
+| Advanced  | 2850  | 3600  | 5000  | 6200  |7050   | 8200  | 9000  |
 
-**例 1**  
-ミントなしのクラシックカメラ + ミントなしのアドバンストカメラ
+**Case 1**  
+One Classic Camera that has not been minted yet + One Advanced Camera that has not been minted yet  
 ：2050 + 2850 = 4900 FOOD
 
-**例 2**  
-1回ミントしたクラシックカメラ + 2回ミントしたクラシックカメラ
+**Case 2**  
+One Classic Camera minted 1 time + One Classic Camera minted 2 times  
 ：2600 + 3300 = 5600 FOOD
 
 <br/>
 
-### Foocaカメラのミント確率
- 
-Foocaカメラをミントする際、生成されるカメラボックスのレアリティ確率は以下の表をご参照ください：
+### Probabilities of minting Fooca Camera box 
+When Minting Fooca cameras, there is a chance to obtain camera boxes of different rarities. Please refer to the table below for the probabilities:
 
-| カメラ 1  | カメラ 2  |  普通カメラボックス確率  | アドバンストカメラボックス確率  |
+| camera 1  | camera 2  |  Common fooca box  | Rare fooca box  |
 |:---:|:---:|:---:|:---:|
-| クラシック | クラシック  | 99%  | 1%  | 
-| クラシック  | アドバンスト  | 80%  | 20%  | 
-| アドバンスト  | アドバンスト  | 25%  | 75%  | 
+| Classic | Classic  | 99%  | 1%  | 
+| Classic  | Advanced  | 80%  | 20%  | 
+| Advanced  | Advanced  | 25%  | 75%  | 
 
 <br/>
 
-ミントされたFoocaカメラボックスの開封確率は以下の通りです：
+Here are the probabilities for opening the Fooca camera boxes created through minting:
 
-| カメラボックスのレアリティ | クラシックカメラの確率  | アドバンストカメラの確率 |
+| Fooca box rarity | Classic fooca camera  | Advanced fooca camera |
 |:---:|:---:|:---:|
-| 普通 | 97%  | 3%  | 
-| レア  | 25%  | 75%  |
+| Common | 97%  | 3%  | 
+| Rare  | 25%  | 75%  |
 

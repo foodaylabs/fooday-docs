@@ -1,19 +1,18 @@
 ---
 slug: /report-and-voting
 sidebar_position: 07
-title: 通報と検証投票
+title: Report & Voting
 ---
 
-# 通報と検証投票
+# Report & Voting
 
 ![Fooday- Enhanced Verification System](Fooday-enhanced-report-system.webp)
 
-Foodayのレビューおよびレストラン情報の正確性と信頼性を向上させるため、コミュニティ主導の通報検証プロセスを導入しました。本記事では、通報および投票システムの完全な運用方法について説明します。
+Fooday is thrilled to announce the implementation of its enhanced reporting system. After careful iterations, we have made significant adjustments to our validation process to enhance review accuracy and reliability.
 
+## How Does the New Report System Work?
 
-## 通報システムの運用方法
-
-Foodayの通報システムは「プラットフォームの公正性と完全性を維持する」ことを目的としています。この新しい通報メカニズムにより、ユーザーは不正確な情報を通報し、リアルタイムで審査を行うことができます。現在、主な通報シナリオには、レストラン情報の誤りや無効なレビューが含まれます。
+The report system on Fooday serves as a crucial mechanism to maintain the platform’s integrity, enabling users to report inaccurate information. Users can make **challenges** (a.k.a reports) in two primary situations: spot and reviews.
 
 **Wrong Spot Info**
 
@@ -21,122 +20,124 @@ When a user creates a new spot on the Fooday map, the associated spot becomes im
 
 However, to ensure the accuracy and reliability of information, a "Newly Created" label is affixed to such spots for the initial 7 days. This label assists other users in verifying the correctness of the spot's details. During this 7-day period, other users are unable to modify existing restaurant information but can contribute by adding information that are not yet listed. The creator of the spot retains the ability to supplement or modify the spot's information as needed. After the aforementioned 7-day period, the "Newly Created" label will be automatically removed. At any given time, users have the option to report a spot for any reason.
 
-**不適切/不正確なレビューの通報**
+**Inappropriate Reviews**
 
-同様に、ユーザーは不正確または誤解を招く情報を含むレビューを通報することもできます。レビューは投稿後すぐにレストランページに表示され、Fudosが獲得されますが、他のユーザーがそのレビューを通報した場合、そのレビューは投票プロセスに進み、信頼性と有用性を確保するために評価されます。
+Similarly, when users leave reviews on Fooday, they have the opportunity to report any reviews they believe contain inaccurate or misleading information.
 
-### 完全匿名
+Users can leave reviews without undergoing a verification process and earn Fudos immediately upon posting. If a review is reported by another user, it will undergo further evaluation to ensure reliability and helpfulness.
 
-通報は匿名で行われ、通報された人および検証投票に参加するランダムに選ばれたグルメ愛好家たちは、あなたの身元を知ることはありません。これにより、公平性とアカウントの影響力が確保されます。
+### Anonymity
+
+Challenging (Reporting) is anonymous. The reported individual and all participating random users in the verification vote won't know your identity. This ensures fairness and prevents account influence.
 
 ![How to report](how-to-report.webp)
 
 ------
 
-## 通報投票ルール
+## Voting Verification Process
 
-通報が提出されると、Foodayの投票システムが起動し、ランダムに選ばれた複数のユーザーが投票に参加します。通報された情報が投票検証プロセスに入ると、その情報やレビューは検証が完了するまで編集できず、他のユーザーも重複して通報することはできません。選ばれたユーザーは通報されたレストラン情報やレビューを慎重に審査し、「賛成」または「反対」の投票を行います。
+After a challenge (report) is submitted, Fooday’s voting system is activated. This system randomly selects multiple users to partake in the voting verification process. 
 
-### システムはどのように投票検証者を選ぶのか？
+Once a spot or review is reported and enters the voting verification phase, the information in question cannot be modified until the entire verification process has been finalized. Additionally, other users are precluded from submitting further challenges (reports) for the same spot or review. 
 
-システムは通報内容の地域や言語に基づいて適切なユーザーを選びます。
+The selected users will carefully review the reported spot information or review and cast their votes of "Agree" or "Disagree" based on their judgment.
 
-レストラン情報が通報された場合、システムはその店舗がある国のユーザーを選出して投票検証を行います。レビューが通報された場合、システムはレビューの投稿者と同じ国のユーザーを選出して投票検証を行います。
+### How does the system select verification voters?
 
-情報が通報されると、システムはランダムに30人のFoodayユーザーを選び、投票を依頼します。投票は通報された時点から24時間開放され、選ばれたユーザーには通知が届きます。通知をクリックすることで投票に参加できます。
+The system selects appropriate users for voting based on the region and language of the reported content.
 
+If spot information is reported, the system will filter users from the same country as the spot for verification voting. If a review is reported, the system will filter users from the same country as the author for verification voting.
+
+When a piece of content is reported, the system randomly selects 30 Fooday users from the target country to participate in the voting process. The voting period opens for 24 hours starting from the report time. Selected users receive notifications and can participate by clicking on the notification.
 
 :::info
-Foocaカメラを持っていないユーザーでも、ランダムに選ばれて検証投票に参加できます。つまり、一般ユーザーでもコミュニティに参加して報酬を得ることができます！
+The selected users don't need to have a Fooca Camera to participate in verification voting. Even without a camera, you can accumulate verification points and turn them into rewards.
 :::
 
 ------
 
-## 通報が成立する条件
+## How is a report (challenge) considered approved?
 
-**通報後24時間以内に、投票率が総投票者数の30％以上、かつ「同意」票が2/3以上で通報が成立します。** 
+In the event that a report is rejected and the reported spot or review is deemed to be accurate and reliable, the one who reported will be fined with a deduction of FUDOS.
 
-例：
-> 小林があるレビューを通報し、システムが30人のユーザーを選んで投票を依頼した場合、24時間以内に9人以上が投票し、そのうち6票以上が「同意」であれば通報が成立します。
+**Within 24 hours from the time of the report, the voting rate must reach 30%, and the "Agree" ratio must be 2/3 for the report to be approved.** 
 
+Example:
+> If you, John, report a review, the system selects 30 users for the vote. If within 24 hours, at least 9 users participate in the vote, and out of those, equal or more than 6 users agree, then the report is approved.
 
-### 投票者数が足りない場合はどうなるの？
+### What if the number of voters doesn't meet the requirement?
 
-通報後24時間以内に30人中9人以上の投票がなければ、投票期間をさらに24時間延長し、追加で倍の人数を選んで投票を依頼します。この延長された24時間内に、元の投票者数の30％に達する必要があります。
+If within 24 hours from the report time the voting participation rate of the selected 30 users from the reported country is below 30%, the voting period will be extended by 24 hours, and another 30 users will be selected for voting. During this extended 24-hour period, the participation rate must reach 30% of the original users.
 
-例：
-> 	システムが30人のユーザーを選んで投票を依頼し、24時間後に投票率が30％未満であれば、さらに30人のユーザーを選び、合計60人に投票を依頼します。最終的に9人以上が投票すれば目標達成です。
+Example:
+> If there are fewer than 9 users participating in the vote in the first 24 hours, the system will select 30 more users for the poll. Within the following 24 hours, 9 out of 60 users should participate in the voting to make the challenge valid.
 
-もしそれでも達成できなければ、再び投票期間を延長し、新しいユーザーを追加していきます。これを投票率が30％に達するまで繰り返します。
+If the required participation rate is not reached by the end of the extended period, the process of extending the voting time and increasing the number of participants will be repeated until the participation rate reaches 30% of the original user amount.
 
 ------
 
-## 通報が成立/不成立した場合はどうなりますか？
+## What happens if I am challenged and it succeeds/fails?
 
-### 通報が成立した場合
+### If the voting report against you passes
 
-1.	通報されたレビューや店舗の価値に応じたFudosが失われ（カメラのバッテリー消耗を除く）、さらに元の価値の30％が罰則として追加で減点されます。
-2.	該当するレビューや店舗情報が削除されます。
+1. You will lose the equivalent Fudos value of the review/store in question (excluding Battery Power debuff), plus an additional 30% penalty based on the original value.
+2. The reported review/spot will be taken down.
 
+### If the voting report against you fails
 
-### 通報が不成立だった場合
+1. You will not lose any Fudos.
+2. Your store/review will be retained.
+3. The report against you will be revoked.
 
-1.	Fudosの減点はありません。
-2.	レビューや店舗情報はそのまま残ります。
-3.	通報は取り消されます。
-
-例:
-> 店舗Bにレビューを書いて、そのレビューの元の価値が40 Fudosだったが、カメラのバッテリーが70％未満だったため、最終的な報酬は28 Fudosだったとします。
-
-> その後、小林がそのレビューを通報しました：
+Example:
+> You left a review at Store B, which was originally valued at 40 Fudos. However, due to your camera's battery being below 70%, the review's final reward was 28 Fudos.
 > 
-* 小林の通報が成立した場合、レビューの元の価値である40 Fudosを失い（報酬が28 Fudosであっても）、さらに40 Fudosの30％である12 Fudosが追加で減点され、合計で52 Fudosが減点されます。
-* 小林の通報が不成立だった場合、何も減点されません。
+> Later, Jane reported your review at Store B:
+> 
+* If Jane's report against you is successful, you will lose the original 40 Fudos value of the review (even though you only received 28 Fudos initially). Additionally, you will be penalized by an extra 30% deduction of the original value (40 Fudos), resulting in a total loss of 52 Fudos.
+* If Jane's report against you fails, you won't face any penalties.
 
 ------
 
-## 私が提出した通報が成立 / 不成立の場合、どうなるの？
+## What happens if my challenge passes/fails?
 
-### 通報が成立した場合
+### If the vote on the report passed
 
-1.	当該レビューや店舗情報の価値に相当するFudosを獲得できます（カメラのバッテリー消耗は考慮されません）。
-2.	該当のレビューや店舗情報が削除されます。
+1. You will receive the Fudos equivalent to the original value of that review/store (excluding Battery Power debuff), plus any additional Fooca Camera attribute multipliers you used for this report.
+2. The reported review/spot will be taken down.
 
-### 通報が不成立の場合
+### If the vote on the report is failed
+1. You will be penalized by deducting 15% of the original value of the review/store (excluding Battery Power debuff), resulting in a loss of Fudos.
+2. The report will be revoked.
 
-1.	当該レビューや店舗情報の価値の30％が減点されます。
-2.	通報は取り消されます。
-
-例:
-> 小林が店舗Aに40 Fudosの価値があるレビューを投稿しました。
-
-あなたがそのレビューを通報した場合：
-
-* あなたの通報が成立した場合、元のレビューの価値である40 Fudosと、通報時のカメラボーナスが追加で付与されます。
-* あなたの通報が不成立だった場合、元のレビューの価値である40 Fudosの30％が減点され、12 Fudosが失われます。
+Example:
+> John left a review at Store A, which was originally valued at 40 Fudos. Later, you reported John's review at Store A:
+>
+* If your report is passed, you will receive the equivalent of the original 40 Fudos value of the review, along with any additional Fooca Camera attribute multipliers you used for this report.
+* If your report fails, you will be penalized by losing 15% of the original value (40 Fudos), resulting in a loss of 6 Fudos.
 
 ![How to vote](how-to-vote.webp)
 
 ------
 
-## Foodayの通報システムの目的
+## Benefits of the Fooday Verification System
 
+**Increased Transparency & Impartiality**
 
-**透明性と公正性の向上**
-Foodayの強化された通報システムは、ユーザーが検証プロセスに参加することでプラットフォームの透明性を高めます。匿名の通報は公正な投票プロセスを保証し、通報者のフォロワーや評価、現在の投票率に影響されない結果をもたらします。
+Fooday’s enhanced reporting system promotes transparency by involving users in the verification and validation process. The anonymous reporting ensures an impartial voting process, free from the influence of a reporter’s followers, reputation, or current voting rates.
 
-**コミュニティの参加と信頼**
+**Community Engagement & Trust**
 
-ユーザーは通報と投票プロセスに積極的に参加することで、プラットフォームの信頼性に貢献します。これにより、共同責任感やユーザー間の信頼が醸成され、正確な情報を重視するコミュニティ駆動の環境が創造されます。
+Users actively contribute to the platform’s reliability by participating in the reporting and voting processes. This fosters a sense of shared responsibility and trust among Fooday users, creating a community-driven environment where accurate information is valued.
 
-**効率的なスポット作成とタイムリーな更新**
+**Efficient Spot Creation & Timely Updates**
 
-Foodayに作成されたレストランは、即座に地図上に表示されます。私たちはスポット作成プロセスを簡素化し、ユーザーが新しいレストランや食体験を迅速に共有できるようにしました。複雑な検証プロセスを必要とせず、食体験のリアルタイム更新と最新情報の流通を確保します。
+Spots created on Fooday immediately appear on the map, streamlining the spot creation process and allowing users to quickly share new dining destinations. This ensures real-time updates on exciting culinary experiences, without the need for extensive verification processes.
 
-**正確性とレビュー品質**
-Foodayは、正確な情報を提供するユーザーにFudosを報酬として提供し、高品質なレビューコンテンツを維持します。これにより、プラットフォーム全体の信頼性が向上します。
+**Recognition for Accuracy & Quality**
 
+Fooday rewards users who create accurate spots with FUDOS, incentivizing the production of high-quality content. This recognition encourages users to provide reliable information, contributing to the overall trustworthiness of the platform.
 
-**信頼性のある意思決定**
+**Trustworthy Decision-Making**
 
-Foodayの強化された通報システムは、集団投票プロセスに基づいた意思決定を保証します。ランダムに選ばれた投票メカニズムは、偏見や人為的な操作を排除し、通報内容の公正で客観的な判断を反映します。これにより、Foodayは信頼できる、正確で公正なレストラン情報のソースとなります。
+Fooday’s enhanced reporting system ensures that decisions are made based on a collective voting process. The randomized voting mechanism eliminates bias and manipulation, reflecting a fair and objective judgment of the reported content. This commitment to trustworthy decision-making establishes Fooday as a reliable source of accurate and unbiased restaurant information.
