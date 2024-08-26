@@ -8,9 +8,10 @@ authors:
     title: Fooday 美食搜查隊隊長
     image_url: https://imgur.com/udtKAMZ.png
 tags: [運動酒吧, 運動餐廳, 賽事轉播餐廳, 奧運, 世足賽]
-image: https://imgur.com/V2FQyrm.jpg
+image: https://imgur.com/Xo4vbbH.jpg
 hide_table_of_contents: false
 ---
+
 import { InstagramEmbed } from 'react-social-media-embed';
 
 ![2024 台北運動酒吧餐廳精選推薦](./img/0801.jpg)
@@ -21,21 +22,20 @@ import { InstagramEmbed } from 'react-social-media-embed';
 
 ### 台北 6 運動餐廳、賽事轉播餐廳推薦：
 
-* [Waiting Bistro 餐酒館](#waiting-bistro-餐酒館)
-* [The Brass Monkey](#the-brass-monkey-復興店)
-* [23 Public | Craft Beer 精釀吧](#23-public--craft-beer-精釀吧)
-* [NINJA BAR 忍者酒吧](#ninja-bar-忍者酒吧)
-* [金色三麥](#金色三麥)
-* [吉比鮮釀餐廳](#吉比鮮釀)
+- [Waiting Bistro 餐酒館](#waiting-bistro-餐酒館)
+- [The Brass Monkey](#the-brass-monkey-復興店)
+- [23 Public | Craft Beer 精釀吧](#23-public--craft-beer-精釀吧)
+- [NINJA BAR 忍者酒吧](#ninja-bar-忍者酒吧)
+- [金色三麥](#金色三麥)
+- [吉比鮮釀餐廳](#吉比鮮釀)
 
-
-***
+---
 
 ## Waiting Bistro 餐酒館
 
 _大安區 | 餐酒館 | 印度烤雞胸佐肉桂蘋果 | 日本 Coedo 柚香 JPA_
 
-忠孝復興站附近的 Waiting Bistro 不僅是間餐點美味的餐酒館，同時也有提供體育賽事轉播，可以邊享用美食邊為賽事加油！店內空間並不大，一眼望去大概只有7張桌子，跟一個料理台和一面酒櫃，裝潢蠻有感覺的，主打工業風，很多鑄鐵跟木頭色的元素。牆上有體育競賽轉播，晚上很有氣氛。
+忠孝復興站附近的 Waiting Bistro 不僅是間餐點美味的餐酒館，同時也有提供體育賽事轉播，可以邊享用美食邊為賽事加油！店內空間並不大，一眼望去大概只有 7 張桌子，跟一個料理台和一面酒櫃，裝潢蠻有感覺的，主打工業風，很多鑄鐵跟木頭色的元素。牆上有體育競賽轉播，晚上很有氣氛。
 
 Fooday 美食家[阿波卡](https://fooday.app/zh-TW/users/BmP3StnRP5NdSGj4J1XVdnEYmYr2)推薦日本 Coedo 柚香 JPA $300 這支啤酒很清爽，金色的酒體配上細密的白色泡沫，每口都可以品到柚子柑橘香氣，而且尾韻也有米釀的味道，非常適合配餐一起品用！
 
@@ -48,7 +48,7 @@ Fooday 美食家[阿波卡](https://fooday.app/zh-TW/users/BmP3StnRP5NdSGj4J1XVd
 * 注意事項：僅收現金
 ```
 
-***
+---
 
 ## The Brass Monkey 銅猴子 復興店
 
@@ -61,11 +61,11 @@ _台北市中山區 | 飛鏢機 | 足球機_
 ```
 * 餐廳地址：台北市中山區復興北路166號
 * 餐廳電話：02-2547-5050
-* 營業時間：週一到週日 17:00 ~ 00:00 
+* 營業時間：週一到週日 17:00 ~ 00:00
 * 注意事項：營業時間會按照比賽有所更動，可以到官網看最新資訊
 ```
 
-***
+---
 
 ## 23 Public | Craft Beer 精釀吧
 
@@ -74,6 +74,7 @@ _台北市大安區 | 賽事轉播 | 精釀啤酒吧_
 一個人在家看奧運轉播太無聊嗎？23 Public 同樣提供賽事轉播，可以邊享用多國美味精釀啤酒，一邊為支持的隊伍加油！且 23 Public 對啤酒非常講究，還有製作可愛的小卡說明每隻酒的風味、苦度，讓美味消費者更了解啤酒風味！
 
 Fooday 美食家[阿官](https://fooday.app/zh-TW/users/0dHzNoXmIkWUx3iHr0ELEIPJ1FQ2)推薦「憂國」啤酒，是很好喝的百香果酸啤！
+
 <iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/bTUtQh6cqgYqLxKL9mmfqR?maxwidth=384&maxheight=726"></iframe>
 
 ```
@@ -83,7 +84,7 @@ Fooday 美食家[阿官](https://fooday.app/zh-TW/users/0dHzNoXmIkWUx3iHr0ELEIPJ
 * 注意事項：可刷卡，可線上訂位
 ```
 
-*** 
+---
 
 ## NINJA BAR 忍者酒吧
 
@@ -100,14 +101,13 @@ _台北市中山區 | 飛鏢機 | 投影大螢幕 | 營業至凌晨 5 點_
 * 注意事項：可刷卡，可電話訂位
 ```
 
-***
+---
 
 ## 金色三麥
 
 _全台皆有分店 | 配合賽事有活動 | 蜂蜜啤酒經典不敗_
 
 金色三麥作為運動酒吧、運動餐廳應該大家都不陌生，不僅時常配合賽事舉辦活動、餐點優惠，且餐點都在水準之上，如經典大拼盤、招牌的蜂蜜啤酒都是受到許多人歡迎的定番。整體的好表現讓金色三麥人氣一直居高不下，有重要賽事時更是時常高朋滿座！如果你也想體驗運動賽事的熱烈氣氛，不要錯過運動餐廳獨有的、金色三麥正宗的熱鬧氛圍。
-
 
 <iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/J7GbygXHUWuxNn27vuU3Tk?maxwidth=384&maxheight=726"></iframe>
 
@@ -118,13 +118,13 @@ _全台皆有分店 | 配合賽事有活動 | 蜂蜜啤酒經典不敗_
 * 注意事項：可刷卡，可線上訂位
 ```
 
-***
+---
 
 ## 吉比鮮釀 信義店
 
 _台北市信義區 | 胡蘿蔔蛋糕 | 聚餐_
 
-吉比鮮釀也是運動餐廳的好選擇之一，時常搭配賽事有特別活動！例如 2024巴黎奧運，說出特別口號就能獲得免費調酒，以及只要有台灣選手奪牌，餐廳更會招待每位顧客一杯啤酒等有趣活動！值得一提的是，吉比鮮釀的義大利麵口味不錯，辣味檸檬鮮蝦麵基底有奶油、檸檬味，酸度、辣度都高，有著清爽口感。以及甜點的胡蘿蔔蛋糕，奶油起司糖霜甜鹹交錯很爽口！
+吉比鮮釀也是運動餐廳的好選擇之一，時常搭配賽事有特別活動！例如 2024 巴黎奧運，說出特別口號就能獲得免費調酒，以及只要有台灣選手奪牌，餐廳更會招待每位顧客一杯啤酒等有趣活動！值得一提的是，吉比鮮釀的義大利麵口味不錯，辣味檸檬鮮蝦麵基底有奶油、檸檬味，酸度、辣度都高，有著清爽口感。以及甜點的胡蘿蔔蛋糕，奶油起司糖霜甜鹹交錯很爽口！
 
 <iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/P8jGLhxQf2QhDwo48AXRwn?maxwidth=384&maxheight=726"></iframe>
 
@@ -148,3 +148,4 @@ _台北市信義區 | 胡蘿蔔蛋糕 | 聚餐_
 [![立即下載 Fooday app](./img/download-now01.jpg)](https://fooday.app/)
 
 想追蹤更多的美食快報，歡迎訂閱我們的[Fooday 電子報](https://blog-zh.fooday.app/)
+```
