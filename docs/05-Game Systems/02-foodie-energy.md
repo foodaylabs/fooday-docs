@@ -55,7 +55,7 @@ Most contributions require energy consumption, and different types of contributi
 | Contributions  | Energy Cosumption    | Battery Cosumption     | *Max Fudos    |
 |:---:        | :---:        |:---:       | :---:       |
 | Review      | 4 Energy  | 10% Battery  | 45 Fudos    |
-| Create Spot | 2 Energy  | 5% Battery   | 15 Fudos   |
+| Create Spot | 3 Energy  | 5% Battery   | 15 Fudos   |
 | Update Spot | 1 Energy  | 2% Battery   | 3 Fudos    |
 | Report      | 1 Energy  | 2% Battery   | **Original Fudos value of Review/Spot     |
 
