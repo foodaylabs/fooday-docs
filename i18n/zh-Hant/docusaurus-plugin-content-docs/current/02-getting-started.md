@@ -14,7 +14,6 @@ title: 新手上路
 * Android 使用者請至 Google Play 下載：[點此下載](https://play.google.com/store/apps/details?id=org.foodaylabs.fooday)
 
 ![App download](./app_download.jpg)
-
 ***
 
 ## 2. 註冊 Fooday 帳號
