@@ -23,6 +23,8 @@ import leone_8 from './img/leone-8.jpg';
 import leone_9 from './img/leone-9.jpg';
 import leone_10 from './img/leone-10.jpeg';
 
+![leone](./img/leone.jpg)
+
 位於台北中山區的餐酒館，結合台式在地食材與西式風格，可以感覺到廚師在每道餐點上的口味平衡設計及用心，且酒單豐富，有多種特色調酒可供選擇，整體可以說是被低估的台北市餐酒館。
 
 享用的餐點口味上以餐酒館來說都在水準之上。如果你正在尋找慶生或是與朋友聚餐的好去處，Leone Restaurant & Bar 絕對是不會讓你失望的選擇，推薦給想要增加「台北餐酒館口袋名單」的美食家！
