@@ -115,14 +115,14 @@ const config = {
         },
         items: [
           {
-            to: '/',
+            to: 'https://fooday.app/docs',
             activeBasePath: 'docs',
             label: 'Docs',
             position: 'right',
             target: '_self',
           },
           {
-            to: '/blog',
+            to: 'https://fooday.app/blog',
             label: 'Blog',
             position: 'right',
             target: '_self',
