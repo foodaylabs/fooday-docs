@@ -115,16 +115,16 @@ const config = {
         },
         items: [
           {
-            to: 'https://fooday.app/docs',
+            to: '/',
             activeBasePath: 'docs',
             label: 'Docs',
-            position: 'left',
+            position: 'right',
             target: '_self',
           },
           {
-            to: 'https://fooday.app/blog',
+            to: '/blog',
             label: 'Blog',
-            position: 'left',
+            position: 'right',
             target: '_self',
           },
           {
@@ -165,6 +165,10 @@ const config = {
                 href: 'https://www.instagram.com/fooday.app',
               },
               {
+                label: 'Threads',
+                href: 'https://www.threads.net/@fooday.app',
+              },
+              {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/foodaylabs',
               },
@@ -178,8 +182,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Medium',
-                to: 'https://fooday.medium.com',
+                label: 'About Fooday',
+                to: 'https://fooday.app/about',
               },
               {
                 label: 'GitHub',

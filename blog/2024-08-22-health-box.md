@@ -4,9 +4,9 @@ description: 2024 台北健康餐盒推薦名單！健身、注重養身的人�
 slug: /2024-health-box
 date: 2024-08-23T18:00
 authors:
-  - name: 怪獸冰姬靈
-    title: Fooday 美食搜查隊隊長
-    image_url: https://imgur.com/udtKAMZ.png
+  - name: Millie
+    title: Fooday 美食探店大使
+    image_url: https://imgur.com/my9erUY.png
 tags: [外帶餐盒, 健康餐盒, 健身餐, 健康飲食]
 image: https://imgur.com/fnNQ6rB.jpg
 hide_table_of_contents: false

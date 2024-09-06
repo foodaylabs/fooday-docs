@@ -4,9 +4,9 @@ description: 臺灣米其林指南2024年度最新必比登推介名單揭曉囉
 slug: /2024-bib-gourmant
 date: 2024-08-23T18:00
 authors:
-  - name: 怪獸冰姬靈
-    title: Fooday 美食搜查隊隊長
-    image_url: https://imgur.com/udtKAMZ.png
+  - name: Julio
+    title: Fooday 美食探店大使
+    image_url: https://imgur.com/yQ4s9jF.png
 tags: [2024必比登, 台灣米其林指南, 摘星名單, 平民美食]
 image: https://imgur.com/VCuVNIY.jpg
 hide_table_of_contents: false
@@ -22,11 +22,11 @@ hide_table_of_contents: false
 
 儘管相較去年 139 家的入選數量略有下降，但新入榜的 16 家餐廳中，台北 6 家、台中 2 家、台南 3 家、高雄 5 家，顯示全台各地美食文化的蓬勃發展。
 
+<!-- truncate -->
+
 > _**延伸閱讀：什麼是必比登推介？**_
 >
 > _「必比登推介」旨在表彰那些能以合理價格提供高品質美食的餐廳。評選標準主要考量 1000 元新台幣以下即可享用的三道菜餐點。這些入選店家涵蓋了 20 多種不同的料理風格，為消費者提供多元化的用餐選擇。_
-
-<!-- truncate -->
 
 ## 2024「必比登推介」新上榜名單
 

@@ -4,9 +4,9 @@ description: 2024 運動酒吧、運動餐廳推薦！看運動賽事就是要�
 slug: /2024-sports-restaurants
 date: 2024-08-01T18:00
 authors:
-  - name: 怪獸冰姬靈
-    title: Fooday 美食搜查隊隊長
-    image_url: https://imgur.com/udtKAMZ.png
+  - name: Millie
+    title: Fooday 美食探店大使
+    image_url: https://imgur.com/my9erUY.png
 tags: [運動酒吧, 運動餐廳, 賽事轉播餐廳, 奧運, 世足賽]
 image: https://imgur.com/Xo4vbbH.jpg
 hide_table_of_contents: false
