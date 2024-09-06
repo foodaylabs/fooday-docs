@@ -4,9 +4,9 @@ description: 2024 台北泰式料理精選推薦！天氣炎熱，突然想吃�
 slug: /2024-thai-restaurants
 date: 2024-07-23T18:00
 authors:
-  - name: 怪獸冰姬靈
-    title: Fooday 美食搜查隊隊長
-    image_url: https://imgur.com/udtKAMZ.png
+  - name: Millie
+    title: Fooday 美食探店大使
+    image_url: https://imgur.com/my9erUY.png
 tags: [泰式料理, 聚餐, 台北餐廳, 月亮蝦餅, 泰式奶茶]
 image: https://imgur.com/IGssOte.jpg
 hide_table_of_contents: false

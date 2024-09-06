@@ -8,11 +8,11 @@
     "description": "Navbar item with label Tutorial"
   },
   "item.label.Blog": {
-    "message": "美食部落格",
+    "message": "部落格",
     "description": "Navbar item with label Blog"
   },
   "item.label.Docs": {
-    "message": "白皮書",
+    "message": "文件",
     "description": "Navbar item with label Docs"
   },
   "item.label.GitHub": {

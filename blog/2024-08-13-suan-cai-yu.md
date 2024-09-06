@@ -4,9 +4,9 @@ description: 台北酸菜魚遍地開花？到底哪間台北酸菜魚最好吃�
 slug: /2024-suan-cai-yu
 date: 2024-08-13T18:00
 authors:
-  - name: 怪獸冰姬靈
-    title: Fooday 美食搜查隊隊長
-    image_url: https://imgur.com/udtKAMZ.png
+  - name: Millie
+    title: Fooday 美食探店大使
+    image_url: https://imgur.com/my9erUY.png
 tags: [酸菜魚, 台北酸菜魚, 台北川菜, 中式料理]
 image: https://imgur.com/llvCFql.jpg
 hide_table_of_contents: false
@@ -112,7 +112,7 @@ _內湖區 | 酸菜魚 | 麻辣水煮魚_
 整體優點：清爽系湯頭，不膩口。
 整體缺點：加料品項不多。
 
-<iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/BQ4TaEK3tvhxjSixfunLFM?maxwidth=384&maxheight=726"></iframe>
+<iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/Dc5jDEaUUYMYkGLCWNh2kS?maxwidth=384&maxheight=726"></iframe>
 
 <iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/Pgsx663UeyrAUbPfvJpyk8?maxwidth=384&maxheight=726"></iframe>
 
@@ -127,7 +127,7 @@ _內湖區 | 酸菜魚 | 麻辣水煮魚_
 
 ## 吾二酸菜魚
 
-_大安區 | 酸菜魚 | _
+_大安區 | 酸菜魚 | 網路名店_
 
 吾二酸菜魚算是雨後春筍後的第一批新酸菜魚，到現在也累積了一些粉絲。酸菜魚的口味和呈現上，雖然有些配料份量較少，但整體上仍然算好吃，尤其是白飯煮得恰到好處。建議可以多點一些肉片和配料，以免吃不夠。
 
