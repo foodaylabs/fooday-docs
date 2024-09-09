@@ -108,7 +108,7 @@ _中山區 | 碳烤伊比利豬肋條 | 特選牛小排佐糖漬紅酒醬 | 聚�
 更多完整介紹：[Leone Restaurant & Bar：被低估的台北中山餐酒館，慶生、聚會隱藏首選，餐點口味絕不踩雷！](https://fooday.app/blog/zh-Hant/leone-restaurant/)
 
 
-<iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/PjKKvd6VzR7b8cYWaQY5hk?maxwidth=384&maxheight=726"></iframe>
+<iframe width="382" height="726" frameborder="0" src="https://fooday.app/zh-TW/embed/reviews/brA2hXZmr3aNTxeQa8KHiL?maxwidth=384&maxheight=726"></iframe>
 
 ```
 * 餐廳地址：台北市中山區林森北路353巷20號
