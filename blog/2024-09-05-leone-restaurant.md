@@ -124,8 +124,9 @@ import leone_10 from './img/leone-10.jpeg';
 
 #### 你知道貢獻用餐評論也能賺取獎勵嗎？
 
-立即下載 Fooday app ，成為美食家，只要留下評論跟建立店家就可以獲得獎勵，實現邊吃邊賺的吃貨人生！
-現在只要註冊時輸入邀請碼，就能獲得免費體驗相機！
+立即下載 Fooday app ，找餐廳不再踩雷，最真實的用餐評論都在這裡。
+
+現在只要完成 Fooday app 內的新手任務，就能獲得免費體驗相機，成為 Fooday 美食家。留下評論跟建立店家就可以獲得獎勵，實現邊吃邊賺的吃貨人生！
 
 [![立即下載 Fooday app](./img/download-now01.jpg)](https://fooday.app/)
 
