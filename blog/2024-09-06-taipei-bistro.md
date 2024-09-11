@@ -9,7 +9,7 @@ authors:
     title: Fooday 美食搜查隊隊長
     image_url: https://imgur.com/udtKAMZ.png
 tags: [台北餐酒館, 聚餐餐酒館, 餐酒館推薦, 慶生餐廳, 聚會餐廳]
-image: https://imgur.com/a/BCIScc5.jpg
+image: https://imgur.com/nb1ZCVU.jpg
 hide_table_of_contents: false
 ---
 
@@ -153,8 +153,9 @@ _大安區 | 金陵鹽水白切雞 | 奧特曼菜頭粄_
 
 #### 你知道貢獻用餐評論也能賺取獎勵嗎？
 
-立即下載 Fooday app ，成為美食家，只要留下評論跟建立店家就可以獲得獎勵，實現邊吃邊賺的吃貨人生！
-現在只要註冊時輸入邀請碼，就能獲得免費體驗相機！
+立即下載 Fooday app ，找餐廳不再踩雷，最真實的用餐評論都在這裡。
+
+現在只要完成 Fooday app 內的新手任務，就能獲得免費體驗相機，成為 Fooday 美食家。留下評論跟建立店家就可以獲得獎勵，實現邊吃邊賺的吃貨人生！
 
 [![立即下載 Fooday app](./img/download-now01.jpg)](https://fooday.app/)
 
