@@ -9,6 +9,36 @@ image: https://imgur.com/fSZBGDm.jpg
 
 ## App Release Notes
 
+### V1.66.0（2024-10-11）
+
+#### 🎉 New Features
+
+- Fast Food Camera Theme Event: During the event, all camera boxes minted will be “Fast Food Themed Boxes,” and the cameras inside will always be fast food-themed. Whether you mint a camera or purchase and open a box from the marketplace, you’ll receive a Bonus FOOD as a reward.
+
+- New Fast Food Badge: Every fast food camera will feature a fast food badge, which will grant additional perks when reviewing specific restaurant categories in the future.
+
+![Fast Food Camera](./release_notes/v1660-ja.jpg)
+
+---
+
+### V1.62.0（2024-09-04）
+
+#### 🎉 New Features
+
+- Share Fooday AI Answers: You can now easily share your conversations with Fooday AI with just one click, including the questions you asked and the answers provided by Fooday AI, along with restaurant details—making it easier to share with friends and family.
+
+- New Reasons for Challenging Restaurant Info: We’ve added new reasons like “Meaningless Updates” to help users more accurately report issues they encounter.
+
+---
+
+### V1.60.0（2024-09-03）
+
+#### 🎉 New Features
+
+- New Like Notifications: To enhance community interaction, you’ll now receive push notifications when someone likes your review.
+
+---
+
 ### V1.58.0 (2024-08-30)
 
 #### 🎉 New Features
