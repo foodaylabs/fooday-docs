@@ -9,6 +9,35 @@ image: https://imgur.com/JifaKFI.jpg
 
 ## App Release Notes
 
+### V1.66.0（2024-10-11）
+
+#### 🎉 New Features
+
+- Fast Food Camera Theme Event: During the event, all camera boxes minted will be “Fast Food Themed Boxes,” and the cameras inside will always be fast food-themed. Whether you mint a camera or purchase and open a box from the marketplace, you’ll receive a Bonus FOOD as a reward.
+
+- New Fast Food Badge: Every fast food camera will feature a fast food badge, which will grant additional perks when reviewing specific restaurant categories in the future.
+
+
+---
+
+### V1.62.0（2024-09-04）
+
+#### 🎉 New Features
+
+- Share Fooday AI Answers: You can now easily share your conversations with Fooday AI with just one click, including the questions you asked and the answers provided by Fooday AI, along with restaurant details—making it easier to share with friends and family.
+
+- New Reasons for Challenging Restaurant Info: We’ve added new reasons like “Meaningless Updates” to help users more accurately report issues they encounter.
+
+---
+
+### V1.60.0（2024-09-03）
+
+#### 🎉 New Features
+
+- New Like Notifications: To enhance community interaction, you’ll now receive push notifications when someone likes your review.
+
+---
+
 ### V1.58.0 (2024-08-30)
 
 #### 🎉 New Features
@@ -88,6 +117,31 @@ image: https://imgur.com/JifaKFI.jpg
 ---
 
 ## Web Release Notes
+
+### V1.21.0（2024-10-15）
+
+#### 🎉 New Features
+
+- New Option to Display Photos in Original Aspect Ratio: Now, when uploading photos from your device, you can choose whether to crop them or keep the original aspect ratio.
+
+---
+
+### V1.20.0（2024-09-26）
+
+#### 🎉 New Features
+
+- Brand New Download Card: The web version’s download card has been updated with a fresh new look, making it even more appealing!
+
+---
+
+
+### V1.16.0（2024-09-17）
+
+#### 🎉 New Features
+
+- Added Half-Star Display: The web version now supports the most precise ratings with half-star displays.
+
+---
 
 ### V1.11.0 (2024-09-03)
 
