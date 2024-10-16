@@ -17,6 +17,7 @@ image: https://imgur.com/JifaKFI.jpg
 
 - New Fast Food Badge: Every fast food camera will feature a fast food badge, which will grant additional perks when reviewing specific restaurant categories in the future.
 
+![Fast Food Camera](./release_notes/v1660-en.jpg)
 
 ---
 
@@ -133,7 +134,6 @@ image: https://imgur.com/JifaKFI.jpg
 - Brand New Download Card: The web version’s download card has been updated with a fresh new look, making it even more appealing!
 
 ---
-
 
 ### V1.16.0（2024-09-17）
 
