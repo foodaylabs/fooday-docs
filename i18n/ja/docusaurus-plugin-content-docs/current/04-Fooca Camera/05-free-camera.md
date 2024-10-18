@@ -1,30 +1,30 @@
 ---
 slug: /free-camera
 sidebar_position: 5
-title: Free Fooca Camera
+title: 無料Foocaカメラ
 ---
-Even if you haven’t purchased a Fooca camera, you can still participate in the Fooday community with **the Free Fooca Camera.**Foodies with a free camera can earn Fudos and level up their food critic status by creating spots and writing reviews, just like those who have bought a camera.
+Foocaカメラを購入していないユーザーでも、「無料Foocaカメラ」を通じてFoodayコミュニティに参加することができます。無料カメラを持つグルメマニアは、有料カメラを購入したユーザーと同様に、スポット作成やレビューなどの貢献活動を通じてFudosを獲得し、レベルを上げることができます。
 
-### Free Fooca Camera Limitations
+### 無料Foocaカメラの制限事項
 
-Although the free camera allows you to earn Fudos and FOOD and level up your Foodie level, please note:
+無料カメラでもFudosやFOODを獲得でき、レベルも上げられますが、以下の点に注意が必要です:
 
-> **Users cannot withdraw the FOOD rewards they earn. You need to purchase a Fooca camera from the marketplace to unlock the withdrawal feature.**
+> **ユーザーは獲得したFOOD報酬を引き出すことができません。マーケットでFoocaカメラを購入することで、はじめてFOODの引き出し機能が解放されます。**
 
-For example, if you earn 1,000 FOOD with the free camera, you won’t be able to cash out until you buy a paid camera from the marketplace. After purchasing a camera from the marketplace, your free camera will disappear, and the withdrawal feature will be unlocked, allowing you to withdraw your 1,000 FOOD.
+例えば、ユーザーが無料カメラを使用して1,000 FOODを獲得した場合、マーケットで有料カメラを購入するまでは出金することができません。マーケットでカメラを購入すると、無料カメラは消失し、引き出し機能が解放されます。この時点で、1000 FOODを引き出すことが可能になります。
 
-### Comparison of Free and Paid Cameras:
+### 無料カメラと有料カメラの比較:
 
-| **Feature/Camera Type**  | **Free Camera** | **Paid Camera** |
+| **機能/カメラの種類**  | **無料カメラ** | **有料カメラ** |
 |--------------|----------|----------|
-| Foodie Energy | 4        | 6        |
-| Create Spots/Reviews/Challenges | O        | O        |
-| Level Up as Food Critic  | O        | O        |
-| Upgrade Camera   | X        | O        |
-| Withdraw FOOD | X        | O        |
+| Foodie エネルギー | 4        | 6        |
+| スポット作成/レビュー/通報 | O        | O        |
+| レベルアップ  | O        | O        |
+| カメラのレベルアップ   | X        | O        |
+| FOODの引き出し | X        | O        |
 
 ***
 
-### How to Get a Free Fooca Camera
+### 無料Foocaカメラの入手方法
 
-You can get a free camera through occasional official events. Stay tuned to Fooday’s community updates.
+公式の不定期開催イベントを通じて入手できます。Foodayのソーシャルメディアの情報をぜひチェックしてください！
