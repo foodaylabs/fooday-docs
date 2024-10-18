@@ -1,65 +1,61 @@
 ---
 slug: /achievement-and-badge-system
 sidebar_position: 4
-title: Achievement & Badge System
+title: 実績とバッジシステム
 ---
 
-# Achievement & Badge System
+# 実績とバッジシステム
 
-## Objective
+## 目標
 
-The Achievement system is designed to provide users with an enhanced gaming experience by offering additional motivation and direction. Upon completing designated missions, users will earn Achievement Badges. These badges can serve as proof for future airdrops and unlock various additional benefits. (WIP)
+実績システムの目的は、サービス体験をゲーム化することで、ユーザーにモチベーションと方向性を提供することです。指定されたミッションを完了すると、ユーザーは実績バッジを獲得します。これらのバッジは、将来のボーナスの証明として使用され、さまざまな追加特典のロックを解除することができます。（現在開発中）
 
-## Achievements
+## 実績
 
-New achievements will continue to be added in the future. Currently, achievements are divided into two main categories, each with specific completion criteria.
+今後、新しい実績が継続的に追加されていく予定です。現在、実績は2つの主要カテゴリーに分かれており、各カテゴリーには具体的な達成条件があります。
 
 ------
 
-## Types
+## タイプ
 
-There are two types of Achievements:
+実績には2つのタイプがあります:
 
-### Foodie Level Achievements
+### Foodieレベルの実績
 
-Achievements can be obtained by leveling up your Foodie account through contributions. When a Foodie reaches a specified level, they will automatically receive an achievement and a title. 
+貢献活動を通じてFoodieレベルを上げることで、実績を獲得できます。指定のレベルに達すると、自動的に実績と称号が付与されます。これらは自動的に装着され、外すことはできません。より高いレベルに達すると、自動的に新しい実績を獲得し、称号が更新されます。
 
-These achievements are automatically equipped and cannot be unequipped. As you reach higher levels, you will automatically receive new achievements and replace old titles.
-
-| Level    | Title      | Badge       |
+| レベル    | タイトル      | バッジ       |
 | ------ | --------- | --------- | 
-| 1      | Fooday Newbie   | ![LV01](../level01.png) |
-| 5      | Fooday Intern  | ![LV05](../level05.png) |
-| 10     | Culinary Novice  | ![LV10](../level10.png) |
-| 15     | Fooday Squad Leader | ![LV15](../level15.png) |
-| 20     | Fooday Adventurer  | ![LV20](../level20.png) |
-| 25     | Fooday Chief  | ![LV25](../level25.png) |
-| 30     | Bronze Foodie  | ![LV30](../level30.png) |
-| 35     | Foodie Commander  | ![LV35](../level35.png) |
-| 40     | Silver Foodie  | ![LV40](../level40.png) |
-| 45     | Foodie Critic   | ![LV45](../level45.png) |
-| 50     | Fooday Taste Master  | ![LV50](../level50.png) |
+| 1      | グルメ新人  | ![LV01](../level01.png) |
+| 5      | グルメインターン  | ![LV05](../level05.png) |
+| 10     | グルメ初心者  | ![LV10](../level10.png) |
+| 15     | グルメキャプテン | ![LV15](../level15.png) |
+| 20     | グルメの探検家  | ![LV20](../level20.png) |
+| 25     | グルメの士  | ![LV25](../level25.png) |
+| 30     | 銅メダルマスター  | ![LV30](../level30.png) |
+| 35     | グルメの将  | ![LV35](../level35.png) |
+| 40     | 銀メダルマスター  | ![LV40](../level40.png) |
+| 45     | 食の忍者   | ![LV45](../level45.png) |
+| 50     | 金メダルマスター  | ![LV50](../level50.png) |
 
-#### Empowerment
+#### 称号システム
 
-Achievements for your Foodie level are automatically granted when you reach the specified level. You can only hold one title at a time, and as you reach higher levels, it will be replaced with a higher-tier title.
-Achievement badges will be displayed on the lower right corner of your avatar in the Fooday app. Level badges serve as a way to showcase your ongoing and long-term contributions on Fooday.
+Foodieレベルが指定レベルに達すると自動的に獲得できます。称号は一度に1つしか持つことができず、レベルが上がると自動的により上位の称号に更新されます。実績バッジはFoodayアプリ内のプロフィール画像の右下に表示され、レベルバッジを通じて、あなたのFoodayへの日頃の貢献度を他のユーザーに示すことができます。
 
-### Mission Achievements
+### ミッション実績
 
-Achievements are accomplished by completing a series of missions. The background color of an achievement badge represents its difficulty level, ranging from the easiest to the hardest (Gray to Rainbow).
-After completing the designated missions, you can acquire mission achievement titles by manually completing the missions and collecting the rewards.
+様々なミッションをクリアすることで獲得できる実績です。実績称号は背景色で難易度が分かるようになっており、最も簡単なグレーから、最も難しい色まで段階が設けられています。設定されたミッションをクリアし、報酬を受け取ることで、ミッション実績の称号を手に入れることができます。
 
-Example:
+例:
 
-| Achievement  | Badge      |
+| 実績  | バッジ      |
 | ------ | --------- | 
-| Visit 10 Japanese-style restaurants| ![badge10](../japanese01.png) |
-| Visit 20 Japanese-style restaurants| ![badge20](../japanese02.png) |
-| Visit 30 Japanese-style restaurants| ![badge30](../japanese03.png) |
-| Visit 50 Japanese-style restaurants| ![badge50](../japanese04.png) |
-| Visit 100 Japanese-style restaurants| ![badge100](../japanese05.png) |
+| 日本料理店を10店舗訪問| ![badge10](../japanese01.png) |
+| 日本料理店を20店舗訪問| ![badge20](../japanese02.png) |
+| 日本料理店を30店舗訪問| ![badge30](../japanese03.png) |
+| 日本料理店を50店舗訪問| ![badge50](../japanese04.png) |
+| 日本料理店を100店舗訪問| ![badge100](../japanese05.png) |
 
-#### Empowerment
+#### 特典について
 
-You can equip up to five mission achievement badges on your profile. These badges may provide additional benefits to your Foodie account in the future (WIP).
+プロフィールには最大5つまでミッションの実績バッジを装着することができます。これらのバッジは、将来的にFoodayアカウントに追加特典を提供する可能性があります（開発中）。
