@@ -1,52 +1,52 @@
 ---
 slug: /foodie-interactions
 sidebar_position: 1
-title: Foodie Interactions
+title: グルメ好きのためのコミュニティ
 ---
 
-# Foodie Interactions
+# グルメ好きのためのコミュニティ
 
-In the Fooday app, users can interact with other Foodies through actions such as liking, commenting, and bookmarking.
+Foodayアプリでは、「いいね」やコメント、お気に入り登録などを通じて、他のグルメマニアと交流することができます。
 
-## Hearts and Bookmarks
+## いいね＆お気に入り
 
-**Hearts**
+**いいね**
 
-Users can show their support for reviews they like by giving them a heart.
+気に入ったレビューに「いいね」を押して、共感を伝えることができます。
 
-**Bookmarks**
+**お気に入り登録**
 
-For spots they want to visit or reviews they find interesting, users can bookmark them for future reference. (In development)
+行ってみたいお店や気になるお店は、お気に入りリストに保存できます。
 
-Fooday collects user preferences and uses algorithms to recommend more high-quality reviews and similar restaurants, enhancing the user browsing experience. (In development)
+Foodayがあなたの好みを学習し、AIがおすすめのレビューや同じタイプのお店を提案します。
 
-## Commenting
+## コメント機能
 
-Users can leave comments below reviews to engage with other Foodies and the authors. These comments will be publicly visible.
+レビューにコメントを残して、投稿者や他のユーザーと交流できます。コメントはすべて公開されます。
 
-## Reporting and Voting
+## 通報＆投票システム
 
-If inappropriate content is found on Fooday, users can report reviews/spot information using the reporting feature. The system will activate a community verification system, allowing other users to participate in content verification and voting, creating a fair and community-driven verification system. This system aims to deter users from providing false information or reviews and encourages the community to provide authentic and accurate information and experiences.
+不適切なコンテンツを見つけた場合は、レビューやお店の情報を通報することができます。通報された内容は、コミュニティ検証システムにより、他のユーザーによる確認と投票が行われます。これは公平でコミュニティ主導の検証システムを実現するためです。このシステムはペナルティと報酬の仕組みを使って、不適切な情報やレビューを抑制し、信頼できる情報や体験の共有を促進します。
 
-Read the full details: [Reporting and Verification Voting](/report-and-voting).
+詳しくは以下をご覧ください: [通報と検証投票について](/report-and-voting).
 
-## Marking as "Helpful" or "Not Helpful" (Planning)
+## 「役立った」「役立たなかった」の機能" (開発中)
 
-_This full feature is still in planning._
+_※この機能は現在開発中です_
 
-Fooday is committed to providing the most genuine and helpful reviews, allowing users to receive and search for firsthand experiences at any time, helping them make better choices for dining and other experiences. With the "Helpful" feature introduced by Fooday, users can give immediate feedback based on their current feelings after reading a review, and they can also choose to send FOOD as a reward to encourage Foodies who write valuable reviews.
+Foodayは、最も信頼できる役立つレビューを提供することで、ユーザーの皆様がリアルな体験談にアクセスでき、より良い選択ができるようサポートします。「役立った」機能では、レビューを読んだ後の感想をフィードバックとして残せるほか、価値のある投稿をしたユーザーに対して報酬を贈ることもできます。
 
-**Helpful:**
+**役立った:**
 
-Users can mark as "Helpful" on reviews they find useful, choose an amount to send as a reward in FOOD to the Foodie who wrote the review. The review will have a reward badge to let more people know that the review has been appreciated.
+役立つと感じたレビューには「役立った」をクリックし、投稿者にFOODポイントを贈ることができます。報酬を受け取ったレビューには特別なマークが表示され、高く評価されたレビューとして認識されます。
 
-**Not Helpful:**
+**役立たなかった:**
 
-If users find a review unhelpful, they can mark as "Not Helpful" and select the reason. The system will then activate a verification voting mechanism. Read the full details: [Reporting and Verification Voting](/report-and-voting).
+レビューが役に立たないと感じた場合は、「役立たなかった」をクリックし、その理由を選択できます。システムは自動的に検証投票システムを起動します。 詳しくは以下をご覧ください: [通報と検証投票](/report-and-voting).
 
-## Community Guidelines
+## コミュニティガイドライン
 
-All interactions and information provided in the Fooday app must comply with the [Fooday Application Terms of Service](/tos). In case of any violations or concerns, Fooday reserves the right to take appropriate actions, including immediate account suspension and legal action if necessary.
+Foodayアプリ内でのすべての活動は、Foodayの利用規約に従う必要があります。 [利用規約](/tos). 疑わしい行為が確認された場合、Foodayの判断によりアカウントの即時凍結や必要に応じて法的措置を取らせていただく場合があります。
 
 
 
