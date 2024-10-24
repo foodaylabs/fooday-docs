@@ -1,33 +1,33 @@
 ---
 slug: /referral-system
 sidebar_position: 2
-title: Referral System
+title: 推薦システム
 ---
 
-# Referral System
+# 推薦システム
 
-Fooday has implemented a referral system to encourage its users to invite friends to join Fooday and become Foodies by purchasing the Fooca Camera, allowing users to earn additional rewards.
+Foodayは推薦システムを導入し、ユーザーの皆様にお友達をFoodayへ招待していただき、Foocaカメラの購入でグルメマニアになることを推奨しています。これにより、特別な特典を獲得できます。
 
-## Invitation code program
+## 招待コードについて
 
-Within the Fooday app, users have the option to explore the platform without logging in. However, to gain full access and start Eat & Earn, users must enter an invitation code during the sign-up process.
+Foodayアプリは登録不要で閲覧できますが、全てのサービスを体験し、グルメマニアとして食べながら報酬を得るためには新規登録時に招待コードの入力が必要となります。
 
-### Rules
+### ルール
 
-Each invitation code involves a two-step mission for its application:
+各招待コードには2つのミッションがあります：
 
-**Mission 1: Invite a friend to join Fooday**
+**ミッション1：友達をFoodayへ招待する**
 
-**Mission 2: The invited friend becomes a Foodie and contributes at least once**
+**ミッション2：招待された友達がグルメマニアとなり、1回以上の投稿をする**
 
-* As you level up, you'll receive 1 extra invitation code.
-* Each invitation code consists of a unique 7-digit combination of alphabets and numerals.
-* Each invitation code is eligible for claiming the rewards of "Mission 1" and "Mission 2" once.
-* Invitation codes can only be used once, so share wisely.
-* You'll receive the 10x Reward for "Mission 2" only when your invited friends contribute once with a Fooca Camera.
-* You must have a Foodie identity to claim mission rewards. If you are not a Foodie at mission completion, you cannot claim mission rewards, and past missions cannot be retroactively claimed. (If you don't have any Fooca cameras in your wallet or all your Fooca cameras are listed for sale in the marketplace, you are not considered a Foodie.)
-* Fooday reserves the right to modify campaign features and specifications without prior notice.
+* グルメマニアのレベルが1上がるごとに、招待コードを1つ獲得できます。
+* 各招待コードは7文字の英数字による固有の組み合わせです。
+* 各招待コードにつき、「ミッション1」と「ミッション2」の特典を1回ずつ獲得できます。
+* 招待コードは1回のみ有効です。
+* 招待された友達がFoocaカメラを購入してグルメマニアとなり、1回以上投稿すると、10倍の特別特典を獲得できます。
+* 特典の獲得にはグルメマニアの資格が必要です。ミッション達成時にグルメマニアでない場合、特典は獲得できず、遡っての適用もできません（Foocaカメラを所持していない、または全てのFoocaカメラを出品中の場合、グルメマニアの資格は無効となります）。
+* Foodayは本キャンペーンの内容を予告なく変更、中断、終了する権利を有します。
 
-### How to Obtain an Invitation Code to become a signed-up Foodie?
+### 招待コードの入手方法
 
-Some has to share their invitation code with you so that you can apply the invitation code to proceed your sign-up process. Follow the Fooday social media to get the latest available inviation code shared by other Foodies.
+招待コードを入手するには、現在のユーザーから共有してもらう必要があります。最新の招待コード情報は、FoodayのSNSをフォローしてチェックしてください。
