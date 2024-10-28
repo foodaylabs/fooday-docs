@@ -1,60 +1,61 @@
 ---
 slug: /tokens
 sidebar_position: 1
-title: Tokens Introduction
+title: トークン紹介
 ---
 
-Fooday is not just a food community; its economic token system is at its core. Currently, Fooday has two essential tokens and an experience point system: Fudos, FOOD, and FUSD. These three play different roles on Fooday and have differences in their usage.
+Foodayは単なるグルメコミュニティではありません。トークンエコノミーシステムがその中核となっています。現在、Foodayには2種類の重要なトークンと1種類のポイントがあります：Fudos、FOODとFUSDがあります。これらはFooday内で各役割を持ち、使用方法も異なります。
 
 ***
 
 ## Fudos
 
-**Earning Experience Points through Contributions**
+**貢献によって得られる経験値**
 
-![Fudos](../token_fudos.jpg)
+![Fudos](../token1.jpg)
 
-Fudos are the experience points on the Fooday platform. Foodies with Fooca cameras can earn a certain amount of Fudos by completing missions, creating spots, reviewing food, and reporting incorrect information, among other methods. 
+FudosはFoodayプラットフォーム上の経験値です。Foocaカメラを所持しているグルメマニアは、ミッションの達成、店舗情報の登録、グルメ体験の共有、誤情報の報告などを通じて、一定量のFudosを獲得できます。
 
-The system will automatically calculate and convert the earned Fudos into FOOD. Please refer to the [Fodus to FOOD Multiplier](/foodie-level#fudos-to-food-multiplier) section on the [Foodie Level](/foodie-level) page.
+システムが自動的に計算し、獲得したFudosをFOODに変換します。精算ルールと時期については [FudosのFOODへの変換](/foodie-level#fudos-to-food-multiplier) をご参照ください。
 
-In short, by accumulating Fudos through interactions and contributions, a Foodie's level will increase. The Foodie's level affects the conversion rate of Fudos to FOOD, with higher levels enjoying better exchange rates.
+簡単に言えば、交流や貢献を通じてFudosを貯めることで、グルメレベルが上がっていきます。そして、グルメレベルはFudosからFOODへの変換率に影響し、レベルが高いほどより良い換算率を得られます。
 
 ***
 
 ## FOOD
 
-**Food Platform Token**
+**グルメプラットフォームでの貨幣**
 
-![FOOD](../token_food.jpg)
+![FOOD](../token2.jpg)
 
-In Fooday, FOOD has real-world value and serves as a versatile token. Firstly, Foodies can use FOOD for upgrading, charging, and minting Fooca cameras, enhancing their gaming experience on the platform.
+FoodayにおいてFOODは実質的な価値を持つ多目的トークンです。まず、グルメユーザーはFOODを使ってレベルアップ、充電、そしてFoocaカメラのミント(製造)を行うことができ、プラットフォーム上でのゲーム体験を向上させることができます。
 
-Furthermore, Foodies can withdraw the earned FOOD to the blockchain and convert it into other cryptocurrencies, providing users with greater flexibility and various value realization possibilities. 
+さらに、グルメユーザーは獲得したFOODをブロックチェーン上に引き出し、他の暗号資産に交換することができます。これにより、ユーザーにより大きな柔軟性と様々な価値実現の可能性を提供しています。
 
-* FOOD contract address：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
-* Buy FOOD：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
+* FOODのCoinGecko上の現在価格：[https://www.coingecko.com/en/coins/fooday]
+* FOODコントラクトアドレス：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
+* ブロックチェーンでのFOOD購入：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
 
 :::info
-It's important to note that the price of FOOD is determined by the market, so there may be fluctuations in its value.
+ただしFOODの価格は市場で決定されるため、価格の上下変動が発生する可能性があることにご注意ください。
 :::
 
-One important point to note is that FOOD cannot be used to directly purchase Fooca cameras; you need to use a specific economic currency - FUSD.
+また、FOODではFoocaカメラを直接購入することはできず、特定の仮想通貨であるFUSDが必要となります。
 
 ***
 
 ## FUSD
 
-**Currency Available for In-App Purchase**
+**譲渡不可のプラットフォームトークン**
 
-![FUSD](../token_fusd.jpg)
+![FUSD](../token3.jpg)
 
-FUSD is a type of economic currency that can be directly purchased within the Fooday App. Foodies can use FUSD to buy special items like Fooca cameras, chests, accessories, etc., but it cannot be used for charging or upgrading Fooca cameras.
+FUSDはFoodayアプリ内で直接購入できる仮想通貨の一種です。ユーザーはFUSDを使って、Foocaカメラやカメラボックス、アクセサリーなどの特別なアイテムを購入できますが、Foocaカメラの充電やアップグレードには使用できません。
 
-Similarly to FOOD, Foodies can also freely withdraw FUSD to the blockchain. It's worth mentioning that after withdrawing FUSD, it will be converted back into stablecoins, meaning its value will not be affected by fluctuations.
+FOODと同様に、グルメユーザーはFUSDを自由にブロックチェーン上に引き出すことができます。注目すべき点として、FUSDを引き出した後はステーブルコインに変換されるため、価値が相場変動の影響を受けることはありません。
 
-In addition to in-app purchases, if you have USDC/USDC.e on the blockchain, you can choose to transfer them to Fooday, and the platform will automatically convert them into FUSD at a 1:1 ratio, allowing users to quickly start enjoying the food experience.
+アプリ内購入の他にも、ブロックチェーン上にUSDC/USDC.eをお持ちの場合は、それらをFoodayに送金することができ、プラットフォームが自動的に1:1の比率でFUSDに変換します。これによりユーザーは素早くグルメ体験を始めることができます。
 
 ***
 
-How do I withdraw from Fooday? [Deposit and Withdrawal](/deposit-and-withdraw)
+Foodayからの引き出し方法 [Deposit and Withdrawal](/deposit-and-withdrawal)

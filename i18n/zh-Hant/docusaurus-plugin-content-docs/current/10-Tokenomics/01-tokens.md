@@ -69,4 +69,4 @@ FUSD 是一種可以透過 Fooday App 直接內購的經濟貨幣。美食家可
 
 ***
 
-我要怎麼從 Fooday 提領代幣? [入金與提領](/deposit-and-withdraw)
+我要怎麼從 Fooday 提領代幣? [入金與提領](/deposit-and-withdrawal)
