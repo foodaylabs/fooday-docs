@@ -32,7 +32,7 @@ FoodayにおいてFOODは実質的な価値を持つ多目的トークンです�
 
 さらに、グルメユーザーは獲得したFOODをブロックチェーン上に引き出し、他の暗号資産に交換することができます。これにより、ユーザーにより大きな柔軟性と様々な価値実現の可能性を提供しています。
 
-* FOODのCoinGecko上の現在価格：[https://www.coingecko.com/en/coins/fooday]
+* FOODのCoinGecko上の現在価格：[https://www.coingecko.com/en/coins/fooday](https://www.coingecko.com/en/coins/fooday)
 * FOODコントラクトアドレス：`0x78b1aa5c9b37c52695c93448ad0c64560edb9c4d`
 * ブロックチェーンでのFOOD購入：[https://reurl.cc/r6WaeZ](<https://reurl.cc/r6WaeZ>)
 
